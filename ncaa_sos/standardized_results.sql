@@ -3,11 +3,12 @@ begin;
 drop table if exists ncaa.results;
 
 create table ncaa.results (
+	pulled_id	      integer,
 	game_id		      integer,
 	game_date	      date,
 	year		      integer,
 	team_name	      text,
-	team_id	      integer,
+	team_id		      integer,
 	team_div_id	      integer,
 	opponent_name	      text,
 	opponent_id	      integer,
@@ -46,14 +47,16 @@ group by year,team_id
 --select * from c;
 
 insert into ncaa.results
-(game_id,game_date,year,
+(pulled_id,
+ game_id,game_date,year,
  team_name,team_id,
  opponent_name,opponent_id,
  location_name,location_id,field,
  team_score,opponent_score,game_length)
 (
 select
-game_id,
+g.team_id,
+g.game_id,
 (case when game_date='' then NULL
       else game_date::date end),
 g.year,
@@ -93,13 +96,15 @@ and g.year between 2002 and 2013
 );
 
 insert into ncaa.results
-(game_id,game_date,year,
+(pulled_id,
+ game_id,game_date,year,
  team_name,team_id,
  opponent_name,opponent_id,
  location_name,location_id,field,
  team_score,opponent_score,game_length)
 (
 select
+g.team_id,
 g.game_id,
 (case when game_date='' then NULL
       else game_date::date end),

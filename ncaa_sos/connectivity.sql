@@ -15,7 +15,7 @@ left join ncaa.teams_divisions o
   on (o.team_id,o.year)=(r.opponent_id,r.year)
 where
     t.div_id <= o.div_id
-and r.team_id < r.opponent_id
+and r.pulled_id = least(r.team_id,r.opponent_id)
 --and r.team_name < r.opponent_name
 --and r.field in ('none','offense_home')
 and r.team_score > 0

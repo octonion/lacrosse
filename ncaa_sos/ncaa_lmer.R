@@ -29,6 +29,7 @@ where
 --and r.game_date < '2013/11/29'::date
 and r.team_div_id is not null
 and r.opponent_div_id is not null
+and r.pulled_id = least(r.team_id,r.opponent_id)
 --and r.team_score>0
 --and r.opponent_score>0
 --and not(r.team_score,r.opponent_score)=(0,0)
@@ -104,7 +105,7 @@ g <- cbind(fp,rp)
 dim(g)
 
 model <- gs ~ year+field+d_div+o_div+game_length+(1|offense)+(1|defense)+(1|game_id)
-fit <- glmer(model,data=g,REML=T,verbose=T,family=poisson(link=log))
+fit <- glmer(model,data=g,REML=TRUE,verbose=TRUE,family=poisson(link=log))
 
 fit
 summary(fit)
