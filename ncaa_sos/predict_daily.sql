@@ -40,7 +40,7 @@ join ncaa._basic_factors i
   on (i.factor)=('(Intercept)')
 where
     not(g.game_date='')
-and g.game_date::date between current_date-1 and current_date
+and g.game_date::date between current_date and current_date
 and g.location='Home'
 
 union
@@ -78,7 +78,7 @@ join ncaa._basic_factors i
   on (i.factor)=('(Intercept)')
 where
     not(g.game_date='')
-and g.game_date::date between current_date-1 and current_date
+and g.game_date::date between current_date and current_date
 and g.location='Neutral'
 
 and g.team_name < g.opponent_name
