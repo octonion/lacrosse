@@ -1,36 +1,3 @@
 BEGIN
 SET
-       team       | h_div |  site   |        opp        | v_div | t_score | o_score 
-------------------+-------+---------+-------------------+-------+---------+---------
- Birmingham-So.   |     3 | home    | Millsaps          |     3 |    12.4 |     6.8
- Bucknell         |     1 | home    | Drexel            |     1 |     9.9 |     8.9
- Chestnut Hill    |     2 | home    | Saint Rose        |     2 |    13.4 |     8.2
- Coker            |     2 | home    | Belmont Abbey     |     2 |     7.9 |    10.8
- Colby            |     3 | home    | New England Col.  |     3 |    10.7 |    11.5
- Colgate          |     1 | home    | Binghamton        |     1 |     7.7 |     7.0
- Connecticut Col. |     3 | home    | Tufts             |     3 |    12.4 |     8.4
- Florida Tech     |     2 | home    | Molloy            |     2 |    10.3 |    16.8
- Green Mountain   |     3 | home    | Olivet            |     3 |     9.8 |    12.7
- Greensboro       |     3 | neutral | Rensselaer        |     3 |     6.9 |    10.2
- Hobart           |     1 | home    | Canisius          |     1 |     9.5 |     7.3
- Huntingdon       |     3 | home    | Dallas            |     3 |    12.0 |     7.3
- Jacksonville     |     1 | home    | Robert Morris     |     1 |     8.9 |     9.9
- Mercer           |     1 | home    | Marquette         |     1 |     9.0 |     9.1
- Mercyhurst       |     2 | home    | Dominican (CA)    |     2 |    12.2 |     8.0
- Mt. St. Marys    |     1 | home    | Georgetown        |     1 |    11.1 |    10.4
- Mt. St. Vincent  |     3 | home    | Becker            |     3 |    14.4 |     6.9
- Navy             |     1 | home    | Towson            |     1 |     9.9 |     8.9
- Oglethorpe       |     3 | home    | Transylvania      |     3 |     5.2 |     7.8
- Oneonta St.      |     3 | home    | Hartwick          |     3 |     9.8 |     8.1
- Princeton        |     1 | home    | Manhattan         |     1 |    18.0 |     6.8
- Quinnipiac       |     1 | home    | Providence        |     1 |    10.1 |     8.2
- Roanoke          |     3 | home    | Wooster           |     3 |     9.9 |    10.6
- Salve Regina     |     3 | home    | St. Joseph's (ME) |     3 |     9.2 |    13.7
- St. John Fisher  |     3 | home    | Brockport         |     3 |     8.5 |     5.1
- Trinity (CT)     |     3 | home    | Western New Eng.  |     3 |     7.2 |     9.7
- Va. Wesleyan     |     3 | home    | Ithaca            |     3 |     9.1 |     8.6
- Wagner           |     1 | home    | VMI               |     1 |    12.4 |     9.1
- Washington Col.  |     3 | home    | Catholic          |     3 |    12.5 |     6.5
-(29 rows)
-
-COMMIT
+ROLLBACK

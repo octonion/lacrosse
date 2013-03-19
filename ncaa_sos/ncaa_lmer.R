@@ -29,13 +29,16 @@ where
 and r.team_div_id is not null
 and r.opponent_div_id is not null
 and r.pulled_id = least(r.team_id,r.opponent_id)
---and r.team_score>0
---and r.opponent_score>0
+
+--and r.team_score>=0
+--and r.opponent_score>=0
 --and not(r.team_score,r.opponent_score)=(0,0)
 
 -- fit all excluding March and April
 
 --and not(extract(month from r.game_date)) in (1,2,3,4)
+
+--and (r.year < 2013 or (r.year=2013 and r.game_date < '2013/3/16'::date))
 
 ;")
 
@@ -104,7 +107,7 @@ g <- cbind(fp,rp)
 dim(g)
 
 model <- gs ~ year+field+d_div+o_div+game_length+(1|offense)+(1|defense)+(1|game_id)
-fit <- glmer(model,data=g,REML=TRUE,verbose=TRUE,family=poisson(link=log))
+fit <- glmer(model,data=g,REML=TRUE,verbose=TRUE,family=quasipoisson(link=log))
 
 fit
 summary(fit)

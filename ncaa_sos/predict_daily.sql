@@ -10,8 +10,8 @@ hd.div_id as h_div,
 g.opponent_name as opp,
 vd.div_id as v_div,
 
-(exp(i.estimate)*y.exp_factor*hdof.exp_factor*h.offensive*o.exp_factor*v.defensive*vddf.exp_factor)::numeric(4,1) as t_score,
-(exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*hddf.exp_factor*h.defensive*d.exp_factor)::numeric(4,1) as o_score
+(exp(i.estimate)*y.exp_factor*hdof.exp_factor*h.offensive*o.exp_factor*v.defensive*vddf.exp_factor)::numeric(4,2) as t_score,
+(exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*hddf.exp_factor*h.defensive*d.exp_factor)::numeric(4,2) as o_score
 
 from ncaa.games g
 join ncaa._schedule_factors h
@@ -52,8 +52,8 @@ hd.div_id as h_div,
 g.opponent_name as opp,
 vd.div_id as v_div,
 
-(exp(i.estimate)*y.exp_factor*hdof.exp_factor*h.offensive*v.defensive*vddf.exp_factor)::numeric(4,1) as t_score,
-(exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*hddf.exp_factor*h.defensive)::numeric(4,1) as o_score
+(exp(i.estimate)*y.exp_factor*hdof.exp_factor*h.offensive*v.defensive*vddf.exp_factor)::numeric(4,2) as t_score,
+(exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*hddf.exp_factor*h.defensive)::numeric(4,2) as o_score
 
 from ncaa.games g
 join ncaa._schedule_factors h
@@ -78,6 +78,7 @@ join ncaa._basic_factors i
   on (i.factor)=('(Intercept)')
 where
     not(g.game_date='')
+--and g.game_date::date between current_date and current_date
 and g.game_date::date between current_date and current_date
 and g.location='Neutral'
 

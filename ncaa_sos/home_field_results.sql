@@ -5,6 +5,7 @@ r.field,
 sum(
 case when r.team_score>r.opponent_score and r.field='offense_home' then 1
      when r.team_score<r.opponent_score and r.field='defense_home' then 1
+     when r.field='none' then 0.5
      else 0 end)::float/
 count(*)
 )::numeric(4,2) as naive,
@@ -20,11 +21,14 @@ where
 
 TRUE
 
+and r.pulled_id=r.team_id
+and r.team_id < r.opponent_id
+
 -- test March and April
 
-and not(r.field='none')
+--and not(r.field='none')
 
-and extract(month from r.game_date) in (3,4)
+--and extract(month from r.game_date) in (3,4)
 
 group by r.field;
 --,r.field

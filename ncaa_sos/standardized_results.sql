@@ -81,16 +81,24 @@ from ncaa.games g
 -- join c as c1 on (c1.team_id,c1.year)=(g.team_id,g.year)
 -- join c as c2 on (c2.team_id,c2.year)=(g.opponent_id,g.year)
 where
+
     g.location in ('Away','Home','Neutral')
 and g.team_score is not NULL
 and g.opponent_score is not NULL
+
 and g.team_score >= 0
 and g.opponent_score >= 0
+and g.team_score <= 50
+and g.opponent_score <= 50
+
 and not((g.team_score,g.opponent_score)=(0,0))
+
 and g.team_id is not NULL
 and g.opponent_id is not NULL
+
 and not(g.game_date is null)
 and g.year between 2002 and 2013
+
 -- and c1.n >=20
 -- and c2.n >=20
 );
@@ -128,16 +136,24 @@ g.team_score,
       else g.game_length end) as game_length
 from ncaa.games g
 where
+
     g.location in ('Away','Home','Neutral')
 and g.team_score is not NULL
 and g.opponent_score is not NULL
+
 and g.team_score >= 0
 and g.opponent_score >= 0
+and g.team_score <= 50
+and g.opponent_score <= 50
+
 and not((g.team_score,g.opponent_score)=(0,0))
+
 and g.team_id is not NULL
 and g.opponent_id is not NULL
+
 and not(g.game_date is null)
 and g.year between 2002 and 2013
+
 );
 
 update ncaa.results
