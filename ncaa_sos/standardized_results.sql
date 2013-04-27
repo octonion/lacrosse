@@ -99,6 +99,9 @@ and g.opponent_id is not NULL
 and not(g.game_date is null)
 and g.year between 2002 and 2013
 
+and not('Tufts' in (g.team_name,g.opponent_name) and
+        g.game_date::date in ('2013-3-9'::date,'2013-3-12'::date))
+
 -- and c1.n >=20
 -- and c2.n >=20
 );
@@ -153,6 +156,9 @@ and g.opponent_id is not NULL
 
 and not(g.game_date is null)
 and g.year between 2002 and 2013
+
+and not('Tufts' in (g.team_name,g.opponent_name) and
+        g.game_date::date in ('2013-3-9'::date,'2013-3-12'::date))
 
 );
 

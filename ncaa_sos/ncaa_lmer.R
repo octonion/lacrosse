@@ -38,7 +38,7 @@ and r.pulled_id = least(r.team_id,r.opponent_id)
 
 --and not(extract(month from r.game_date)) in (1,2,3,4)
 
---and (r.year < 2013 or (r.year=2013 and r.game_date < '2013/3/16'::date))
+--and (r.year < 2013 or (r.year=2013 and r.game_date < '2013/4/6'::date))
 
 ;")
 
@@ -103,11 +103,14 @@ parameter_levels <- as.data.frame(do.call("rbind",pll))
 dbWriteTable(con,c("ncaa","_parameter_levels"),parameter_levels,row.names=TRUE)
 
 g <- cbind(fp,rp)
+g$gs <- gs
+
+detach(games)
 
 dim(g)
 
 model <- gs ~ year+field+d_div+o_div+game_length+(1|offense)+(1|defense)+(1|game_id)
-fit <- glmer(model,data=g,REML=TRUE,verbose=TRUE,family=quasipoisson(link=log))
+fit <- glmer(model,data=g,REML=TRUE,verbose=TRUE,family=poisson(link=log))
 
 fit
 summary(fit)

@@ -24,40 +24,45 @@ case
 end)
 as team_field,
 
-coalesce(distance_in_km(site.latitude,site.longitude,team.latitude,team.longitude),0) as team_distance,
+--coalesce(distance_in_km(site.latitude,site.longitude,team.latitude,team.longitude),0) as team_distance,
 
-coalesce(distance_in_km(site.latitude,site.longitude,opponent.latitude,opponent.longitude),0) as opponent_distance,
+--coalesce(distance_in_km(site.latitude,site.longitude,opponent.latitude,opponent.longitude),0) as opponent_distance,
 
-round(coalesce(team.elevation-site.elevation,0)/500.0) as team_elevation,
-round(coalesce(opponent.elevation-site.elevation,0)/500.0) as opponent_elevation,
+--round(coalesce(team.elevation-site.elevation,0)/500.0) as team_elevation,
+--round(coalesce(opponent.elevation-site.elevation,0)/500.0) as opponent_elevation,
 
-r.team_id as team,
+r.team_id as team_id,
 r.team_div_id as o_div,
-r.opponent_id as opponent,
+r.opponent_id as opponent_id,
 r.opponent_div_id as d_div,
 r.game_length as game_length,
-ln(r.team_score::float) as log_ps
+r.team_score::float as gs
 from ncaa.results r
 
-left join ncaa.geocodes site
-  on (site.team_id)=(r.location_id)
-left join ncaa.geocodes team
-  on (team.team_id)=(r.team_id)
-left join ncaa.geocodes opponent
-  on (opponent.team_id)=(r.opponent_id)
+--left join ncaa.geocodes site
+--  on (site.team_id)=(r.location_id)
+--left join ncaa.geocodes team
+--  on (team.team_id)=(r.team_id)
+--left join ncaa.geocodes opponent
+--  on (opponent.team_id)=(r.opponent_id)
 
 where
     r.year between 2002 and 2013
 --and r.game_date < '2013/11/29'::date
+
 and r.team_div_id is not null
 and r.opponent_div_id is not null
-and r.team_score>0
-and r.opponent_score>0
+
+and r.team_score>=0
+and r.opponent_score>=0
+and r.team_score<=50
+and r.opponent_score<=50
+
 and not(r.team_score,r.opponent_score)=(0,0)
 
 -- fit all excluding March and April
 
-and not(extract(month from r.game_date)) in (3,4)
+--and not(extract(month from r.game_date)) in (3,4)
 
 ;")
 
@@ -65,50 +70,53 @@ games <- fetch(query,n=-1)
 
 dim(games)
 
+attach(games)
+
 pll <- list()
 
 # Fixed parameters
 
-games$team_elevation <- as.factor(games$team_elevation)
-games$team_elevation <- relevel(games$team_elevation, ref = "0")
+#games$team_elevation <- as.factor(games$team_elevation)
+#games$team_elevation <- relevel(games$team_elevation, ref = "0")
 
-games$opponent_elevation <- as.factor(games$opponent_elevation)
-games$opponent_elevation <- relevel(games$opponent_elevation, ref = "0")
+#games$opponent_elevation <- as.factor(games$opponent_elevation)
+#games$opponent_elevation <- relevel(games$opponent_elevation, ref = "0")
 
-games$year <- as.factor(games$year)
-contrasts(games$year)<-'contr.sum'
+year <- as.factor(year)
+year <- relevel(year, ref = "2002")
+#contrasts(games$year)<-'contr.sum'
 
-games$field <- as.factor(games$field)
-games$field <- relevel(games$field, ref = "none")
+field <- as.factor(field)
+field <- relevel(field, ref = "none")
 
-games$d_div <- as.factor(games$d_div)
-games$d_div <- relevel(games$d_div, ref = "1")
+d_div <- as.factor(d_div)
+d_div <- relevel(d_div, ref = "1")
 
-games$o_div <- as.factor(games$o_div)
-games$o_div <- relevel(games$o_div, ref = "1")
+o_div <- as.factor(o_div)
+o_div <- relevel(o_div, ref = "1")
 
-games$game_length <- as.factor(games$game_length)
-games$game_length <- relevel(games$game_length, ref = "0 OT")
+game_length <- as.factor(game_length)
+game_length <- relevel(game_length, ref = "0 OT")
 
-fp <- data.frame(games$year,games$field,games$d_div,games$o_div,games$game_length)
+fp <- data.frame(year,field,d_div,o_div,game_length)
 fpn <- names(fp)
 
 # Random parameters
 
-games$game_id <- as.factor(games$game_id)
-contrasts(games$game_id) <- 'contr.sum'
+game_id <- as.factor(game_id)
+#contrasts(game_id) <- 'contr.sum'
 
-games$offense <- as.factor(paste(games$year,"/",games$team,sep=""))
-contrasts(games$offense) <- 'contr.sum'
+offense <- as.factor(paste(year,"/",team_id,sep=""))
+#contrasts(offense) <- 'contr.sum'
 
-games$defense <- as.factor(paste(games$year,"/",games$opponent,sep=""))
-contrasts(games$defense) <- 'contr.sum'
+defense <- as.factor(paste(year,"/",opponent_id,sep=""))
+#contrasts(defense) <- 'contr.sum'
 
-games$team_field <- as.factor(games$team_field)
-games$team_field <- relevel(games$team_field, ref = "none")
+team_field <- as.factor(team_field)
+team_field <- relevel(team_field, ref = "none")
 #contrasts(team_field) <- 'contr.sum'
 
-rp <- data.frame(games$game_id,games$offense,games$defense,games$team_field)
+rp <- data.frame(game_id,offense,defense,team_field)
 rpn <- names(rp)
 
 for (n in fpn) {
@@ -135,13 +143,23 @@ dbWriteTable(con,c("ncaa","_parameter_levels_advanced"),parameter_levels,row.nam
 #model0 <- log_ps ~ year+game_length+field+d_div+o_div+team_distance+opponent_distance+(1|offense)+(1|defense)+(1|game_id)+(1|team_field)
 #fit0 <- lmer(model0,data=games,REML=T,verbose=T)
 
-model <- log_ps ~ year+game_length+field+d_div+o_div+team_distance+opponent_distance+team_elevation+opponent_elevation+(1|offense)+(1|defense)+(1|game_id)+(1|team_field)
-fit <- lmer(model,data=games,REML=T,verbose=T)
+#model <- log_ps ~ year+game_length+field+d_div+o_div+team_distance+opponent_distance+team_elevation+opponent_elevation+(1|offense)+(1|defense)+(1|game_id)+(1|team_field)
+
+g <- cbind(fp,rp)
+g$gs <- gs
+
+detach(games)
+
+dim(g)
+
+model <- gs ~ year+game_length+field+d_div+o_div+(1|offense)+(1|defense)+(1|game_id)+(1|team_field)
+
+fit <- glmer(model,data=g,REML=TRUE,verbose=TRUE,family=poisson(link=log))
 
 fit
 summary(fit)
 
-anova(fit)
+#anova(fit)
 #anova(fit0,fit)
 
 # List of data frames

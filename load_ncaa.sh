@@ -14,6 +14,7 @@ fi
 psql lacrosse -f create_schema_ncaa.sql
 
 tail -q -n+2 ncaa/ncaa_games_*.csv > /tmp/ncaa_games.csv
+chmod 755 /tmp/ncaa_games.csv
 psql lacrosse -f load_ncaa_games.sql
 rm /tmp/ncaa_games.csv
 
@@ -31,10 +32,12 @@ rm /tmp/ncaa_games.csv
 #psql lacrosse -f create_ncaa_players.sql
 
 cp ncaa/ncaa_teams.csv /tmp/ncaa_teams.csv
+chmod 755 /tmp/ncaa_teams.csv
 psql lacrosse -f load_ncaa_teams.sql
 rm /tmp/ncaa_teams.csv
 
 cp ncaa/ncaa_divisions.csv /tmp/ncaa_divisions.csv
+chmod 755 /tmp/ncaa_divisions.csv
 psql lacrosse -f load_ncaa_divisions.sql
 rm /tmp/ncaa_divisions.csv
 

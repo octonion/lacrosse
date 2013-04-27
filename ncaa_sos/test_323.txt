@@ -1,0 +1,23 @@
+BEGIN
+SET
+ div |    field     | pw | n  
+-----+--------------+----+----
+   1 | defense_home |  3 |  7
+   1 | none         |  3 |  3
+   1 | offense_home | 10 | 15
+   2 | defense_home |  6 |  7
+   2 | none         |  0 |  1
+   2 | offense_home |  8 |  8
+   3 | defense_home | 28 | 32
+   3 | none         |  1 |  2
+   3 | offense_home | 27 | 38
+(9 rows)
+
+ div | pw | n  
+-----+----+----
+   1 | 16 | 25
+   2 | 14 | 16
+   3 | 56 | 72
+(3 rows)
+
+COMMIT

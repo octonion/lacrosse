@@ -53,7 +53,7 @@ and r.pulled_id = r.team_id
 and r.team_id < r.opponent_id
 
 --and r.game_date between current_date and current_date
-and r.game_date = '2013/3/16'::date
+and r.game_date = '2013/4/6'::date
 
 and r.team_score is not null
 and r.opponent_score is not null
@@ -115,7 +115,7 @@ and r.pulled_id = r.team_id
 and r.team_id < r.opponent_id
 
 --and r.game_date between current_date and current_date
-and r.game_date = '2013/3/16'::date
+and r.game_date = '2013/4/6'::date
 
 and r.team_score is not null
 and r.opponent_score is not null
