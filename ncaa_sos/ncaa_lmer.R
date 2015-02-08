@@ -24,7 +24,7 @@ team_score::float as gs
 from ncaa.results r
 
 where
-    r.year between 2002 and 2013
+    r.year between 2002 and 2014
 --and r.game_date < '2013/11/29'::date
 and r.team_div_id is not null
 and r.opponent_div_id is not null
