@@ -1,13 +1,14 @@
 BEGIN
 SET
-      team      | h_div |  site   |      opp      | v_div | t_score | o_score 
-----------------+-------+---------+---------------+-------+---------+---------
- Bellarmine     |     1 | home    | Ohio St.      |     1 |    8.12 |    9.96
- Belmont Abbey  |     2 | home    | Chestnut Hill |     2 |   12.01 |    7.79
- C.W. Post      |     2 | neutral | Saint Leo     |     2 |   10.39 |   10.93
- Detroit        |     1 | neutral | Marquette     |     1 |    7.75 |   12.64
- Mt. St. Marys  |     1 | home    | Towson        |     1 |    6.63 |   10.38
- North Carolina |     1 | home    | Denver        |     1 |   13.91 |   10.36
-(6 rows)
+      team       | h_div |  site   |      opp      | v_div | t_score | o_score 
+-----------------+-------+---------+---------------+-------+---------+---------
+ Bellarmine      |     1 | home    | Ohio St.      |     1 |    8.09 |    9.94
+ Belmont Abbey   |     2 | home    | Chestnut Hill |     2 |   11.92 |    7.76
+ C.W. Post       |     2 | neutral | Saint Leo     |     2 |   10.32 |   10.85
+ Detroit         |     1 | neutral | Marquette     |     1 |    7.73 |   12.62
+ Lindenwood (MO) |     2 | home    | Fontbonne     |     3 |   16.74 |    6.21
+ Mt. St. Marys   |     1 | home    | Towson        |     1 |    6.60 |   10.34
+ North Carolina  |     1 | home    | Denver        |     1 |   13.87 |   10.33
+(7 rows)
 
 COMMIT

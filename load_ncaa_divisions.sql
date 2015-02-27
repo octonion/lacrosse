@@ -1,5 +1,7 @@
 begin;
 
+drop table if exists ncaa.teams_divisions;
+
 create table ncaa.teams_divisions (
 	sport_code		text,
 	team_name		text,
@@ -16,15 +18,15 @@ create table ncaa.teams_divisions (
 
 copy ncaa.teams_divisions from '/tmp/ncaa_divisions.csv' with delimiter as ',' csv quote as '"';
 
--- Temporary fix for 2013
+-- Temporary fix for 2015
 
 insert into ncaa.teams_divisions
 (sport_code,team_name,team_id,pulled_name,javascript,year,div_id,team_year,sport,division)
 (
-select sport_code,team_name,team_id,pulled_name,javascript,2013,div_id,team_year,sport,division
+select sport_code,team_name,team_id,pulled_name,javascript,2015,div_id,team_year,sport,division
 from ncaa.teams_divisions
-where year=2012
-and (team_id,2013) not in
+where year=2014
+and (team_id,2015) not in
 (select team_id,year from ncaa.teams_divisions)
 );
 
