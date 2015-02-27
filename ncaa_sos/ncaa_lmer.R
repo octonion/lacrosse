@@ -24,8 +24,8 @@ team_score::float as gs
 from ncaa.results r
 
 where
-    r.year between 2002 and 2014
---and r.game_date < '2013/11/29'::date
+    r.year between 2002 and 2015
+--and r.game_date < '2015/11/29'::date
 and r.team_div_id is not null
 and r.opponent_div_id is not null
 and r.pulled_id = least(r.team_id,r.opponent_id)
@@ -38,7 +38,7 @@ and r.pulled_id = least(r.team_id,r.opponent_id)
 
 --and not(extract(month from r.game_date)) in (1,2,3,4)
 
---and (r.year < 2013 or (r.year=2013 and r.game_date < '2013/4/6'::date))
+--and (r.year < 2015 or (r.year=2015 and r.game_date < '2015/4/6'::date))
 
 ;")
 

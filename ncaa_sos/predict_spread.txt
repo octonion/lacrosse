@@ -1,7 +1,13 @@
 BEGIN
 SET
- date | team | h_div | site | opp | v_div | spread 
-------+------+-------+------+-----+-------+--------
-(0 rows)
+    date    |      team      | h_div |  site   |      opp      | v_div | spread 
+------------+----------------+-------+---------+---------------+-------+--------
+ 2015-02-27 | Bellarmine     |     1 | home    | Ohio St.      |     1 |   -1.8
+ 2015-02-27 | Belmont Abbey  |     2 | home    | Chestnut Hill |     2 |    4.2
+ 2015-02-27 | C.W. Post      |     2 | neutral | Saint Leo     |     2 |   -0.5
+ 2015-02-27 | Detroit        |     1 | neutral | Marquette     |     1 |   -4.9
+ 2015-02-27 | Mt. St. Marys  |     1 | home    | Towson        |     1 |   -3.8
+ 2015-02-27 | North Carolina |     1 | home    | Denver        |     1 |    3.5
+(6 rows)
 
 COMMIT
