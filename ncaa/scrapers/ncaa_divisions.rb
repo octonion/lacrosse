@@ -13,16 +13,18 @@ stats = CSV.open("ncaa_divisions.csv","w")
 
 teams = CSV.read("ncaa_teams.csv")
 
-teams.each do |team|
 # Needed for referer
+
+url = "http://web1.ncaa.org/stats/StatsSrv/careersearch"
+page = agent.get(url)
+
+form = page.forms[1]
+
+teams.each do |team|
 
   team_id = team[0]
   team_name = team[1]
 
-  url = "http://web1.ncaa.org/stats/StatsSrv/careersearch"
-  page = agent.get(url)
-
-  form = page.forms[1]
   form.searchOrg = team_id
   form.academicYear = "X"
   form.searchSport = sport_code

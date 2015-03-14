@@ -1,4 +1,4 @@
-sink("ncaa_lmer.txt")
+sink("diagnostics/ncaa_lmer.txt")
 
 library("lme4")
 library("nortest")
