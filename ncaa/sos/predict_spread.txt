@@ -1,241 +1,283 @@
 BEGIN
 SET
-    date    |         team         | h_div |  site   |                  opp                  | v_div | spread 
-------------+----------------------+-------+---------+---------------------------------------+-------+--------
- 2015-03-14 | Adrian               |     3 | home    | %                                    +|     3 |    5.0
-            |                      |       |         |                   Ill. Wesleyan       |       | 
- 2015-03-14 | Air Force            |     1 | home    | %                                    +|     1 |    0.7
-            |                      |       |         |                   Detroit             |       | 
- 2015-03-14 | Albion               |     3 | home    | %                                    +|     3 |    1.7
-            |                      |       |         |                   Otterbein           |       | 
- 2015-03-14 | Albright             |     3 | home    | %                                    +|     3 |    1.1
-            |                      |       |         |                   Frank. & Marsh.     |       | 
- 2015-03-14 | Alma                 |     3 | home    | %                                    +|     3 |    5.4
-            |                      |       |         |                   Bethany (WV)        |       | 
- 2015-03-14 | Army                 |     1 | home    | %                                    +|     1 |    5.4
-            |                      |       |         |                   Loyola Maryland     |       | 
- 2015-03-14 | Assumption           |     2 | home    | %                                    +|     2 |   -4.0
-            |                      |       |         |                   Le Moyne            |       | 
- 2015-03-14 | Augustana (IL)       |     3 | home    | %                                    +|     3 |    2.5
-            |                      |       |         |                   Olivet              |       | 
- 2015-03-14 | Baldwin-Wallace      |     3 | home    | %                                    +|     3 |    6.6
-            |                      |       |         |                   Hanover             |       | 
- 2015-03-14 | Birmingham-So.       |     3 | home    | %                                    +|     3 |    6.6
-            |                      |       |         |                   Millsaps            |       | 
- 2015-03-14 | Boston U.            |     1 | home    | %                                    +|     1 |    6.7
-            |                      |       |         |                   Lafayette           |       | 
- 2015-03-14 | Bowdoin              |     3 | home    | %                                    +|     3 |   -5.7
-            |                      |       |         |                   Hamilton            |       | 
- 2015-03-14 | Bridgewater (VA)     |     3 | home    | %                                    +|     3 |    0.8
-            |                      |       |         |                   Va. Wesleyan        |       | 
- 2015-03-14 | Brown                |     1 | home    | %                                    +|     1 |    7.8
-            |                      |       |         |                   Harvard             |       | 
- 2015-03-14 | Bucknell             |     1 | home    | %                                    +|     1 |    2.6
-            |                      |       |         |                   Holy Cross          |       | 
- 2015-03-14 | Cabrini              |     3 | neutral | %                                    +|     3 |   -1.4
-            |                      |       |         |                   Rochester Inst.     |       | 
- 2015-03-14 | Calvin               |     3 | home    | %                                    +|     3 |   -5.6
-            |                      |       |         |                   Capital             |       | 
- 2015-03-14 | Carthage             |     3 | home    | %                                    +|     3 |    4.9
-            |                      |       |         |                   Concordia Wisconsin |       | 
- 2015-03-14 | Castleton            |     3 | home    | %                                    +|     3 |   -2.4
-            |                      |       |         |                   Plymouth St.        |       | 
- 2015-03-14 | Catawba              |     2 | home    | %                                    +|     2 |    2.4
-            |                      |       |         |                   Lincoln Memorial    |       | 
- 2015-03-14 | Centenary (NJ)       |     3 | home    | %                                    +|     3 |    0.0
-            |                      |       |         |                   Mt. St. Mary (NY)   |       | 
- 2015-03-14 | Clarkson             |     3 | home    | %                                    +|     3 |   -1.9
-            |                      |       |         |                   St. John Fisher     |       | 
- 2015-03-14 | Coker                |     2 | home    | %                                    +|     2 |   -6.1
-            |                      |       |         |                   Lenoir-Rhyne        |       | 
- 2015-03-14 | Colby                |     3 | home    | %                                    +|     3 |   -1.3
-            |                      |       |         |                   Tufts               |       | 
- 2015-03-14 | Connecticut Col.     |     3 | home    | %                                    +|     3 |   -4.0
-            |                      |       |         |                   Williams            |       | 
- 2015-03-14 | C.W. Post            |     2 | home    | %                                    +|     2 |    3.6
-            |                      |       |         |                   Molloy              |       | 
- 2015-03-14 | Delaware             |     1 | home    | %                                    +|     1 |    2.6
-            |                      |       |         |                   Rutgers             |       | 
- 2015-03-14 | Eastern              |     3 | home    | %                                    +|     3 |   -2.5
-            |                      |       |         |                   Gettysburg          |       | 
- 2015-03-14 | Elizabethtown        |     3 | home    | %                                    +|     3 |    0.9
-            |                      |       |         |                   Susquehanna         |       | 
- 2015-03-14 | Emerson              |     3 | home    | %                                    +|     3 |    4.5
-            |                      |       |         |                   Green Mountain      |       | 
- 2015-03-14 | Fairfield            |     1 | home    | %                                    +|     1 |    2.4
-            |                      |       |         |                   Colgate             |       | 
- 2015-03-14 | Ferrum               |     3 | home    | %                                    +|     3 |   -2.4
-            |                      |       |         |                   McDaniel            |       | 
- 2015-03-14 | Fontbonne            |     3 | home    | %                                    +|     3 |   -2.9
-            |                      |       |         |                   MSOE                |       | 
- 2015-03-14 | Furman               |     1 | home    | %                                    +|     1 |   -1.0
-            |                      |       |         |                   Bellarmine          |       | 
- 2015-03-14 | Georgetown           |     1 | home    | %                                    +|     1 |   -0.7
-            |                      |       |         |                   Duke                |       | 
- 2015-03-14 | Goucher              |     3 | home    | %                                    +|     3 |    3.0
-            |                      |       |         |                   Merchant Marine     |       | 
- 2015-03-14 | Guilford             |     3 | home    | %                                    +|     3 |    1.5
-            |                      |       |         |                   Lynchburg           |       | 
- 2015-03-14 | Gwynedd-Mercy        |     3 | home    | %                                    +|     3 |    1.4
-            |                      |       |         |                   Messiah             |       | 
- 2015-03-14 | Hartford             |     1 | home    | %                                    +|     1 |    7.4
-            |                      |       |         |                   UMass Lowell        |       | 
- 2015-03-14 | Hartwick             |     3 | home    | %                                    +|     3 |    0.7
-            |                      |       |         |                   Farmingdale St.     |       | 
- 2015-03-14 | Haverford            |     3 | home    | %                                    +|     3 |    1.4
-            |                      |       |         |                   York (PA)           |       | 
- 2015-03-14 | Hendrix              |     3 | home    | %                                    +|     3 |    8.2
-            |                      |       |         |                   Beloit              |       | 
- 2015-03-14 | Hiram                |     3 | home    | %                                    +|     3 |   -7.8
-            |                      |       |         |                   Wittenberg          |       | 
- 2015-03-14 | Hofstra              |     1 | home    | %                                    +|     1 |    4.3
-            |                      |       |         |                   Providence          |       | 
- 2015-03-14 | Huntingdon           |     3 | home    | %                                    +|     3 |   -1.1
-            |                      |       |         |                   Berry               |       | 
- 2015-03-14 | Johnson & Wales (RI) |     3 | home    | %                                    +|     3 |    0.8
-            |                      |       |         |                   Husson              |       | 
- 2015-03-14 | Kenyon               |     3 | home    | %                                    +|     3 |    4.7
-            |                      |       |         |                   DePauw              |       | 
- 2015-03-14 | Limestone            |     2 | home    | %                                    +|     2 |    5.4
-            |                      |       |         |                   Seton Hill          |       | 
- 2015-03-14 | Maine Maritime       |     3 | neutral | %                                    +|     3 |   -6.5
-            |                      |       |         |                   Mass. Maritime      |       | 
- 2015-03-14 | Manhattan            |     1 | home    | %                                    +|     1 |   -3.6
-            |                      |       |         |                   Canisius            |       | 
- 2015-03-14 | Manhattanville       |     3 | home    | %                                    +|     3 |   -2.6
-            |                      |       |         |                   Curry               |       | 
- 2015-03-14 | Marist               |     1 | home    | %                                    +|     1 |    2.7
-            |                      |       |         |                   Monmouth            |       | 
- 2015-03-14 | Marymount (VA)       |     3 | home    | %                                    +|     3 |   -4.6
-            |                      |       |         |                   Frostburg St.       |       | 
- 2015-03-14 | Marywood             |     3 | home    | %                                    +|     3 |    1.8
-            |                      |       |         |                   Morrisville St.     |       | 
- 2015-03-14 | Massachusetts        |     1 | home    | %                                    +|     1 |    1.4
-            |                      |       |         |                   Penn St.            |       | 
- 2015-03-14 | Mass.-Dartmouth      |     3 | home    | %                                    +|     3 |   -2.4
-            |                      |       |         |                   Nichols             |       | 
- 2015-03-14 | Mercer               |     1 | home    | %                                    +|     1 |   -6.8
-            |                      |       |         |                   High Point          |       | 
- 2015-03-14 | Merrimack            |     2 | home    | %                                    +|     2 |    3.9
-            |                      |       |         |                   Pace                |       | 
- 2015-03-14 | Methodist            |     3 | home    | %                                    +|     3 |   -3.5
-            |                      |       |         |                   Hope                |       | 
- 2015-03-14 | Middlebury           |     3 | home    | %                                    +|     3 |    0.8
-            |                      |       |         |                   Wesleyan (CT)       |       | 
- 2015-03-14 | Misericordia         |     3 | home    | %                                    +|     3 |   12.5
-            |                      |       |         |                   Immaculata          |       | 
- 2015-03-14 | Mount Olive          |     2 | home    | %                                    +|     2 |   14.6
-            |                      |       |         |                   North Greenville    |       | 
- 2015-03-14 | Mount Union          |     3 | home    | %                                    +|     3 |   -2.0
-            |                      |       |         |                   Thiel               |       | 
- 2015-03-14 | Mt. St. Vincent      |     3 | home    | %                                    +|     3 |   -1.6
-            |                      |       |         |                   Bard                |       | 
- 2015-03-14 | Muhlenberg           |     3 | home    | %                                    +|     3 |    9.1
-            |                      |       |         |                   Lycoming            |       | 
- 2015-03-14 | Navy                 |     1 | home    | %                                    +|     1 |    2.5
-            |                      |       |         |                   Lehigh              |       | 
- 2015-03-14 | Norwich              |     3 | home    | %                                    +|     3 |   -1.2
-            |                      |       |         |                   Albertus Magnus     |       | 
- 2015-03-14 | NYIT                 |     2 | home    | %                                    +|     2 |   12.0
-            |                      |       |         |                   Dowling             |       | 
- 2015-03-14 | Ohio St.             |     1 | home    | %                                    +|     1 |   -1.5
-            |                      |       |         |                   Denver              |       | 
- 2015-03-14 | Ohio Valley          |     2 | home    | %                                    +|     2 |   -4.6
-            |                      |       |         |                   Walsh               |       | 
- 2015-03-14 | Ohio Wesleyan        |     3 | home    | %                                    +|     3 |    6.4
-            |                      |       |         |                   Oberlin             |       | 
- 2015-03-14 | Penn                 |     1 | home    | %                                    +|     1 |   -0.9
-            |                      |       |         |                   Princeton           |       | 
- 2015-03-14 | Piedmont             |     3 | neutral | %                                    +|     3 |   -2.7
-            |                      |       |         |                   Wesley              |       | 
- 2015-03-14 | Post                 |     2 | home    | %                                    +|     2 |    6.5
-            |                      |       |         |                   Notre Dame de Namur |       | 
- 2015-03-14 | Queens (NC)          |     2 | home    | %                                    +|     2 |    2.8
-            |                      |       |         |                   Brevard             |       | 
- 2015-03-14 | Randolph-Macon       |     3 | home    | %                                    +|     3 |   -5.1
-            |                      |       |         |                   Roanoke             |       | 
- 2015-03-14 | Richard Stockton     |     3 | home    | %                                    +|     3 |    2.3
-            |                      |       |         |                   DeSales             |       | 
- 2015-03-14 | Richmond             |     1 | home    | %                                    +|     1 |   -2.7
-            |                      |       |         |                   North Carolina      |       | 
- 2015-03-14 | Rivier               |     3 | home    | %                                    +|     3 |    6.3
-            |                      |       |         |                   Mount Ida           |       | 
- 2015-03-14 | Roberts Wesleyan     |     2 | home    | %                                    +|     2 |    5.5
-            |                      |       |         |                   Dominican (NY)      |       | 
- 2015-03-14 | Roger Williams       |     3 | home    | %                                    +|     3 |    0.4
-            |                      |       |         |                   Babson              |       | 
- 2015-03-14 | Rollins              |     2 | home    | %                                    +|     2 |   -0.3
-            |                      |       |         |                   Fla. Southern       |       | 
- 2015-03-14 | Sacred Heart         |     1 | home    | %                                    +|     1 |    0.5
-            |                      |       |         |                   Vermont             |       | 
- 2015-03-14 | Salem St.            |     3 | home    | %                                    +|     3 |   -4.4
-            |                      |       |         |                   Daniel Webster      |       | 
- 2015-03-14 | Sewanee              |     3 | home    | %                                    +|     3 |    3.3
-            |                      |       |         |                   Centre              |       | 
- 2015-03-14 | Shenandoah           |     3 | home    | %                                    +|     3 |   -2.0
-            |                      |       |         |                   Hampden-Sydney      |       | 
- 2015-03-14 | Shorter              |     2 | home    | %                                    +|     2 |   -0.4
-            |                      |       |         |                   Wingate             |       | 
- 2015-03-14 | Siena                |     1 | home    | %                                    +|     1 |    1.9
-            |                      |       |         |                   Quinnipiac          |       | 
- 2015-03-14 | Skidmore             |     3 | home    | %                                    +|     3 |   -3.2
-            |                      |       |         |                   Clark (MA)          |       | 
- 2015-03-14 | Southern Me.         |     3 | home    | %                                    +|     3 |    9.1
-            |                      |       |         |                   New England Col.    |       | 
- 2015-03-14 | Southwestern (TX)    |     3 | home    | %                                    +|     3 |   -0.5
-            |                      |       |         |                   Wentworth           |       | 
- 2015-03-14 | Springfield          |     3 | home    | %                                    +|     3 |   -4.5
-            |                      |       |         |                   Union (NY)          |       | 
- 2015-03-14 | St. Anselm           |     2 | home    | %                                    +|     2 |  -11.9
-            |                      |       |         |                   Adelphi             |       | 
- 2015-03-14 | St. Johns (NY)       |     1 | home    | %                                    +|     1 |    1.6
-            |                      |       |         |                   Drexel              |       | 
- 2015-03-14 | St. Josephs          |     1 | home    | %                                    +|     1 |    1.3
-            |                      |       |         |                   Michigan            |       | 
- 2015-03-14 | St. Josephs (ME)     |     3 | home    | %                                    +|     3 |    5.9
-            |                      |       |         |                   Anna Maria          |       | 
- 2015-03-14 | St. Leo              |     2 | home    | %                                    +|     2 |   -1.1
-            |                      |       |         |                   Florida Tech        |       | 
- 2015-03-14 | St. Marys (MD)       |     3 | home    | %                                    +|     3 |   -7.6
-            |                      |       |         |                   Salisbury           |       | 
- 2015-03-14 | Stony Brook          |     1 | home    | %                                    +|     1 |    1.3
-            |                      |       |         |                   Albany (NY)         |       | 
- 2015-03-14 | St. Rose             |     2 | home    | %                                    +|     2 |   -1.3
-            |                      |       |         |                   Southern N.H.       |       | 
- 2015-03-14 | St. Vincent          |     3 | home    | %                                    +|     3 |    3.9
-            |                      |       |         |                   Hood                |       | 
- 2015-03-14 | Syracuse             |     1 | home    | %                                    +|     1 |    4.9
-            |                      |       |         |                   Johns Hopkins       |       | 
- 2015-03-14 | Tampa                |     2 | home    | %                                    +|     2 |    1.0
-            |                      |       |         |                   Mercyhurst          |       | 
- 2015-03-14 | Towson               |     1 | home    | %                                    +|     1 |    2.8
-            |                      |       |         |                   Hobart              |       | 
- 2015-03-14 | Trinity (CT)         |     3 | home    | %                                    +|     3 |   -1.4
-            |                      |       |         |                   Bates               |       | 
- 2015-03-14 | UMBC                 |     1 | home    | %                                    +|     1 |    0.5
-            |                      |       |         |                   Binghamton          |       | 
- 2015-03-14 | U New England        |     3 | home    | %                                    +|     3 |    2.0
-            |                      |       |         |                   MIT                 |       | 
- 2015-03-14 | Utica                |     3 | home    | %                                    +|     3 |   -2.2
-            |                      |       |         |                   SUNY Potsdam        |       | 
- 2015-03-14 | Villanova            |     1 | home    | %                                    +|     1 |   -0.9
-            |                      |       |         |                   Maryland            |       | 
- 2015-03-14 | Virginia             |     1 | home    | %                                    +|     1 |   -1.4
-            |                      |       |         |                   Notre Dame          |       | 
- 2015-03-14 | VMI                  |     1 | home    | %                                    +|     1 |   -9.9
-            |                      |       |         |                   Jacksonville        |       | 
- 2015-03-14 | Wash. & Lee          |     3 | home    | %                                    +|     3 |    8.9
-            |                      |       |         |                   Randolph            |       | 
- 2015-03-14 | Western Conn. St.    |     3 | home    | %                                    +|     3 |   -7.7
-            |                      |       |         |                   Plattsburgh St.     |       | 
- 2015-03-14 | Western New Eng.     |     3 | home    | %                                    +|     3 |   -2.4
-            |                      |       |         |                   SUNY Cortland       |       | 
- 2015-03-14 | Widener              |     3 | home    | %                                    +|     3 |   -3.8
-            |                      |       |         |                   Dickinson           |       | 
- 2015-03-14 | Wilmington (OH)      |     3 | home    | %                                    +|     3 |   -0.3
-            |                      |       |         |                   Trine               |       | 
- 2015-03-14 | Yale                 |     1 | home    | %                                    +|     1 |    0.5
-            |                      |       |         |                   Cornell             |       | 
-(117 rows)
+    date    |       team        | h_div |  site   |                  opp                  | v_div | spread 
+------------+-------------------+-------+---------+---------------------------------------+-------+--------
+ 2015-03-21 | Adelphi           |     2 | home    | %                                    +|     2 |    2.4
+            |                   |       |         |                   Merrimack           |       | 
+ 2015-03-21 | Adrian            |     3 | home    | %                                    +|     3 |    7.5
+            |                   |       |         |                   Brockport           |       | 
+ 2015-03-21 | Albany (NY)       |     1 | home    | %                                    +|     1 |    9.5
+            |                   |       |         |                   Hartford            |       | 
+ 2015-03-21 | Albertus Magnus   |     3 | home    | %                                    +|     3 |   -4.0
+            |                   |       |         |                   St. Joseph's (ME)   |       | 
+ 2015-03-21 | Albion            |     3 | home    | %                                    +|     3 |    8.4
+            |                   |       |         |                   Mount Union         |       | 
+ 2015-03-21 | Albright          |     3 | home    | %                                    +|     3 |    2.2
+            |                   |       |         |                   Stockton            |       | 
+ 2015-03-21 | Alfred            |     3 | home    | %                                    +|     3 |    8.1
+            |                   |       |         |                   Keuka               |       | 
+ 2015-03-21 | Alma              |     3 | home    | %                                    +|     3 |    2.6
+            |                   |       |         |                   Thiel               |       | 
+ 2015-03-21 | American Intl     |     2 | home    | %                                    +|     2 |    4.1
+            |                   |       |         |                   Dominican (NY)      |       | 
+ 2015-03-21 | Amherst           |     3 | neutral | %                                    +|     3 |    5.4
+            |                   |       |         |                   Hamilton            |       | 
+ 2015-03-21 | Anna Maria        |     3 | home    | %                                    +|     3 |   -7.7
+            |                   |       |         |                   Mass. Maritime      |       | 
+ 2015-03-21 | Assumption        |     2 | home    | %                                    +|     2 |   -2.0
+            |                   |       |         |                   Franklin Pierce     |       | 
+ 2015-03-21 | Bard              |     3 | neutral | %                                    +|     3 |   -7.8
+            |                   |       |         |                   Union (NY)          |       | 
+ 2015-03-21 | Bellarmine        |     1 | home    | %                                    +|     1 |    8.6
+            |                   |       |         |                   VMI                 |       | 
+ 2015-03-21 | Belmont Abbey     |     2 | home    | %                                    +|     2 |   -0.3
+            |                   |       |         |                   Mount Olive         |       | 
+ 2015-03-21 | Beloit            |     3 | home    | %                                    +|     3 |    3.6
+            |                   |       |         |                   MSOE                |       | 
+ 2015-03-21 | Benedictine (IL)  |     3 | home    | %                                    +|     3 |   18.4
+            |                   |       |         |                   Fontbonne           |       | 
+ 2015-03-21 | Bentley           |     2 | home    | %                                    +|     2 |    2.9
+            |                   |       |         |                   Saint Rose          |       | 
+ 2015-03-21 | Bethany (WV)      |     3 | home    | %                                    +|     3 |   -4.9
+            |                   |       |         |                   Transylvania        |       | 
+ 2015-03-21 | Binghamton        |     1 | home    | %                                    +|     1 |   -0.3
+            |                   |       |         |                   Towson              |       | 
+ 2015-03-21 | Boston U.         |     1 | home    | %                                    +|     1 |    0.6
+            |                   |       |         |                   Bucknell            |       | 
+ 2015-03-21 | Brevard           |     2 | home    | %                                    +|     2 |    7.8
+            |                   |       |         |                   Colorado St.-Pueblo |       | 
+ 2015-03-21 | Brown             |     1 | home    | %                                    +|     1 |   17.5
+            |                   |       |         |                   Manhattan           |       | 
+ 2015-03-21 | Cabrini           |     3 | neutral | %                                    +|     3 |    3.0
+            |                   |       |         |                   Nazareth            |       | 
+ 2015-03-21 | Canisius          |     1 | home    | %                                    +|     1 |   -5.6
+            |                   |       |         |                   Marist              |       | 
+ 2015-03-21 | Castleton         |     3 | home    | %                                    +|     3 |   10.9
+            |                   |       |         |                   Me.-Farmington      |       | 
+ 2015-03-21 | Centenary (LA)    |     3 | home    | %                                    +|     3 |    0.0
+            |                   |       |         |                   Dallas              |       | 
+ 2015-03-21 | Centre            |     3 | home    | %                                    +|     3 |    0.9
+            |                   |       |         |                   Berry               |       | 
+ 2015-03-21 | Chris. Newport    |     3 | home    | %                                    +|     3 |    9.1
+            |                   |       |         |                   Marymount (VA)      |       | 
+ 2015-03-21 | Clark (MA)        |     3 | home    | %                                    +|     3 |    6.6
+            |                   |       |         |                   Manhattanville      |       | 
+ 2015-03-21 | Clarkson          |     3 | home    | %                                    +|     3 |   -6.1
+            |                   |       |         |                   Rochester Inst.     |       | 
+ 2015-03-21 | Coast Guard       |     3 | home    | %                                    +|     3 |    0.2
+            |                   |       |         |                   Norwich             |       | 
+ 2015-03-21 | Colby             |     3 | home    | %                                    +|     3 |    5.5
+            |                   |       |         |                   Connecticut Col.    |       | 
+ 2015-03-21 | Colgate           |     1 | home    | %                                    +|     1 |   -0.5
+            |                   |       |         |                   Navy                |       | 
+ 2015-03-21 | Cornell           |     1 | home    | %                                    +|     1 |    9.3
+            |                   |       |         |                   Penn                |       | 
+ 2015-03-21 | Curry             |     3 | home    | %                                    +|     3 |   -2.4
+            |                   |       |         |                   Salem St.           |       | 
+ 2015-03-21 | C.W. Post         |     2 | home    | %                                    +|     2 |    5.7
+            |                   |       |         |                   Chestnut Hill       |       | 
+ 2015-03-21 | Dartmouth         |     1 | home    | %                                    +|     1 |   -7.7
+            |                   |       |         |                   Harvard             |       | 
+ 2015-03-21 | Defiance          |     3 | home    | %                                    +|     3 |   -6.5
+            |                   |       |         |                   Dubuque             |       | 
+ 2015-03-21 | Delaware          |     1 | home    | %                                    +|     1 |    0.1
+            |                   |       |         |                   Saint Joseph's      |       | 
+ 2015-03-21 | Delaware Valley   |     3 | home    | %                                    +|     3 |    0.4
+            |                   |       |         |                   Hood                |       | 
+ 2015-03-21 | Denison           |     3 | neutral | %                                    +|     3 |    1.6
+            |                   |       |         |                   Montclair St.       |       | 
+ 2015-03-21 | Denver            |     1 | neutral | %                                    +|     1 |    4.0
+            |                   |       |         |                   Penn St.            |       | 
+ 2015-03-21 | DeSales           |     3 | neutral | %                                    +|     3 |   -1.3
+            |                   |       |         |                   Gwynedd Mercy       |       | 
+ 2015-03-21 | Dickinson         |     3 | neutral | %                                    +|     3 |   -4.4
+            |                   |       |         |                   Lynchburg           |       | 
+ 2015-03-21 | Dowling           |     2 | home    | %                                    +|     2 |   -3.9
+            |                   |       |         |                   Mercy               |       | 
+ 2015-03-21 | Drew              |     3 | home    | %                                    +|     3 |   -5.6
+            |                   |       |         |                   Susquehanna         |       | 
+ 2015-03-21 | Elmhurst          |     3 | home    | %                                    +|     3 |   -4.9
+            |                   |       |         |                   John Carroll        |       | 
+ 2015-03-21 | Endicott          |     3 | home    | %                                    +|     3 |   11.8
+            |                   |       |         |                   Salve Regina        |       | 
+ 2015-03-21 | Fairfield         |     1 | home    | %                                    +|     1 |    0.1
+            |                   |       |         |                   Villanova           |       | 
+ 2015-03-21 | Ferrum            |     3 | home    | %                                    +|     3 |    1.1
+            |                   |       |         |                   Piedmont            |       | 
+ 2015-03-21 | Fla. Southern     |     2 | home    | %                                    +|     2 |    3.7
+            |                   |       |         |                   Lynn                |       | 
+ 2015-03-21 | Frank. & Marsh.   |     3 | home    | %                                    +|     3 |    1.7
+            |                   |       |         |                   Muhlenberg          |       | 
+ 2015-03-21 | Frostburg St.     |     3 | home    | %                                    +|     3 |    6.6
+            |                   |       |         |                   Wesley              |       | 
+ 2015-03-21 | Furman            |     1 | home    | %                                    +|     1 |    1.8
+            |                   |       |         |                   Mercer              |       | 
+ 2015-03-21 | Georgetown        |     1 | home    | %                                    +|     1 |    0.6
+            |                   |       |         |                   Marquette           |       | 
+ 2015-03-21 | Gettysburg        |     3 | home    | %                                    +|     3 |   12.3
+            |                   |       |         |                   Haverford           |       | 
+ 2015-03-21 | Hanover           |     3 | home    | %                                    +|     3 |   -2.0
+            |                   |       |         |                   Saint Vincent       |       | 
+ 2015-03-21 | Hartwick          |     3 | home    | %                                    +|     3 |   -2.5
+            |                   |       |         |                   Utica               |       | 
+ 2015-03-21 | Hobart            |     1 | home    | %                                    +|     1 |    1.7
+            |                   |       |         |                   Bryant              |       | 
+ 2015-03-21 | Hofstra           |     1 | home    | %                                    +|     1 |    2.7
+            |                   |       |         |                   Massachusetts       |       | 
+ 2015-03-21 | Holy Cross        |     1 | home    | %                                    +|     1 |   -0.2
+            |                   |       |         |                   St. John's (NY)     |       | 
+ 2015-03-21 | Hope              |     3 | home    | %                                    +|     3 |   -8.4
+            |                   |       |         |                   Carthage            |       | 
+ 2015-03-21 | Houghton          |     3 | home    | %                                    +|     3 |   -2.3
+            |                   |       |         |                   Medaille            |       | 
+ 2015-03-21 | Husson            |     3 | home    | %                                    +|     3 |   -0.1
+            |                   |       |         |                   Johnson St.         |       | 
+ 2015-03-21 | Immaculata        |     3 | home    | %                                    +|     3 |   -1.4
+            |                   |       |         |                   Mt. St. Vincent     |       | 
+ 2015-03-21 | Ithaca            |     3 | home    | %                                    +|     3 |   13.0
+            |                   |       |         |                   Elmira              |       | 
+ 2015-03-21 | Jacksonville      |     1 | home    | %                                    +|     1 |   -2.1
+            |                   |       |         |                   Richmond            |       | 
+ 2015-03-21 | Johns Hopkins     |     1 | home    | %                                    +|     1 |    2.3
+            |                   |       |         |                   Virginia            |       | 
+ 2015-03-21 | Kean              |     3 | neutral | %                                    +|     3 |   -1.6
+            |                   |       |         |                   SUNY Potsdam        |       | 
+ 2015-03-21 | Kenyon            |     3 | home    | %                                    +|     3 |   -6.8
+            |                   |       |         |                   Ohio Wesleyan       |       | 
+ 2015-03-21 | Lafayette         |     1 | home    | %                                    +|     1 |   -5.8
+            |                   |       |         |                   Loyola Maryland     |       | 
+ 2015-03-21 | La Roche          |     3 | home    | %                                    +|     3 |    1.8
+            |                   |       |         |                   Mt. St. Joseph      |       | 
+ 2015-03-21 | Lasell            |     3 | home    | %                                    +|     3 |    0.1
+            |                   |       |         |                   Rivier              |       | 
+ 2015-03-21 | Lehigh            |     1 | home    | %                                    +|     1 |   -3.7
+            |                   |       |         |                   Army                |       | 
+ 2015-03-21 | Le Moyne          |     2 | home    | %                                    +|     2 |   10.5
+            |                   |       |         |                   Saint Michael's     |       | 
+ 2015-03-21 | Limestone         |     2 | home    | %                                    +|     2 |    2.5
+            |                   |       |         |                   Lake Erie           |       | 
+ 2015-03-21 | Lincoln Memorial  |     2 | home    | %                                    +|     2 |   -3.4
+            |                   |       |         |                   Queens (NC)         |       | 
+ 2015-03-21 | Maryland          |     1 | neutral | %                                    +|     1 |    1.3
+            |                   |       |         |                   North Carolina      |       | 
+ 2015-03-21 | Mass.-Dartmouth   |     3 | home    | %                                    +|     3 |    0.5
+            |                   |       |         |                   Roger Williams      |       | 
+ 2015-03-21 | Mass.-Lowell      |     1 | home    | %                                    +|     1 |   -4.8
+            |                   |       |         |                   Vermont             |       | 
+ 2015-03-21 | Merchant Marine   |     3 | home    | %                                    +|     3 |    1.6
+            |                   |       |         |                   Catholic            |       | 
+ 2015-03-21 | Michigan          |     1 | home    | %                                    +|     1 |    0.9
+            |                   |       |         |                   Drexel              |       | 
+ 2015-03-21 | Middlebury        |     3 | home    | %                                    +|     3 |    5.8
+            |                   |       |         |                   Bowdoin             |       | 
+ 2015-03-21 | Millsaps          |     3 | home    | %                                    +|     3 |   -7.6
+            |                   |       |         |                   Hendrix             |       | 
+ 2015-03-21 | Misericordia      |     3 | home    | %                                    +|     3 |    6.9
+            |                   |       |         |                   Lycoming            |       | 
+ 2015-03-21 | Mitchell          |     3 | home    | %                                    +|     3 |   -1.8
+            |                   |       |         |                   Daniel Webster      |       | 
+ 2015-03-21 | Monmouth          |     1 | home    | %                                    +|     1 |   -0.8
+            |                   |       |         |                   Siena               |       | 
+ 2015-03-21 | Mount Ida         |     3 | home    | %                                    +|     3 |    0.8
+            |                   |       |         |                   Emmanuel (MA)       |       | 
+ 2015-03-21 | Mt. St. Mary (NY) |     3 | home    | %                                    +|     3 |   16.7
+            |                   |       |         |                   Wheelock            |       | 
+ 2015-03-21 | New England Col.  |     3 | home    | %                                    +|     3 |   12.5
+            |                   |       |         |                   Thomas (ME)         |       | 
+ 2015-03-21 | North Greenville  |     2 | home    | %                                    +|     2 |   -8.3
+            |                   |       |         |                   Coker               |       | 
+ 2015-03-21 | Notre Dame        |     1 | home    | %                                    +|     1 |    3.4
+            |                   |       |         |                   Ohio St.            |       | 
+ 2015-03-21 | NYIT              |     2 | home    | %                                    +|     2 |   13.3
+            |                   |       |         |                   Dist. Columbia      |       | 
+ 2015-03-21 | Olivet            |     3 | home    | %                                    +|     3 |   -3.1
+            |                   |       |         |                   Ill. Wesleyan       |       | 
+ 2015-03-21 | Pace              |     2 | home    | %                                    +|     2 |    7.6
+            |                   |       |         |                   St. Anselm          |       | 
+ 2015-03-21 | Pfeiffer          |     2 | home    | %                                    +|     2 |    1.3
+            |                   |       |         |                   Lenoir-Rhyne        |       | 
+ 2015-03-21 | Princeton         |     1 | home    | %                                    +|     1 |    0.4
+            |                   |       |         |                   Yale                |       | 
+ 2015-03-21 | Quinnipiac        |     1 | home    | %                                    +|     1 |   -0.7
+            |                   |       |         |                   Detroit             |       | 
+ 2015-03-21 | Randolph          |     3 | home    | %                                    +|     3 |    2.7
+            |                   |       |         |                   Methodist           |       | 
+ 2015-03-21 | Regis (MA)        |     3 | home    | %                                    +|     3 |    9.2
+            |                   |       |         |                   Green Mountain      |       | 
+ 2015-03-21 | Rhodes            |     3 | home    | %                                    +|     3 |    3.8
+            |                   |       |         |                   Birmingham-So.      |       | 
+ 2015-03-21 | Roanoke           |     3 | home    | %                                    +|     3 |    3.3
+            |                   |       |         |                   Hampden-Sydney      |       | 
+ 2015-03-21 | Rollins           |     2 | home    | %                                    +|     2 |    3.0
+            |                   |       |         |                   Adams St.           |       | 
+ 2015-03-21 | Rosemont          |     3 | home    | %                                    +|     3 |    7.8
+            |                   |       |         |                   Keystone            |       | 
+ 2015-03-21 | Sacred Heart      |     1 | home    | %                                    +|     1 |    0.8
+            |                   |       |         |                   Robert Morris       |       | 
+ 2015-03-21 | Salisbury         |     3 | home    | %                                    +|     3 |    7.2
+            |                   |       |         |                   Mary Washington     |       | 
+ 2015-03-21 | Scranton          |     3 | home    | %                                    +|     3 |   -1.7
+            |                   |       |         |                   Elizabethtown       |       | 
+ 2015-03-21 | Seton Hill        |     2 | home    | %                                    +|     2 |    1.2
+            |                   |       |         |                   Mercyhurst          |       | 
+ 2015-03-21 | Sewanee           |     3 | home    | %                                    +|     3 |    5.4
+            |                   |       |         |                   DePauw              |       | 
+ 2015-03-21 | Shenandoah        |     3 | home    | %                                    +|     3 |   -5.4
+            |                   |       |         |                   Guilford            |       | 
+ 2015-03-21 | Skidmore          |     3 | home    | %                                    +|     3 |   -0.4
+            |                   |       |         |                   St. Lawrence        |       | 
+ 2015-03-21 | Southern Me.      |     3 | home    | %                                    +|     3 |    2.2
+            |                   |       |         |                   U New England       |       | 
+ 2015-03-21 | Southern N.H.     |     2 | home    | %                                    +|     2 |   -1.4
+            |                   |       |         |                   Molloy              |       | 
+ 2015-03-21 | Stevenson         |     3 | home    | %                                    +|     3 |    2.6
+            |                   |       |         |                   SUNY Cortland       |       | 
+ 2015-03-21 | St. John Fisher   |     3 | home    | %                                    +|     3 |   -2.1
+            |                   |       |         |                   Oswego St.          |       | 
+ 2015-03-21 | Stony Brook       |     1 | home    | %                                    +|     1 |    5.4
+            |                   |       |         |                   UMBC                |       | 
+ 2015-03-21 | Swarthmore        |     3 | home    | %                                    +|     3 |   -1.4
+            |                   |       |         |                   Ursinus             |       | 
+ 2015-03-21 | Trine             |     3 | home    | %                                    +|     3 |    4.5
+            |                   |       |         |                   Muskingum           |       | 
+ 2015-03-21 | Tufts             |     3 | home    | %                                    +|     3 |    8.2
+            |                   |       |         |                   Trinity (CT)        |       | 
+ 2015-03-21 | Tusculum          |     2 | home    | %                                    +|     2 |    1.6
+            |                   |       |         |                   Catawba             |       | 
+ 2015-03-21 | Vassar            |     3 | home    | %                                    +|     3 |   -4.6
+            |                   |       |         |                   Rensselaer          |       | 
+ 2015-03-21 | Va. Wesleyan      |     3 | home    | %                                    +|     3 |    1.5
+            |                   |       |         |                   Randolph-Macon      |       | 
+ 2015-03-21 | Wabash            |     3 | home    | %                                    +|     3 |    3.7
+            |                   |       |         |                   Calvin              |       | 
+ 2015-03-21 | Wagner            |     1 | home    | %                                    +|     1 |   -0.3
+            |                   |       |         |                   Mt. St. Mary's      |       | 
+ 2015-03-21 | Walsh             |     2 | home    | %                                    +|     2 |    6.4
+            |                   |       |         |                   Alderson Broaddus   |       | 
+ 2015-03-21 | Washington Col.   |     3 | home    | %                                    +|     3 |   -0.5
+            |                   |       |         |                   McDaniel            |       | 
+ 2015-03-21 | Wash. & Jeff.     |     3 | home    | %                                    +|     3 |   -2.1
+            |                   |       |         |                   Goucher             |       | 
+ 2015-03-21 | Wash. & Lee       |     3 | home    | %                                    +|     3 |    8.8
+            |                   |       |         |                   Bridgewater (VA)    |       | 
+ 2015-03-21 | Wentworth Inst.   |     3 | home    | %                                    +|     3 |    1.1
+            |                   |       |         |                   Gordon              |       | 
+ 2015-03-21 | Wesleyan (CT)     |     3 | neutral | %                                    +|     3 |    4.1
+            |                   |       |         |                   Whittier            |       | 
+ 2015-03-21 | Wheeling Jesuit   |     2 | home    | %                                    +|     2 |   -0.6
+            |                   |       |         |                   Lindenwood (MO)     |       | 
+ 2015-03-21 | Williams          |     3 | home    | %                                    +|     3 |    1.9
+            |                   |       |         |                   Bates               |       | 
+ 2015-03-21 | Wilmington (OH)   |     3 | home    | %                                    +|     3 |    5.7
+            |                   |       |         |                   Franciscan          |       | 
+ 2015-03-21 | Wingate           |     2 | home    | %                                    +|     2 |   -0.3
+            |                   |       |         |                   Saint Leo           |       | 
+ 2015-03-21 | Wittenberg        |     3 | home    | %                                    +|     3 |    5.4
+            |                   |       |         |                   Oberlin             |       | 
+ 2015-03-21 | Wooster           |     3 | home    | %                                    +|     3 |   17.9
+            |                   |       |         |                   Hiram               |       | 
+ 2015-03-21 | York (PA)         |     3 | home    | %                                    +|     3 |   -1.2
+            |                   |       |         |                   Eastern             |       | 
+(138 rows)
 
 COMMIT

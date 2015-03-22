@@ -9,9 +9,9 @@ agent.user_agent = 'Mozilla/5.0'
 
 sport_code = "MLA"
 
-stats = CSV.open("ncaa_divisions.csv","w")
+stats = CSV.open("csv/ncaa_divisions.csv","w")
 
-teams = CSV.read("ncaa_teams.csv")
+teams = CSV.read("csv/ncaa_teams.csv")
 
 # Needed for referer
 

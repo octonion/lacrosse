@@ -7,7 +7,7 @@ agent = Mechanize.new{ |agent| agent.history.max_size=0 }
 agent.user_agent = 'Mozilla/5.0'
 
 url = "http://web1.ncaa.org/stats/exec/records"
-teams = CSV.read("ncaa_teams.csv")
+teams = CSV.read("csv/ncaa_teams.csv")
 
 first_year = 2015
 last_year = 2015
@@ -21,8 +21,8 @@ records_header = ["year","team_id","team_name","wins","losses","ties",
 
 (first_year..last_year).each do |year|
 
-  games = CSV.open("ncaa_games_#{year}.csv","w")
-  records = CSV.open("ncaa_records_#{year}.csv","w")
+  games = CSV.open("csv/ncaa_games_#{year}.csv","w")
+  records = CSV.open("csv/ncaa_records_#{year}.csv","w")
 
   team_count = 0
   game_count = 0

@@ -4,9 +4,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Adams St.,929,"%
                   Colorado St.-Pueblo",2720,03/11/2015,19,8,Away,"",-,113
 2015,Adams St.,929,"%
-                  Rockhurst",1328,03/15/2015,0,0,Home,"",-,0
+                  Rockhurst",1328,03/15/2015,11,13,Home,"",-,168
 2015,Adams St.,929,"%
-                  Vassar",737,03/17/2015,0,0,Neutral,"Colorado Springs, CO",-,0
+                  Vassar",737,03/17/2015,12,14,Neutral,"Colorado Springs, CO",-,56
 2015,Adams St.,929,"%
                   Rollins",584,03/21/2015,0,0,Away,"",-,0
 2015,Adams St.,929,"%
@@ -36,7 +36,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Adelphi,3,"%
                   LIU Post",362,03/09/2015,13,11,Home,"",-,278
 2015,Adelphi,3,"%
-                  St. Anselm",593,03/14/2015,0,0,Away,"",-,0
+                  St. Anselm",593,03/14/2015,16,6,Away,"",-,34
 2015,Adelphi,3,"%
                   Merrimack",410,03/21/2015,0,0,Home,"",-,0
 2015,Adelphi,3,"%
@@ -64,7 +64,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Adrian,4,"%
                   Kenyon",335,03/11/2015,12,13,Away,"",-,55
 2015,Adrian,4,"%
-                  Ill. Wesleyan",300,03/14/2015,0,0,Home,"",-,0
+                  Ill. Wesleyan",300,03/14/2015,13,10,Home,"",-,84
 2015,Adrian,4,"%
                   Brockport",78,03/21/2015,0,0,Home,"",-,0
 2015,Adrian,4,"%
@@ -98,7 +98,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Air Force,721,"%
                   VMI",741,03/08/2015,12,8,Neutral,"Bethesda, Md.",-,528
 2015,Air Force,721,"%
-                  Detroit",184,03/14/2015,0,0,Home,"",-,0
+                  Detroit",184,03/14/2015,9,6,Home,"",-,230
 2015,Air Force,721,"%
                   High Point",19651,03/22/2015,0,0,Away,"",-,0
 2015,Air Force,721,"%
@@ -120,9 +120,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Albany (NY),14,"%
                   Massachusetts",400,03/07/2015,10,9,Home,"",-,"2,165"
 2015,Albany (NY),14,"%
-                  Stony Brook",683,03/14/2015,0,0,Away,"",-,0
+                  Stony Brook",683,03/14/2015,17,15,Away,"",-,"1,261"
 2015,Albany (NY),14,"%
-                  Canisius",116,03/17/2015,0,0,Away,"",-,0
+                  Canisius",116,03/17/2015,26,6,Away,"",-,533
 2015,Albany (NY),14,"%
                   Hartford",272,03/21/2015,0,0,Home,"",-,0
 2015,Albany (NY),14,"%
@@ -150,9 +150,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Albertus Magnus,2798,"%
                   Mass. Maritime",399,03/12/2015,10,15,Away,"",-,100
 2015,Albertus Magnus,2798,"%
-                  Norwich",511,03/14/2015,0,0,Away,"",-,0
+                  Norwich",511,03/14/2015,4,10,Away,"",-,78
 2015,Albertus Magnus,2798,"%
-                  Coast Guard",722,03/17/2015,0,0,Home,"",-,0
+                  Coast Guard",722,03/17/2015,8,16,Home,"",-,122
 2015,Albertus Magnus,2798,"%
                   St. Joseph's (ME)",605,03/21/2015,0,0,Home,"",-,0
 2015,Albertus Magnus,2798,"%
@@ -182,9 +182,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Albion,15,"%
                   Denison",182,03/11/2015,6,18,Away,"",-,185
 2015,Albion,15,"%
-                  Otterbein",531,03/14/2015,0,0,Home,"",-,0
+                  Otterbein",531,03/14/2015,10,9,Home,"",-,173
 2015,Albion,15,"%
-                  Wittenberg",806,03/17/2015,0,0,Away,"",-,0
+                  Wittenberg",806,03/17/2015,10,11,Away,"",-,207
 2015,Albion,15,"%
                   Mount Union",452,03/21/2015,0,0,Home,"",-,0
 2015,Albion,15,"%
@@ -214,9 +214,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Albright,16,"%
                   Widener",783,03/11/2015,13,4,Away,"",-,157
 2015,Albright,16,"%
-                  Frank. & Marsh.",239,03/14/2015,0,0,Home,"",-,0
+                  Frank. & Marsh.",239,03/14/2015,9,8,Neutral,"READING, Pa.",-,115
 2015,Albright,16,"%
-                  Whittier",781,03/17/2015,0,0,Home,"",-,0
+                  Whittier",781,03/17/2015,11,9,Neutral,"Reading, Pa.",-,119
 2015,Albright,16,"%
                   Stockton",681,03/21/2015,0,0,Home,"",-,0
 2015,Albright,16,"%
@@ -240,7 +240,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Alderson-Broaddus,934,"%
                   Dist. Columbia",186,03/01/2015,9,10,Away,"",1 OT,100
 2015,Alderson-Broaddus,934,"%
-                  Lindenwood (MO)",30136,03/19/2015,0,0,Home,"",-,0
+                  Lees-McRae",13302,03/15/2015,9,13,Away,"",-,75
+2015,Alderson-Broaddus,934,"%
+                  Belmont Abbey",2683,03/17/2015,6,20,Away,"",-,100
+2015,Alderson-Broaddus,934,"%
+                  Lindenwood (MO)",30136,03/19/2015,3,17,Home,"",-,98
 2015,Alderson-Broaddus,934,"%
                   Walsh",30141,03/21/2015,0,0,Away,"",-,0
 2015,Alderson-Broaddus,934,"%
@@ -264,11 +268,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Alfred,18,"%
                   Merchant Marine",724,03/11/2015,0,0,Neutral,"Myrtle Beach, SC",-,0
 2015,Alfred,18,"%
-                  Emmanuel (MA)",215,03/13/2015,0,0,Neutral,"Myrtle Beach, SC",-,0
+                  Emmanuel (MA)",215,03/13/2015,14,6,Neutral,"Myrtle Beach, S.C.",-,50
 2015,Alfred,18,"%
-                  Houghton",30160,03/17/2015,0,0,Home,"",-,0
+                  Houghton",30160,03/17/2015,22,3,Home,"",-,0
 2015,Alfred,18,"%
-                  SUNY Poly",9500,03/18/2015,0,0,Home,"",-,0
+                  SUNY Poly",9500,03/18/2015,18,2,Home,"",-,78
 2015,Alfred,18,"%
                   Keuka",1159,03/21/2015,0,0,Home,"",-,0
 2015,Alfred,18,"%
@@ -302,7 +306,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Alma,21,"%
                   Defiance",1050,03/12/2015,19,3,Away,"",-,23
 2015,Alma,21,"%
-                  Bethany (WV)",59,03/14/2015,0,0,Home,"",-,0
+                  Bethany (WV)",59,03/14/2015,10,1,Home,"",-,189
 2015,Alma,21,"%
                   Thiel",707,03/21/2015,0,0,Home,"",-,0
 2015,Alma,21,"%
@@ -332,7 +336,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Alvernia,938,"%
                   Immaculata",303,03/11/2015,8,7,Away,"",-,261
 2015,Alvernia,938,"%
-                  Alfred St.",30170,03/14/2015,0,0,Home,"",-,0
+                  Alfred St.",30170,03/14/2015,11,3,Home,"",-,111
 2015,Alvernia,938,"%
                   Rosemont",15882,03/18/2015,0,0,Home,"",-,0
 2015,Alvernia,938,"%
@@ -390,7 +394,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Amherst,24,"%
                   Skidmore",642,03/10/2015,16,7,Away,"",-,135
 2015,Amherst,24,"%
-                  Endicott",8981,03/13/2015,0,0,Home,"",-,0
+                  Endicott",8981,03/13/2015,16,10,Home,"",-,154
 2015,Amherst,24,"%
                   Washington Col.",753,03/17/2015,0,0,Neutral,"Owings Mills, MD",-,0
 2015,Amherst,24,"%
@@ -418,9 +422,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Anna Maria,26,"%
                   Norwich",511,03/12/2015,0,0,Home,"",-,0
 2015,Anna Maria,26,"%
-                  St. Joseph's (ME)",605,03/14/2015,0,0,Away,"",-,0
+                  St. Joseph's (ME)",605,03/14/2015,1,17,Away,"",-,45
 2015,Anna Maria,26,"%
-                  Wheelock",8896,03/19/2015,0,0,Home,"",-,0
+                  Wheelock",8896,03/19/2015,24,7,Home,"",-,68
 2015,Anna Maria,26,"%
                   Mass. Maritime",399,03/21/2015,0,0,Home,"",-,0
 2015,Anna Maria,26,"%
@@ -488,7 +492,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Army,725,"%
                   Holy Cross",285,03/07/2015,6,7,Away,"",-,906
 2015,Army,725,"%
-                  Loyola Maryland",369,03/14/2015,0,0,Home,"",-,0
+                  Loyola Maryland",369,03/14/2015,10,12,Home,"",-,"2,401"
 2015,Army,725,"%
                   Lehigh",352,03/21/2015,0,0,Away,"",-,0
 2015,Army,725,"%
@@ -510,9 +514,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Assumption,36,"%
                   Notre Dame de Namur",30056,03/09/2015,18,5,Home,"",-,145
 2015,Assumption,36,"%
-                  Le Moyne",349,03/14/2015,0,0,Home,"",-,0
+                  Le Moyne",349,03/14/2015,6,20,Home,"",-,140
 2015,Assumption,36,"%
-                  Molloy",437,03/17/2015,0,0,Home,"",-,0
+                  Molloy",437,03/17/2015,5,9,Home,"",-,112
 2015,Assumption,36,"%
                   Franklin Pierce",241,03/21/2015,0,0,Home,"",-,0
 2015,Assumption,36,"%
@@ -546,9 +550,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Augustana (IL),40,"%
                   Benedictine (IL)",296,03/11/2015,13,8,Home,"",-,113
 2015,Augustana (IL),40,"%
-                  Olivet",525,03/14/2015,0,0,Home,"",-,0
+                  Olivet",525,03/14/2015,15,6,Home,"",-,223
 2015,Augustana (IL),40,"%
-                  Cornell College",166,03/17/2015,0,0,Home,"",-,0
+                  Cornell College",166,03/17/2015,17,2,Home,"",-,112
 2015,Augustana (IL),40,"%
                   Huntingdon",1130,03/22/2015,0,0,Neutral,"Lexington, KY",-,0
 2015,Augustana (IL),40,"%
@@ -576,11 +580,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Aurora,42,"%
                   Eastern",8968,03/04/2015,7,11,Away,"",-,107
 2015,Aurora,42,"%
-                  Wooster",807,03/07/2015,0,0,Away,"",-,0
+                  Wooster",807,03/07/2015,7,15,Away,"",-,50
 2015,Aurora,42,"%
-                  John Carroll",320,03/13/2015,0,0,Away,"",-,0
+                  John Carroll",320,03/13/2015,11,8,Away,"",-,117
 2015,Aurora,42,"%
-                  Denison",182,03/15/2015,0,0,Away,"",-,0
+                  Denison",182,03/15/2015,10,19,Away,"",-,201
 2015,Aurora,42,"%
                   Elmhurst",212,03/18/2015,0,0,Home,"",-,0
 2015,Aurora,42,"%
@@ -612,9 +616,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Babson,45,"%
                   New England Col.",467,03/11/2015,20,8,Home,"",-,95
 2015,Babson,45,"%
-                  Roger Williams",583,03/14/2015,0,0,Away,"",-,0
+                  Roger Williams",583,03/14/2015,9,4,Away,"",-,80
 2015,Babson,45,"%
-                  Trinity (CT)",713,03/17/2015,0,0,Neutral,"Baltimore, MD",-,0
+                  Trinity (CT)",713,03/17/2015,3,12,Neutral,"Baltimore, Md.",-,125
 2015,Babson,45,"%
                   Colorado Col.",154,03/20/2015,0,0,Neutral,"Hoboken, NJ",-,0
 2015,Babson,45,"%
@@ -640,11 +644,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Baldwin-Wallace,46,"%
                   La Roche",1163,03/11/2015,15,3,Home,"",-,132
 2015,Baldwin-Wallace,46,"%
-                  Hanover",1115,03/14/2015,0,0,Home,"",-,0
+                  Hanover",1115,03/14/2015,14,2,Home,"",-,123
 2015,Baldwin-Wallace,46,"%
-                  Oberlin",515,03/18/2015,0,0,Away,"",-,0
-2015,Baldwin-Wallace,46,"%
-                  Hilbert",8398,03/21/2015,0,0,Away,"",-,0
+                  Oberlin",515,03/18/2015,6,5,Away,"",-,173
 2015,Baldwin-Wallace,46,"%
                   Trine",30037,03/25/2015,0,0,Away,"",-,0
 2015,Baldwin-Wallace,46,"%
@@ -668,9 +670,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Bard,962,"%
                   Mt. St. Mary (NY)",1468,03/11/2015,10,12,Away,"",-,61
 2015,Bard,962,"%
-                  Mt. St. Vincent",451,03/14/2015,0,0,Away,"",-,0
+                  Mt. St. Vincent",451,03/14/2015,9,6,Away,"",-,150
 2015,Bard,962,"%
-                  UMass Boston",401,03/16/2015,0,0,Neutral,"Orlando, FL",-,0
+                  UMass Boston",401,03/16/2015,4,10,Neutral,"Davenport, Fla.",-,68
 2015,Bard,962,"%
                   Union (NY)",727,03/21/2015,0,0,Neutral,"Boca Raton, FL",-,0
 2015,Bard,962,"%
@@ -700,7 +702,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Bates,50,"%
                   Roger Williams",583,03/11/2015,13,8,Home,"",-,150
 2015,Bates,50,"%
-                  Trinity (CT)",713,03/14/2015,0,0,Away,"",-,0
+                  Trinity (CT)",713,03/14/2015,11,9,Away,"",-,100
 2015,Bates,50,"%
                   Williams",789,03/21/2015,0,0,Away,"",-,0
 2015,Bates,50,"%
@@ -752,7 +754,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Bellarmine,52,"%
                   Detroit",184,03/01/2015,11,14,Home,"",-,287
 2015,Bellarmine,52,"%
-                  Furman",244,03/14/2015,0,0,Away,"",-,0
+                  Furman",244,03/14/2015,7,9,Away,"",-,167
 2015,Bellarmine,52,"%
                   VMI",741,03/21/2015,0,0,Home,"",-,0
 2015,Bellarmine,52,"%
@@ -780,6 +782,8 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Belmont Abbey,2683,"%
                   Lake Erie",2746,03/13/2015,4,8,Home,"",-,100
 2015,Belmont Abbey,2683,"%
+                  Alderson Broaddus",934,03/17/2015,20,6,Home,"",-,100
+2015,Belmont Abbey,2683,"%
                   Mount Olive",1245,03/21/2015,0,0,Home,"",-,0
 2015,Belmont Abbey,2683,"%
                   Pfeiffer",542,03/28/2015,0,0,Home,"",-,0
@@ -802,7 +806,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Beloit,53,"%
                   Rhodes",573,03/11/2015,4,12,Away,"",-,193
 2015,Beloit,53,"%
-                  Hendrix",1124,03/14/2015,0,0,Away,"",-,0
+                  Hendrix",1124,03/14/2015,8,4,Away,"",-,372
 2015,Beloit,53,"%
                   MSOE",20220,03/21/2015,0,0,Home,"",-,0
 2015,Beloit,53,"%
@@ -830,9 +834,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Benedictine (IL),296,"%
                   Augustana (IL)",40,03/11/2015,8,13,Away,"",-,113
 2015,Benedictine (IL),296,"%
-                  Huntingdon",1130,03/16/2015,0,0,Away,"",-,0
+                  Huntingdon",1130,03/16/2015,10,8,Away,"",-,72
 2015,Benedictine (IL),296,"%
-                  Birmingham-So.",28593,03/18/2015,0,0,Away,"",-,0
+                  Birmingham-So.",28593,03/18/2015,14,9,Away,"",-,175
 2015,Benedictine (IL),296,"%
                   Fontbonne",11538,03/21/2015,0,0,Home,"",-,0
 2015,Benedictine (IL),296,"%
@@ -894,7 +898,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Berry,973,"%
                   Whittier",781,03/11/2015,9,12,Away,"",-,212
 2015,Berry,973,"%
-                  Huntingdon",1130,03/14/2015,0,0,Away,"",-,0
+                  Huntingdon",1130,03/14/2015,15,6,Away,"",-,122
 2015,Berry,973,"%
                   Centre",132,03/21/2015,0,0,Away,"",-,0
 2015,Berry,973,"%
@@ -922,7 +926,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Bethany (WV),59,"%
                   Hope",286,03/12/2015,6,20,Away,"",-,161
 2015,Bethany (WV),59,"%
-                  Alma",21,03/14/2015,0,0,Away,"",-,0
+                  Alma",21,03/14/2015,1,10,Away,"",-,189
 2015,Bethany (WV),59,"%
                   Capital",117,03/18/2015,0,0,Away,"",-,0
 2015,Bethany (WV),59,"%
@@ -950,7 +954,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Binghamton,62,"%
                   Delaware",180,03/08/2015,11,7,Away,"",-,386
 2015,Binghamton,62,"%
-                  UMBC",391,03/14/2015,0,0,Away,"",-,0
+                  UMBC",391,03/14/2015,13,4,Away,"",-,434
 2015,Binghamton,62,"%
                   Towson",711,03/21/2015,0,0,Home,"",-,0
 2015,Binghamton,62,"%
@@ -984,7 +988,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Birmingham-So.,28593,"%
                   Millsaps",426,03/14/2015,0,0,Home,"",-,0
 2015,Birmingham-So.,28593,"%
-                  Benedictine (IL)",296,03/18/2015,0,0,Home,"",-,0
+                  Benedictine (IL)",296,03/18/2015,9,14,Home,"",-,175
 2015,Birmingham-So.,28593,"%
                   Rhodes",573,03/21/2015,0,0,Away,"",-,0
 2015,Birmingham-So.,28593,"%
@@ -1010,7 +1014,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Boston U.,68,"%
                   Colgate",153,03/07/2015,18,11,Away,"",-,445
 2015,Boston U.,68,"%
-                  Lafayette",342,03/14/2015,0,0,Home,"",-,0
+                  Lafayette",342,03/14/2015,17,8,Home,"",-,127
 2015,Boston U.,68,"%
                   Bucknell",83,03/21/2015,0,0,Home,"",-,0
 2015,Boston U.,68,"%
@@ -1030,7 +1034,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Bowdoin,69,"%
                   Keene St.",330,03/11/2015,13,18,Away,"",-,250
 2015,Bowdoin,69,"%
-                  Hamilton",267,03/14/2015,0,0,Home,"",-,0
+                  Hamilton",267,03/14/2015,12,8,Home,"",-,208
 2015,Bowdoin,69,"%
                   Stevens",679,03/18/2015,0,0,Neutral,"Virginia Beach, VA",-,0
 2015,Bowdoin,69,"%
@@ -1070,9 +1074,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Brevard,30094,"%
                   Lenoir-Rhyne",1170,03/11/2015,8,22,Away,"",-,150
 2015,Brevard,30094,"%
-                  Queens (NC)",11504,03/14/2015,0,0,Away,"",-,0
+                  Queens (NC)",11504,03/14/2015,10,20,Away,"",-,125
 2015,Brevard,30094,"%
-                  Mars Hill",1199,03/18/2015,0,0,Home,"",-,0
+                  Mars Hill",1199,03/18/2015,3,22,Home,"",-,118
 2015,Brevard,30094,"%
                   Colorado St.-Pueblo",2720,03/21/2015,0,0,Home,"",-,0
 2015,Brevard,30094,"%
@@ -1096,9 +1100,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Bridgewater (VA),75,"%
                   Hood",8404,03/07/2015,5,6,Home,"",-,95
 2015,Bridgewater (VA),75,"%
-                  Marywood",397,03/11/2015,0,0,Home,"",-,0
+                  Marywood",397,03/11/2015,4,7,Home,"",-,90
 2015,Bridgewater (VA),75,"%
-                  Va. Wesleyan",745,03/14/2015,0,0,Home,"",-,0
+                  Va. Wesleyan",745,03/14/2015,7,10,Home,"",-,100
 2015,Bridgewater (VA),75,"%
                   Wash. & Lee",752,03/21/2015,0,0,Away,"",-,0
 2015,Bridgewater (VA),75,"%
@@ -1122,13 +1126,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Brockport,78,"%
                   Rochester Inst.",580,03/04/2015,3,23,Home,"",-,100
 2015,Brockport,78,"%
-                  Clarkson",146,03/07/2015,0,0,Away,"",-,0
-2015,Brockport,78,"%
                   Clarkson",146,03/07/2015,3,9,Home,"",-,250
 2015,Brockport,78,"%
                   St. John Fisher",601,03/10/2015,4,6,Home,"",-,300
 2015,Brockport,78,"%
-                  Keuka",1159,03/14/2015,0,0,Away,"",-,0
+                  Keuka",1159,03/14/2015,13,12,Home,"",-,250
 2015,Brockport,78,"%
                   Elmira",213,03/18/2015,0,0,Home,"",-,0
 2015,Brockport,78,"%
@@ -1158,9 +1160,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Brown,80,"%
                   Michigan",418,03/08/2015,22,12,Away,"",-,653
 2015,Brown,80,"%
-                  Harvard",275,03/14/2015,0,0,Home,"",-,0
+                  Harvard",275,03/14/2015,14,9,Home,"",-,522
 2015,Brown,80,"%
-                  Bucknell",83,03/17/2015,0,0,Home,"",-,0
+                  Bucknell",83,03/17/2015,9,10,Home,"",1 OT,268
 2015,Brown,80,"%
                   Manhattan",381,03/21/2015,0,0,Home,"",-,0
 2015,Brown,80,"%
@@ -1222,9 +1224,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Bucknell,83,"%
                   Fairfield",220,03/10/2015,10,9,Home,"",-,145
 2015,Bucknell,83,"%
-                  Holy Cross",285,03/14/2015,0,0,Home,"",-,0
+                  Holy Cross",285,03/14/2015,15,6,Home,"",-,250
 2015,Bucknell,83,"%
-                  Brown",80,03/17/2015,0,0,Away,"",-,0
+                  Brown",80,03/17/2015,10,9,Away,"",1 OT,268
 2015,Bucknell,83,"%
                   Boston U.",68,03/21/2015,0,0,Away,"",-,0
 2015,Bucknell,83,"%
@@ -1246,9 +1248,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,C.W. Post,362,"%
                   Adelphi",3,03/09/2015,11,13,Away,"",-,278
 2015,C.W. Post,362,"%
-                  Molloy",437,03/14/2015,0,0,Home,"",-,0
+                  Molloy",437,03/14/2015,12,8,Home,"",-,56
 2015,C.W. Post,362,"%
-                  Dist. Columbia",186,03/17/2015,0,0,Away,"",-,0
+                  Dist. Columbia",186,03/17/2015,13,5,Home,"",-,58
 2015,C.W. Post,362,"%
                   Chestnut Hill",21323,03/21/2015,0,0,Home,"",-,0
 2015,C.W. Post,362,"%
@@ -1272,9 +1274,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Cabrini,88,"%
                   Dickinson",185,03/07/2015,7,5,Away,"",-,200
 2015,Cabrini,88,"%
-                  Rochester Inst.",580,03/14/2015,0,0,Neutral,"Syracuse, NY",-,0
+                  Rochester Inst.",580,03/14/2015,11,12,Neutral,"Syracuse, N.Y.",-,638
 2015,Cabrini,88,"%
-                  Salisbury",622,03/18/2015,0,0,Home,"",-,0
+                  Salisbury",622,03/18/2015,7,13,Home,"",-,285
 2015,Cabrini,88,"%
                   Stevenson",21852,03/20/2015,0,0,Away,"",-,0
 2015,Cabrini,88,"%
@@ -1304,7 +1306,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Calvin,114,"%
                   Muskingum",455,03/07/2015,7,15,Away,"",-,71
 2015,Calvin,114,"%
-                  Capital",117,03/14/2015,0,0,Home,"",-,0
+                  Capital",117,03/14/2015,2,18,Neutral,"Grand Rapids, MI",-,67
 2015,Calvin,114,"%
                   Wilmington (OH)",1461,03/17/2015,0,0,Away,"",-,0
 2015,Calvin,114,"%
@@ -1336,9 +1338,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Canisius,116,"%
                   Hobart",282,03/10/2015,4,10,Away,"",-,400
 2015,Canisius,116,"%
-                  Manhattan",381,03/14/2015,0,0,Away,"",-,0
+                  Manhattan",381,03/14/2015,8,4,Away,"",-,267
 2015,Canisius,116,"%
-                  Albany (NY)",14,03/17/2015,0,0,Home,"",-,0
+                  Albany (NY)",14,03/17/2015,6,26,Home,"",-,533
 2015,Canisius,116,"%
                   Marist",386,03/21/2015,0,0,Home,"",-,0
 2015,Canisius,116,"%
@@ -1364,7 +1366,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Capital,117,"%
                   Defiance",1050,03/11/2015,21,5,Away,"",-,63
 2015,Capital,117,"%
-                  Calvin",114,03/14/2015,0,0,Away,"",-,0
+                  Calvin",114,03/14/2015,18,2,Neutral,"Grand Rapids, MI",-,67
 2015,Capital,117,"%
                   Bethany (WV)",59,03/18/2015,0,0,Home,"",-,0
 2015,Capital,117,"%
@@ -1388,7 +1390,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Carroll (WI),120,"%
                   Elmhurst",212,03/14/2015,0,0,Home,"",-,0
 2015,Carroll (WI),120,"%
-                  Ill. Wesleyan",300,03/17/2015,0,0,Away,"",-,0
+                  Ill. Wesleyan",300,03/17/2015,1,18,Away,"",-,40
 2015,Carroll (WI),120,"%
                   Dubuque",192,03/28/2015,0,0,Home,"",-,0
 2015,Carroll (WI),120,"%
@@ -1414,9 +1416,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Carthage,121,"%
                   Olivet",525,03/10/2015,15,8,Home,"",-,75
 2015,Carthage,121,"%
-                  Cornell College",166,03/13/2015,0,0,Home,"",-,0
+                  Cornell College",166,03/13/2015,16,2,Home,"",-,100
 2015,Carthage,121,"%
-                  Concordia Wisconsin",1036,03/14/2015,0,0,Home,"",-,0
+                  Concordia Wisconsin",1036,03/14/2015,12,4,Home,"",-,120
 2015,Carthage,121,"%
                   Hope",286,03/21/2015,0,0,Away,"",-,0
 2015,Carthage,121,"%
@@ -1444,11 +1446,13 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Castleton,123,"%
                   Williams",789,03/10/2015,0,0,Away,"",-,0
 2015,Castleton,123,"%
-                  Plymouth St.",548,03/14/2015,0,0,Home,"",-,0
+                  Plymouth St.",548,03/14/2015,7,14,Home,"",-,217
 2015,Castleton,123,"%
                   Green Mountain",11062,03/17/2015,0,0,Home,"",-,0
 2015,Castleton,123,"%
                   SUNY Potsdam",552,03/18/2015,0,0,Home,"",-,0
+2015,Castleton,123,"%
+                  SUNY Potsdam",552,03/19/2015,3,14,Home,"",-,148
 2015,Castleton,123,"%
                   Me.-Farmington",379,03/21/2015,0,0,Home,"",-,0
 2015,Castleton,123,"%
@@ -1482,9 +1486,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Catawba,1001,"%
                   Brevard",30094,03/07/2015,11,14,Away,"",-,87
 2015,Catawba,1001,"%
-                  Lincoln Memorial",1176,03/14/2015,0,0,Home,"",-,0
+                  Lincoln Memorial",1176,03/14/2015,11,7,Home,"",-,89
 2015,Catawba,1001,"%
-                  Wingate",1462,03/18/2015,0,0,Home,"",-,0
+                  Wingate",1462,03/18/2015,7,8,Home,"",-,164
 2015,Catawba,1001,"%
                   Tusculum",12830,03/21/2015,0,0,Away,"",-,0
 2015,Catawba,1001,"%
@@ -1514,7 +1518,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Catholic,124,"%
                   Salve Regina",623,03/10/2015,0,0,Neutral,"Tampa, FL",-,0
 2015,Catholic,124,"%
-                  Scranton",633,03/15/2015,0,0,Home,"",-,0
+                  Scranton",633,03/15/2015,5,8,Home,"",-,146
 2015,Catholic,124,"%
                   Merchant Marine",724,03/21/2015,0,0,Away,"",-,0
 2015,Catholic,124,"%
@@ -1531,6 +1535,8 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
                   Neumann",1254,03/08/2015,10,6,Away,"",-,88
 2015,Cazenovia,23624,"%
                   Methodist",412,03/12/2015,9,18,Away,"",-,76
+2015,Cazenovia,23624,"%
+                  Elmira",213,03/16/2015,8,9,Home,"",1 OT,100
 2015,Cazenovia,23624,"%
                   SUNY Canton",30165,03/21/2015,0,0,Home,"",-,0
 2015,Cazenovia,23624,"%
@@ -1580,9 +1586,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Centenary (NJ),12884,"%
                   Stockton",681,03/11/2015,3,6,Home,"",-,80
 2015,Centenary (NJ),12884,"%
-                  Mt. St. Mary (NY)",1468,03/14/2015,0,0,Home,"",-,0
+                  Mt. St. Mary (NY)",1468,03/14/2015,11,12,Home,"",-,80
 2015,Centenary (NJ),12884,"%
                   Whittier",781,03/19/2015,0,0,Neutral,"Philadelphia, PA",-,0
+2015,Centenary (NJ),12884,"%
+                  Whittier",781,03/19/2015,4,6,Home,"",-,75
 2015,Centenary (NJ),12884,"%
                   Cabrini",88,03/24/2015,0,0,Home,"",-,0
 2015,Centenary (NJ),12884,"%
@@ -1610,7 +1618,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Centre,132,"%
                   Wooster",807,03/11/2015,10,16,Home,"",-,128
 2015,Centre,132,"%
-                  Sewanee",652,03/14/2015,0,0,Away,"",-,0
+                  Sewanee",652,03/14/2015,8,15,Away,"",-,54
 2015,Centre,132,"%
                   Berry",973,03/21/2015,0,0,Home,"",-,0
 2015,Centre,132,"%
@@ -1634,9 +1642,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Chestnut Hill,21323,"%
                   Molloy",437,03/08/2015,9,13,Away,"",-,300
 2015,Chestnut Hill,21323,"%
-                  Wheeling Jesuit",12799,03/15/2015,0,0,Home,"",-,0
+                  Wheeling Jesuit",12799,03/15/2015,7,10,Home,"",-,181
 2015,Chestnut Hill,21323,"%
-                  NYIT",477,03/18/2015,0,0,Away,"",-,0
+                  NYIT",477,03/18/2015,4,14,Away,"",-,0
 2015,Chestnut Hill,21323,"%
                   LIU Post",362,03/21/2015,0,0,Away,"",-,0
 2015,Chestnut Hill,21323,"%
@@ -1664,7 +1672,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Chris. Newport,139,"%
                   Coast Guard",722,03/13/2015,26,5,Home,"",-,421
 2015,Chris. Newport,139,"%
-                  Eastern",8968,03/18/2015,0,0,Away,"",-,0
+                  Eastern",8968,03/18/2015,7,16,Away,"",-,167
 2015,Chris. Newport,139,"%
                   Marymount (VA)",394,03/21/2015,0,0,Home,"",-,0
 2015,Chris. Newport,139,"%
@@ -1688,9 +1696,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Clark (MA),145,"%
                   Misericordia",16142,03/06/2015,6,4,Neutral,"Clearwater, Fla.",-,150
 2015,Clark (MA),145,"%
-                  Skidmore",642,03/14/2015,0,0,Away,"",-,0
+                  Skidmore",642,03/14/2015,7,9,Away,"",-,110
 2015,Clark (MA),145,"%
-                  Salve Regina",623,03/18/2015,0,0,Away,"",-,0
+                  Salve Regina",623,03/18/2015,6,7,Away,"",3 OT,113
 2015,Clark (MA),145,"%
                   Manhattanville",382,03/21/2015,0,0,Home,"",-,0
 2015,Clark (MA),145,"%
@@ -1716,19 +1724,17 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Clarkson,146,"%
                   Brockport",78,03/07/2015,9,3,Away,"",-,250
 2015,Clarkson,146,"%
-                  Brockport",78,03/07/2015,0,0,Home,"",-,0
+                  St. John Fisher",601,03/14/2015,14,0,Home,"",-,100
 2015,Clarkson,146,"%
-                  SUNY Potsdam",552,03/10/2015,0,0,Away,"",-,0
-2015,Clarkson,146,"%
-                  St. John Fisher",601,03/14/2015,0,0,Home,"",-,0
-2015,Clarkson,146,"%
-                  Nazareth",461,03/17/2015,0,0,Away,"",-,0
+                  Nazareth",461,03/17/2015,5,9,Away,"",-,303
 2015,Clarkson,146,"%
                   Rochester Inst.",580,03/21/2015,0,0,Home,"",-,0
 2015,Clarkson,146,"%
                   SUNY Cortland",168,03/24/2015,0,0,Home,"",-,0
 2015,Clarkson,146,"%
                   Rensselaer",570,03/28/2015,0,0,Away,"",-,0
+2015,Clarkson,146,"%
+                  SUNY Potsdam",552,03/31/2015,0,0,Away,"",-,0
 2015,Clarkson,146,"%
                   Union (NY)",727,04/04/2015,0,0,Away,"",-,0
 2015,Clarkson,146,"%
@@ -1748,7 +1754,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Coast Guard,722,"%
                   Chris. Newport",139,03/13/2015,5,26,Away,"",-,421
 2015,Coast Guard,722,"%
-                  Albertus Magnus",2798,03/17/2015,0,0,Away,"",-,0
+                  Albertus Magnus",2798,03/17/2015,16,8,Away,"",-,122
 2015,Coast Guard,722,"%
                   Norwich",511,03/21/2015,0,0,Home,"",-,0
 2015,Coast Guard,722,"%
@@ -1776,7 +1782,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Cobleskill St.,30083,"%
                   Alfred St.",30170,03/11/2015,11,6,Away,"",-,56
 2015,Cobleskill St.,30083,"%
-                  Southern Va.",30164,03/17/2015,0,0,Away,"",-,0
+                  Southern Va.",30164,03/17/2015,10,11,Away,"",-,60
 2015,Cobleskill St.,30083,"%
                   Keystone",30047,03/25/2015,0,0,Away,"",-,0
 2015,Cobleskill St.,30083,"%
@@ -1810,7 +1816,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Coker,1023,"%
                   Lynn",20794,03/10/2015,11,10,Away,"",1 OT,426
 2015,Coker,1023,"%
-                  Lenoir-Rhyne",1170,03/14/2015,0,0,Home,"",-,0
+                  Lenoir-Rhyne",1170,03/13/2015,12,11,Home,"",-,50
 2015,Coker,1023,"%
                   North Greenville",9223,03/21/2015,0,0,Away,"",-,0
 2015,Coker,1023,"%
@@ -1832,9 +1838,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Colby,151,"%
                   Maine Maritime",378,03/11/2015,25,4,Home,"",-,100
 2015,Colby,151,"%
-                  Tufts",717,03/14/2015,0,0,Home,"",-,0
+                  Tufts",717,03/14/2015,9,11,Home,"",-,225
 2015,Colby,151,"%
                   Emmanuel (MA)",215,03/18/2015,0,0,Home,"",-,0
+2015,Colby,151,"%
+                  Emmanuel (MA)",215,03/19/2015,17,5,Home,"",-,90
 2015,Colby,151,"%
                   Connecticut Col.",163,03/21/2015,0,0,Home,"",-,0
 2015,Colby,151,"%
@@ -1864,9 +1872,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Colgate,153,"%
                   Boston U.",68,03/07/2015,11,18,Home,"",-,445
 2015,Colgate,153,"%
-                  Fairfield",220,03/14/2015,0,0,Away,"",-,0
+                  Fairfield",220,03/14/2015,9,13,Away,"",-,812
 2015,Colgate,153,"%
-                  Cornell",167,03/17/2015,0,0,Away,"",-,0
+                  Cornell",167,03/17/2015,9,10,Away,"",1 OT,750
 2015,Colgate,153,"%
                   Navy",726,03/21/2015,0,0,Home,"",-,0
 2015,Colgate,153,"%
@@ -1892,9 +1900,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Colorado Col.,154,"%
                   Berry",973,03/08/2015,10,0,Home,"",-,312
 2015,Colorado Col.,154,"%
-                  Vassar",737,03/15/2015,0,0,Home,"",-,0
+                  Vassar",737,03/15/2015,15,9,Home,"",-,235
 2015,Colorado Col.,154,"%
-                  Roanoke",578,03/18/2015,0,0,Away,"",-,0
+                  Roanoke",578,03/18/2015,8,18,Away,"",-,310
 2015,Colorado Col.,154,"%
                   Babson",45,03/20/2015,0,0,Neutral,"Hoboken, NJ",-,0
 2015,Colorado Col.,154,"%
@@ -1920,7 +1928,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Colorado St.-Pueblo,2720,"%
                   Adams St.",929,03/11/2015,8,19,Home,"",-,113
 2015,Colorado St.-Pueblo,2720,"%
-                  Rockhurst",1328,03/18/2015,0,0,Home,"",-,0
+                  Rockhurst",1328,03/18/2015,9,19,Home,"",-,137
 2015,Colorado St.-Pueblo,2720,"%
                   Brevard",30094,03/21/2015,0,0,Away,"",-,0
 2015,Colorado St.-Pueblo,2720,"%
@@ -1938,11 +1946,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Concordia (WI),1036,"%
                   Elmhurst",212,03/11/2015,16,3,Away,"",-,133
 2015,Concordia (WI),1036,"%
-                  Carthage",121,03/14/2015,0,0,Away,"",-,0
+                  Carthage",121,03/14/2015,4,12,Away,"",-,120
 2015,Concordia (WI),1036,"%
-                  Piedmont",21830,03/17/2015,0,0,Away,"",-,0
+                  Piedmont",21830,03/17/2015,13,7,Away,"",-,342
 2015,Concordia (WI),1036,"%
-                  Transylvania",28749,03/19/2015,0,0,Away,"",-,0
+                  Transylvania",28749,03/19/2015,7,6,Away,"",-,65
 2015,Concordia (WI),1036,"%
                   Beloit",53,03/26/2015,0,0,Home,"",-,0
 2015,Concordia (WI),1036,"%
@@ -1970,9 +1978,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Connecticut Col.,163,"%
                   Rensselaer",570,03/11/2015,3,17,Away,"",-,67
 2015,Connecticut Col.,163,"%
-                  Williams",789,03/14/2015,0,0,Home,"",-,0
+                  Williams",789,03/14/2015,9,10,Home,"",-,200
 2015,Connecticut Col.,163,"%
-                  Plattsburgh St.",547,03/18/2015,0,0,Neutral,"Radnor, PA",-,0
+                  Plattsburgh St.",547,03/18/2015,13,7,Neutral,"Radnor, Pa.",-,72
 2015,Connecticut Col.,163,"%
                   Colby",151,03/21/2015,0,0,Away,"",-,0
 2015,Connecticut Col.,163,"%
@@ -2000,15 +2008,15 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Cornell,167,"%
                   Virginia",746,03/07/2015,14,15,Away,"",-,"1,500"
 2015,Cornell,167,"%
-                  Yale",813,03/14/2015,0,0,Away,"",-,0
+                  Yale",813,03/14/2015,14,7,Away,"",-,903
 2015,Cornell,167,"%
-                  Colgate",153,03/17/2015,0,0,Home,"",-,0
+                  Colgate",153,03/17/2015,10,9,Home,"",1 OT,750
 2015,Cornell,167,"%
                   Penn",540,03/21/2015,0,0,Home,"",-,0
 2015,Cornell,167,"%
-                  Dartmouth",172,03/28/2015,0,0,Home,"",-,0
-2015,Cornell,167,"%
                   Calvin",114,03/28/2015,0,0,Home,"",-,0
+2015,Cornell,167,"%
+                  Dartmouth",172,03/28/2015,0,0,Home,"",-,0
 2015,Cornell,167,"%
                   Harvard",275,04/04/2015,0,0,Away,"",-,0
 2015,Cornell,167,"%
@@ -2020,13 +2028,13 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Cornell,167,"%
                   Princeton",554,04/25/2015,0,0,Home,"",-,0
 2015,Cornell College,166,"%
-                  Dubuque",192,02/25/2015,0,0,Home,"",-,0
+                  Dubuque",192,02/24/2015,19,3,Home,"",-,53
 2015,Cornell College,166,"%
-                  DePauw",177,03/09/2015,0,0,Away,"",-,0
+                  DePauw",177,03/09/2015,0,13,Away,"",-,50
 2015,Cornell College,166,"%
-                  Carthage",121,03/13/2015,0,0,Away,"",-,0
+                  Carthage",121,03/13/2015,2,16,Away,"",-,100
 2015,Cornell College,166,"%
-                  Augustana (IL)",40,03/17/2015,0,0,Away,"",-,0
+                  Augustana (IL)",40,03/17/2015,2,17,Away,"",-,112
 2015,Cornell College,166,"%
                   Ill. Wesleyan",300,03/23/2015,0,0,Away,"",-,0
 2015,Cornell College,166,"%
@@ -2052,9 +2060,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Curry,170,"%
                   Shenandoah",637,03/11/2015,2,9,Away,"",-,67
 2015,Curry,170,"%
-                  Manhattanville",382,03/14/2015,0,0,Away,"",-,0
+                  Manhattanville",382,03/14/2015,6,5,Away,"",1 OT,213
 2015,Curry,170,"%
-                  Wheaton (MA)",779,03/18/2015,0,0,Home,"",-,0
+                  Wheaton (MA)",779,03/18/2015,5,11,Home,"",-,75
 2015,Curry,170,"%
                   Salem St.",621,03/21/2015,0,0,Home,"",-,0
 2015,Curry,170,"%
@@ -2102,9 +2110,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Daniel Webster,2691,"%
                   Green Mountain",11062,03/11/2015,14,6,Home,"",-,37
 2015,Daniel Webster,2691,"%
-                  Salem St.",621,03/14/2015,0,0,Away,"",-,0
+                  Salem St.",621,03/14/2015,10,21,Away,"",-,75
 2015,Daniel Webster,2691,"%
-                  Johnson St.",324,03/17/2015,0,0,Home,"",-,0
+                  Johnson St.",324,03/17/2015,10,9,Home,"",-,12
 2015,Daniel Webster,2691,"%
                   Mitchell",30042,03/21/2015,0,0,Away,"",-,0
 2015,Daniel Webster,2691,"%
@@ -2162,9 +2170,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Defiance,1050,"%
                   Alma",21,03/12/2015,3,19,Home,"",-,23
 2015,Defiance,1050,"%
-                  Muskingum",455,03/15/2015,0,0,Away,"",-,0
+                  Muskingum",455,03/15/2015,3,13,Away,"",-,134
 2015,Defiance,1050,"%
-                  Hiram",281,03/18/2015,0,0,Home,"",-,0
+                  Hiram",281,03/18/2015,5,15,Home,"",-,53
 2015,Defiance,1050,"%
                   Dubuque",192,03/21/2015,0,0,Home,"",-,0
 2015,Defiance,1050,"%
@@ -2198,9 +2206,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Delaware,180,"%
                   Binghamton",62,03/08/2015,7,11,Home,"",-,386
 2015,Delaware,180,"%
-                  Rutgers",587,03/14/2015,0,0,Home,"",-,0
+                  Rutgers",587,03/14/2015,12,17,Home,"",-,826
 2015,Delaware,180,"%
-                  Manhattan",381,03/18/2015,0,0,Home,"",-,0
+                  Manhattan",381,03/18/2015,12,5,Home,"",-,709
 2015,Delaware,180,"%
                   Saint Joseph's",606,03/21/2015,0,0,Home,"",-,0
 2015,Delaware,180,"%
@@ -2220,9 +2228,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Delaware Valley,179,"%
                   Elizabethtown",211,03/11/2015,1,14,Away,"",-,140
 2015,Delaware Valley,179,"%
-                  Rosemont",15882,03/14/2015,0,0,Home,"",-,0
+                  Rosemont",15882,03/14/2015,10,6,Home,"",-,100
 2015,Delaware Valley,179,"%
-                  Gwynedd Mercy",12399,03/18/2015,0,0,Away,"",-,0
+                  Gwynedd Mercy",12399,03/18/2015,2,11,Away,"",-,150
 2015,Delaware Valley,179,"%
                   Hood",8404,03/21/2015,0,0,Home,"",-,0
 2015,Delaware Valley,179,"%
@@ -2250,9 +2258,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Denison,182,"%
                   Albion",15,03/11/2015,18,6,Home,"",-,185
 2015,Denison,182,"%
-                  Aurora",42,03/15/2015,0,0,Home,"",-,0
+                  Aurora",42,03/15/2015,19,10,Home,"",-,201
 2015,Denison,182,"%
-                  St. Mary's (MD)",611,03/18/2015,0,0,Neutral,"Baltimore, MD",-,0
+                  St. Mary's (MD)",611,03/18/2015,14,12,Neutral,"Baltimore, Md.",-,189
 2015,Denison,182,"%
                   Montclair St.",442,03/21/2015,0,0,Neutral,"Malvern, PA",-,0
 2015,Denison,182,"%
@@ -2284,9 +2292,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Denver,183,"%
                   Notre Dame",513,03/07/2015,11,10,Home,"",1 OT,"2,728"
 2015,Denver,183,"%
-                  Ohio St.",518,03/14/2015,0,0,Away,"",-,0
+                  Ohio St.",518,03/14/2015,11,13,Away,"",-,"1,637"
 2015,Denver,183,"%
-                  Lehigh",352,03/17/2015,0,0,Away,"",-,0
+                  Lehigh",352,03/17/2015,10,4,Away,"",-,897
 2015,Denver,183,"%
                   Penn St.",539,03/21/2015,0,0,Neutral,"Hempstead, NY",-,0
 2015,Denver,183,"%
@@ -2308,11 +2316,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,DePauw,177,"%
                   Albion",15,03/07/2015,3,17,Away,"",-,76
 2015,DePauw,177,"%
-                  Cornell College",166,03/09/2015,0,0,Home,"",-,0
+                  Cornell College",166,03/09/2015,13,0,Home,"",-,50
 2015,DePauw,177,"%
                   Millsaps",426,03/11/2015,22,4,Home,"",-,90
 2015,DePauw,177,"%
-                  Kenyon",335,03/14/2015,0,0,Away,"",-,0
+                  Kenyon",335,03/14/2015,6,10,Away,"",-,85
 2015,DePauw,177,"%
                   Sewanee",652,03/21/2015,0,0,Away,"",-,0
 2015,DePauw,177,"%
@@ -2338,9 +2346,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,DeSales,20,"%
                   Wesley",763,03/10/2015,11,10,Away,"",-,150
 2015,DeSales,20,"%
-                  Stockton",681,03/14/2015,0,0,Away,"",-,0
+                  Stockton",681,03/14/2015,6,11,Away,"",-,125
 2015,DeSales,20,"%
-                  Gwynedd Mercy",12399,03/21/2015,0,0,Home,"",-,0
+                  Gwynedd Mercy",12399,03/21/2015,0,0,Neutral,Muhlenberg College,-,0
 2015,DeSales,20,"%
                   Kean",329,03/25/2015,0,0,Home,"",-,0
 2015,DeSales,20,"%
@@ -2368,7 +2376,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Detroit,184,"%
                   Mercer",406,03/04/2015,12,7,Home,"",-,327
 2015,Detroit,184,"%
-                  Air Force",721,03/14/2015,0,0,Away,"",-,0
+                  Air Force",721,03/14/2015,6,9,Away,"",-,230
 2015,Detroit,184,"%
                   Quinnipiac",562,03/21/2015,0,0,Away,"",-,0
 2015,Detroit,184,"%
@@ -2390,7 +2398,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Dickinson,185,"%
                   Cabrini",88,03/07/2015,5,7,Home,"",-,200
 2015,Dickinson,185,"%
-                  Widener",783,03/14/2015,0,0,Away,"",-,0
+                  Widener",783,03/14/2015,8,7,Away,"",1 OT,143
 2015,Dickinson,185,"%
                   Nazareth",461,03/20/2015,0,0,Neutral,"Owings Mills, MD",-,0
 2015,Dickinson,185,"%
@@ -2416,7 +2424,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Dist. Columbia,186,"%
                   Bentley",56,03/11/2015,3,17,Home,"",-,100
 2015,Dist. Columbia,186,"%
-                  LIU Post",362,03/17/2015,0,0,Home,"",-,0
+                  LIU Post",362,03/17/2015,5,13,Away,"",-,58
 2015,Dist. Columbia,186,"%
                   NYIT",477,03/21/2015,0,0,Away,"",-,0
 2015,Dist. Columbia,186,"%
@@ -2436,9 +2444,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Dominican (NY),8956,"%
                   Notre Dame de Namur",30056,03/12/2015,6,7,Home,"",1 OT,75
 2015,Dominican (NY),8956,"%
-                  Roberts Wesleyan",30150,03/14/2015,0,0,Away,"",-,0
+                  Roberts Wesleyan",30150,03/14/2015,7,16,Away,"",-,47
 2015,Dominican (NY),8956,"%
-                  Post",1318,03/19/2015,0,0,Home,"",-,0
+                  Post",1318,03/19/2015,10,11,Home,"",-,75
 2015,Dominican (NY),8956,"%
                   American Int'l",22,03/21/2015,0,0,Away,"",-,0
 2015,Dominican (NY),8956,"%
@@ -2466,7 +2474,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Dowling,2692,"%
                   Merrimack",410,03/07/2015,8,17,Away,"",-,170
 2015,Dowling,2692,"%
-                  NYIT",477,03/14/2015,0,0,Away,"",-,0
+                  NYIT",477,03/14/2015,3,13,Away,"",-,0
 2015,Dowling,2692,"%
                   Mercy",407,03/21/2015,0,0,Home,"",-,0
 2015,Dowling,2692,"%
@@ -2484,11 +2492,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Drew,190,"%
                   Swarthmore",686,03/04/2015,5,18,Away,"",-,10
 2015,Drew,190,"%
-                  Young Harris",30154,03/08/2015,0,0,Away,"",-,0
+                  Young Harris",30154,03/08/2015,13,14,Neutral,"Macon, Ga.",-,35
 2015,Drew,190,"%
-                  Wash. & Jeff.",751,03/15/2015,0,0,Home,"",-,0
+                  Wash. & Jeff.",751,03/15/2015,6,8,Home,"",-,128
 2015,Drew,190,"%
-                  FDU-Florham",221,03/18/2015,0,0,Home,"",-,0
+                  FDU-Florham",221,03/18/2015,4,7,Home,"",-,124
 2015,Drew,190,"%
                   Susquehanna",685,03/21/2015,0,0,Home,"",-,0
 2015,Drew,190,"%
@@ -2520,7 +2528,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Drexel,191,"%
                   Bryant",81,03/07/2015,11,8,Home,"",-,464
 2015,Drexel,191,"%
-                  St. John's (NY)",603,03/14/2015,0,0,Away,"",-,0
+                  St. John's (NY)",603,03/14/2015,9,10,Away,"",-,275
 2015,Drexel,191,"%
                   Michigan",418,03/21/2015,0,0,Away,"",-,0
 2015,Drexel,191,"%
@@ -2538,7 +2546,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Dubuque,192,"%
                   Rockhurst",1328,02/21/2015,4,17,Away,"",-,150
 2015,Dubuque,192,"%
-                  Cornell College",166,02/25/2015,0,0,Away,"",-,0
+                  Cornell College",166,02/24/2015,3,19,Away,"",-,53
 2015,Dubuque,192,"%
                   Calvin",114,03/04/2015,0,0,Neutral,"Wheaton, IL",-,0
 2015,Dubuque,192,"%
@@ -2574,7 +2582,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Duke,193,"%
                   Loyola Maryland",369,03/07/2015,14,8,Home,"",-,"2,084"
 2015,Duke,193,"%
-                  Georgetown",251,03/14/2015,0,0,Away,"",-,0
+                  Georgetown",251,03/14/2015,15,13,Away,"",-,"1,395"
 2015,Duke,193,"%
                   Syracuse",688,03/22/2015,0,0,Away,"",-,0
 2015,Duke,193,"%
@@ -2594,13 +2602,13 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Eastern,8968,"%
                   Aurora",42,03/04/2015,11,7,Home,"",-,107
 2015,Eastern,8968,"%
-                  Va. Wesleyan",745,03/07/2015,0,0,Away,"",-,0
+                  Va. Wesleyan",745,03/07/2015,11,8,Away,"",-,315
 2015,Eastern,8968,"%
                   McDaniel",773,03/11/2015,11,8,Away,"",-,198
 2015,Eastern,8968,"%
-                  Gettysburg",258,03/14/2015,0,0,Home,"",-,0
+                  Gettysburg",258,03/14/2015,9,15,Home,"",-,347
 2015,Eastern,8968,"%
-                  Chris. Newport",139,03/18/2015,0,0,Home,"",-,0
+                  Chris. Newport",139,03/18/2015,16,7,Home,"",-,167
 2015,Eastern,8968,"%
                   York (PA)",815,03/21/2015,0,0,Away,"",-,0
 2015,Eastern,8968,"%
@@ -2658,9 +2666,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Elizabethtown,211,"%
                   Delaware Valley",179,03/11/2015,14,1,Home,"",-,140
 2015,Elizabethtown,211,"%
-                  Susquehanna",685,03/14/2015,0,0,Home,"",-,0
+                  Susquehanna",685,03/14/2015,7,5,Home,"",-,212
 2015,Elizabethtown,211,"%
-                  York (PA)",815,03/18/2015,0,0,Home,"",-,0
+                  York (PA)",815,03/18/2015,11,7,Home,"",-,150
 2015,Elizabethtown,211,"%
                   Scranton",633,03/21/2015,0,0,Away,"",-,0
 2015,Elizabethtown,211,"%
@@ -2710,7 +2718,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Elmhurst,212,"%
                   Dubuque",192,04/25/2015,0,0,Home,"",-,0
 2015,Elmira,213,"%
-                  Lebanon Valley",351,03/14/2015,0,0,Away,"",-,0
+                  Lebanon Valley",351,03/14/2015,4,15,Away,"",-,110
+2015,Elmira,213,"%
+                  Cazenovia",23624,03/16/2015,9,8,Away,"",1 OT,100
 2015,Elmira,213,"%
                   Brockport",78,03/18/2015,0,0,Away,"",-,0
 2015,Elmira,213,"%
@@ -2742,9 +2752,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Emerson,214,"%
                   Thomas (ME)",2758,03/12/2015,24,5,Home,"",-,70
 2015,Emerson,214,"%
-                  Green Mountain",11062,03/14/2015,0,0,Home,"",-,0
+                  Green Mountain",11062,03/14/2015,18,7,Home,"",-,55
 2015,Emerson,214,"%
-                  Johnson & Wales (RI)",22626,03/17/2015,0,0,Home,"",-,0
+                  Johnson & Wales (RI)",22626,03/17/2015,9,13,Home,"",-,80
 2015,Emerson,214,"%
                   Mitchell",30042,03/25/2015,0,0,Away,"",-,0
 2015,Emerson,214,"%
@@ -2774,11 +2784,13 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Emmanuel (MA),215,"%
                   MIT",398,03/04/2015,5,10,Away,"",-,35
 2015,Emmanuel (MA),215,"%
-                  Hilbert",8398,03/11/2015,0,0,Neutral,"Myrtle Beach, SC",-,0
+                  Hilbert",8398,03/11/2015,14,7,Neutral,"Myrtle Beach, SC",-,50
 2015,Emmanuel (MA),215,"%
-                  Alfred",18,03/13/2015,0,0,Neutral,"Myrtle Beach, SC",-,0
+                  Alfred",18,03/13/2015,6,14,Neutral,"Myrtle Beach, S.C.",-,50
 2015,Emmanuel (MA),215,"%
                   Colby",151,03/18/2015,0,0,Away,"",-,0
+2015,Emmanuel (MA),215,"%
+                  Colby",151,03/19/2015,5,17,Away,"",-,90
 2015,Emmanuel (MA),215,"%
                   Mount Ida",27901,03/21/2015,0,0,Away,"",-,0
 2015,Emmanuel (MA),215,"%
@@ -2808,9 +2820,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Endicott,8981,"%
                   Lynchburg",374,03/10/2015,15,13,Home,"",-,550
 2015,Endicott,8981,"%
-                  Amherst",24,03/13/2015,0,0,Away,"",-,0
+                  Amherst",24,03/13/2015,10,16,Away,"",-,154
 2015,Endicott,8981,"%
-                  Middlebury",420,03/17/2015,0,0,Away,"",-,0
+                  Middlebury",420,03/17/2015,10,11,Away,"",-,115
 2015,Endicott,8981,"%
                   Salve Regina",623,03/21/2015,0,0,Home,"",-,0
 2015,Endicott,8981,"%
@@ -2842,9 +2854,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Fairfield,220,"%
                   Bucknell",83,03/10/2015,9,10,Away,"",-,145
 2015,Fairfield,220,"%
-                  Colgate",153,03/14/2015,0,0,Home,"",-,0
+                  Colgate",153,03/14/2015,13,9,Home,"",-,812
 2015,Fairfield,220,"%
-                  UMass Lowell",368,03/17/2015,0,0,Away,"",-,0
+                  UMass Lowell",368,03/17/2015,11,5,Away,"",-,103
 2015,Fairfield,220,"%
                   Villanova",739,03/21/2015,0,0,Home,"",-,0
 2015,Fairfield,220,"%
@@ -2862,11 +2874,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Farmingdale St.,27892,"%
                   SUNY Oneonta",526,02/28/2015,1,10,Home,"",-,350
 2015,Farmingdale St.,27892,"%
-                  SUNY Canton",30165,03/11/2015,0,0,Home,"",-,0
+                  SUNY Canton",30165,03/11/2015,12,4,Home,"",-,140
 2015,Farmingdale St.,27892,"%
-                  Hartwick",273,03/14/2015,0,0,Away,"",-,0
+                  Hartwick",273,03/14/2015,10,6,Away,"",-,100
 2015,Farmingdale St.,27892,"%
-                  Roger Williams",583,03/17/2015,0,0,Away,"",-,0
+                  Roger Williams",583,03/17/2015,4,5,Away,"",-,60
 2015,Farmingdale St.,27892,"%
                   Eastern Conn. St.",200,03/23/2015,0,0,Home,"",-,0
 2015,Farmingdale St.,27892,"%
@@ -2894,7 +2906,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,FDU-Florham,221,"%
                   Kean",329,03/13/2015,9,4,Away,"",-,132
 2015,FDU-Florham,221,"%
-                  Drew",190,03/18/2015,0,0,Away,"",-,0
+                  Drew",190,03/18/2015,7,4,Away,"",-,124
 2015,FDU-Florham,221,"%
                   Dominican (NY)",8956,03/25/2015,0,0,Away,"",-,0
 2015,FDU-Florham,221,"%
@@ -2926,11 +2938,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Ferrum,225,"%
                   Randolph-Macon",565,03/11/2015,7,16,Away,"",-,112
 2015,Ferrum,225,"%
-                  McDaniel",773,03/14/2015,0,0,Home,"",-,0
+                  McDaniel",773,03/14/2015,6,14,Home,"",-,160
 2015,Ferrum,225,"%
-                  Hope",286,03/16/2015,0,0,Home,"",-,0
+                  Hope",286,03/16/2015,16,8,Home,"",-,250
 2015,Ferrum,225,"%
-                  Mary Washington",390,03/18/2015,0,0,Home,"",-,0
+                  Mary Washington",390,03/18/2015,6,15,Home,"",-,105
 2015,Ferrum,225,"%
                   Piedmont",21830,03/21/2015,0,0,Home,"",-,0
 2015,Ferrum,225,"%
@@ -2960,7 +2972,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Fla. Southern,233,"%
                   Mercyhurst",408,03/12/2015,8,18,Home,"",-,157
 2015,Fla. Southern,233,"%
-                  Rollins",584,03/14/2015,0,0,Away,"",-,0
+                  Rollins",584,03/14/2015,17,14,Away,"",-,403
 2015,Fla. Southern,233,"%
                   Lynn",20794,03/21/2015,0,0,Home,"",-,0
 2015,Fla. Southern,233,"%
@@ -2984,11 +2996,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Florida Tech,230,"%
                   Ohio Valley",15207,03/11/2015,21,10,Home,"",-,109
 2015,Florida Tech,230,"%
-                  Saint Leo",608,03/14/2015,0,0,Away,"",-,0
+                  Saint Leo",608,03/14/2015,13,11,Away,"",-,287
 2015,Florida Tech,230,"%
-                  UMass Boston",401,03/17/2015,0,0,Home,"",-,0
+                  Saint Michael's",613,03/18/2015,19,11,Home,"",-,284
 2015,Florida Tech,230,"%
-                  Saint Michael's",613,03/18/2015,0,0,Home,"",-,0
+                  UMass Boston",401,03/20/2015,17,6,Home,"",-,227
 2015,Florida Tech,230,"%
                   MIT",398,03/23/2015,0,0,Home,"",-,0
 2015,Florida Tech,230,"%
@@ -3006,11 +3018,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Fontbonne,11538,"%
                   Millsaps",426,03/09/2015,7,22,Home,"",-,65
 2015,Fontbonne,11538,"%
-                  MSOE",20220,03/14/2015,0,0,Home,"",-,0
+                  MSOE",20220,03/14/2015,11,13,Home,"",-,100
 2015,Fontbonne,11538,"%
-                  Lindenwood (MO)",30136,03/15/2015,0,0,Away,"",-,0
+                  Lindenwood (MO)",30136,03/15/2015,1,29,Away,"",-,175
 2015,Fontbonne,11538,"%
-                  Hanover",1115,03/18/2015,0,0,Away,"",-,0
+                  Hanover",1115,03/18/2015,5,19,Away,"",-,53
 2015,Fontbonne,11538,"%
                   Benedictine (IL)",296,03/21/2015,0,0,Away,"",-,0
 2015,Fontbonne,11538,"%
@@ -3066,9 +3078,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Frank. & Marsh.,239,"%
                   Susquehanna",685,03/11/2015,7,8,Home,"",2 OT,327
 2015,Frank. & Marsh.,239,"%
-                  Albright",16,03/14/2015,0,0,Away,"",-,0
+                  Albright",16,03/14/2015,8,9,Neutral,"READING, Pa.",-,115
 2015,Frank. & Marsh.,239,"%
-                  Wesleyan (CT)",764,03/18/2015,0,0,Home,"",-,0
+                  Wesleyan (CT)",764,03/18/2015,6,12,Home,"",-,78
 2015,Frank. & Marsh.,239,"%
                   Muhlenberg",453,03/21/2015,0,0,Home,"",-,0
 2015,Frank. & Marsh.,239,"%
@@ -3098,7 +3110,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Franklin Pierce,241,"%
                   Bentley",56,03/13/2015,9,7,Home,"",-,109
 2015,Franklin Pierce,241,"%
-                  Le Moyne",349,03/17/2015,0,0,Away,"",-,0
+                  Le Moyne",349,03/17/2015,1,15,Away,"",-,97
 2015,Franklin Pierce,241,"%
                   Assumption",36,03/21/2015,0,0,Away,"",-,0
 2015,Franklin Pierce,241,"%
@@ -3130,9 +3142,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Frostburg St.,243,"%
                   Lycoming",373,03/10/2015,12,4,Away,"",-,164
 2015,Frostburg St.,243,"%
-                  Marymount (VA)",394,03/14/2015,0,0,Away,"",-,0
+                  Lycoming",373,03/11/2015,12,4,Away,"",-,164
 2015,Frostburg St.,243,"%
-                  McDaniel",773,03/18/2015,0,0,Home,"",-,0
+                  Marymount (VA)",394,03/14/2015,14,7,Away,"",-,411
+2015,Frostburg St.,243,"%
+                  McDaniel",773,03/18/2015,9,5,Home,"",-,74
 2015,Frostburg St.,243,"%
                   Wesley",763,03/21/2015,0,0,Home,"",-,0
 2015,Frostburg St.,243,"%
@@ -3164,7 +3178,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Furman,244,"%
                   Mt. St. Mary's",450,03/07/2015,6,7,Home,"",-,187
 2015,Furman,244,"%
-                  Bellarmine",52,03/14/2015,0,0,Home,"",-,0
+                  Bellarmine",52,03/14/2015,9,7,Home,"",-,167
 2015,Furman,244,"%
                   Mercer",406,03/21/2015,0,0,Home,"",-,0
 2015,Furman,244,"%
@@ -3188,9 +3202,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Georgetown,251,"%
                   Vermont",738,03/10/2015,18,10,Home,"",-,211
 2015,Georgetown,251,"%
-                  Duke",193,03/14/2015,0,0,Home,"",-,0
+                  Duke",193,03/14/2015,13,15,Home,"",-,"1,395"
 2015,Georgetown,251,"%
-                  Loyola Maryland",369,03/18/2015,0,0,Away,"",-,0
+                  Loyola Maryland",369,03/18/2015,13,12,Away,"",-,906
 2015,Georgetown,251,"%
                   Marquette",387,03/21/2015,0,0,Home,"",-,0
 2015,Georgetown,251,"%
@@ -3214,7 +3228,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Gettysburg,258,"%
                   York (PA)",815,03/11/2015,12,6,Home,"",-,255
 2015,Gettysburg,258,"%
-                  Eastern",8968,03/14/2015,0,0,Away,"",-,0
+                  Eastern",8968,03/14/2015,15,9,Away,"",-,347
 2015,Gettysburg,258,"%
                   Haverford",276,03/21/2015,0,0,Home,"",-,0
 2015,Gettysburg,258,"%
@@ -3248,11 +3262,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Gordon,1099,"%
                   Swarthmore",686,03/11/2015,8,16,Neutral,"Irvine, Calif.",-,50
 2015,Gordon,1099,"%
-                  Swarthmore",686,03/11/2015,0,16,Neutral,"Irvine, Calif.",-,50
-2015,Gordon,1099,"%
-                  Swarthmore",686,03/11/2015,8,16,Neutral,"Irvine, Calif.",-,50
-2015,Gordon,1099,"%
-                  MIT",398,03/19/2015,0,0,Away,"",-,0
+                  MIT",398,03/19/2015,8,12,Away,"",-,35
 2015,Gordon,1099,"%
                   Wentworth",762,03/21/2015,0,0,Away,"",-,0
 2015,Gordon,1099,"%
@@ -3286,7 +3296,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Goucher,1467,"%
                   Messiah",411,03/11/2015,7,4,Home,"",-,126
 2015,Goucher,1467,"%
-                  Merchant Marine",724,03/14/2015,0,0,Home,"",-,0
+                  Merchant Marine",724,03/14/2015,7,8,Home,"",-,153
 2015,Goucher,1467,"%
                   Wash. & Jeff.",751,03/21/2015,0,0,Away,"",-,0
 2015,Goucher,1467,"%
@@ -3302,13 +3312,13 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Green Mountain,11062,"%
                   Daniel Webster",2691,03/11/2015,6,14,Away,"",-,37
 2015,Green Mountain,11062,"%
-                  Emerson",214,03/14/2015,0,0,Away,"",-,0
+                  Emerson",214,03/14/2015,7,18,Away,"",-,55
 2015,Green Mountain,11062,"%
                   Castleton",123,03/17/2015,0,0,Away,"",-,0
 2015,Green Mountain,11062,"%
                   Regis (MA)",569,03/21/2015,0,0,Away,"",-,0
 2015,Green Mountain,11062,"%
-                  Johnson St.",324,03/25/2015,0,0,Home,"",-,0
+                  Johnson St.",324,03/25/2015,0,0,Neutral,"Castleton, VT.",-,0
 2015,Green Mountain,11062,"%
                   Maine Maritime",378,03/28/2015,0,0,Home,"",-,0
 2015,Green Mountain,11062,"%
@@ -3334,11 +3344,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Greensboro,263,"%
                   Southern Va.",30164,03/07/2015,14,10,Away,"",-,67
 2015,Greensboro,263,"%
-                  Hilbert",8398,03/13/2015,0,0,Home,"",-,0
+                  Hilbert",8398,03/13/2015,7,14,Home,"",-,98
 2015,Greensboro,263,"%
-                  Alfred St.",30170,03/16/2015,0,0,Home,"",-,0
+                  Alfred St.",30170,03/16/2015,18,9,Home,"",-,248
 2015,Greensboro,263,"%
-                  Randolph",566,03/18/2015,0,0,Away,"",-,0
+                  Randolph",566,03/18/2015,13,14,Away,"",-,0
 2015,Greensboro,263,"%
                   Ferrum",225,03/25/2015,0,0,Home,"",-,0
 2015,Greensboro,263,"%
@@ -3356,7 +3366,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Guilford,1112,"%
                   Catholic",124,03/07/2015,12,6,Home,"",-,175
 2015,Guilford,1112,"%
-                  Lynchburg",374,03/14/2015,0,0,Home,"",-,0
+                  Lynchburg",374,03/14/2015,4,13,Home,"",-,100
 2015,Guilford,1112,"%
                   Alfred St.",30170,03/18/2015,0,0,Home,"",-,0
 2015,Guilford,1112,"%
@@ -3390,11 +3400,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Gwynedd-Mercy,12399,"%
                   Haverford",276,03/11/2015,9,10,Home,"",-,200
 2015,Gwynedd-Mercy,12399,"%
-                  Messiah",411,03/14/2015,0,0,Home,"",-,0
+                  Messiah",411,03/14/2015,6,7,Home,"",-,250
 2015,Gwynedd-Mercy,12399,"%
-                  Delaware Valley",179,03/18/2015,0,0,Home,"",-,0
+                  Delaware Valley",179,03/18/2015,11,2,Home,"",-,150
 2015,Gwynedd-Mercy,12399,"%
-                  DeSales",20,03/21/2015,0,0,Away,"",-,0
+                  DeSales",20,03/21/2015,0,0,Neutral,Muhlenberg College,-,0
 2015,Gwynedd-Mercy,12399,"%
                   Immaculata",303,03/25/2015,0,0,Home,"",-,0
 2015,Gwynedd-Mercy,12399,"%
@@ -3418,11 +3428,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Hamilton,267,"%
                   Utica",733,03/11/2015,11,6,Away,"",-,63
 2015,Hamilton,267,"%
-                  Bowdoin",69,03/14/2015,0,0,Away,"",-,0
+                  Bowdoin",69,03/14/2015,8,12,Away,"",-,208
 2015,Hamilton,267,"%
                   Western Conn. St.",770,03/17/2015,0,0,Neutral,"Kissimmee, FL",-,0
 2015,Hamilton,267,"%
-                  Keene St.",330,03/19/2015,0,0,Neutral,"Kissimmee, Fla.",-,0
+                  Keene St.",330,03/19/2015,17,10,Neutral,"Davenport, Fla.",-,100
 2015,Hamilton,267,"%
                   Amherst",24,03/21/2015,0,0,Neutral,"Kissimmee, FL",-,0
 2015,Hamilton,267,"%
@@ -3450,7 +3460,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Hampden-Sydney,269,"%
                   Salisbury",622,03/11/2015,4,13,Away,"",-,231
 2015,Hampden-Sydney,269,"%
-                  Shenandoah",637,03/14/2015,0,0,Away,"",-,0
+                  Shenandoah",637,03/14/2015,19,7,Away,"",-,332
 2015,Hampden-Sydney,269,"%
                   Roanoke",578,03/21/2015,0,0,Away,"",-,0
 2015,Hampden-Sydney,269,"%
@@ -3480,9 +3490,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Hanover,1115,"%
                   Wilmington (OH)",1461,03/11/2015,16,8,Home,"",-,63
 2015,Hanover,1115,"%
-                  Baldwin Wallace",46,03/14/2015,0,0,Away,"",-,0
+                  Baldwin Wallace",46,03/14/2015,2,14,Away,"",-,123
 2015,Hanover,1115,"%
-                  Fontbonne",11538,03/18/2015,0,0,Home,"",-,0
+                  Fontbonne",11538,03/18/2015,19,5,Home,"",-,53
 2015,Hanover,1115,"%
                   Saint Vincent",30064,03/21/2015,0,0,Home,"",-,0
 2015,Hanover,1115,"%
@@ -3508,9 +3518,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Hartford,272,"%
                   Quinnipiac",562,03/07/2015,10,9,Away,"",1 OT,492
 2015,Hartford,272,"%
-                  UMass Lowell",368,03/14/2015,0,0,Home,"",-,0
+                  UMass Lowell",368,03/14/2015,13,5,Home,"",-,314
 2015,Hartford,272,"%
-                  Holy Cross",285,03/17/2015,0,0,Away,"",-,0
+                  Holy Cross",285,03/17/2015,2,11,Away,"",-,411
 2015,Hartford,272,"%
                   Albany (NY)",14,03/21/2015,0,0,Away,"",-,0
 2015,Hartford,272,"%
@@ -3530,7 +3540,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Hartwick,273,"%
                   Eastern Conn. St.",200,03/11/2015,6,9,Home,"",-,75
 2015,Hartwick,273,"%
-                  Farmingdale St.",27892,03/14/2015,0,0,Home,"",-,0
+                  Farmingdale St.",27892,03/14/2015,6,10,Home,"",-,100
 2015,Hartwick,273,"%
                   Utica",733,03/21/2015,0,0,Home,"",-,0
 2015,Hartwick,273,"%
@@ -3564,9 +3574,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Harvard,275,"%
                   Holy Cross",285,03/09/2015,20,9,Away,"",-,691
 2015,Harvard,275,"%
-                  Brown",80,03/14/2015,0,0,Away,"",-,0
+                  Brown",80,03/14/2015,9,14,Away,"",-,522
 2015,Harvard,275,"%
-                  North Carolina",457,03/17/2015,0,0,Away,"",-,0
+                  North Carolina",457,03/17/2015,10,15,Away,"",-,"1,532"
 2015,Harvard,275,"%
                   Dartmouth",172,03/21/2015,0,0,Away,"",-,0
 2015,Harvard,275,"%
@@ -3592,7 +3602,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Haverford,276,"%
                   Gwynedd Mercy",12399,03/11/2015,10,9,Away,"",-,200
 2015,Haverford,276,"%
-                  York (PA)",815,03/14/2015,0,0,Home,"",-,0
+                  York (PA)",815,03/14/2015,4,15,Home,"",-,163
 2015,Haverford,276,"%
                   Gettysburg",258,03/21/2015,0,0,Away,"",-,0
 2015,Haverford,276,"%
@@ -3624,9 +3634,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Hendrix,1124,"%
                   Defiance",1050,03/09/2015,25,4,Home,"",-,103
 2015,Hendrix,1124,"%
-                  Beloit",53,03/14/2015,0,0,Home,"",-,0
+                  Beloit",53,03/14/2015,4,8,Home,"",-,372
 2015,Hendrix,1124,"%
-                  Rhodes",573,03/18/2015,0,0,Home,"",-,0
+                  Rhodes",573,03/18/2015,10,11,Home,"",1 OT,132
 2015,Hendrix,1124,"%
                   Millsaps",426,03/21/2015,0,0,Away,"",-,0
 2015,Hendrix,1124,"%
@@ -3654,7 +3664,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,High Point,19651,"%
                   Marist",386,03/07/2015,9,10,Away,"",-,325
 2015,High Point,19651,"%
-                  Mercer",406,03/14/2015,0,0,Away,"",-,0
+                  Mercer",406,03/14/2015,11,12,Away,"",1 OT,214
 2015,High Point,19651,"%
                   Air Force",721,03/22/2015,0,0,Home,"",-,0
 2015,High Point,19651,"%
@@ -3670,11 +3680,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Hilbert,8398,"%
                   Alfred",18,03/09/2015,0,0,Neutral,"Myrtle Beach, SC",-,0
 2015,Hilbert,8398,"%
-                  Emmanuel (MA)",215,03/11/2015,0,0,Neutral,"Myrtle Beach, SC",-,0
+                  Emmanuel (MA)",215,03/11/2015,7,14,Neutral,"Myrtle Beach, SC",-,50
 2015,Hilbert,8398,"%
-                  Greensboro",263,03/13/2015,0,0,Away,"",-,0
-2015,Hilbert,8398,"%
-                  Baldwin Wallace",46,03/21/2015,0,0,Home,"",-,0
+                  Greensboro",263,03/13/2015,14,7,Away,"",-,98
 2015,Hilbert,8398,"%
                   Brockport",78,03/25/2015,0,0,Away,"",-,0
 2015,Hilbert,8398,"%
@@ -3702,9 +3710,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Hiram,281,"%
                   Point U.",,03/07/2015,9,8,Away,"",-,30
 2015,Hiram,281,"%
-                  Wittenberg",806,03/14/2015,0,0,Home,"",-,0
+                  Wittenberg",806,03/14/2015,1,23,Home,"",-,60
 2015,Hiram,281,"%
-                  Defiance",1050,03/18/2015,0,0,Away,"",-,0
+                  Defiance",1050,03/18/2015,15,5,Away,"",-,53
 2015,Hiram,281,"%
                   Wooster",807,03/21/2015,0,0,Away,"",-,0
 2015,Hiram,281,"%
@@ -3732,7 +3740,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Hobart,282,"%
                   Canisius",116,03/10/2015,10,4,Home,"",-,400
 2015,Hobart,282,"%
-                  Towson",711,03/14/2015,0,0,Away,"",-,0
+                  Towson",711,03/14/2015,6,9,Away,"",-,766
 2015,Hobart,282,"%
                   Bryant",81,03/21/2015,0,0,Home,"",-,0
 2015,Hobart,282,"%
@@ -3758,9 +3766,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Hofstra,283,"%
                   Ohio St.",518,03/07/2015,8,9,Away,"",-,952
 2015,Hofstra,283,"%
-                  Providence",556,03/14/2015,0,0,Home,"",-,0
+                  Providence",556,03/14/2015,15,4,Home,"",-,668
 2015,Hofstra,283,"%
-                  St. John's (NY)",603,03/17/2015,0,0,Home,"",-,0
+                  St. John's (NY)",603,03/17/2015,10,7,Home,"",-,958
 2015,Hofstra,283,"%
                   Massachusetts",400,03/21/2015,0,0,Home,"",-,0
 2015,Hofstra,283,"%
@@ -3788,9 +3796,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Holy Cross,285,"%
                   Harvard",275,03/09/2015,9,20,Home,"",-,691
 2015,Holy Cross,285,"%
-                  Bucknell",83,03/14/2015,0,0,Away,"",-,0
+                  Bucknell",83,03/14/2015,6,15,Away,"",-,250
 2015,Holy Cross,285,"%
-                  Hartford",272,03/17/2015,0,0,Home,"",-,0
+                  Hartford",272,03/17/2015,11,2,Home,"",-,411
 2015,Holy Cross,285,"%
                   St. John's (NY)",603,03/21/2015,0,0,Home,"",-,0
 2015,Holy Cross,285,"%
@@ -3816,7 +3824,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Hood,8404,"%
                   Ill. Wesleyan",300,03/11/2015,4,16,Home,"",-,161
 2015,Hood,8404,"%
-                  Saint Vincent",30064,03/14/2015,0,0,Away,"",-,0
+                  Saint Vincent",30064,03/14/2015,3,8,Away,"",-,135
 2015,Hood,8404,"%
                   Delaware Valley",179,03/21/2015,0,0,Away,"",-,0
 2015,Hood,8404,"%
@@ -3842,9 +3850,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Hope,286,"%
                   Bethany (WV)",59,03/12/2015,20,6,Home,"",-,161
 2015,Hope,286,"%
-                  Methodist",412,03/14/2015,0,0,Away,"",-,0
+                  Methodist",412,03/14/2015,7,14,Away,"",-,56
 2015,Hope,286,"%
-                  Ferrum",225,03/16/2015,0,0,Away,"",-,0
+                  Ferrum",225,03/16/2015,8,16,Away,"",-,250
 2015,Hope,286,"%
                   Carthage",121,03/21/2015,0,0,Home,"",-,0
 2015,Hope,286,"%
@@ -3882,7 +3890,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Houghton,30160,"%
                   Wells",761,03/11/2015,0,0,Home,"",-,0
 2015,Houghton,30160,"%
-                  Alfred",18,03/17/2015,0,0,Away,"",-,0
+                  Alfred",18,03/17/2015,3,22,Away,"",-,0
 2015,Houghton,30160,"%
                   Medaille",23725,03/21/2015,0,0,Home,"",-,0
 2015,Houghton,30160,"%
@@ -3920,9 +3928,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Huntingdon,1130,"%
                   Dallas",1044,03/11/2015,20,2,Home,"",-,43
 2015,Huntingdon,1130,"%
-                  Berry",973,03/14/2015,0,0,Home,"",-,0
+                  Berry",973,03/14/2015,6,15,Home,"",-,122
 2015,Huntingdon,1130,"%
-                  Benedictine (IL)",296,03/16/2015,0,0,Home,"",-,0
+                  Benedictine (IL)",296,03/16/2015,8,10,Home,"",-,72
 2015,Huntingdon,1130,"%
                   Augustana (IL)",40,03/22/2015,0,0,Neutral,"Lexington, KY",-,0
 2015,Huntingdon,1130,"%
@@ -3942,7 +3950,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Husson,1133,"%
                   Regis (MA)",569,03/11/2015,6,13,Away,"",-,65
 2015,Husson,1133,"%
-                  Johnson & Wales (RI)",22626,03/14/2015,0,0,Away,"",-,0
+                  Johnson & Wales (RI)",22626,03/14/2015,12,11,Away,"",-,93
 2015,Husson,1133,"%
                   Johnson St.",324,03/21/2015,0,0,Home,"",-,0
 2015,Husson,1133,"%
@@ -3976,9 +3984,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Ill. Wesleyan,300,"%
                   Hood",8404,03/11/2015,16,4,Away,"",-,161
 2015,Ill. Wesleyan,300,"%
-                  Adrian",4,03/14/2015,0,0,Away,"",-,0
+                  Adrian",4,03/14/2015,10,13,Away,"",-,84
 2015,Ill. Wesleyan,300,"%
-                  Carroll (WI)",120,03/17/2015,0,0,Home,"",-,0
+                  Carroll (WI)",120,03/17/2015,18,1,Home,"",-,40
 2015,Ill. Wesleyan,300,"%
                   Olivet",525,03/21/2015,0,0,Away,"",-,0
 2015,Ill. Wesleyan,300,"%
@@ -4008,7 +4016,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Immaculata,303,"%
                   Alvernia",938,03/11/2015,7,8,Home,"",-,261
 2015,Immaculata,303,"%
-                  Misericordia",16142,03/14/2015,0,0,Away,"",-,0
+                  Misericordia",16142,03/14/2015,6,23,Away,"",-,125
 2015,Immaculata,303,"%
                   Bryn Athyn",30188,03/18/2015,0,0,Away,"",-,0
 2015,Immaculata,303,"%
@@ -4032,8 +4040,6 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Ithaca,313,"%
                   Marywood",397,02/22/2015,13,10,Home,"",-,144
 2015,Ithaca,313,"%
-                  Oswego St.",530,02/25/2015,0,0,Home,"",-,0
-2015,Ithaca,313,"%
                   Rochester Inst.",580,02/28/2015,9,12,Home,"",-,344
 2015,Ithaca,313,"%
                   Lycoming",373,03/04/2015,19,4,Away,"",-,123
@@ -4042,7 +4048,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Ithaca,313,"%
                   Tampa",689,03/10/2015,8,9,Away,"",1 OT,320
 2015,Ithaca,313,"%
-                  Salve Regina",623,03/12/2015,0,0,Neutral,"Tampa, FL",-,0
+                  Salve Regina",623,03/12/2015,18,3,Neutral,"Tampa, Fla.",-,183
 2015,Ithaca,313,"%
                   SUNY Oneonta",526,03/18/2015,0,0,Home,"",-,0
 2015,Ithaca,313,"%
@@ -4074,7 +4080,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Jacksonville,316,"%
                   Robert Morris",579,03/11/2015,18,13,Home,"",-,0
 2015,Jacksonville,316,"%
-                  VMI",741,03/14/2015,0,0,Away,"",-,0
+                  VMI",741,03/14/2015,8,3,Away,"",-,175
 2015,Jacksonville,316,"%
                   Richmond",575,03/21/2015,0,0,Home,"",-,0
 2015,Jacksonville,316,"%
@@ -4096,7 +4102,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,John Carroll,320,"%
                   Randolph-Macon",565,03/07/2015,6,7,Away,"",1 OT,120
 2015,John Carroll,320,"%
-                  Aurora",42,03/13/2015,0,0,Home,"",-,0
+                  Aurora",42,03/13/2015,8,11,Home,"",-,117
 2015,John Carroll,320,"%
                   Saint Vincent",30064,03/18/2015,0,0,Away,"",-,0
 2015,John Carroll,320,"%
@@ -4130,7 +4136,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Johns Hopkins,322,"%
                   Navy",726,03/07/2015,13,8,Home,"",-,"1,484"
 2015,Johns Hopkins,322,"%
-                  Syracuse",688,03/14/2015,0,0,Away,"",-,0
+                  Syracuse",688,03/14/2015,10,13,Away,"",-,"5,778"
 2015,Johns Hopkins,322,"%
                   Virginia",746,03/21/2015,0,0,Home,"",-,0
 2015,Johns Hopkins,322,"%
@@ -4150,9 +4156,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Johnson & Wales (RI),22626,"%
                   Becker",26107,03/11/2015,7,4,Away,"",-,37
 2015,Johnson & Wales (RI),22626,"%
-                  Husson",1133,03/14/2015,0,0,Home,"",-,0
+                  Husson",1133,03/14/2015,11,12,Home,"",-,93
 2015,Johnson & Wales (RI),22626,"%
-                  Emerson",214,03/17/2015,0,0,Away,"",-,0
+                  Emerson",214,03/17/2015,13,9,Away,"",-,80
 2015,Johnson & Wales (RI),22626,"%
                   Norwich",511,03/20/2015,0,0,Home,"",-,0
 2015,Johnson & Wales (RI),22626,"%
@@ -4174,11 +4180,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Johnson St.,324,"%
                   Becker",26107,03/14/2015,0,0,Away,"",-,0
 2015,Johnson St.,324,"%
-                  Daniel Webster",2691,03/17/2015,0,0,Away,"",-,0
+                  Daniel Webster",2691,03/17/2015,9,10,Away,"",-,12
 2015,Johnson St.,324,"%
                   Husson",1133,03/21/2015,0,0,Away,"",-,0
 2015,Johnson St.,324,"%
-                  Green Mountain",11062,03/25/2015,0,0,Away,"",-,0
+                  Green Mountain",11062,03/25/2015,0,0,Neutral,"Castleton, VT.",-,0
 2015,Johnson St.,324,"%
                   Wheelock",8896,03/29/2015,0,0,Away,"",-,0
 2015,Johnson St.,324,"%
@@ -4238,9 +4244,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Keene St.,330,"%
                   Bowdoin",69,03/11/2015,18,13,Home,"",-,250
 2015,Keene St.,330,"%
-                  SUNY Geneseo",247,03/16/2015,0,0,Neutral,"Kissimmee, Fla.",-,0
+                  SUNY Geneseo",247,03/16/2015,15,9,Neutral,"Orlando, Fla.",-,80
 2015,Keene St.,330,"%
-                  Hamilton",267,03/19/2015,0,0,Neutral,"Kissimmee, Fla.",-,0
+                  Hamilton",267,03/19/2015,10,17,Neutral,"Davenport, Fla.",-,100
 2015,Keene St.,330,"%
                   Bates",50,03/25/2015,0,0,Home,"",-,0
 2015,Keene St.,330,"%
@@ -4268,7 +4274,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Kenyon,335,"%
                   Adrian",4,03/11/2015,13,12,Home,"",-,55
 2015,Kenyon,335,"%
-                  DePauw",177,03/14/2015,0,0,Home,"",-,0
+                  DePauw",177,03/14/2015,10,6,Home,"",-,85
 2015,Kenyon,335,"%
                   Ohio Wesleyan",520,03/21/2015,0,0,Home,"",-,0
 2015,Kenyon,335,"%
@@ -4286,7 +4292,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Kenyon,335,"%
                   Hiram",281,04/18/2015,0,0,Away,"",-,0
 2015,Keuka,1159,"%
-                  Brockport",78,03/14/2015,0,0,Home,"",-,0
+                  Brockport",78,03/14/2015,12,13,Away,"",-,250
 2015,Keuka,1159,"%
                   Alfred",18,03/21/2015,0,0,Away,"",-,0
 2015,Keuka,1159,"%
@@ -4340,7 +4346,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Kings (PA),336,"%
                   Keystone",30047,03/13/2015,16,3,Away,"",-,62
 2015,Kings (PA),336,"%
-                  Lebanon Valley",351,03/18/2015,0,0,Away,"",-,0
+                  Lebanon Valley",351,03/18/2015,10,5,Away,"",-,110
 2015,Kings (PA),336,"%
                   Hartwick",273,03/24/2015,0,0,Home,"",-,0
 2015,Kings (PA),336,"%
@@ -4396,9 +4402,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Lafayette,342,"%
                   Navy",726,03/10/2015,4,18,Home,"",-,378
 2015,Lafayette,342,"%
-                  Boston U.",68,03/14/2015,0,0,Away,"",-,0
+                  Boston U.",68,03/14/2015,8,17,Away,"",-,127
 2015,Lafayette,342,"%
-                  Sacred Heart",590,03/17/2015,0,0,Away,"",-,0
+                  Sacred Heart",590,03/17/2015,11,14,Away,"",-,182
 2015,Lafayette,342,"%
                   Loyola Maryland",369,03/21/2015,0,0,Home,"",-,0
 2015,Lafayette,342,"%
@@ -4424,7 +4430,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Lake Erie,2746,"%
                   Limestone",1174,03/21/2015,0,0,Away,"",-,0
 2015,Lake Erie,2746,"%
-                  Ohio Valley",15207,03/25/2015,0,0,Away,"",-,0
+                  Ohio Valley",15207,03/26/2015,0,0,Away,"",-,0
 2015,Lake Erie,2746,"%
                   Alderson Broaddus",934,03/28/2015,0,0,Away,"",-,0
 2015,Lake Erie,2746,"%
@@ -4450,7 +4456,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Lasell,8486,"%
                   Centenary (LA)",125,03/15/2015,0,0,Neutral,"Georgetown, TX",-,0
 2015,Lasell,8486,"%
-                  Southwestern (TX)",8746,03/17/2015,0,0,Away,"",-,0
+                  Southwestern (TX)",8746,03/17/2015,11,3,Away,"",-,76
 2015,Lasell,8486,"%
                   Rivier",18422,03/21/2015,0,0,Home,"",-,0
 2015,Lasell,8486,"%
@@ -4476,9 +4482,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Le Moyne,349,"%
                   Mercyhurst",408,03/07/2015,9,5,Neutral,"Pittsford, N.Y.",-,0
 2015,Le Moyne,349,"%
-                  Assumption",36,03/14/2015,0,0,Away,"",-,0
+                  Assumption",36,03/14/2015,20,6,Away,"",-,140
 2015,Le Moyne,349,"%
-                  Franklin Pierce",241,03/17/2015,0,0,Home,"",-,0
+                  Franklin Pierce",241,03/17/2015,15,1,Home,"",-,97
 2015,Le Moyne,349,"%
                   Saint Michael's",613,03/21/2015,0,0,Home,"",-,0
 2015,Le Moyne,349,"%
@@ -4506,11 +4512,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Lebanon Valley,351,"%
                   Kean",329,03/11/2015,4,6,Away,"",-,266
 2015,Lebanon Valley,351,"%
-                  Elmira",213,03/14/2015,0,0,Home,"",-,0
+                  Elmira",213,03/14/2015,15,4,Home,"",-,110
 2015,Lebanon Valley,351,"%
-                  King's (PA)",336,03/18/2015,0,0,Home,"",-,0
+                  King's (PA)",336,03/18/2015,5,10,Home,"",-,110
 2015,Lebanon Valley,351,"%
-                  Neumann",1254,03/21/2015,0,0,Away,"",-,0
+                  Neumann",1254,03/22/2015,0,0,Away,"",-,0
 2015,Lebanon Valley,351,"%
                   Hood",8404,03/25/2015,0,0,Home,"",-,0
 2015,Lebanon Valley,351,"%
@@ -4540,6 +4546,10 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Lees-McRae,13302,"%
                   Saint Leo",608,03/12/2015,8,17,Away,"",-,238
 2015,Lees-McRae,13302,"%
+                  Alderson Broaddus",934,03/15/2015,13,9,Home,"",-,75
+2015,Lees-McRae,13302,"%
+                  Mount Olive",1245,03/17/2015,3,18,Home,"",-,74
+2015,Lees-McRae,13302,"%
                   Emmanuel (GA)",30193,03/21/2015,0,0,Away,"",-,0
 2015,Lees-McRae,13302,"%
                   Colorado St.-Pueblo",2720,03/28/2015,0,0,Home,"",-,0
@@ -4568,9 +4578,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Lehigh,352,"%
                   Villanova",739,03/10/2015,3,8,Away,"",-,343
 2015,Lehigh,352,"%
-                  Navy",726,03/14/2015,0,0,Away,"",-,0
+                  Navy",726,03/14/2015,12,13,Away,"",-,629
 2015,Lehigh,352,"%
-                  Denver",183,03/17/2015,0,0,Home,"",-,0
+                  Denver",183,03/17/2015,4,10,Home,"",-,897
 2015,Lehigh,352,"%
                   Army",725,03/21/2015,0,0,Home,"",-,0
 2015,Lehigh,352,"%
@@ -4598,9 +4608,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Lenoir-Rhyne,1170,"%
                   Brevard",30094,03/11/2015,22,8,Home,"",-,150
 2015,Lenoir-Rhyne,1170,"%
-                  Coker",1023,03/14/2015,0,0,Away,"",-,0
+                  Coker",1023,03/13/2015,11,12,Away,"",-,50
 2015,Lenoir-Rhyne,1170,"%
-                  Queens (NC)",11504,03/18/2015,0,0,Home,"",-,0
+                  Queens (NC)",11504,03/18/2015,10,9,Home,"",-,250
 2015,Lenoir-Rhyne,1170,"%
                   Pfeiffer",542,03/21/2015,0,0,Away,"",-,0
 2015,Lenoir-Rhyne,1170,"%
@@ -4626,7 +4636,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Limestone,1174,"%
                   NYIT",477,03/07/2015,8,7,Away,"",-,0
 2015,Limestone,1174,"%
-                  Seton Hill",30063,03/14/2015,0,0,Home,"",-,0
+                  Seton Hill",30063,03/14/2015,12,11,Home,"",1 OT,0
 2015,Limestone,1174,"%
                   Lake Erie",2746,03/21/2015,0,0,Home,"",-,0
 2015,Limestone,1174,"%
@@ -4656,9 +4666,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Lincoln Memorial,1176,"%
                   Wingate",1462,03/08/2015,9,10,Away,"",-,129
 2015,Lincoln Memorial,1176,"%
-                  Catawba",1001,03/14/2015,0,0,Away,"",-,0
+                  Catawba",1001,03/14/2015,7,11,Away,"",-,89
 2015,Lincoln Memorial,1176,"%
-                  Tusculum",12830,03/17/2015,0,0,Home,"",-,0
+                  Tusculum",12830,03/17/2015,7,8,Home,"",2 OT,120
 2015,Lincoln Memorial,1176,"%
                   Queens (NC)",11504,03/21/2015,0,0,Home,"",-,0
 2015,Lincoln Memorial,1176,"%
@@ -4676,9 +4686,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Lindenwood (MO),30136,"%
                   Colorado St.-Pueblo",2720,03/01/2015,15,3,Home,"",-,50
 2015,Lindenwood (MO),30136,"%
-                  Fontbonne",11538,03/15/2015,0,0,Home,"",-,0
+                  Fontbonne",11538,03/15/2015,29,1,Home,"",-,175
 2015,Lindenwood (MO),30136,"%
-                  Alderson Broaddus",934,03/19/2015,0,0,Away,"",-,0
+                  Alderson Broaddus",934,03/19/2015,17,3,Away,"",-,98
 2015,Lindenwood (MO),30136,"%
                   Wheeling Jesuit",12799,03/21/2015,0,0,Away,"",-,0
 2015,Lindenwood (MO),30136,"%
@@ -4714,9 +4724,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Loyola Maryland,369,"%
                   Duke",193,03/07/2015,8,14,Away,"",-,"2,084"
 2015,Loyola Maryland,369,"%
-                  Army",725,03/14/2015,0,0,Away,"",-,0
+                  Army",725,03/14/2015,12,10,Away,"",-,"2,401"
 2015,Loyola Maryland,369,"%
-                  Georgetown",251,03/18/2015,0,0,Home,"",-,0
+                  Georgetown",251,03/18/2015,12,13,Home,"",-,906
 2015,Loyola Maryland,369,"%
                   Lafayette",342,03/21/2015,0,0,Away,"",-,0
 2015,Loyola Maryland,369,"%
@@ -4740,7 +4750,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Lycoming,373,"%
                   Frostburg St.",243,03/10/2015,4,12,Home,"",-,164
 2015,Lycoming,373,"%
-                  Muhlenberg",453,03/14/2015,0,0,Away,"",-,0
+                  Frostburg St.",243,03/11/2015,4,12,Home,"",-,164
+2015,Lycoming,373,"%
+                  Muhlenberg",453,03/14/2015,5,15,Away,"",-,100
 2015,Lycoming,373,"%
                   Misericordia",16142,03/21/2015,0,0,Away,"",-,0
 2015,Lycoming,373,"%
@@ -4768,7 +4780,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Lynchburg,374,"%
                   Endicott",8981,03/10/2015,13,15,Away,"",-,550
 2015,Lynchburg,374,"%
-                  Guilford",1112,03/14/2015,0,0,Away,"",-,0
+                  Guilford",1112,03/14/2015,13,4,Away,"",-,100
 2015,Lynchburg,374,"%
                   SUNY Cortland",168,03/20/2015,0,0,Neutral,"Baltimore, MD",-,0
 2015,Lynchburg,374,"%
@@ -4828,7 +4840,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Lynn,20794,"%
                   North Greenville",9223,03/12/2015,16,6,Neutral,"Marietta, G.A.",-,50
 2015,Lynn,20794,"%
-                  Young Harris",30154,03/15/2015,0,0,Neutral,"Marietta, GA",-,0
+                  Young Harris",30154,03/15/2015,9,7,Neutral,"Marietta, Ga.",-,350
 2015,Lynn,20794,"%
                   Fla. Southern",233,03/21/2015,0,0,Away,"",-,0
 2015,Lynn,20794,"%
@@ -4850,9 +4862,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Maine Maritime,378,"%
                   Colby",151,03/11/2015,4,25,Away,"",-,100
 2015,Maine Maritime,378,"%
-                  SUNY Maritime",478,03/13/2015,0,0,Away,"",-,0
+                  SUNY Maritime",478,03/13/2015,8,15,Away,"",-,235
 2015,Maine Maritime,378,"%
-                  Mass. Maritime",399,03/14/2015,0,0,Neutral,"Throggs Neck, NY",-,0
+                  Mass. Maritime",399,03/14/2015,8,16,Neutral,"Throggs Neck, N.Y.",-,55
 2015,Maine Maritime,378,"%
                   Lyndon St.",30065,03/21/2015,0,0,Home,"",-,0
 2015,Maine Maritime,378,"%
@@ -4882,9 +4894,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Manhattan,381,"%
                   North Carolina",457,03/07/2015,6,26,Away,"",-,418
 2015,Manhattan,381,"%
-                  Canisius",116,03/14/2015,0,0,Home,"",-,0
+                  Canisius",116,03/14/2015,4,8,Home,"",-,267
 2015,Manhattan,381,"%
-                  Delaware",180,03/18/2015,0,0,Away,"",-,0
+                  Delaware",180,03/18/2015,5,12,Away,"",-,709
 2015,Manhattan,381,"%
                   Brown",80,03/21/2015,0,0,Away,"",-,0
 2015,Manhattan,381,"%
@@ -4904,9 +4916,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Manhattanville,382,"%
                   SUNY Maritime",478,03/11/2015,8,7,Home,"",-,204
 2015,Manhattanville,382,"%
-                  Curry",170,03/14/2015,0,0,Home,"",-,0
+                  Curry",170,03/14/2015,5,6,Home,"",1 OT,213
 2015,Manhattanville,382,"%
-                  Mt. St. Mary (NY)",1468,03/18/2015,0,0,Away,"",-,0
+                  Mt. St. Mary (NY)",1468,03/18/2015,8,7,Away,"",-,41
 2015,Manhattanville,382,"%
                   Clark (MA)",145,03/21/2015,0,0,Away,"",-,0
 2015,Manhattanville,382,"%
@@ -4936,7 +4948,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Marist,386,"%
                   Penn St.",539,03/10/2015,8,9,Neutral,"Babson Park, Mass.",-,462
 2015,Marist,386,"%
-                  Monmouth",439,03/14/2015,0,0,Home,"",-,0
+                  Monmouth",439,03/14/2015,10,3,Home,"",-,265
 2015,Marist,386,"%
                   Canisius",116,03/21/2015,0,0,Away,"",-,0
 2015,Marist,386,"%
@@ -4994,7 +5006,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Mars Hill,1199,"%
                   Tusculum",12830,03/12/2015,19,6,Home,"",-,92
 2015,Mars Hill,1199,"%
-                  Brevard",30094,03/18/2015,0,0,Away,"",-,0
+                  Brevard",30094,03/18/2015,22,3,Away,"",-,118
 2015,Mars Hill,1199,"%
                   Tampa",689,03/22/2015,0,0,Neutral,"Marietta, GA",-,0
 2015,Mars Hill,1199,"%
@@ -5018,9 +5030,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Mary Washington,390,"%
                   Wash. & Lee",752,03/11/2015,5,14,Away,"",-,215
 2015,Mary Washington,390,"%
-                  Southern Va.",30164,03/14/2015,0,0,Away,"",-,0
+                  Southern Va.",30164,03/14/2015,15,5,Away,"",-,50
 2015,Mary Washington,390,"%
-                  Ferrum",225,03/18/2015,0,0,Away,"",-,0
+                  Ferrum",225,03/18/2015,15,6,Away,"",-,105
 2015,Mary Washington,390,"%
                   Salisbury",622,03/21/2015,0,0,Away,"",-,0
 2015,Mary Washington,390,"%
@@ -5048,7 +5060,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Maryland,392,"%
                   Princeton",554,03/07/2015,11,4,Home,"",-,"2,149"
 2015,Maryland,392,"%
-                  Villanova",739,03/14/2015,0,0,Away,"",-,0
+                  Villanova",739,03/14/2015,11,2,Away,"",-,661
 2015,Maryland,392,"%
                   North Carolina",457,03/21/2015,0,0,Neutral,"Santa Ana, CA",-,0
 2015,Maryland,392,"%
@@ -5076,9 +5088,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Marymount (VA),394,"%
                   Mount Union",452,03/07/2015,20,9,Home,"",-,311
 2015,Marymount (VA),394,"%
-                  Frostburg St.",243,03/14/2015,0,0,Home,"",-,0
+                  Frostburg St.",243,03/14/2015,7,14,Home,"",-,411
 2015,Marymount (VA),394,"%
-                  Shenandoah",637,03/18/2015,0,0,Home,"",-,0
+                  Shenandoah",637,03/18/2015,16,12,Home,"",-,201
 2015,Marymount (VA),394,"%
                   Chris. Newport",139,03/21/2015,0,0,Away,"",-,0
 2015,Marymount (VA),394,"%
@@ -5104,9 +5116,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Marywood,397,"%
                   McDaniel",773,03/07/2015,2,8,Away,"",-,209
 2015,Marywood,397,"%
-                  Bridgewater (VA)",75,03/11/2015,0,0,Away,"",-,0
+                  Bridgewater (VA)",75,03/11/2015,7,4,Away,"",-,90
 2015,Marywood,397,"%
-                  Morrisville St.",30067,03/14/2015,0,0,Home,"",-,0
+                  Morrisville St.",30067,03/14/2015,9,5,Home,"",-,253
 2015,Marywood,397,"%
                   SUNY Oneonta",526,03/20/2015,0,0,Neutral,"Uniondale, NY",-,0
 2015,Marywood,397,"%
@@ -5132,13 +5144,13 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Mass. Maritime,399,"%
                   Albertus Magnus",2798,03/12/2015,15,10,Home,"",-,100
 2015,Mass. Maritime,399,"%
-                  Maine Maritime",378,03/14/2015,0,0,Neutral,"Throggs Neck, NY",-,0
+                  Maine Maritime",378,03/14/2015,16,8,Neutral,"Throggs Neck, N.Y.",-,55
 2015,Mass. Maritime,399,"%
-                  SUNY Maritime",478,03/15/2015,0,0,Away,"",-,0
+                  SUNY Maritime",478,03/15/2015,10,9,Away,"",2 OT,253
 2015,Mass. Maritime,399,"%
-                  Plymouth St.",548,03/17/2015,0,0,Home,"",-,0
+                  Plymouth St.",548,03/17/2015,4,19,Home,"",-,75
 2015,Mass. Maritime,399,"%
-                  Wentworth",762,03/19/2015,0,0,Away,"",-,0
+                  Wentworth",762,03/19/2015,9,13,Away,"",-,200
 2015,Mass. Maritime,399,"%
                   Anna Maria",26,03/21/2015,0,0,Away,"",-,0
 2015,Mass. Maritime,399,"%
@@ -5168,11 +5180,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Mass.-Boston,401,"%
                   Gordon",1099,03/06/2015,8,15,Away,"",-,100
 2015,Mass.-Boston,401,"%
-                  Nichols",484,03/12/2015,0,0,Away,"",-,0
+                  Nichols",484,03/12/2015,8,9,Away,"",1 OT,72
 2015,Mass.-Boston,401,"%
-                  Bard",962,03/16/2015,0,0,Neutral,"Orlando, FL",-,0
+                  Bard",962,03/16/2015,10,4,Neutral,"Davenport, Fla.",-,68
 2015,Mass.-Boston,401,"%
-                  Florida Tech",230,03/17/2015,0,0,Away,"",-,0
+                  Florida Tech",230,03/20/2015,6,17,Away,"",-,227
 2015,Mass.-Boston,401,"%
                   Mount Ida",27901,03/25/2015,0,0,Away,"",-,0
 2015,Mass.-Boston,401,"%
@@ -5198,7 +5210,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Mass.-Dartmouth,656,"%
                   Mount Ida",27901,03/11/2015,9,8,Away,"",-,203
 2015,Mass.-Dartmouth,656,"%
-                  Nichols",484,03/14/2015,0,0,Home,"",-,0
+                  Nichols",484,03/14/2015,10,9,Away,"",-,114
 2015,Mass.-Dartmouth,656,"%
                   Roger Williams",583,03/21/2015,0,0,Home,"",-,0
 2015,Mass.-Dartmouth,656,"%
@@ -5232,9 +5244,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Mass.-Lowell,368,"%
                   Providence",556,03/10/2015,6,11,Home,"",-,247
 2015,Mass.-Lowell,368,"%
-                  Hartford",272,03/14/2015,0,0,Away,"",-,0
+                  Hartford",272,03/14/2015,5,13,Away,"",-,314
 2015,Mass.-Lowell,368,"%
-                  Fairfield",220,03/17/2015,0,0,Home,"",-,0
+                  Fairfield",220,03/17/2015,5,11,Home,"",-,103
 2015,Mass.-Lowell,368,"%
                   Vermont",738,03/21/2015,0,0,Home,"",-,0
 2015,Mass.-Lowell,368,"%
@@ -5262,7 +5274,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Massachusetts,400,"%
                   Quinnipiac",562,03/10/2015,18,5,Home,"",-,325
 2015,Massachusetts,400,"%
-                  Penn St.",539,03/14/2015,0,0,Home,"",-,0
+                  Penn St.",539,03/14/2015,12,8,Home,"",-,335
 2015,Massachusetts,400,"%
                   Hofstra",283,03/21/2015,0,0,Away,"",-,0
 2015,Massachusetts,400,"%
@@ -5284,9 +5296,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,McDaniel,773,"%
                   Eastern",8968,03/11/2015,8,11,Home,"",-,198
 2015,McDaniel,773,"%
-                  Ferrum",225,03/14/2015,0,0,Away,"",-,0
+                  Ferrum",225,03/14/2015,14,6,Away,"",-,160
 2015,McDaniel,773,"%
-                  Frostburg St.",243,03/18/2015,0,0,Away,"",-,0
+                  Frostburg St.",243,03/18/2015,5,9,Away,"",-,74
 2015,McDaniel,773,"%
                   Washington Col.",753,03/21/2015,0,0,Away,"",-,0
 2015,McDaniel,773,"%
@@ -5307,6 +5319,8 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
                   Rivier",18422,03/07/2015,1,19,Away,"",-,0
 2015,Me.-Farmington,379,"%
                   Lasell",8486,03/08/2015,1,22,Away,"",-,125
+2015,Me.-Farmington,379,"%
+                  St. Joseph's (ME)",605,03/16/2015,3,18,Away,"",-,50
 2015,Me.-Farmington,379,"%
                   Southern Me.",662,03/18/2015,0,0,Away,"",-,0
 2015,Me.-Farmington,379,"%
@@ -5368,7 +5382,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Mercer,406,"%
                   Marquette",387,03/08/2015,6,14,Home,"",-,202
 2015,Mercer,406,"%
-                  High Point",19651,03/14/2015,0,0,Home,"",-,0
+                  High Point",19651,03/14/2015,12,11,Home,"",1 OT,214
 2015,Mercer,406,"%
                   Furman",244,03/21/2015,0,0,Away,"",-,0
 2015,Mercer,406,"%
@@ -5388,7 +5402,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Merchant Marine,724,"%
                   Alfred",18,03/11/2015,0,0,Neutral,"Myrtle Beach, SC",-,0
 2015,Merchant Marine,724,"%
-                  Goucher",1467,03/14/2015,0,0,Away,"",-,0
+                  Goucher",1467,03/14/2015,8,7,Away,"",-,153
 2015,Merchant Marine,724,"%
                   Catholic",124,03/21/2015,0,0,Home,"",-,0
 2015,Merchant Marine,724,"%
@@ -5420,7 +5434,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Mercy,407,"%
                   Rollins",584,03/10/2015,9,8,Away,"",1 OT,449
 2015,Mercy,407,"%
-                  Southern N.H.",468,03/17/2015,0,0,Home,"",-,0
+                  Southern N.H.",468,03/17/2015,14,8,Home,"",-,127
 2015,Mercy,407,"%
                   Dowling",2692,03/21/2015,0,0,Away,"",-,0
 2015,Mercy,407,"%
@@ -5448,7 +5462,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Mercyhurst,408,"%
                   Fla. Southern",233,03/12/2015,18,8,Away,"",-,157
 2015,Mercyhurst,408,"%
-                  Tampa",689,03/14/2015,0,0,Away,"",-,0
+                  Tampa",689,03/14/2015,7,11,Away,"",-,400
 2015,Mercyhurst,408,"%
                   Seton Hill",30063,03/21/2015,0,0,Away,"",-,0
 2015,Mercyhurst,408,"%
@@ -5457,6 +5471,8 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
                   Walsh",30141,04/04/2015,0,0,Home,"",-,0
 2015,Mercyhurst,408,"%
                   Roberts Wesleyan",30150,04/08/2015,0,0,Away,"",-,0
+2015,Mercyhurst,408,"%
+                  Ohio Valley",15207,04/10/2015,0,0,Away,"",-,0
 2015,Mercyhurst,408,"%
                   Lake Erie",2746,04/15/2015,0,0,Away,"",-,0
 2015,Mercyhurst,408,"%
@@ -5470,7 +5486,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Merrimack,410,"%
                   Southern N.H.",468,03/11/2015,10,9,Home,"",-,312
 2015,Merrimack,410,"%
-                  Pace",533,03/14/2015,0,0,Home,"",-,0
+                  Pace",533,03/14/2015,14,4,Home,"",-,200
 2015,Merrimack,410,"%
                   Adelphi",3,03/21/2015,0,0,Away,"",-,0
 2015,Merrimack,410,"%
@@ -5498,7 +5514,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Mesa St.,11416,"%
                   Colorado St.-Pueblo",2720,03/07/2015,16,5,Away,"",-,87
 2015,Mesa St.,11416,"%
-                  Rockhurst",1328,03/17/2015,0,0,Home,"",-,0
+                  Rockhurst",1328,03/17/2015,21,6,Home,"",-,323
 2015,Mesa St.,11416,"%
                   Shorter",30151,03/25/2015,0,0,Away,"",-,0
 2015,Mesa St.,11416,"%
@@ -5516,7 +5532,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Mesa St.,11416,"%
                   Rollins",584,05/03/2015,0,0,Away,"",-,0
 2015,Messiah,411,"%
-                  Stevenson",21852,02/25/2015,0,0,Home,"",-,0
+                  Stevenson",21852,02/25/2015,1,13,Home,"",-,150
 2015,Messiah,411,"%
                   Elizabethtown",211,02/28/2015,6,5,Home,"",-,226
 2015,Messiah,411,"%
@@ -5526,7 +5542,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Messiah,411,"%
                   Goucher",1467,03/11/2015,4,7,Away,"",-,126
 2015,Messiah,411,"%
-                  Gwynedd Mercy",12399,03/14/2015,0,0,Away,"",-,0
+                  Gwynedd Mercy",12399,03/14/2015,7,6,Away,"",-,250
 2015,Messiah,411,"%
                   Va. Wesleyan",745,03/18/2015,0,0,Neutral,"Virginia Beach, VA",-,0
 2015,Messiah,411,"%
@@ -5562,7 +5578,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Methodist,412,"%
                   Cazenovia",23624,03/12/2015,18,9,Home,"",-,76
 2015,Methodist,412,"%
-                  Hope",286,03/14/2015,0,0,Home,"",-,0
+                  Hope",286,03/14/2015,14,7,Home,"",-,56
 2015,Methodist,412,"%
                   Alfred St.",30170,03/19/2015,0,0,Home,"",-,0
 2015,Methodist,412,"%
@@ -5590,7 +5606,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Michigan,418,"%
                   Brown",80,03/08/2015,12,22,Home,"",-,653
 2015,Michigan,418,"%
-                  Saint Joseph's",606,03/14/2015,0,0,Away,"",-,0
+                  Saint Joseph's",606,03/14/2015,9,8,Away,"",4 OT,954
 2015,Michigan,418,"%
                   Drexel",191,03/21/2015,0,0,Home,"",-,0
 2015,Michigan,418,"%
@@ -5612,9 +5628,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Middlebury,420,"%
                   St. Lawrence",607,03/10/2015,13,11,Away,"",-,175
 2015,Middlebury,420,"%
-                  Wesleyan (CT)",764,03/14/2015,0,0,Home,"",-,0
+                  Wesleyan (CT)",764,03/14/2015,11,9,Home,"",-,180
 2015,Middlebury,420,"%
-                  Endicott",8981,03/17/2015,0,0,Home,"",-,0
+                  Endicott",8981,03/17/2015,11,10,Home,"",-,115
 2015,Middlebury,420,"%
                   Bowdoin",69,03/21/2015,0,0,Home,"",-,0
 2015,Middlebury,420,"%
@@ -5674,7 +5690,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Milwaukee Engr.,20220,"%
                   Piedmont",21830,03/04/2015,5,19,Away,"",-,170
 2015,Milwaukee Engr.,20220,"%
-                  Fontbonne",11538,03/14/2015,0,0,Away,"",-,0
+                  Fontbonne",11538,03/14/2015,13,11,Away,"",-,100
 2015,Milwaukee Engr.,20220,"%
                   Beloit",53,03/21/2015,0,0,Away,"",-,0
 2015,Milwaukee Engr.,20220,"%
@@ -5708,9 +5724,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Misericordia,16142,"%
                   Neumann",1254,03/11/2015,25,6,Away,"",-,108
 2015,Misericordia,16142,"%
-                  Immaculata",303,03/14/2015,0,0,Home,"",-,0
+                  Immaculata",303,03/14/2015,23,6,Home,"",-,125
 2015,Misericordia,16142,"%
-                  Wesley",763,03/18/2015,0,0,Away,"",-,0
+                  Wesley",763,03/18/2015,10,12,Away,"",-,350
 2015,Misericordia,16142,"%
                   Lycoming",373,03/21/2015,0,0,Home,"",-,0
 2015,Misericordia,16142,"%
@@ -5736,11 +5752,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,MIT,398,"%
                   Skidmore",642,03/07/2015,9,8,Home,"",-,75
 2015,MIT,398,"%
-                  U New England",1255,03/14/2015,0,0,Away,"",-,0
+                  U New England",1255,03/14/2015,12,10,Away,"",-,55
 2015,MIT,398,"%
-                  Wentworth",762,03/17/2015,0,0,Home,"",-,0
+                  Wentworth",762,03/17/2015,11,9,Home,"",-,45
 2015,MIT,398,"%
-                  Gordon",1099,03/19/2015,0,0,Home,"",-,0
+                  Gordon",1099,03/19/2015,12,8,Home,"",-,35
 2015,MIT,398,"%
                   Florida Tech",230,03/23/2015,0,0,Away,"",-,0
 2015,MIT,398,"%
@@ -5768,7 +5784,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Mitchell,30042,"%
                   Lebanon Valley",351,03/07/2015,3,10,Neutral,"New London, CT",-,65
 2015,Mitchell,30042,"%
-                  Mt. St. Vincent",451,03/18/2015,0,0,Away,"",-,0
+                  Mt. St. Vincent",451,03/18/2015,9,8,Away,"",-,78
 2015,Mitchell,30042,"%
                   Daniel Webster",2691,03/21/2015,0,0,Home,"",-,0
 2015,Mitchell,30042,"%
@@ -5798,9 +5814,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Molloy,437,"%
                   Chestnut Hill",21323,03/08/2015,13,9,Home,"",-,300
 2015,Molloy,437,"%
-                  LIU Post",362,03/14/2015,0,0,Away,"",-,0
+                  LIU Post",362,03/14/2015,8,12,Away,"",-,56
 2015,Molloy,437,"%
-                  Assumption",36,03/17/2015,0,0,Away,"",-,0
+                  Assumption",36,03/17/2015,9,5,Away,"",-,112
 2015,Molloy,437,"%
                   Southern N.H.",468,03/21/2015,0,0,Away,"",-,0
 2015,Molloy,437,"%
@@ -5826,9 +5842,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Monmouth,439,"%
                   Saint Joseph's",606,03/07/2015,2,9,Away,"",-,"1,354"
 2015,Monmouth,439,"%
-                  Marist",386,03/14/2015,0,0,Away,"",-,0
+                  Marist",386,03/14/2015,3,10,Away,"",-,265
 2015,Monmouth,439,"%
-                  NJIT",471,03/17/2015,0,0,Away,"",-,0
+                  NJIT",471,03/17/2015,6,3,Away,"",-,222
 2015,Monmouth,439,"%
                   Siena",639,03/21/2015,0,0,Home,"",-,0
 2015,Monmouth,439,"%
@@ -5852,7 +5868,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Montclair St.,442,"%
                   Ursinus",730,03/11/2015,9,11,Away,"",-,188
 2015,Montclair St.,442,"%
-                  Muhlenberg",453,03/18/2015,0,0,Away,"",-,0
+                  Muhlenberg",453,03/18/2015,14,6,Away,"",-,125
 2015,Montclair St.,442,"%
                   Denison",182,03/21/2015,0,0,Neutral,"Malvern, PA",-,0
 2015,Montclair St.,442,"%
@@ -5882,9 +5898,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Morrisville St.,30067,"%
                   Plattsburgh St.",547,03/11/2015,5,13,Away,"",-,102
 2015,Morrisville St.,30067,"%
-                  Marywood",397,03/14/2015,0,0,Away,"",-,0
+                  Marywood",397,03/14/2015,5,9,Away,"",-,253
 2015,Morrisville St.,30067,"%
                   Utica",733,03/18/2015,0,0,Home,"",-,0
+2015,Morrisville St.,30067,"%
+                  Utica",733,03/19/2015,4,5,Home,"",-,50
 2015,Morrisville St.,30067,"%
                   SUNY Potsdam",552,03/24/2015,0,0,Away,"",-,0
 2015,Morrisville St.,30067,"%
@@ -5910,9 +5928,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Mount Ida,27901,"%
                   UMass Dartmouth",656,03/11/2015,8,9,Home,"",-,203
 2015,Mount Ida,27901,"%
-                  Rivier",18422,03/14/2015,0,0,Away,"",-,0
+                  Rivier",18422,03/14/2015,9,8,Away,"",-,60
 2015,Mount Ida,27901,"%
-                  Salem St.",621,03/18/2015,0,0,Away,"",-,0
+                  Salem St.",621,03/18/2015,5,11,Away,"",-,100
 2015,Mount Ida,27901,"%
                   Emmanuel (MA)",215,03/21/2015,0,0,Home,"",-,0
 2015,Mount Ida,27901,"%
@@ -5946,7 +5964,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Mount Olive,1245,"%
                   Lake Erie",2746,03/11/2015,9,10,Home,"",3 OT,185
 2015,Mount Olive,1245,"%
-                  North Greenville",9223,03/14/2015,0,0,Home,"",-,0
+                  North Greenville",9223,03/14/2015,12,5,Home,"",-,48
+2015,Mount Olive,1245,"%
+                  Lees-McRae",13302,03/17/2015,18,3,Away,"",-,74
 2015,Mount Olive,1245,"%
                   Belmont Abbey",2683,03/21/2015,0,0,Away,"",-,0
 2015,Mount Olive,1245,"%
@@ -5968,7 +5988,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Mount Union,452,"%
                   Wash. & Jeff.",751,03/11/2015,6,7,Away,"",-,200
 2015,Mount Union,452,"%
-                  Thiel",707,03/14/2015,0,0,Home,"",-,0
+                  Thiel",707,03/14/2015,13,3,Home,"",-,117
 2015,Mount Union,452,"%
                   Albion",15,03/21/2015,0,0,Away,"",-,0
 2015,Mount Union,452,"%
@@ -6024,9 +6044,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Mt. St. Mary (NY),1468,"%
                   Bard",962,03/11/2015,12,10,Home,"",-,61
 2015,Mt. St. Mary (NY),1468,"%
-                  Centenary (NJ)",12884,03/14/2015,0,0,Away,"",-,0
+                  Centenary (NJ)",12884,03/14/2015,12,11,Away,"",-,80
 2015,Mt. St. Mary (NY),1468,"%
-                  Manhattanville",382,03/18/2015,0,0,Home,"",-,0
+                  Manhattanville",382,03/18/2015,7,8,Home,"",-,41
 2015,Mt. St. Mary (NY),1468,"%
                   Wheelock",8896,03/21/2015,0,0,Home,"",-,0
 2015,Mt. St. Mary (NY),1468,"%
@@ -6076,9 +6096,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Mt. St. Vincent,451,"%
                   Cobleskill St.",30083,03/07/2015,17,18,Home,"",-,0
 2015,Mt. St. Vincent,451,"%
-                  Bard",962,03/14/2015,0,0,Home,"",-,0
+                  Bard",962,03/14/2015,6,9,Home,"",-,150
 2015,Mt. St. Vincent,451,"%
-                  Mitchell",30042,03/18/2015,0,0,Home,"",-,0
+                  Mitchell",30042,03/18/2015,8,9,Home,"",-,78
 2015,Mt. St. Vincent,451,"%
                   Immaculata",303,03/21/2015,0,0,Away,"",-,0
 2015,Mt. St. Vincent,451,"%
@@ -6104,9 +6124,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Muhlenberg,453,"%
                   Centenary (NJ)",12884,03/08/2015,18,4,Home,"",-,100
 2015,Muhlenberg,453,"%
-                  Lycoming",373,03/14/2015,0,0,Home,"",-,0
+                  Lycoming",373,03/14/2015,15,5,Home,"",-,100
 2015,Muhlenberg,453,"%
-                  Montclair St.",442,03/18/2015,0,0,Home,"",-,0
+                  Montclair St.",442,03/18/2015,6,14,Home,"",-,125
 2015,Muhlenberg,453,"%
                   Frank. & Marsh.",239,03/21/2015,0,0,Away,"",-,0
 2015,Muhlenberg,453,"%
@@ -6130,7 +6150,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Muskingum,455,"%
                   Calvin",114,03/07/2015,15,7,Home,"",-,71
 2015,Muskingum,455,"%
-                  Defiance",1050,03/15/2015,0,0,Home,"",-,0
+                  Defiance",1050,03/15/2015,13,3,Home,"",-,134
 2015,Muskingum,455,"%
                   Trine",30037,03/21/2015,0,0,Away,"",-,0
 2015,Muskingum,455,"%
@@ -6166,7 +6186,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Navy,726,"%
                   Lafayette",342,03/10/2015,18,4,Away,"",-,378
 2015,Navy,726,"%
-                  Lehigh",352,03/14/2015,0,0,Home,"",-,0
+                  Lehigh",352,03/14/2015,13,12,Home,"",-,629
 2015,Navy,726,"%
                   Colgate",153,03/21/2015,0,0,Away,"",-,0
 2015,Navy,726,"%
@@ -6186,7 +6206,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Nazareth,461,"%
                   SUNY Oneonta",526,03/11/2015,4,5,Neutral,"Bradenton, Fla.",-,127
 2015,Nazareth,461,"%
-                  Clarkson",146,03/17/2015,0,0,Home,"",-,0
+                  Clarkson",146,03/17/2015,9,5,Home,"",-,303
 2015,Nazareth,461,"%
                   Dickinson",185,03/20/2015,0,0,Neutral,"Owings Mills, MD",-,0
 2015,Nazareth,461,"%
@@ -6218,9 +6238,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Neumann,1254,"%
                   Misericordia",16142,03/11/2015,6,25,Home,"",-,108
 2015,Neumann,1254,"%
-                  Stockton",681,03/18/2015,0,0,Home,"",-,0
+                  Stockton",681,03/18/2015,3,17,Home,"",-,86
 2015,Neumann,1254,"%
-                  Lebanon Valley",351,03/21/2015,0,0,Home,"",-,0
+                  Lebanon Valley",351,03/22/2015,0,0,Home,"",-,0
 2015,Neumann,1254,"%
                   Marywood",397,03/24/2015,0,0,Home,"",-,0
 2015,Neumann,1254,"%
@@ -6244,11 +6264,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,New England Col.,467,"%
                   Babson",45,03/11/2015,8,20,Away,"",-,95
 2015,New England Col.,467,"%
-                  Southern Me.",662,03/14/2015,0,0,Away,"",-,0
+                  Southern Me.",662,03/14/2015,7,19,Away,"",-,100
 2015,New England Col.,467,"%
                   Eastern Conn. St.",200,03/16/2015,0,0,Away,"",-,0
-2015,New England Col.,467,"%
-                  Norwich",511,03/18/2015,0,0,Away,"",-,0
 2015,New England Col.,467,"%
                   Thomas (ME)",2758,03/21/2015,0,0,Home,"",-,0
 2015,New England Col.,467,"%
@@ -6276,9 +6294,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Nichols,484,"%
                   Salem St.",621,03/10/2015,11,8,Home,"",-,91
 2015,Nichols,484,"%
-                  UMass Boston",401,03/12/2015,0,0,Home,"",-,0
+                  UMass Boston",401,03/12/2015,9,8,Home,"",1 OT,72
 2015,Nichols,484,"%
-                  UMass Dartmouth",656,03/14/2015,0,0,Away,"",-,0
+                  UMass Dartmouth",656,03/14/2015,9,10,Home,"",-,114
 2015,Nichols,484,"%
                   Daniel Webster",2691,03/24/2015,0,0,Home,"",-,0
 2015,Nichols,484,"%
@@ -6310,9 +6328,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,NJIT,471,"%
                   UMass Lowell",368,03/07/2015,7,9,Home,"",-,466
 2015,NJIT,471,"%
-                  Monmouth",439,03/17/2015,0,0,Home,"",-,0
+                  Monmouth",439,03/17/2015,3,6,Home,"",-,222
 2015,NJIT,471,"%
-                  Rutgers",587,03/20/2015,0,0,Away,"",-,0
+                  Rutgers",587,03/20/2015,2,21,Away,"",-,361
 2015,NJIT,471,"%
                   Richmond",575,03/23/2015,0,0,Away,"",-,0
 2015,NJIT,471,"%
@@ -6340,9 +6358,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,North Carolina,457,"%
                   Bryant",81,03/10/2015,10,9,Home,"",-,599
 2015,North Carolina,457,"%
-                  Richmond",575,03/14/2015,0,0,Away,"",-,0
+                  Richmond",575,03/14/2015,16,11,Away,"",-,345
 2015,North Carolina,457,"%
-                  Harvard",275,03/17/2015,0,0,Home,"",-,0
+                  Harvard",275,03/17/2015,15,10,Home,"",-,"1,532"
 2015,North Carolina,457,"%
                   Maryland",392,03/21/2015,0,0,Neutral,"Santa Ana, CA",-,0
 2015,North Carolina,457,"%
@@ -6366,7 +6384,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,North Greenville,9223,"%
                   Lynn",20794,03/12/2015,6,16,Neutral,"Marietta, G.A.",-,50
 2015,North Greenville,9223,"%
-                  Mount Olive",1245,03/14/2015,0,0,Away,"",-,0
+                  Mount Olive",1245,03/14/2015,5,12,Away,"",-,48
 2015,North Greenville,9223,"%
                   Coker",1023,03/21/2015,0,0,Home,"",-,0
 2015,North Greenville,9223,"%
@@ -6388,9 +6406,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Norwich,511,"%
                   Anna Maria",26,03/12/2015,0,0,Away,"",-,0
 2015,Norwich,511,"%
-                  Albertus Magnus",2798,03/14/2015,0,0,Home,"",-,0
-2015,Norwich,511,"%
-                  New England Col.",467,03/18/2015,0,0,Home,"",-,0
+                  Albertus Magnus",2798,03/14/2015,10,4,Home,"",-,78
 2015,Norwich,511,"%
                   Johnson & Wales (RI)",22626,03/20/2015,0,0,Away,"",-,0
 2015,Norwich,511,"%
@@ -6420,7 +6436,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Notre Dame,513,"%
                   Denver",183,03/07/2015,10,11,Away,"",1 OT,"2,728"
 2015,Notre Dame,513,"%
-                  Virginia",746,03/14/2015,0,0,Away,"",-,0
+                  Virginia",746,03/14/2015,11,9,Away,"",-,"2,186"
 2015,Notre Dame,513,"%
                   Ohio St.",518,03/21/2015,0,0,Home,"",-,0
 2015,Notre Dame,513,"%
@@ -6442,7 +6458,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Notre Dame de Namur,30056,"%
                   Dominican (NY)",8956,03/12/2015,7,6,Away,"",1 OT,75
 2015,Notre Dame de Namur,30056,"%
-                  Post",1318,03/14/2015,0,0,Away,"",-,0
+                  Post",1318,03/14/2015,9,12,Away,"",-,115
 2015,Notre Dame de Namur,30056,"%
                   Wash. & Jeff.",751,04/13/2015,0,0,Away,"",-,0
 2015,Notre Dame de Namur,30056,"%
@@ -6460,9 +6476,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,NYIT,477,"%
                   St. Anselm",593,03/10/2015,21,5,Away,"",-,103
 2015,NYIT,477,"%
-                  Dowling",2692,03/14/2015,0,0,Home,"",-,0
+                  Dowling",2692,03/14/2015,13,3,Home,"",-,0
 2015,NYIT,477,"%
-                  Chestnut Hill",21323,03/18/2015,0,0,Home,"",-,0
+                  Chestnut Hill",21323,03/18/2015,14,4,Home,"",-,0
 2015,NYIT,477,"%
                   Dist. Columbia",186,03/21/2015,0,0,Home,"",-,0
 2015,NYIT,477,"%
@@ -6488,9 +6504,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Oberlin,515,"%
                   Trine",30037,03/11/2015,8,5,Home,"",-,121
 2015,Oberlin,515,"%
-                  Ohio Wesleyan",520,03/14/2015,0,0,Away,"",-,0
+                  Ohio Wesleyan",520,03/14/2015,3,20,Away,"",-,210
 2015,Oberlin,515,"%
-                  Baldwin Wallace",46,03/18/2015,0,0,Home,"",-,0
+                  Baldwin Wallace",46,03/18/2015,5,6,Home,"",-,173
 2015,Oberlin,515,"%
                   Wittenberg",806,03/21/2015,0,0,Away,"",-,0
 2015,Oberlin,515,"%
@@ -6524,9 +6540,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Ohio St.,518,"%
                   Hofstra",283,03/07/2015,9,8,Home,"",-,952
 2015,Ohio St.,518,"%
-                  Denver",183,03/14/2015,0,0,Home,"",-,0
+                  Denver",183,03/14/2015,13,11,Home,"",-,"1,637"
 2015,Ohio St.,518,"%
-                  Towson",711,03/17/2015,0,0,Away,"",-,0
+                  Towson",711,03/17/2015,7,6,Away,"",-,707
 2015,Ohio St.,518,"%
                   Notre Dame",513,03/21/2015,0,0,Away,"",-,0
 2015,Ohio St.,518,"%
@@ -6552,15 +6568,17 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Ohio Valley,15207,"%
                   Florida Tech",230,03/11/2015,10,21,Away,"",-,109
 2015,Ohio Valley,15207,"%
-                  Walsh",30141,03/14/2015,0,0,Home,"",-,0
+                  Walsh",30141,03/14/2015,7,12,Home,"",-,50
 2015,Ohio Valley,15207,"%
                   Young Harris",30154,03/21/2015,0,0,Home,"",-,0
 2015,Ohio Valley,15207,"%
-                  Lake Erie",2746,03/25/2015,0,0,Home,"",-,0
+                  Lake Erie",2746,03/26/2015,0,0,Home,"",-,0
+2015,Ohio Valley,15207,"%
+                  Rockhurst",1328,04/03/2015,0,0,Neutral,"St. Charles, MO",-,0
 2015,Ohio Valley,15207,"%
                   Lindenwood (MO)",30136,04/04/2015,0,0,Away,"",-,0
 2015,Ohio Valley,15207,"%
-                  Rockhurst",1328,04/05/2015,0,0,Neutral,"St. Charles, MO",-,0
+                  Mercyhurst",408,04/10/2015,0,0,Home,"",-,0
 2015,Ohio Valley,15207,"%
                   Wheeling Jesuit",12799,04/17/2015,0,0,Away,"",-,0
 2015,Ohio Valley,15207,"%
@@ -6578,7 +6596,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Ohio Wesleyan,520,"%
                   Washington Col.",753,03/11/2015,10,5,Away,"",-,110
 2015,Ohio Wesleyan,520,"%
-                  Oberlin",515,03/14/2015,0,0,Home,"",-,0
+                  Oberlin",515,03/14/2015,20,3,Home,"",-,210
 2015,Ohio Wesleyan,520,"%
                   Kenyon",335,03/21/2015,0,0,Away,"",-,0
 2015,Ohio Wesleyan,520,"%
@@ -6604,7 +6622,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Olivet,525,"%
                   Carthage",121,03/10/2015,8,15,Away,"",-,75
 2015,Olivet,525,"%
-                  Augustana (IL)",40,03/14/2015,0,0,Away,"",-,0
+                  Augustana (IL)",40,03/14/2015,6,15,Away,"",-,223
 2015,Olivet,525,"%
                   Ill. Wesleyan",300,03/21/2015,0,0,Home,"",-,0
 2015,Olivet,525,"%
@@ -6654,13 +6672,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Oneonta St.,526,"%
                   SUNY Potsdam",552,04/25/2015,0,0,Home,"",-,0
 2015,Oswego St.,530,"%
-                  Ithaca",313,02/25/2015,0,0,Away,"",-,0
-2015,Oswego St.,530,"%
                   SUNY Maritime",478,03/07/2015,8,1,Away,"",-,91
 2015,Oswego St.,530,"%
                   Merchant Marine",724,03/08/2015,6,5,Away,"",-,100
 2015,Oswego St.,530,"%
-                  Scranton",633,03/17/2015,0,0,Neutral,"Baltimore, MD",-,0
+                  Scranton",633,03/17/2015,5,4,Away,"",1 OT,125
 2015,Oswego St.,530,"%
                   St. John Fisher",601,03/21/2015,0,0,Away,"",-,0
 2015,Oswego St.,530,"%
@@ -6694,9 +6710,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Otterbein,531,"%
                   Mt. St. Joseph",8567,03/11/2015,17,5,Home,"",-,61
 2015,Otterbein,531,"%
-                  Albion",15,03/14/2015,0,0,Away,"",-,0
+                  Albion",15,03/14/2015,9,10,Away,"",-,173
 2015,Otterbein,531,"%
-                  Wooster",807,03/18/2015,0,0,Away,"",-,0
+                  Wooster",807,03/18/2015,11,13,Away,"",-,106
 2015,Otterbein,531,"%
                   Kenyon",335,03/25/2015,0,0,Home,"",-,0
 2015,Otterbein,531,"%
@@ -6720,7 +6736,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Pace,533,"%
                   Dowling",2692,02/28/2015,16,8,Away,"",-,80
 2015,Pace,533,"%
-                  Merrimack",410,03/14/2015,0,0,Away,"",-,0
+                  Merrimack",410,03/14/2015,4,14,Away,"",-,200
 2015,Pace,533,"%
                   St. Anselm",593,03/21/2015,0,0,Home,"",-,0
 2015,Pace,533,"%
@@ -6754,7 +6770,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Penn,540,"%
                   Villanova",739,03/07/2015,11,17,Home,"",-,327
 2015,Penn,540,"%
-                  Princeton",554,03/14/2015,0,0,Home,"",-,0
+                  Princeton",554,03/14/2015,11,17,Home,"",-,627
 2015,Penn,540,"%
                   Cornell",167,03/21/2015,0,0,Away,"",-,0
 2015,Penn,540,"%
@@ -6778,7 +6794,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Penn St.,539,"%
                   Marist",386,03/10/2015,9,8,Neutral,"Babson Park, Mass.",-,462
 2015,Penn St.,539,"%
-                  Massachusetts",400,03/14/2015,0,0,Away,"",-,0
+                  Massachusetts",400,03/14/2015,8,12,Away,"",-,335
 2015,Penn St.,539,"%
                   Denver",183,03/21/2015,0,0,Neutral,"Hempstead, NY",-,0
 2015,Penn St.,539,"%
@@ -6804,9 +6820,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Pfeiffer,542,"%
                   Seton Hill",30063,03/07/2015,12,13,Away,"",-,275
 2015,Pfeiffer,542,"%
-                  Emmanuel (GA)",30193,03/14/2015,0,0,Home,"",-,0
+                  Emmanuel (GA)",30193,03/14/2015,19,7,Home,"",-,50
 2015,Pfeiffer,542,"%
-                  Saint Leo",608,03/18/2015,0,0,Home,"",-,0
+                  Saint Leo",608,03/18/2015,11,9,Home,"",-,150
 2015,Pfeiffer,542,"%
                   Lenoir-Rhyne",1170,03/21/2015,0,0,Home,"",-,0
 2015,Pfeiffer,542,"%
@@ -6834,9 +6850,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Piedmont,21830,"%
                   Transylvania",28749,03/11/2015,3,12,Home,"",-,248
 2015,Piedmont,21830,"%
-                  Wesley",763,03/14/2015,0,0,Neutral,"Fort Mill, SC",-,0
+                  Wesley",763,03/14/2015,8,11,Neutral,"Fort Mill, SC",-,100
 2015,Piedmont,21830,"%
-                  Concordia Wisconsin",1036,03/17/2015,0,0,Home,"",-,0
+                  Concordia Wisconsin",1036,03/17/2015,7,13,Home,"",-,342
 2015,Piedmont,21830,"%
                   Ferrum",225,03/21/2015,0,0,Away,"",-,0
 2015,Piedmont,21830,"%
@@ -6860,9 +6876,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Plattsburgh St.,547,"%
                   Morrisville St.",30067,03/11/2015,13,5,Home,"",-,102
 2015,Plattsburgh St.,547,"%
-                  Western Conn. St.",770,03/14/2015,0,0,Away,"",-,0
+                  Western Conn. St.",770,03/14/2015,14,11,Neutral,"New Haven, Conn.",-,77
 2015,Plattsburgh St.,547,"%
-                  Connecticut Col.",163,03/18/2015,0,0,Neutral,"Radnor, PA",-,0
+                  Connecticut Col.",163,03/18/2015,7,13,Neutral,"Radnor, Pa.",-,72
 2015,Plattsburgh St.,547,"%
                   Bowdoin",69,03/24/2015,0,0,Neutral,"Henniker, NH",-,0
 2015,Plattsburgh St.,547,"%
@@ -6888,9 +6904,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Plymouth St.,548,"%
                   Lasell",8486,03/11/2015,6,4,Away,"",-,121
 2015,Plymouth St.,548,"%
-                  Castleton",123,03/14/2015,0,0,Away,"",-,0
+                  Castleton",123,03/14/2015,14,7,Away,"",-,217
 2015,Plymouth St.,548,"%
-                  Mass. Maritime",399,03/17/2015,0,0,Away,"",-,0
+                  Mass. Maritime",399,03/17/2015,19,4,Away,"",-,75
 2015,Plymouth St.,548,"%
                   Western Conn. St.",770,03/28/2015,0,0,Away,"",-,0
 2015,Plymouth St.,548,"%
@@ -6920,9 +6936,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Post,1318,"%
                   Franklin Pierce",241,03/11/2015,7,13,Home,"",-,157
 2015,Post,1318,"%
-                  Notre Dame de Namur",30056,03/14/2015,0,0,Home,"",-,0
+                  Notre Dame de Namur",30056,03/14/2015,12,9,Home,"",-,115
 2015,Post,1318,"%
-                  Dominican (NY)",8956,03/19/2015,0,0,Away,"",-,0
+                  Dominican (NY)",8956,03/19/2015,11,10,Away,"",-,75
 2015,Post,1318,"%
                   LIU Post",362,03/25/2015,0,0,Home,"",-,0
 2015,Post,1318,"%
@@ -6946,9 +6962,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Princeton,554,"%
                   Maryland",392,03/07/2015,4,11,Away,"",-,"2,149"
 2015,Princeton,554,"%
-                  Penn",540,03/14/2015,0,0,Away,"",-,0
+                  Penn",540,03/14/2015,17,11,Away,"",-,627
 2015,Princeton,554,"%
-                  Rutgers",587,03/17/2015,0,0,Away,"",-,0
+                  Rutgers",587,03/17/2015,12,11,Away,"",-,553
 2015,Princeton,554,"%
                   Yale",813,03/21/2015,0,0,Home,"",-,0
 2015,Princeton,554,"%
@@ -6976,7 +6992,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Providence,556,"%
                   UMass Lowell",368,03/10/2015,11,6,Away,"",-,247
 2015,Providence,556,"%
-                  Hofstra",283,03/14/2015,0,0,Away,"",-,0
+                  Hofstra",283,03/14/2015,4,15,Away,"",-,668
 2015,Providence,556,"%
                   Bryant",81,03/24/2015,0,0,Away,"",-,0
 2015,Providence,556,"%
@@ -7006,9 +7022,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Queens (NC),11504,"%
                   Mars Hill",1199,03/07/2015,14,10,Away,"",-,109
 2015,Queens (NC),11504,"%
-                  Brevard",30094,03/14/2015,0,0,Home,"",-,0
+                  Brevard",30094,03/14/2015,20,10,Home,"",-,125
 2015,Queens (NC),11504,"%
-                  Lenoir-Rhyne",1170,03/18/2015,0,0,Away,"",-,0
+                  Lenoir-Rhyne",1170,03/18/2015,9,10,Away,"",-,250
 2015,Queens (NC),11504,"%
                   Lincoln Memorial",1176,03/21/2015,0,0,Away,"",-,0
 2015,Queens (NC),11504,"%
@@ -7034,7 +7050,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Quinnipiac,562,"%
                   Massachusetts",400,03/10/2015,5,18,Away,"",-,325
 2015,Quinnipiac,562,"%
-                  Siena",639,03/14/2015,0,0,Away,"",-,0
+                  Siena",639,03/14/2015,6,9,Away,"",-,328
 2015,Quinnipiac,562,"%
                   Detroit",184,03/21/2015,0,0,Home,"",-,0
 2015,Quinnipiac,562,"%
@@ -7056,9 +7072,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Randolph,566,"%
                   Elizabethtown",211,03/08/2015,5,13,Home,"",-,221
 2015,Randolph,566,"%
-                  Wash. & Lee",752,03/14/2015,0,0,Away,"",-,0
+                  Wash. & Lee",752,03/14/2015,4,14,Away,"",-,123
 2015,Randolph,566,"%
-                  Greensboro",263,03/18/2015,0,0,Home,"",-,0
+                  Greensboro",263,03/18/2015,14,13,Home,"",-,0
 2015,Randolph,566,"%
                   Methodist",412,03/21/2015,0,0,Home,"",-,0
 2015,Randolph,566,"%
@@ -7096,7 +7112,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Randolph-Macon,565,"%
                   Ferrum",225,03/11/2015,16,7,Home,"",-,112
 2015,Randolph-Macon,565,"%
-                  Roanoke",578,03/14/2015,0,0,Home,"",-,0
+                  Roanoke",578,03/14/2015,9,16,Home,"",-,167
 2015,Randolph-Macon,565,"%
                   Va. Wesleyan",745,03/21/2015,0,0,Away,"",-,0
 2015,Randolph-Macon,565,"%
@@ -7118,9 +7134,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Regis (MA),569,"%
                   Husson",1133,03/11/2015,13,6,Home,"",-,65
 2015,Regis (MA),569,"%
-                  Bryn Athyn",30188,03/14/2015,0,0,Home,"",-,0
+                  Bryn Athyn",30188,03/14/2015,8,12,Home,"",-,65
 2015,Regis (MA),569,"%
-                  Wheelock",8896,03/16/2015,0,0,Home,"",-,0
+                  Wheelock",8896,03/16/2015,20,2,Home,"",-,44
 2015,Regis (MA),569,"%
                   Rivier",18422,03/18/2015,0,0,Away,"",-,0
 2015,Regis (MA),569,"%
@@ -7156,7 +7172,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Rensselaer,570,"%
                   Connecticut Col.",163,03/11/2015,17,3,Home,"",-,67
 2015,Rensselaer,570,"%
-                  Ursinus",730,03/15/2015,0,0,Neutral,"Long Island, NY",-,0
+                  Ursinus",730,03/15/2015,10,6,Neutral,"C. Spring Harbor, NY",-,124
 2015,Rensselaer,570,"%
                   Vassar",737,03/21/2015,0,0,Away,"",-,0
 2015,Rensselaer,570,"%
@@ -7190,7 +7206,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Rhodes,573,"%
                   Beloit",53,03/11/2015,12,4,Home,"",-,193
 2015,Rhodes,573,"%
-                  Hendrix",1124,03/18/2015,0,0,Away,"",-,0
+                  Hendrix",1124,03/18/2015,11,10,Away,"",1 OT,132
 2015,Rhodes,573,"%
                   Birmingham-So.",28593,03/21/2015,0,0,Home,"",-,0
 2015,Rhodes,573,"%
@@ -7212,9 +7228,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Richard Stockton,681,"%
                   Centenary (NJ)",12884,03/11/2015,6,3,Away,"",-,80
 2015,Richard Stockton,681,"%
-                  DeSales",20,03/14/2015,0,0,Home,"",-,0
+                  DeSales",20,03/14/2015,11,6,Home,"",-,125
 2015,Richard Stockton,681,"%
-                  Neumann",1254,03/18/2015,0,0,Away,"",-,0
+                  Neumann",1254,03/18/2015,17,3,Away,"",-,86
 2015,Richard Stockton,681,"%
                   Albright",16,03/21/2015,0,0,Away,"",-,0
 2015,Richard Stockton,681,"%
@@ -7246,7 +7262,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Richmond,575,"%
                   Mt. St. Mary's",450,03/11/2015,8,7,Away,"",-,340
 2015,Richmond,575,"%
-                  North Carolina",457,03/14/2015,0,0,Home,"",-,0
+                  North Carolina",457,03/14/2015,11,16,Home,"",-,345
 2015,Richmond,575,"%
                   Jacksonville",316,03/21/2015,0,0,Away,"",-,0
 2015,Richmond,575,"%
@@ -7272,7 +7288,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Rivier,18422,"%
                   Emerson",214,03/10/2015,14,6,Away,"",-,70
 2015,Rivier,18422,"%
-                  Mount Ida",27901,03/14/2015,0,0,Home,"",-,0
+                  Mount Ida",27901,03/14/2015,8,9,Home,"",-,60
 2015,Rivier,18422,"%
                   Regis (MA)",569,03/18/2015,0,0,Home,"",-,0
 2015,Rivier,18422,"%
@@ -7302,11 +7318,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Roanoke,578,"%
                   York (PA)",815,03/04/2015,10,7,Away,"",-,173
 2015,Roanoke,578,"%
-                  Stevenson",21852,03/07/2015,0,0,Home,"",-,0
+                  Stevenson",21852,03/07/2015,8,11,Home,"",-,452
 2015,Roanoke,578,"%
-                  Randolph-Macon",565,03/14/2015,0,0,Away,"",-,0
+                  Randolph-Macon",565,03/14/2015,16,9,Away,"",-,167
 2015,Roanoke,578,"%
-                  Colorado Col.",154,03/18/2015,0,0,Home,"",-,0
+                  Colorado Col.",154,03/18/2015,18,8,Home,"",-,310
 2015,Roanoke,578,"%
                   Hampden-Sydney",269,03/21/2015,0,0,Home,"",-,0
 2015,Roanoke,578,"%
@@ -7368,7 +7384,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Roberts Wesleyan,30150,"%
                   Saint Rose",1347,03/07/2015,9,10,Away,"",2 OT,225
 2015,Roberts Wesleyan,30150,"%
-                  Dominican (NY)",8956,03/14/2015,0,0,Home,"",-,0
+                  Dominican (NY)",8956,03/14/2015,16,7,Home,"",-,47
 2015,Roberts Wesleyan,30150,"%
                   NYIT",477,03/28/2015,0,0,Home,"",-,0
 2015,Roberts Wesleyan,30150,"%
@@ -7384,7 +7400,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Roberts Wesleyan,30150,"%
                   Dist. Columbia",186,04/25/2015,0,0,Away,"",-,0
 2015,Rochester Inst.,580,"%
-                  Stevenson",21852,02/23/2015,0,0,Neutral,"Syracuse, NY",-,0
+                  Stevenson",21852,02/23/2015,17,10,Neutral,"Syracuse, N.Y.",-,244
 2015,Rochester Inst.,580,"%
                   Ithaca",313,02/28/2015,12,9,Away,"",-,344
 2015,Rochester Inst.,580,"%
@@ -7392,9 +7408,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Rochester Inst.,580,"%
                   SUNY Cortland",168,03/11/2015,12,11,Neutral,"Syracuse, NY",-,"1,117"
 2015,Rochester Inst.,580,"%
-                  Cabrini",88,03/14/2015,0,0,Neutral,"Syracuse, NY",-,0
+                  Cabrini",88,03/14/2015,12,11,Neutral,"Syracuse, N.Y.",-,638
 2015,Rochester Inst.,580,"%
-                  St. John Fisher",601,03/18/2015,0,0,Home,"",-,0
+                  St. John Fisher",601,03/18/2015,18,4,Home,"",-,132
 2015,Rochester Inst.,580,"%
                   Clarkson",146,03/21/2015,0,0,Away,"",-,0
 2015,Rochester Inst.,580,"%
@@ -7424,13 +7440,13 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Rockhurst,1328,"%
                   Missouri Valley",,03/06/2015,10,8,Away,"",-,70
 2015,Rockhurst,1328,"%
-                  Adams St.",929,03/15/2015,0,0,Away,"",-,0
+                  Adams St.",929,03/15/2015,13,11,Away,"",-,168
 2015,Rockhurst,1328,"%
-                  Colorado Mesa",11416,03/17/2015,0,0,Away,"",-,0
+                  Colorado Mesa",11416,03/17/2015,6,21,Away,"",-,323
 2015,Rockhurst,1328,"%
-                  Colorado St.-Pueblo",2720,03/18/2015,0,0,Away,"",-,0
+                  Colorado St.-Pueblo",2720,03/18/2015,19,9,Away,"",-,137
 2015,Rockhurst,1328,"%
-                  Ohio Valley",15207,04/05/2015,0,0,Neutral,"St. Charles, MO",-,0
+                  Ohio Valley",15207,04/03/2015,0,0,Neutral,"St. Charles, MO",-,0
 2015,Rockhurst,1328,"%
                   Adams St.",929,04/09/2015,0,0,Home,"",-,0
 2015,Rockhurst,1328,"%
@@ -7448,9 +7464,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Roger Williams,583,"%
                   Bates",50,03/11/2015,8,13,Away,"",-,150
 2015,Roger Williams,583,"%
-                  Babson",45,03/14/2015,0,0,Home,"",-,0
+                  Babson",45,03/14/2015,4,9,Home,"",-,80
 2015,Roger Williams,583,"%
-                  Farmingdale St.",27892,03/17/2015,0,0,Home,"",-,0
+                  Farmingdale St.",27892,03/17/2015,5,4,Home,"",-,60
 2015,Roger Williams,583,"%
                   UMass Dartmouth",656,03/21/2015,0,0,Away,"",-,0
 2015,Roger Williams,583,"%
@@ -7488,9 +7504,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Rollins,584,"%
                   Mercy",407,03/10/2015,8,9,Home,"",1 OT,449
 2015,Rollins,584,"%
-                  Fla. Southern",233,03/14/2015,0,0,Home,"",-,0
+                  Fla. Southern",233,03/14/2015,14,17,Home,"",-,403
 2015,Rollins,584,"%
-                  Saint Michael's",613,03/16/2015,0,0,Home,"",-,0
+                  Saint Michael's",613,03/16/2015,10,12,Home,"",-,299
 2015,Rollins,584,"%
                   Adams St.",929,03/21/2015,0,0,Home,"",-,0
 2015,Rollins,584,"%
@@ -7508,7 +7524,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Rosemont,15882,"%
                   Hood",8404,03/02/2015,8,13,Away,"",-,229
 2015,Rosemont,15882,"%
-                  Delaware Valley",179,03/14/2015,0,0,Away,"",-,0
+                  Delaware Valley",179,03/14/2015,6,10,Away,"",-,100
 2015,Rosemont,15882,"%
                   Alvernia",938,03/18/2015,0,0,Away,"",-,0
 2015,Rosemont,15882,"%
@@ -7544,11 +7560,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Rutgers,587,"%
                   Stony Brook",683,03/08/2015,9,13,Home,"",-,835
 2015,Rutgers,587,"%
-                  Delaware",180,03/14/2015,0,0,Away,"",-,0
+                  Delaware",180,03/14/2015,17,12,Away,"",-,826
 2015,Rutgers,587,"%
-                  Princeton",554,03/17/2015,0,0,Home,"",-,0
+                  Princeton",554,03/17/2015,11,12,Home,"",-,553
 2015,Rutgers,587,"%
-                  NJIT",471,03/20/2015,0,0,Home,"",-,0
+                  NJIT",471,03/20/2015,21,2,Home,"",-,361
 2015,Rutgers,587,"%
                   Johns Hopkins",322,03/28/2015,0,0,Away,"",-,0
 2015,Rutgers,587,"%
@@ -7566,9 +7582,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Sacred Heart,590,"%
                   Providence",556,03/07/2015,8,11,Away,"",-,268
 2015,Sacred Heart,590,"%
-                  Vermont",738,03/14/2015,0,0,Home,"",-,0
+                  Vermont",738,03/14/2015,21,17,Home,"",-,125
 2015,Sacred Heart,590,"%
-                  Lafayette",342,03/17/2015,0,0,Home,"",-,0
+                  Lafayette",342,03/17/2015,14,11,Home,"",-,182
 2015,Sacred Heart,590,"%
                   Robert Morris",579,03/21/2015,0,0,Home,"",-,0
 2015,Sacred Heart,590,"%
@@ -7590,9 +7606,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Salem St.,621,"%
                   Nichols",484,03/10/2015,8,11,Away,"",-,91
 2015,Salem St.,621,"%
-                  Daniel Webster",2691,03/14/2015,0,0,Home,"",-,0
+                  Daniel Webster",2691,03/14/2015,21,10,Home,"",-,75
 2015,Salem St.,621,"%
-                  Mount Ida",27901,03/18/2015,0,0,Home,"",-,0
+                  Mount Ida",27901,03/18/2015,11,5,Home,"",-,100
 2015,Salem St.,621,"%
                   Curry",170,03/21/2015,0,0,Away,"",-,0
 2015,Salem St.,621,"%
@@ -7628,9 +7644,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Salisbury,622,"%
                   Hampden-Sydney",269,03/11/2015,13,4,Home,"",-,231
 2015,Salisbury,622,"%
-                  St. Mary's (MD)",611,03/14/2015,0,0,Away,"",-,0
+                  St. Mary's (MD)",611,03/14/2015,17,6,Neutral,"Huntingtown, Md.",-,157
 2015,Salisbury,622,"%
-                  Cabrini",88,03/18/2015,0,0,Away,"",-,0
+                  Cabrini",88,03/18/2015,13,7,Away,"",-,285
 2015,Salisbury,622,"%
                   Mary Washington",390,03/21/2015,0,0,Home,"",-,0
 2015,Salisbury,622,"%
@@ -7658,9 +7674,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Salve Regina,623,"%
                   Catholic",124,03/10/2015,0,0,Neutral,"Tampa, FL",-,0
 2015,Salve Regina,623,"%
-                  Ithaca",313,03/12/2015,0,0,Neutral,"Tampa, FL",-,0
+                  Ithaca",313,03/12/2015,3,18,Neutral,"Tampa, Fla.",-,183
 2015,Salve Regina,623,"%
-                  Clark (MA)",145,03/18/2015,0,0,Home,"",-,0
+                  Clark (MA)",145,03/18/2015,7,6,Home,"",3 OT,113
 2015,Salve Regina,623,"%
                   Endicott",8981,03/21/2015,0,0,Away,"",-,0
 2015,Salve Regina,623,"%
@@ -7692,9 +7708,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Scranton,633,"%
                   King's (PA)",336,03/11/2015,8,5,Home,"",-,150
 2015,Scranton,633,"%
-                  Catholic",124,03/15/2015,0,0,Away,"",-,0
+                  Catholic",124,03/15/2015,8,5,Away,"",-,146
 2015,Scranton,633,"%
-                  Oswego St.",530,03/17/2015,0,0,Neutral,"Baltimore, MD",-,0
+                  Oswego St.",530,03/17/2015,4,5,Home,"",1 OT,125
 2015,Scranton,633,"%
                   Elizabethtown",211,03/21/2015,0,0,Home,"",-,0
 2015,Scranton,633,"%
@@ -7720,7 +7736,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Seton Hill,30063,"%
                   Pfeiffer",542,03/07/2015,13,12,Home,"",-,275
 2015,Seton Hill,30063,"%
-                  Limestone",1174,03/14/2015,0,0,Away,"",-,0
+                  Limestone",1174,03/14/2015,11,12,Away,"",1 OT,0
 2015,Seton Hill,30063,"%
                   Mercyhurst",408,03/21/2015,0,0,Home,"",-,0
 2015,Seton Hill,30063,"%
@@ -7746,9 +7762,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Sewanee,652,"%
                   Wittenberg",806,03/11/2015,13,12,Home,"",-,114
 2015,Sewanee,652,"%
-                  Centre",132,03/14/2015,0,0,Home,"",-,0
+                  Centre",132,03/14/2015,15,8,Home,"",-,54
 2015,Sewanee,652,"%
-                  Wash. & Lee",752,03/18/2015,0,0,Away,"",-,0
+                  Wash. & Lee",752,03/18/2015,2,7,Away,"",-,255
 2015,Sewanee,652,"%
                   DePauw",177,03/21/2015,0,0,Home,"",-,0
 2015,Sewanee,652,"%
@@ -7774,9 +7790,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Shenandoah,637,"%
                   Curry",170,03/11/2015,9,2,Home,"",-,67
 2015,Shenandoah,637,"%
-                  Hampden-Sydney",269,03/14/2015,0,0,Home,"",-,0
+                  Hampden-Sydney",269,03/14/2015,7,19,Home,"",-,332
 2015,Shenandoah,637,"%
-                  Marymount (VA)",394,03/18/2015,0,0,Away,"",-,0
+                  Marymount (VA)",394,03/18/2015,12,16,Away,"",-,201
 2015,Shenandoah,637,"%
                   Guilford",1112,03/21/2015,0,0,Home,"",-,0
 2015,Shenandoah,637,"%
@@ -7808,7 +7824,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Shorter,30151,"%
                   Belmont Abbey",2683,03/11/2015,10,16,Away,"",-,75
 2015,Shorter,30151,"%
-                  Wingate",1462,03/14/2015,0,0,Home,"",-,0
+                  Wingate",1462,03/14/2015,10,18,Home,"",-,100
 2015,Shorter,30151,"%
                   Colorado Mesa",11416,03/25/2015,0,0,Home,"",-,0
 2015,Shorter,30151,"%
@@ -7834,7 +7850,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Siena,639,"%
                   Robert Morris",579,03/07/2015,10,12,Away,"",-,241
 2015,Siena,639,"%
-                  Quinnipiac",562,03/14/2015,0,0,Home,"",-,0
+                  Quinnipiac",562,03/14/2015,9,6,Home,"",-,328
 2015,Siena,639,"%
                   Monmouth",439,03/21/2015,0,0,Away,"",-,0
 2015,Siena,639,"%
@@ -7852,13 +7868,13 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Skidmore,642,"%
                   Babson",45,02/28/2015,6,5,Away,"",1 OT,75
 2015,Skidmore,642,"%
-                  Williams",789,03/04/2015,0,0,Away,"",-,0
+                  Williams",789,03/04/2015,4,13,Away,"",-,72
 2015,Skidmore,642,"%
                   MIT",398,03/07/2015,8,9,Away,"",-,75
 2015,Skidmore,642,"%
                   Amherst",24,03/10/2015,7,16,Home,"",-,135
 2015,Skidmore,642,"%
-                  Clark (MA)",145,03/14/2015,0,0,Home,"",-,0
+                  Clark (MA)",145,03/14/2015,9,7,Home,"",-,110
 2015,Skidmore,642,"%
                   Kean",329,03/18/2015,0,0,Neutral,"Virginia Beach, VA",-,0
 2015,Skidmore,642,"%
@@ -7884,7 +7900,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Southern Me.,662,"%
                   Husson",1133,03/07/2015,11,3,Away,"",-,100
 2015,Southern Me.,662,"%
-                  New England Col.",467,03/14/2015,0,0,Home,"",-,0
+                  New England Col.",467,03/14/2015,19,7,Home,"",-,100
 2015,Southern Me.,662,"%
                   Me.-Farmington",379,03/18/2015,0,0,Home,"",-,0
 2015,Southern Me.,662,"%
@@ -7912,9 +7928,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Southern N.H.,468,"%
                   Merrimack",410,03/11/2015,9,10,Away,"",-,312
 2015,Southern N.H.,468,"%
-                  Saint Rose",1347,03/14/2015,0,0,Away,"",-,0
+                  Saint Rose",1347,03/14/2015,8,12,Away,"",-,175
 2015,Southern N.H.,468,"%
-                  Mercy",407,03/17/2015,0,0,Away,"",-,0
+                  Mercy",407,03/17/2015,8,14,Away,"",-,127
 2015,Southern N.H.,468,"%
                   Molloy",437,03/21/2015,0,0,Home,"",-,0
 2015,Southern N.H.,468,"%
@@ -7954,9 +7970,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Southwestern (TX),8746,"%
                   Wheaton (MA)",779,03/09/2015,4,10,Home,"",-,231
 2015,Southwestern (TX),8746,"%
-                  Wentworth",762,03/14/2015,0,0,Home,"",-,0
+                  Wentworth",762,03/14/2015,8,9,Home,"",-,73
 2015,Southwestern (TX),8746,"%
-                  Lasell",8486,03/17/2015,0,0,Home,"",-,0
+                  Lasell",8486,03/17/2015,3,11,Home,"",-,76
 2015,Southwestern (TX),8746,"%
                   Benedictine (IL)",296,03/27/2015,0,0,Away,"",-,0
 2015,Southwestern (TX),8746,"%
@@ -7978,9 +7994,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Springfield,673,"%
                   Endicott",8981,03/07/2015,14,22,Away,"",-,575
 2015,Springfield,673,"%
-                  Union (NY)",727,03/14/2015,0,0,Home,"",-,0
+                  Union (NY)",727,03/14/2015,8,9,Home,"",-,200
 2015,Springfield,673,"%
                   St. Lawrence",607,03/18/2015,0,0,Home,"",-,0
+2015,Springfield,673,"%
+                  St. Lawrence",607,03/18/2015,15,11,Neutral,Unknown,-,80
 2015,Springfield,673,"%
                   Amherst",24,03/24/2015,0,0,Away,"",-,0
 2015,Springfield,673,"%
@@ -8010,7 +8028,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,St. Anselm,593,"%
                   NYIT",477,03/10/2015,5,21,Home,"",-,103
 2015,St. Anselm,593,"%
-                  Adelphi",3,03/14/2015,0,0,Home,"",-,0
+                  Adelphi",3,03/14/2015,6,16,Home,"",-,34
 2015,St. Anselm,593,"%
                   Pace",533,03/21/2015,0,0,Away,"",-,0
 2015,St. Anselm,593,"%
@@ -8038,9 +8056,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,St. John Fisher,601,"%
                   Brockport",78,03/10/2015,6,4,Away,"",-,300
 2015,St. John Fisher,601,"%
-                  Clarkson",146,03/14/2015,0,0,Away,"",-,0
+                  Clarkson",146,03/14/2015,0,14,Away,"",-,100
 2015,St. John Fisher,601,"%
-                  Rochester Inst.",580,03/18/2015,0,0,Away,"",-,0
+                  Rochester Inst.",580,03/18/2015,4,18,Away,"",-,132
 2015,St. John Fisher,601,"%
                   Oswego St.",530,03/21/2015,0,0,Home,"",-,0
 2015,St. John Fisher,601,"%
@@ -8076,9 +8094,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,St. Johns (NY),603,"%
                   Syracuse",688,03/07/2015,6,14,Neutral,"Kennesaw, Ga.",-,"3,300"
 2015,St. Johns (NY),603,"%
-                  Drexel",191,03/14/2015,0,0,Home,"",-,0
+                  Drexel",191,03/14/2015,10,9,Home,"",-,275
 2015,St. Johns (NY),603,"%
-                  Hofstra",283,03/17/2015,0,0,Away,"",-,0
+                  Hofstra",283,03/17/2015,7,10,Away,"",-,958
 2015,St. Johns (NY),603,"%
                   Holy Cross",285,03/21/2015,0,0,Away,"",-,0
 2015,St. Johns (NY),603,"%
@@ -8106,7 +8124,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,St. Josephs,606,"%
                   Virginia",746,03/10/2015,14,15,Away,"",-,778
 2015,St. Josephs,606,"%
-                  Michigan",418,03/14/2015,0,0,Home,"",-,0
+                  Michigan",418,03/14/2015,8,9,Home,"",4 OT,954
 2015,St. Josephs,606,"%
                   Delaware",180,03/21/2015,0,0,Away,"",-,0
 2015,St. Josephs,606,"%
@@ -8126,9 +8144,13 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,St. Josephs (ME),605,"%
                   U New England",1255,03/12/2015,5,16,Away,"",-,50
 2015,St. Josephs (ME),605,"%
-                  Anna Maria",26,03/14/2015,0,0,Home,"",-,0
+                  Anna Maria",26,03/14/2015,17,1,Home,"",-,45
 2015,St. Josephs (ME),605,"%
-                  Thomas (ME)",2758,03/18/2015,0,0,Home,"",-,0
+                  Me.-Farmington",379,03/16/2015,18,3,Home,"",-,50
+2015,St. Josephs (ME),605,"%
+                  Thomas (ME)",2758,03/19/2015,13,5,Home,"",-,35
+2015,St. Josephs (ME),605,"%
+                  Thomas (ME)",2758,03/19/2015,13,5,Neutral,"Portland, ME",-,35
 2015,St. Josephs (ME),605,"%
                   Albertus Magnus",2798,03/21/2015,0,0,Away,"",-,0
 2015,St. Josephs (ME),605,"%
@@ -8156,11 +8178,13 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,St. Lawrence,607,"%
                   Middlebury",420,03/10/2015,11,13,Home,"",-,175
 2015,St. Lawrence,607,"%
-                  Western New Eng.",775,03/16/2015,0,0,Neutral,"Orlando, FL",-,0
-2015,St. Lawrence,607,"%
-                  Fredonia",242,03/18/2015,0,0,Neutral,"Orlando, FL",-,0
+                  Western New Eng.",775,03/16/2015,13,16,Neutral,"Clermont, Fla.",-,125
 2015,St. Lawrence,607,"%
                   Springfield",673,03/18/2015,0,0,Away,"",-,0
+2015,St. Lawrence,607,"%
+                  Springfield",673,03/18/2015,11,15,Neutral,Unknown,-,80
+2015,St. Lawrence,607,"%
+                  Fredonia",242,03/18/2015,0,0,Neutral,"Orlando, FL",-,0
 2015,St. Lawrence,607,"%
                   Skidmore",642,03/21/2015,0,0,Away,"",-,0
 2015,St. Lawrence,607,"%
@@ -8194,9 +8218,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,St. Leo,608,"%
                   Lees-McRae",13302,03/12/2015,17,8,Home,"",-,238
 2015,St. Leo,608,"%
-                  Florida Tech",230,03/14/2015,0,0,Home,"",-,0
+                  Florida Tech",230,03/14/2015,11,13,Home,"",-,287
 2015,St. Leo,608,"%
-                  Pfeiffer",542,03/18/2015,0,0,Away,"",-,0
+                  Pfeiffer",542,03/18/2015,9,11,Away,"",-,150
 2015,St. Leo,608,"%
                   Wingate",1462,03/21/2015,0,0,Away,"",-,0
 2015,St. Leo,608,"%
@@ -8214,9 +8238,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,St. Marys (MD),611,"%
                   Washington Col.",753,03/04/2015,8,9,Neutral,"Huntingtown, Md.",-,146
 2015,St. Marys (MD),611,"%
-                  Salisbury",622,03/14/2015,0,0,Home,"",-,0
+                  Salisbury",622,03/14/2015,6,17,Neutral,"Huntingtown, Md.",-,157
 2015,St. Marys (MD),611,"%
-                  Denison",182,03/18/2015,0,0,Neutral,"Baltimore, MD",-,0
+                  Denison",182,03/18/2015,12,14,Neutral,"Baltimore, Md.",-,189
 2015,St. Marys (MD),611,"%
                   Southern Va.",30164,03/21/2015,0,0,Home,"",-,0
 2015,St. Marys (MD),611,"%
@@ -8242,9 +8266,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,St. Michaels,613,"%
                   American Int'l",22,03/13/2015,15,5,Home,"",-,218
 2015,St. Michaels,613,"%
-                  Rollins",584,03/16/2015,0,0,Away,"",-,0
+                  Rollins",584,03/16/2015,12,10,Away,"",-,299
 2015,St. Michaels,613,"%
-                  Florida Tech",230,03/18/2015,0,0,Away,"",-,0
+                  Florida Tech",230,03/18/2015,11,19,Away,"",-,284
 2015,St. Michaels,613,"%
                   Le Moyne",349,03/21/2015,0,0,Away,"",-,0
 2015,St. Michaels,613,"%
@@ -8276,7 +8300,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,St. Rose,1347,"%
                   Roberts Wesleyan",30150,03/07/2015,10,9,Home,"",2 OT,225
 2015,St. Rose,1347,"%
-                  Southern N.H.",468,03/14/2015,0,0,Home,"",-,0
+                  Southern N.H.",468,03/14/2015,12,8,Home,"",-,175
 2015,St. Rose,1347,"%
                   Bentley",56,03/21/2015,0,0,Away,"",-,0
 2015,St. Rose,1347,"%
@@ -8302,7 +8326,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,St. Vincent,30064,"%
                   Wash. & Jeff.",751,03/07/2015,10,11,Home,"",-,71
 2015,St. Vincent,30064,"%
-                  Hood",8404,03/14/2015,0,0,Home,"",-,0
+                  Hood",8404,03/14/2015,8,3,Home,"",-,135
 2015,St. Vincent,30064,"%
                   John Carroll",320,03/18/2015,0,0,Home,"",-,0
 2015,St. Vincent,30064,"%
@@ -8356,15 +8380,15 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Stevens Institute,679,"%
                   Ithaca",313,04/25/2015,0,0,Home,"",-,0
 2015,Stevenson,21852,"%
-                  Rochester Inst.",580,02/23/2015,0,0,Neutral,"Syracuse, NY",-,0
+                  Rochester Inst.",580,02/23/2015,10,17,Neutral,"Syracuse, N.Y.",-,244
 2015,Stevenson,21852,"%
-                  Messiah",411,02/25/2015,0,0,Away,"",-,0
+                  Messiah",411,02/25/2015,13,1,Away,"",-,150
 2015,Stevenson,21852,"%
-                  Western New Eng.",775,02/28/2015,0,0,Home,"",-,0
+                  Western New Eng.",775,02/28/2015,17,4,Home,"",-,348
 2015,Stevenson,21852,"%
-                  Roanoke",578,03/07/2015,0,0,Away,"",-,0
+                  Roanoke",578,03/07/2015,11,8,Away,"",-,452
 2015,Stevenson,21852,"%
-                  Tufts",717,03/17/2015,0,0,Home,"",-,0
+                  Tufts",717,03/17/2015,12,18,Home,"",-,0
 2015,Stevenson,21852,"%
                   Cabrini",88,03/20/2015,0,0,Home,"",-,0
 2015,Stevenson,21852,"%
@@ -8402,7 +8426,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Stony Brook,683,"%
                   Rutgers",587,03/08/2015,13,9,Away,"",-,835
 2015,Stony Brook,683,"%
-                  Albany (NY)",14,03/14/2015,0,0,Home,"",-,0
+                  Albany (NY)",14,03/14/2015,15,17,Home,"",-,"1,261"
 2015,Stony Brook,683,"%
                   UMBC",391,03/21/2015,0,0,Home,"",-,0
 2015,Stony Brook,683,"%
@@ -8428,7 +8452,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,SUNY Cortland,168,"%
                   Rochester Inst.",580,03/11/2015,11,12,Neutral,"Syracuse, NY",-,"1,117"
 2015,SUNY Cortland,168,"%
-                  Western New Eng.",775,03/14/2015,0,0,Away,"",-,0
+                  Western New Eng.",775,03/14/2015,11,9,Away,"",-,246
 2015,SUNY Cortland,168,"%
                   Lynchburg",374,03/20/2015,0,0,Neutral,"Baltimore, MD",-,0
 2015,SUNY Cortland,168,"%
@@ -8462,7 +8486,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,SUNY Geneseo,247,"%
                   Wells",761,03/13/2015,0,0,Home,"",-,0
 2015,SUNY Geneseo,247,"%
-                  Keene St.",330,03/16/2015,0,0,Neutral,"Kissimmee, Fla.",-,0
+                  Keene St.",330,03/16/2015,9,15,Neutral,"Orlando, Fla.",-,80
 2015,SUNY Geneseo,247,"%
                   St. Lawrence",607,03/24/2015,0,0,Home,"",-,0
 2015,SUNY Geneseo,247,"%
@@ -8488,11 +8512,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,SUNY Maritime,478,"%
                   Manhattanville",382,03/11/2015,7,8,Away,"",-,204
 2015,SUNY Maritime,478,"%
-                  Maine Maritime",378,03/13/2015,0,0,Home,"",-,0
+                  Maine Maritime",378,03/13/2015,15,8,Home,"",-,235
 2015,SUNY Maritime,478,"%
-                  Mass. Maritime",399,03/15/2015,0,0,Home,"",-,0
+                  Mass. Maritime",399,03/15/2015,9,10,Home,"",2 OT,253
 2015,SUNY Maritime,478,"%
-                  SUNY Poly",9500,03/20/2015,0,0,Away,"",-,0
+                  SUNY Poly",9500,03/20/2015,10,9,Away,"",-,58
 2015,SUNY Maritime,478,"%
                   Coast Guard",722,03/25/2015,0,0,Away,"",-,0
 2015,SUNY Maritime,478,"%
@@ -8512,11 +8536,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,SUNY Potsdam,552,"%
                   Albright",16,03/07/2015,12,13,Neutral,"Scranton, Pa.",-,105
 2015,SUNY Potsdam,552,"%
-                  Clarkson",146,03/10/2015,0,0,Home,"",-,0
-2015,SUNY Potsdam,552,"%
-                  Utica",733,03/14/2015,0,0,Away,"",-,0
+                  Utica",733,03/14/2015,4,6,Away,"",-,107
 2015,SUNY Potsdam,552,"%
                   Castleton",123,03/18/2015,0,0,Away,"",-,0
+2015,SUNY Potsdam,552,"%
+                  Castleton",123,03/19/2015,14,3,Away,"",-,148
 2015,SUNY Potsdam,552,"%
                   Kean",329,03/21/2015,0,0,Neutral,"Cortland, NY",-,0
 2015,SUNY Potsdam,552,"%
@@ -8524,7 +8548,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,SUNY Potsdam,552,"%
                   SUNY Geneseo",247,03/28/2015,0,0,Home,"",-,0
 2015,SUNY Potsdam,552,"%
-                  SUNY Canton",30165,03/31/2015,0,0,Away,"",-,0
+                  Clarkson",146,03/31/2015,0,0,Home,"",-,0
+2015,SUNY Potsdam,552,"%
+                  SUNY Canton",30165,04/01/2015,0,0,Away,"",-,0
 2015,SUNY Potsdam,552,"%
                   SUNY Cortland",168,04/04/2015,0,0,Away,"",-,0
 2015,SUNY Potsdam,552,"%
@@ -8540,11 +8566,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,SUNYIT,9500,"%
                   Utica",733,03/07/2015,2,13,Home,"",-,30
 2015,SUNYIT,9500,"%
-                  SUNY Canton",30165,03/14/2015,0,0,Home,"",-,0
+                  SUNY Canton",30165,03/14/2015,8,7,Home,"",-,38
 2015,SUNYIT,9500,"%
-                  Alfred",18,03/18/2015,0,0,Away,"",-,0
+                  Alfred",18,03/18/2015,2,18,Away,"",-,78
 2015,SUNYIT,9500,"%
-                  SUNY Maritime",478,03/20/2015,0,0,Home,"",-,0
+                  SUNY Maritime",478,03/20/2015,9,10,Home,"",-,58
 2015,SUNYIT,9500,"%
                   Hilbert",8398,03/28/2015,0,0,Home,"",-,0
 2015,SUNYIT,9500,"%
@@ -8576,7 +8602,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Susquehanna,685,"%
                   Frank. & Marsh.",239,03/11/2015,8,7,Away,"",2 OT,327
 2015,Susquehanna,685,"%
-                  Elizabethtown",211,03/14/2015,0,0,Away,"",-,0
+                  Elizabethtown",211,03/14/2015,5,7,Away,"",-,212
 2015,Susquehanna,685,"%
                   Drew",190,03/21/2015,0,0,Away,"",-,0
 2015,Susquehanna,685,"%
@@ -8603,10 +8629,6 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
                   Vassar",737,03/07/2015,0,0,Home,"",-,0
 2015,Swarthmore,686,"%
                   Gordon",1099,03/11/2015,16,8,Neutral,"Irvine, Calif.",-,50
-2015,Swarthmore,686,"%
-                  Gordon",1099,03/11/2015,16,8,Neutral,"Irvine, Calif.",-,50
-2015,Swarthmore,686,"%
-                  Gordon",1099,03/11/2015,16,0,Neutral,"Irvine, Calif.",-,50
 2015,Swarthmore,686,"%
                   Whittier",781,03/13/2015,13,12,Away,"",-,215
 2015,Swarthmore,686,"%
@@ -8638,7 +8660,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Syracuse,688,"%
                   St. John's (NY)",603,03/07/2015,14,6,Neutral,"Kennesaw, Ga.",-,"3,300"
 2015,Syracuse,688,"%
-                  Johns Hopkins",322,03/14/2015,0,0,Home,"",-,0
+                  Johns Hopkins",322,03/14/2015,13,10,Home,"",-,"5,778"
 2015,Syracuse,688,"%
                   Duke",193,03/22/2015,0,0,Home,"",-,0
 2015,Syracuse,688,"%
@@ -8666,7 +8688,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Tampa,689,"%
                   Ithaca",313,03/10/2015,9,8,Home,"",1 OT,320
 2015,Tampa,689,"%
-                  Mercyhurst",408,03/14/2015,0,0,Home,"",-,0
+                  Mercyhurst",408,03/14/2015,11,7,Home,"",-,400
 2015,Tampa,689,"%
                   Mars Hill",1199,03/22/2015,0,0,Neutral,"Marietta, GA",-,0
 2015,Tampa,689,"%
@@ -8692,7 +8714,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Thiel,707,"%
                   Mt. St. Joseph",8567,03/07/2015,12,4,Away,"",-,150
 2015,Thiel,707,"%
-                  Mount Union",452,03/14/2015,0,0,Away,"",-,0
+                  Mount Union",452,03/14/2015,3,13,Away,"",-,117
 2015,Thiel,707,"%
                   Alma",21,03/21/2015,0,0,Away,"",-,0
 2015,Thiel,707,"%
@@ -8716,9 +8738,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Thomas (ME),2758,"%
                   Emerson",214,03/12/2015,5,24,Away,"",-,70
 2015,Thomas (ME),2758,"%
-                  Wheelock",8896,03/15/2015,0,0,Home,"",-,0
+                  St. Joseph's (ME)",605,03/19/2015,5,13,Neutral,"Portland, ME",-,35
 2015,Thomas (ME),2758,"%
-                  St. Joseph's (ME)",605,03/18/2015,0,0,Away,"",-,0
+                  St. Joseph's (ME)",605,03/19/2015,5,13,Away,"",-,35
 2015,Thomas (ME),2758,"%
                   New England Col.",467,03/21/2015,0,0,Away,"",-,0
 2015,Thomas (ME),2758,"%
@@ -8731,6 +8753,8 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
                   Lyndon St.",30065,04/04/2015,0,0,Home,"",-,0
 2015,Thomas (ME),2758,"%
                   Me.-Farmington",379,04/07/2015,0,0,Home,"",-,0
+2015,Thomas (ME),2758,"%
+                  Wheelock",8896,04/09/2015,0,0,Home,"",-,0
 2015,Thomas (ME),2758,"%
                   Green Mountain",11062,04/11/2015,0,0,Away,"",-,0
 2015,Thomas (ME),2758,"%
@@ -8748,9 +8772,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Towson,711,"%
                   UMBC",391,03/07/2015,11,7,Away,"",-,746
 2015,Towson,711,"%
-                  Hobart",282,03/14/2015,0,0,Home,"",-,0
+                  Hobart",282,03/14/2015,9,6,Home,"",-,766
 2015,Towson,711,"%
-                  Ohio St.",518,03/17/2015,0,0,Home,"",-,0
+                  Ohio St.",518,03/17/2015,6,7,Home,"",-,707
 2015,Towson,711,"%
                   Binghamton",62,03/21/2015,0,0,Away,"",-,0
 2015,Towson,711,"%
@@ -8772,7 +8796,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Transylvania,28749,"%
                   Piedmont",21830,03/11/2015,12,3,Away,"",-,248
 2015,Transylvania,28749,"%
-                  Concordia Wisconsin",1036,03/19/2015,0,0,Home,"",-,0
+                  Concordia Wisconsin",1036,03/19/2015,6,7,Home,"",-,65
 2015,Transylvania,28749,"%
                   Bethany (WV)",59,03/21/2015,0,0,Away,"",-,0
 2015,Transylvania,28749,"%
@@ -8800,7 +8824,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Trine,30037,"%
                   Oberlin",515,03/11/2015,5,8,Away,"",-,121
 2015,Trine,30037,"%
-                  Wilmington (OH)",1461,03/14/2015,0,0,Away,"",-,0
+                  Wilmington (OH)",1461,03/14/2015,8,7,Away,"",-,115
 2015,Trine,30037,"%
                   Muskingum",455,03/21/2015,0,0,Home,"",-,0
 2015,Trine,30037,"%
@@ -8826,9 +8850,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Trinity (CT),713,"%
                   Western New Eng.",775,03/11/2015,11,14,Home,"",-,100
 2015,Trinity (CT),713,"%
-                  Bates",50,03/14/2015,0,0,Home,"",-,0
+                  Bates",50,03/14/2015,9,11,Home,"",-,100
 2015,Trinity (CT),713,"%
-                  Babson",45,03/17/2015,0,0,Neutral,"Baltimore, MD",-,0
+                  Babson",45,03/17/2015,12,3,Neutral,"Baltimore, Md.",-,125
 2015,Trinity (CT),713,"%
                   Tufts",717,03/21/2015,0,0,Away,"",-,0
 2015,Trinity (CT),713,"%
@@ -8854,9 +8878,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Tufts,717,"%
                   Stevens",679,03/07/2015,19,10,Away,"",-,443
 2015,Tufts,717,"%
-                  Colby",151,03/14/2015,0,0,Away,"",-,0
+                  Colby",151,03/14/2015,11,9,Away,"",-,225
 2015,Tufts,717,"%
-                  Stevenson",21852,03/17/2015,0,0,Away,"",-,0
+                  Stevenson",21852,03/17/2015,18,12,Away,"",-,0
 2015,Tufts,717,"%
                   Trinity (CT)",713,03/21/2015,0,0,Home,"",-,0
 2015,Tufts,717,"%
@@ -8890,7 +8914,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Tusculum,12830,"%
                   Mars Hill",1199,03/12/2015,6,19,Away,"",-,92
 2015,Tusculum,12830,"%
-                  Lincoln Memorial",1176,03/17/2015,0,0,Away,"",-,0
+                  Lincoln Memorial",1176,03/17/2015,8,7,Away,"",2 OT,120
 2015,Tusculum,12830,"%
                   Catawba",1001,03/21/2015,0,0,Home,"",-,0
 2015,Tusculum,12830,"%
@@ -8912,7 +8936,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,U New England,1255,"%
                   St. Joseph's (ME)",605,03/12/2015,16,5,Home,"",-,50
 2015,U New England,1255,"%
-                  MIT",398,03/14/2015,0,0,Home,"",-,0
+                  MIT",398,03/14/2015,10,12,Home,"",-,55
 2015,U New England,1255,"%
                   Widener",783,03/18/2015,0,0,Away,"",-,0
 2015,U New England,1255,"%
@@ -8948,7 +8972,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,UMBC,391,"%
                   Towson",711,03/07/2015,7,11,Home,"",-,746
 2015,UMBC,391,"%
-                  Binghamton",62,03/14/2015,0,0,Home,"",-,0
+                  Binghamton",62,03/14/2015,4,13,Home,"",-,434
 2015,UMBC,391,"%
                   Stony Brook",683,03/21/2015,0,0,Away,"",-,0
 2015,UMBC,391,"%
@@ -8972,7 +8996,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Union (NY),727,"%
                   Wesleyan (CT)",764,03/11/2015,14,13,Away,"",-,250
 2015,Union (NY),727,"%
-                  Springfield",673,03/14/2015,0,0,Away,"",-,0
+                  Springfield",673,03/14/2015,9,8,Away,"",-,200
 2015,Union (NY),727,"%
                   Bard",962,03/21/2015,0,0,Neutral,"Boca Raton, FL",-,0
 2015,Union (NY),727,"%
@@ -9002,7 +9026,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Ursinus,730,"%
                   Montclair St.",442,03/11/2015,11,9,Home,"",-,188
 2015,Ursinus,730,"%
-                  Rensselaer",570,03/15/2015,0,0,Neutral,"Long Island, NY",-,0
+                  Rensselaer",570,03/15/2015,6,10,Neutral,"C. Spring Harbor, NY",-,124
 2015,Ursinus,730,"%
                   Swarthmore",686,03/21/2015,0,0,Away,"",-,0
 2015,Ursinus,730,"%
@@ -9028,9 +9052,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Utica,733,"%
                   Hamilton",267,03/11/2015,6,11,Home,"",-,63
 2015,Utica,733,"%
-                  SUNY Potsdam",552,03/14/2015,0,0,Home,"",-,0
+                  SUNY Potsdam",552,03/14/2015,6,4,Home,"",-,107
 2015,Utica,733,"%
                   Morrisville St.",30067,03/18/2015,0,0,Away,"",-,0
+2015,Utica,733,"%
+                  Morrisville St.",30067,03/19/2015,5,4,Away,"",-,50
 2015,Utica,733,"%
                   Hartwick",273,03/21/2015,0,0,Away,"",-,0
 2015,Utica,733,"%
@@ -9056,13 +9082,13 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Va. Wesleyan,745,"%
                   Ferrum",225,03/01/2015,14,13,Neutral,Virginia Beach,-,210
 2015,Va. Wesleyan,745,"%
-                  Eastern",8968,03/07/2015,0,0,Home,"",-,0
+                  Eastern",8968,03/07/2015,8,11,Home,"",-,315
 2015,Va. Wesleyan,745,"%
                   Coast Guard",722,03/08/2015,12,3,Home,"",-,488
 2015,Va. Wesleyan,745,"%
                   Chris. Newport",139,03/11/2015,6,20,Away,"",-,311
 2015,Va. Wesleyan,745,"%
-                  Bridgewater (VA)",75,03/14/2015,0,0,Away,"",-,0
+                  Bridgewater (VA)",75,03/14/2015,10,7,Away,"",-,100
 2015,Va. Wesleyan,745,"%
                   Messiah",411,03/18/2015,0,0,Neutral,"Virginia Beach, VA",-,0
 2015,Va. Wesleyan,745,"%
@@ -9090,9 +9116,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Vassar,737,"%
                   Western Conn. St.",770,03/12/2015,9,8,Home,"",-,40
 2015,Vassar,737,"%
-                  Colorado Col.",154,03/15/2015,0,0,Away,"",-,0
+                  Colorado Col.",154,03/15/2015,9,15,Away,"",-,235
 2015,Vassar,737,"%
-                  Adams St.",929,03/17/2015,0,0,Neutral,"Colorado Springs, CO",-,0
+                  Adams St.",929,03/17/2015,14,12,Neutral,"Colorado Springs, CO",-,56
 2015,Vassar,737,"%
                   Rensselaer",570,03/21/2015,0,0,Home,"",-,0
 2015,Vassar,737,"%
@@ -9128,7 +9154,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Vermont,738,"%
                   Georgetown",251,03/10/2015,10,18,Away,"",-,211
 2015,Vermont,738,"%
-                  Sacred Heart",590,03/14/2015,0,0,Away,"",-,0
+                  Sacred Heart",590,03/14/2015,17,21,Away,"",-,125
 2015,Vermont,738,"%
                   UMass Lowell",368,03/21/2015,0,0,Away,"",-,0
 2015,Vermont,738,"%
@@ -9156,7 +9182,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Villanova,739,"%
                   Lehigh",352,03/10/2015,8,3,Home,"",-,343
 2015,Villanova,739,"%
-                  Maryland",392,03/14/2015,0,0,Home,"",-,0
+                  Maryland",392,03/14/2015,2,11,Home,"",-,661
 2015,Villanova,739,"%
                   Fairfield",220,03/21/2015,0,0,Away,"",-,0
 2015,Villanova,739,"%
@@ -9182,7 +9208,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Virginia,746,"%
                   Saint Joseph's",606,03/10/2015,15,14,Home,"",-,778
 2015,Virginia,746,"%
-                  Notre Dame",513,03/14/2015,0,0,Home,"",-,0
+                  Notre Dame",513,03/14/2015,9,11,Home,"",-,"2,186"
 2015,Virginia,746,"%
                   Johns Hopkins",322,03/21/2015,0,0,Away,"",-,0
 2015,Virginia,746,"%
@@ -9208,9 +9234,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,VMI,741,"%
                   Air Force",721,03/08/2015,8,12,Neutral,"Bethesda, Md.",-,528
 2015,VMI,741,"%
-                  Jacksonville",316,03/14/2015,0,0,Home,"",-,0
+                  Jacksonville",316,03/14/2015,3,8,Home,"",-,175
 2015,VMI,741,"%
-                  Wagner",748,03/17/2015,0,0,Away,"",-,0
+                  Wagner",748,03/17/2015,4,12,Away,"",-,236
 2015,VMI,741,"%
                   Bellarmine",52,03/21/2015,0,0,Away,"",-,0
 2015,VMI,741,"%
@@ -9228,11 +9254,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Wabash,747,"%
                   MSOE",20220,02/28/2015,8,18,Neutral,"Seawnee, Tenn.",-,15
 2015,Wabash,747,"%
-                  Wilmington (OH)",1461,03/04/2015,0,0,Away,"",-,0
+                  Wilmington (OH)",1461,03/06/2015,0,0,Away,"",-,0
 2015,Wabash,747,"%
                   Methodist",412,03/10/2015,6,10,Neutral,"Greenville, S.C.",-,25
 2015,Wabash,747,"%
-                  Wooster",807,03/14/2015,0,0,Away,"",-,0
+                  Wooster",807,03/14/2015,2,27,Away,"",-,47
 2015,Wabash,747,"%
                   Mt. St. Joseph",8567,03/18/2015,0,0,Home,"",-,0
 2015,Wabash,747,"%
@@ -9264,7 +9290,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Wagner,748,"%
                   Dartmouth",172,03/07/2015,10,11,Home,"",-,231
 2015,Wagner,748,"%
-                  VMI",741,03/17/2015,0,0,Home,"",-,0
+                  VMI",741,03/17/2015,12,4,Home,"",-,236
 2015,Wagner,748,"%
                   Mt. St. Mary's",450,03/21/2015,0,0,Home,"",-,0
 2015,Wagner,748,"%
@@ -9284,7 +9310,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Walsh,30141,"%
                   Florida Tech",230,03/07/2015,5,9,Home,"",-,121
 2015,Walsh,30141,"%
-                  Ohio Valley",15207,03/14/2015,0,0,Away,"",-,0
+                  Ohio Valley",15207,03/14/2015,12,7,Away,"",-,50
 2015,Walsh,30141,"%
                   Alderson Broaddus",934,03/21/2015,0,0,Home,"",-,0
 2015,Walsh,30141,"%
@@ -9320,7 +9346,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Wash. & Jeff.,751,"%
                   Mount Union",452,03/11/2015,7,6,Home,"",-,200
 2015,Wash. & Jeff.,751,"%
-                  Drew",190,03/15/2015,0,0,Away,"",-,0
+                  Drew",190,03/15/2015,8,6,Away,"",-,128
 2015,Wash. & Jeff.,751,"%
                   Franciscan",30069,03/18/2015,0,0,Home,"",-,0
 2015,Wash. & Jeff.,751,"%
@@ -9350,9 +9376,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Wash. & Lee,752,"%
                   Mary Washington",390,03/11/2015,14,5,Home,"",-,215
 2015,Wash. & Lee,752,"%
-                  Randolph",566,03/14/2015,0,0,Home,"",-,0
+                  Randolph",566,03/14/2015,14,4,Home,"",-,123
 2015,Wash. & Lee,752,"%
-                  Sewanee",652,03/18/2015,0,0,Home,"",-,0
+                  Sewanee",652,03/18/2015,7,2,Home,"",-,255
 2015,Wash. & Lee,752,"%
                   Bridgewater (VA)",75,03/21/2015,0,0,Home,"",-,0
 2015,Wash. & Lee,752,"%
@@ -9432,11 +9458,11 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Wentworth Inst.,762,"%
                   Wheaton (MA)",779,03/12/2015,10,9,Neutral,"Georgetown, Texas",-,52
 2015,Wentworth Inst.,762,"%
-                  Southwestern (TX)",8746,03/14/2015,0,0,Away,"",-,0
+                  Southwestern (TX)",8746,03/14/2015,9,8,Away,"",-,73
 2015,Wentworth Inst.,762,"%
-                  MIT",398,03/17/2015,0,0,Away,"",-,0
+                  MIT",398,03/17/2015,9,11,Away,"",-,45
 2015,Wentworth Inst.,762,"%
-                  Mass. Maritime",399,03/19/2015,0,0,Home,"",-,0
+                  Mass. Maritime",399,03/19/2015,13,9,Home,"",-,200
 2015,Wentworth Inst.,762,"%
                   Gordon",1099,03/21/2015,0,0,Home,"",-,0
 2015,Wentworth Inst.,762,"%
@@ -9468,9 +9494,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Wesley,763,"%
                   DeSales",20,03/10/2015,10,11,Home,"",-,150
 2015,Wesley,763,"%
-                  Piedmont",21830,03/14/2015,0,0,Neutral,"Fort Mill, SC",-,0
+                  Piedmont",21830,03/14/2015,11,8,Neutral,"Fort Mill, SC",-,100
 2015,Wesley,763,"%
-                  Misericordia",16142,03/18/2015,0,0,Home,"",-,0
+                  Misericordia",16142,03/18/2015,12,10,Home,"",-,350
 2015,Wesley,763,"%
                   Frostburg St.",243,03/21/2015,0,0,Away,"",-,0
 2015,Wesley,763,"%
@@ -9498,9 +9524,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Wesleyan (CT),764,"%
                   Union (NY)",727,03/11/2015,13,14,Home,"",-,250
 2015,Wesleyan (CT),764,"%
-                  Middlebury",420,03/14/2015,0,0,Away,"",-,0
+                  Middlebury",420,03/14/2015,9,11,Away,"",-,180
 2015,Wesleyan (CT),764,"%
-                  Frank. & Marsh.",239,03/18/2015,0,0,Away,"",-,0
+                  Frank. & Marsh.",239,03/18/2015,12,6,Away,"",-,78
 2015,Wesleyan (CT),764,"%
                   Whittier",781,03/21/2015,0,0,Neutral,"Philadelphia, PA",-,0
 2015,Wesleyan (CT),764,"%
@@ -9528,7 +9554,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Western Conn. St.,770,"%
                   Vassar",737,03/12/2015,8,9,Away,"",-,40
 2015,Western Conn. St.,770,"%
-                  Plattsburgh St.",547,03/14/2015,0,0,Home,"",-,0
+                  Plattsburgh St.",547,03/14/2015,11,14,Neutral,"New Haven, Conn.",-,77
 2015,Western Conn. St.,770,"%
                   Hamilton",267,03/17/2015,0,0,Neutral,"Kissimmee, FL",-,0
 2015,Western Conn. St.,770,"%
@@ -9554,15 +9580,15 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Western New Eng.,775,"%
                   Keene St.",330,02/25/2015,17,16,Home,"",-,100
 2015,Western New Eng.,775,"%
-                  Stevenson",21852,02/28/2015,0,0,Away,"",-,0
+                  Stevenson",21852,02/28/2015,4,17,Away,"",-,348
 2015,Western New Eng.,775,"%
                   Amherst",24,03/04/2015,6,15,Away,"",-,139
 2015,Western New Eng.,775,"%
                   Trinity (CT)",713,03/11/2015,14,11,Away,"",-,100
 2015,Western New Eng.,775,"%
-                  SUNY Cortland",168,03/14/2015,0,0,Home,"",-,0
+                  SUNY Cortland",168,03/14/2015,9,11,Home,"",-,246
 2015,Western New Eng.,775,"%
-                  St. Lawrence",607,03/16/2015,0,0,Neutral,"Orlando, FL",-,0
+                  St. Lawrence",607,03/16/2015,16,13,Neutral,"Clermont, Fla.",-,125
 2015,Western New Eng.,775,"%
                   Tufts",717,03/24/2015,0,0,Away,"",-,0
 2015,Western New Eng.,775,"%
@@ -9594,7 +9620,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Wheaton (MA),779,"%
                   Wentworth",762,03/12/2015,9,10,Neutral,"Georgetown, Texas",-,52
 2015,Wheaton (MA),779,"%
-                  Curry",170,03/18/2015,0,0,Away,"",-,0
+                  Curry",170,03/18/2015,11,5,Away,"",-,75
 2015,Wheaton (MA),779,"%
                   Eastern Conn. St.",200,03/25/2015,0,0,Home,"",-,0
 2015,Wheaton (MA),779,"%
@@ -9624,7 +9650,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Wheeling Jesuit,12799,"%
                   Florida Tech",230,03/09/2015,9,12,Home,"",-,150
 2015,Wheeling Jesuit,12799,"%
-                  Chestnut Hill",21323,03/15/2015,0,0,Away,"",-,0
+                  Chestnut Hill",21323,03/15/2015,10,7,Away,"",-,181
 2015,Wheeling Jesuit,12799,"%
                   Lindenwood (MO)",30136,03/21/2015,0,0,Home,"",-,0
 2015,Wheeling Jesuit,12799,"%
@@ -9642,11 +9668,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Wheeling Jesuit,12799,"%
                   Mercyhurst",408,04/25/2015,0,0,Away,"",-,0
 2015,Wheelock,8896,"%
-                  Thomas (ME)",2758,03/15/2015,0,0,Away,"",-,0
+                  Regis (MA)",569,03/16/2015,2,20,Away,"",-,44
 2015,Wheelock,8896,"%
-                  Regis (MA)",569,03/16/2015,0,0,Away,"",-,0
-2015,Wheelock,8896,"%
-                  Anna Maria",26,03/19/2015,0,0,Away,"",-,0
+                  Anna Maria",26,03/19/2015,7,24,Away,"",-,68
 2015,Wheelock,8896,"%
                   Mt. St. Mary (NY)",1468,03/21/2015,0,0,Away,"",-,0
 2015,Wheelock,8896,"%
@@ -9655,6 +9679,8 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
                   Daniel Webster",2691,04/01/2015,0,0,Away,"",-,0
 2015,Wheelock,8896,"%
                   Emerson",214,04/08/2015,0,0,Away,"",-,0
+2015,Wheelock,8896,"%
+                  Thomas (ME)",2758,04/09/2015,0,0,Away,"",-,0
 2015,Wheelock,8896,"%
                   Green Mountain",11062,04/15/2015,0,0,Away,"",-,0
 2015,Wheelock,8896,"%
@@ -9674,7 +9700,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Whittier,781,"%
                   Swarthmore",686,03/13/2015,12,13,Home,"",-,215
 2015,Whittier,781,"%
-                  Albright",16,03/17/2015,0,0,Away,"",-,0
+                  Albright",16,03/17/2015,9,11,Neutral,"Reading, Pa.",-,119
+2015,Whittier,781,"%
+                  Centenary (NJ)",12884,03/19/2015,6,4,Away,"",-,75
 2015,Whittier,781,"%
                   Centenary (NJ)",12884,03/19/2015,0,0,Neutral,"Philadelphia, PA",-,0
 2015,Whittier,781,"%
@@ -9702,7 +9730,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Widener,783,"%
                   Albright",16,03/11/2015,4,13,Home,"",-,157
 2015,Widener,783,"%
-                  Dickinson",185,03/14/2015,0,0,Home,"",-,0
+                  Dickinson",185,03/14/2015,7,8,Home,"",1 OT,143
 2015,Widener,783,"%
                   U New England",1255,03/18/2015,0,0,Home,"",-,0
 2015,Widener,783,"%
@@ -9724,13 +9752,13 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Williams,789,"%
                   Bowdoin",69,02/28/2015,16,5,Home,"",-,116
 2015,Williams,789,"%
-                  Skidmore",642,03/04/2015,0,0,Home,"",-,0
+                  Skidmore",642,03/04/2015,13,4,Home,"",-,72
 2015,Williams,789,"%
                   Trinity (CT)",713,03/07/2015,0,0,Home,"",-,0
 2015,Williams,789,"%
                   Castleton",123,03/10/2015,0,0,Home,"",-,0
 2015,Williams,789,"%
-                  Connecticut Col.",163,03/14/2015,0,0,Away,"",-,0
+                  Connecticut Col.",163,03/14/2015,10,9,Away,"",-,200
 2015,Williams,789,"%
                   Bates",50,03/21/2015,0,0,Home,"",-,0
 2015,Williams,789,"%
@@ -9750,13 +9778,13 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Williams,789,"%
                   Middlebury",420,04/22/2015,0,0,Home,"",-,0
 2015,Wilmington (OH),1461,"%
-                  Wabash",747,03/04/2015,0,0,Home,"",-,0
+                  Wabash",747,03/06/2015,0,0,Home,"",-,0
 2015,Wilmington (OH),1461,"%
                   Fontbonne",11538,03/08/2015,19,6,Away,"",-,65
 2015,Wilmington (OH),1461,"%
                   Hanover",1115,03/11/2015,8,16,Away,"",-,63
 2015,Wilmington (OH),1461,"%
-                  Trine",30037,03/14/2015,0,0,Home,"",-,0
+                  Trine",30037,03/14/2015,7,8,Home,"",-,115
 2015,Wilmington (OH),1461,"%
                   Calvin",114,03/17/2015,0,0,Home,"",-,0
 2015,Wilmington (OH),1461,"%
@@ -9798,9 +9826,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Wingate,1462,"%
                   Young Harris",30154,03/12/2015,17,8,Away,"",-,89
 2015,Wingate,1462,"%
-                  Shorter",30151,03/14/2015,0,0,Away,"",-,0
+                  Shorter",30151,03/14/2015,18,10,Away,"",-,100
 2015,Wingate,1462,"%
-                  Catawba",1001,03/18/2015,0,0,Away,"",-,0
+                  Catawba",1001,03/18/2015,8,7,Away,"",-,164
 2015,Wingate,1462,"%
                   Saint Leo",608,03/21/2015,0,0,Home,"",-,0
 2015,Wingate,1462,"%
@@ -9818,9 +9846,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Wittenberg,806,"%
                   Sewanee",652,03/11/2015,12,13,Away,"",-,114
 2015,Wittenberg,806,"%
-                  Hiram",281,03/14/2015,0,0,Away,"",-,0
+                  Hiram",281,03/14/2015,23,1,Away,"",-,60
 2015,Wittenberg,806,"%
-                  Albion",15,03/17/2015,0,0,Home,"",-,0
+                  Albion",15,03/17/2015,11,10,Home,"",-,207
 2015,Wittenberg,806,"%
                   Oberlin",515,03/21/2015,0,0,Home,"",-,0
 2015,Wittenberg,806,"%
@@ -9846,13 +9874,13 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Wooster,807,"%
                   John Carroll",320,02/28/2015,11,10,Away,"",-,107
 2015,Wooster,807,"%
-                  Aurora",42,03/07/2015,0,0,Home,"",-,0
+                  Aurora",42,03/07/2015,15,7,Home,"",-,50
 2015,Wooster,807,"%
                   Centre",132,03/11/2015,16,10,Away,"",-,128
 2015,Wooster,807,"%
-                  Wabash",747,03/14/2015,0,0,Home,"",-,0
+                  Wabash",747,03/14/2015,27,2,Home,"",-,47
 2015,Wooster,807,"%
-                  Otterbein",531,03/18/2015,0,0,Home,"",-,0
+                  Otterbein",531,03/18/2015,13,11,Home,"",-,106
 2015,Wooster,807,"%
                   Hiram",281,03/21/2015,0,0,Home,"",-,0
 2015,Wooster,807,"%
@@ -9882,7 +9910,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Yale,813,"%
                   Fairfield",220,03/07/2015,9,8,Home,"",1 OT,894
 2015,Yale,813,"%
-                  Cornell",167,03/14/2015,0,0,Home,"",-,0
+                  Cornell",167,03/14/2015,7,14,Home,"",-,903
 2015,Yale,813,"%
                   Princeton",554,03/21/2015,0,0,Away,"",-,0
 2015,Yale,813,"%
@@ -9908,9 +9936,9 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,York (PA),815,"%
                   Gettysburg",258,03/11/2015,6,12,Away,"",-,255
 2015,York (PA),815,"%
-                  Haverford",276,03/14/2015,0,0,Away,"",-,0
+                  Haverford",276,03/14/2015,15,4,Away,"",-,163
 2015,York (PA),815,"%
-                  Elizabethtown",211,03/18/2015,0,0,Away,"",-,0
+                  Elizabethtown",211,03/18/2015,7,11,Away,"",-,150
 2015,York (PA),815,"%
                   Eastern",8968,03/21/2015,0,0,Home,"",-,0
 2015,York (PA),815,"%
