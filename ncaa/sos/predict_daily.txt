@@ -1,283 +1,152 @@
 BEGIN
 SET
-       team        | h_div |  site   |                  opp                  | v_div | t_score | o_score 
--------------------+-------+---------+---------------------------------------+-------+---------+---------
- Adelphi           |     2 | home    | %                                    +|     2 |    9.92 |    7.49
-                   |       |         |                   Merrimack           |       |         | 
- Adrian            |     3 | home    | %                                    +|     3 |   14.25 |    6.73
-                   |       |         |                   Brockport           |       |         | 
- Albany (NY)       |     1 | home    | %                                    +|     1 |   17.24 |    7.76
-                   |       |         |                   Hartford            |       |         | 
- Albertus Magnus   |     3 | home    | %                                    +|     3 |    5.50 |    9.46
-                   |       |         |                   St. Joseph's (ME)   |       |         | 
- Albion            |     3 | home    | %                                    +|     3 |   14.84 |    6.48
-                   |       |         |                   Mount Union         |       |         | 
- Albright          |     3 | home    | %                                    +|     3 |    9.02 |    6.86
-                   |       |         |                   Stockton            |       |         | 
- Alfred            |     3 | home    | %                                    +|     3 |   15.54 |    7.44
-                   |       |         |                   Keuka               |       |         | 
- Alma              |     3 | home    | %                                    +|     3 |    8.64 |    6.07
-                   |       |         |                   Thiel               |       |         | 
- American Intl     |     2 | home    | %                                    +|     2 |   10.62 |    6.57
-                   |       |         |                   Dominican (NY)      |       |         | 
- Amherst           |     3 | neutral | %                                    +|     3 |   13.24 |    7.85
-                   |       |         |                   Hamilton            |       |         | 
- Anna Maria        |     3 | home    | %                                    +|     3 |    8.03 |   15.76
-                   |       |         |                   Mass. Maritime      |       |         | 
- Assumption        |     2 | home    | %                                    +|     2 |    7.31 |    9.33
-                   |       |         |                   Franklin Pierce     |       |         | 
- Bard              |     3 | neutral | %                                    +|     3 |    5.14 |   12.90
-                   |       |         |                   Union (NY)          |       |         | 
- Bellarmine        |     1 | home    | %                                    +|     1 |   14.73 |    6.10
-                   |       |         |                   VMI                 |       |         | 
- Belmont Abbey     |     2 | home    | %                                    +|     2 |    8.46 |    8.71
-                   |       |         |                   Mount Olive         |       |         | 
- Beloit            |     3 | home    | %                                    +|     3 |   10.63 |    7.00
-                   |       |         |                   MSOE                |       |         | 
- Benedictine (IL)  |     3 | home    | %                                    +|     3 |   23.42 |    4.98
-                   |       |         |                   Fontbonne           |       |         | 
- Bentley           |     2 | home    | %                                    +|     2 |   11.80 |    8.87
-                   |       |         |                   Saint Rose          |       |         | 
- Bethany (WV)      |     3 | home    | %                                    +|     3 |    5.94 |   10.84
-                   |       |         |                   Transylvania        |       |         | 
- Binghamton        |     1 | home    | %                                    +|     1 |    8.44 |    8.76
-                   |       |         |                   Towson              |       |         | 
- Boston U.         |     1 | home    | %                                    +|     1 |    9.85 |    9.29
-                   |       |         |                   Bucknell            |       |         | 
- Brevard           |     2 | home    | %                                    +|     2 |   16.02 |    8.18
-                   |       |         |                   Colorado St.-Pueblo |       |         | 
- Brown             |     1 | home    | %                                    +|     1 |   21.47 |    3.94
-                   |       |         |                   Manhattan           |       |         | 
- Cabrini           |     3 | neutral | %                                    +|     3 |    9.68 |    6.65
-                   |       |         |                   Nazareth            |       |         | 
- Canisius          |     1 | home    | %                                    +|     1 |    6.40 |   12.02
-                   |       |         |                   Marist              |       |         | 
- Castleton         |     3 | home    | %                                    +|     3 |   16.27 |    5.36
-                   |       |         |                   Me.-Farmington      |       |         | 
- Centenary (LA)    |     3 | home    | %                                    +|     3 |    9.32 |    9.29
-                   |       |         |                   Dallas              |       |         | 
- Centre            |     3 | home    | %                                    +|     3 |    9.37 |    8.48
-                   |       |         |                   Berry               |       |         | 
- Chris. Newport    |     3 | home    | %                                    +|     3 |   17.51 |    8.41
-                   |       |         |                   Marymount (VA)      |       |         | 
- Clark (MA)        |     3 | home    | %                                    +|     3 |   10.75 |    4.16
-                   |       |         |                   Manhattanville      |       |         | 
- Clarkson          |     3 | home    | %                                    +|     3 |    7.63 |   13.68
-                   |       |         |                   Rochester Inst.     |       |         | 
- Coast Guard       |     3 | home    | %                                    +|     3 |    8.54 |    8.37
-                   |       |         |                   Norwich             |       |         | 
- Colby             |     3 | home    | %                                    +|     3 |   11.97 |    6.49
-                   |       |         |                   Connecticut Col.    |       |         | 
- Colgate           |     1 | home    | %                                    +|     1 |    9.53 |   10.00
-                   |       |         |                   Navy                |       |         | 
- Cornell           |     1 | home    | %                                    +|     1 |   17.99 |    8.69
-                   |       |         |                   Penn                |       |         | 
- Curry             |     3 | home    | %                                    +|     3 |    6.62 |    9.03
-                   |       |         |                   Salem St.           |       |         | 
- C.W. Post         |     2 | home    | %                                    +|     2 |   13.68 |    7.95
-                   |       |         |                   Chestnut Hill       |       |         | 
- Dartmouth         |     1 | home    | %                                    +|     1 |    9.03 |   16.75
-                   |       |         |                   Harvard             |       |         | 
- Defiance          |     3 | home    | %                                    +|     3 |    6.74 |   13.20
-                   |       |         |                   Dubuque             |       |         | 
- Delaware          |     1 | home    | %                                    +|     1 |    9.61 |    9.55
-                   |       |         |                   Saint Joseph's      |       |         | 
- Delaware Valley   |     3 | home    | %                                    +|     3 |    6.48 |    6.13
-                   |       |         |                   Hood                |       |         | 
- Denison           |     3 | neutral | %                                    +|     3 |   11.02 |    9.47
-                   |       |         |                   Montclair St.       |       |         | 
- Denver            |     1 | neutral | %                                    +|     1 |   11.57 |    7.55
-                   |       |         |                   Penn St.            |       |         | 
- DeSales           |     3 | neutral | %                                    +|     3 |    8.18 |    9.44
-                   |       |         |                   Gwynedd Mercy       |       |         | 
- Dickinson         |     3 | neutral | %                                    +|     3 |    6.35 |   10.70
-                   |       |         |                   Lynchburg           |       |         | 
- Dowling           |     2 | home    | %                                    +|     2 |    9.45 |   13.36
-                   |       |         |                   Mercy               |       |         | 
- Drew              |     3 | home    | %                                    +|     3 |    4.27 |    9.88
-                   |       |         |                   Susquehanna         |       |         | 
- Elmhurst          |     3 | home    | %                                    +|     3 |    5.34 |   10.26
-                   |       |         |                   John Carroll        |       |         | 
- Endicott          |     3 | home    | %                                    +|     3 |   18.32 |    6.56
-                   |       |         |                   Salve Regina        |       |         | 
- Fairfield         |     1 | home    | %                                    +|     1 |    8.89 |    8.78
-                   |       |         |                   Villanova           |       |         | 
- Ferrum            |     3 | home    | %                                    +|     3 |   11.39 |   10.26
-                   |       |         |                   Piedmont            |       |         | 
- Fla. Southern     |     2 | home    | %                                    +|     2 |   14.94 |   11.23
-                   |       |         |                   Lynn                |       |         | 
- Frank. & Marsh.   |     3 | home    | %                                    +|     3 |   12.11 |   10.42
-                   |       |         |                   Muhlenberg          |       |         | 
- Frostburg St.     |     3 | home    | %                                    +|     3 |   12.56 |    5.96
-                   |       |         |                   Wesley              |       |         | 
- Furman            |     1 | home    | %                                    +|     1 |    9.25 |    7.41
-                   |       |         |                   Mercer              |       |         | 
- Georgetown        |     1 | home    | %                                    +|     1 |   11.45 |   10.81
-                   |       |         |                   Marquette           |       |         | 
- Gettysburg        |     3 | home    | %                                    +|     3 |   17.96 |    5.70
-                   |       |         |                   Haverford           |       |         | 
- Hanover           |     3 | home    | %                                    +|     3 |    7.81 |    9.84
-                   |       |         |                   Saint Vincent       |       |         | 
- Hartwick          |     3 | home    | %                                    +|     3 |    5.21 |    7.69
-                   |       |         |                   Utica               |       |         | 
- Hobart            |     1 | home    | %                                    +|     1 |    9.37 |    7.66
-                   |       |         |                   Bryant              |       |         | 
- Hofstra           |     1 | home    | %                                    +|     1 |   12.50 |    9.77
-                   |       |         |                   Massachusetts       |       |         | 
- Holy Cross        |     1 | home    | %                                    +|     1 |    8.46 |    8.70
-                   |       |         |                   St. John's (NY)     |       |         | 
- Hope              |     3 | home    | %                                    +|     3 |    7.19 |   15.57
-                   |       |         |                   Carthage            |       |         | 
- Houghton          |     3 | home    | %                                    +|     3 |   10.55 |   12.83
-                   |       |         |                   Medaille            |       |         | 
- Husson            |     3 | home    | %                                    +|     3 |    8.78 |    8.88
-                   |       |         |                   Johnson St.         |       |         | 
- Immaculata        |     3 | home    | %                                    +|     3 |   13.09 |   14.51
-                   |       |         |                   Mt. St. Vincent     |       |         | 
- Ithaca            |     3 | home    | %                                    +|     3 |   17.56 |    4.55
-                   |       |         |                   Elmira              |       |         | 
- Jacksonville      |     1 | home    | %                                    +|     1 |    9.39 |   11.53
-                   |       |         |                   Richmond            |       |         | 
- Johns Hopkins     |     1 | home    | %                                    +|     1 |   13.51 |   11.18
-                   |       |         |                   Virginia            |       |         | 
- Kean              |     3 | neutral | %                                    +|     3 |    6.09 |    7.69
-                   |       |         |                   SUNY Potsdam        |       |         | 
- Kenyon            |     3 | home    | %                                    +|     3 |    6.54 |   13.36
-                   |       |         |                   Ohio Wesleyan       |       |         | 
- Lafayette         |     1 | home    | %                                    +|     1 |    7.79 |   13.55
-                   |       |         |                   Loyola Maryland     |       |         | 
- La Roche          |     3 | home    | %                                    +|     3 |   10.48 |    8.69
-                   |       |         |                   Mt. St. Joseph      |       |         | 
- Lasell            |     3 | home    | %                                    +|     3 |    8.12 |    7.98
-                   |       |         |                   Rivier              |       |         | 
- Lehigh            |     1 | home    | %                                    +|     1 |    6.84 |   10.58
-                   |       |         |                   Army                |       |         | 
- Le Moyne          |     2 | home    | %                                    +|     2 |   17.56 |    7.06
-                   |       |         |                   Saint Michael's     |       |         | 
- Limestone         |     2 | home    | %                                    +|     2 |   10.74 |    8.21
-                   |       |         |                   Lake Erie           |       |         | 
- Lincoln Memorial  |     2 | home    | %                                    +|     2 |    6.80 |   10.23
-                   |       |         |                   Queens (NC)         |       |         | 
- Maryland          |     1 | neutral | %                                    +|     1 |    8.68 |    7.37
-                   |       |         |                   North Carolina      |       |         | 
- Mass.-Dartmouth   |     3 | home    | %                                    +|     3 |    8.50 |    8.02
-                   |       |         |                   Roger Williams      |       |         | 
- Mass.-Lowell      |     1 | home    | %                                    +|     1 |    9.26 |   14.08
-                   |       |         |                   Vermont             |       |         | 
- Merchant Marine   |     3 | home    | %                                    +|     3 |    9.79 |    8.17
-                   |       |         |                   Catholic            |       |         | 
- Michigan          |     1 | home    | %                                    +|     1 |   12.02 |   11.16
-                   |       |         |                   Drexel              |       |         | 
- Middlebury        |     3 | home    | %                                    +|     3 |   13.33 |    7.56
-                   |       |         |                   Bowdoin             |       |         | 
- Millsaps          |     3 | home    | %                                    +|     3 |    7.32 |   14.95
-                   |       |         |                   Hendrix             |       |         | 
- Misericordia      |     3 | home    | %                                    +|     3 |   12.57 |    5.66
-                   |       |         |                   Lycoming            |       |         | 
- Mitchell          |     3 | home    | %                                    +|     3 |    7.22 |    8.98
-                   |       |         |                   Daniel Webster      |       |         | 
- Monmouth          |     1 | home    | %                                    +|     1 |    6.24 |    7.04
-                   |       |         |                   Siena               |       |         | 
- Mount Ida         |     3 | home    | %                                    +|     3 |    9.25 |    8.46
-                   |       |         |                   Emmanuel (MA)       |       |         | 
- Mt. St. Mary (NY) |     3 | home    | %                                    +|     3 |   23.50 |    6.83
-                   |       |         |                   Wheelock            |       |         | 
- New England Col.  |     3 | home    | %                                    +|     3 |   21.37 |    8.84
-                   |       |         |                   Thomas (ME)         |       |         | 
- North Greenville  |     2 | home    | %                                    +|     2 |    8.82 |   17.14
-                   |       |         |                   Coker               |       |         | 
- Notre Dame        |     1 | home    | %                                    +|     1 |   10.60 |    7.18
-                   |       |         |                   Ohio St.            |       |         | 
- NYIT              |     2 | home    | %                                    +|     2 |   16.32 |    3.05
-                   |       |         |                   Dist. Columbia      |       |         | 
- Olivet            |     3 | home    | %                                    +|     3 |   10.07 |   13.21
-                   |       |         |                   Ill. Wesleyan       |       |         | 
- Pace              |     2 | home    | %                                    +|     2 |   15.89 |    8.33
-                   |       |         |                   St. Anselm          |       |         | 
- Pfeiffer          |     2 | home    | %                                    +|     2 |   12.06 |   10.75
-                   |       |         |                   Lenoir-Rhyne        |       |         | 
- Princeton         |     1 | home    | %                                    +|     1 |   12.51 |   12.08
-                   |       |         |                   Yale                |       |         | 
- Quinnipiac        |     1 | home    | %                                    +|     1 |    8.53 |    9.21
-                   |       |         |                   Detroit             |       |         | 
- Randolph          |     3 | home    | %                                    +|     3 |   12.74 |   10.06
-                   |       |         |                   Methodist           |       |         | 
- Regis (MA)        |     3 | home    | %                                    +|     3 |   14.27 |    5.11
-                   |       |         |                   Green Mountain      |       |         | 
- Rhodes            |     3 | home    | %                                    +|     3 |   11.98 |    8.23
-                   |       |         |                   Birmingham-So.      |       |         | 
- Roanoke           |     3 | home    | %                                    +|     3 |   12.65 |    9.39
-                   |       |         |                   Hampden-Sydney      |       |         | 
- Rollins           |     2 | home    | %                                    +|     2 |   12.83 |    9.79
-                   |       |         |                   Adams St.           |       |         | 
- Rosemont          |     3 | home    | %                                    +|     3 |   15.36 |    7.60
-                   |       |         |                   Keystone            |       |         | 
- Sacred Heart      |     1 | home    | %                                    +|     1 |   12.90 |   12.13
-                   |       |         |                   Robert Morris       |       |         | 
- Salisbury         |     3 | home    | %                                    +|     3 |   13.56 |    6.34
-                   |       |         |                   Mary Washington     |       |         | 
- Scranton          |     3 | home    | %                                    +|     3 |    5.43 |    7.12
-                   |       |         |                   Elizabethtown       |       |         | 
- Seton Hill        |     2 | home    | %                                    +|     2 |    9.92 |    8.74
-                   |       |         |                   Mercyhurst          |       |         | 
- Sewanee           |     3 | home    | %                                    +|     3 |   11.52 |    6.15
-                   |       |         |                   DePauw              |       |         | 
- Shenandoah        |     3 | home    | %                                    +|     3 |    8.07 |   13.46
-                   |       |         |                   Guilford            |       |         | 
- Skidmore          |     3 | home    | %                                    +|     3 |   10.57 |   10.97
-                   |       |         |                   St. Lawrence        |       |         | 
- Southern Me.      |     3 | home    | %                                    +|     3 |   10.27 |    8.08
-                   |       |         |                   U New England       |       |         | 
- Southern N.H.     |     2 | home    | %                                    +|     2 |    8.42 |    9.83
-                   |       |         |                   Molloy              |       |         | 
- Stevenson         |     3 | home    | %                                    +|     3 |   11.10 |    8.52
-                   |       |         |                   SUNY Cortland       |       |         | 
- St. John Fisher   |     3 | home    | %                                    +|     3 |    4.01 |    6.11
-                   |       |         |                   Oswego St.          |       |         | 
- Stony Brook       |     1 | home    | %                                    +|     1 |   12.21 |    6.81
-                   |       |         |                   UMBC                |       |         | 
- Swarthmore        |     3 | home    | %                                    +|     3 |    7.84 |    9.26
-                   |       |         |                   Ursinus             |       |         | 
- Trine             |     3 | home    | %                                    +|     3 |    9.36 |    4.87
-                   |       |         |                   Muskingum           |       |         | 
- Tufts             |     3 | home    | %                                    +|     3 |   17.66 |    9.42
-                   |       |         |                   Trinity (CT)        |       |         | 
- Tusculum          |     2 | home    | %                                    +|     2 |   11.29 |    9.64
-                   |       |         |                   Catawba             |       |         | 
- Vassar            |     3 | home    | %                                    +|     3 |    7.18 |   11.77
-                   |       |         |                   Rensselaer          |       |         | 
- Va. Wesleyan      |     3 | home    | %                                    +|     3 |   10.23 |    8.69
-                   |       |         |                   Randolph-Macon      |       |         | 
- Wabash            |     3 | home    | %                                    +|     3 |   10.61 |    6.93
-                   |       |         |                   Calvin              |       |         | 
- Wagner            |     1 | home    | %                                    +|     1 |    7.66 |    7.94
-                   |       |         |                   Mt. St. Mary's      |       |         | 
- Walsh             |     2 | home    | %                                    +|     2 |   11.56 |    5.12
-                   |       |         |                   Alderson Broaddus   |       |         | 
- Washington Col.   |     3 | home    | %                                    +|     3 |    8.15 |    8.65
-                   |       |         |                   McDaniel            |       |         | 
- Wash. & Jeff.     |     3 | home    | %                                    +|     3 |    6.68 |    8.78
-                   |       |         |                   Goucher             |       |         | 
- Wash. & Lee       |     3 | home    | %                                    +|     3 |   12.54 |    3.76
-                   |       |         |                   Bridgewater (VA)    |       |         | 
- Wentworth Inst.   |     3 | home    | %                                    +|     3 |   11.04 |    9.91
-                   |       |         |                   Gordon              |       |         | 
- Wesleyan (CT)     |     3 | neutral | %                                    +|     3 |   12.51 |    8.36
-                   |       |         |                   Whittier            |       |         | 
- Wheeling Jesuit   |     2 | home    | %                                    +|     2 |    8.33 |    8.91
-                   |       |         |                   Lindenwood (MO)     |       |         | 
- Williams          |     3 | home    | %                                    +|     3 |   10.04 |    8.14
-                   |       |         |                   Bates               |       |         | 
- Wilmington (OH)   |     3 | home    | %                                    +|     3 |   10.44 |    4.76
-                   |       |         |                   Franciscan          |       |         | 
- Wingate           |     2 | home    | %                                    +|     2 |   10.06 |   10.36
-                   |       |         |                   Saint Leo           |       |         | 
- Wittenberg        |     3 | home    | %                                    +|     3 |   13.56 |    8.13
-                   |       |         |                   Oberlin             |       |         | 
- Wooster           |     3 | home    | %                                    +|     3 |   21.89 |    3.99
-                   |       |         |                   Hiram               |       |         | 
- York (PA)         |     3 | home    | %                                    +|     3 |    8.34 |    9.59
-                   |       |         |                   Eastern             |       |         | 
-(138 rows)
+    date    | site |         home         | div | score |       away        | div | score 
+------------+------+----------------------+-----+-------+-------------------+-----+-------
+ 2015-03-28 | home | Air Force            |   1 | 10.18 | Jacksonville      |   1 |  8.66
+ 2015-03-28 | home | Albany (NY)          |   1 | 26.50 | UMass Lowell      |   1 |  6.04
+ 2015-03-28 | home | Albion               |   3 | 11.19 | Augustana (IL)    |   3 |  7.10
+ 2015-03-28 | home | Alderson Broaddus    |   2 |  4.25 | Lake Erie         |   2 | 17.77
+ 2015-03-28 | home | Alfred               |   3 | 10.18 | Stevens           |   3 |  8.73
+ 2015-03-28 | home | Alvernia             |   3 |  5.42 | Lebanon Valley    |   3 | 12.26
+ 2015-03-28 | home | Amherst              |   3 | 13.16 | Middlebury        |   3 |  7.81
+ 2015-03-28 | home | Arcadia              |   3 |  7.47 | Lycoming          |   3 |  7.86
+ 2015-03-28 | home | Aurora               |   3 | 11.70 | Whittier          |   3 |  9.17
+ 2015-03-28 | home | Aurora               |   3 | 28.90 | Fontbonne         |   3 |  4.96
+ 2015-03-28 | home | Bard                 |   3 |  4.21 | Rochester Inst.   |   3 | 22.22
+ 2015-03-28 | home | Bates                |   3 |  9.31 | Hamilton          |   3 |  8.46
+ 2015-03-28 | home | Belmont Abbey        |   2 | 10.06 | Pfeiffer          |   2 | 10.59
+ 2015-03-28 | home | Bentley              |   2 |  7.54 | Adelphi           |   2 | 11.49
+ 2015-03-28 | home | Bethany (WV)         |   3 |  8.50 | Wilmington (OH)   |   3 | 11.92
+ 2015-03-28 | home | Binghamton           |   1 | 12.28 | Hartford          |   1 |  7.38
+ 2015-03-28 | home | Brockport            |   3 |  7.70 | Plattsburgh St.   |   3 | 10.30
+ 2015-03-28 | home | Bryant               |   1 |  7.57 | Saint Joseph's    |   1 |  8.07
+ 2015-03-28 | home | Bucknell             |   1 |  6.98 | Army              |   1 |  8.90
+ 2015-03-28 | home | Canisius             |   1 |  7.75 | Siena             |   1 |  9.95
+ 2015-03-28 | home | Carroll (WI)         |   3 |  4.74 | Dubuque           |   3 |  8.25
+ 2015-03-28 | home | Catawba              |   2 |  9.63 | Coker             |   2 | 10.98
+ 2015-03-28 | home | Catholic             |   3 |  6.99 | Elizabethtown     |   3 |  7.97
+ 2015-03-28 | home | Centenary (NJ)       |   3 |  5.35 | Gwynedd Mercy     |   3 |  8.10
+ 2015-03-28 | home | Chestnut Hill        |   2 | 11.22 | Dowling           |   2 |  8.71
+ 2015-03-28 | home | Connecticut Col.     |   3 |  8.97 | Tufts             |   3 | 15.34
+ 2015-03-28 | home | Cornell              |   1 | 17.50 | Dartmouth         |   1 |  7.04
+ 2015-03-28 | home | Cornell              |   1 | 46.96 | Calvin            |   3 |  1.85
+ 2015-03-28 | home | Curry                |   3 |  6.58 | Wentworth         |   3 |  9.14
+ 2015-03-28 | home | Daniel Webster       |   3 | 19.80 | Anna Maria        |   3 | 10.14
+ 2015-03-28 | home | Delaware             |   1 |  8.68 | Hofstra           |   1 | 12.89
+ 2015-03-28 | home | Denison              |   3 | 14.75 | Wittenberg        |   3 |  8.83
+ 2015-03-28 | home | Denver               |   1 | 13.20 | Georgetown        |   1 |  9.75
+ 2015-03-28 | home | Detroit              |   1 | 13.02 | Manhattan         |   1 |  5.46
+ 2015-03-28 | home | Dickinson            |   3 |  6.95 | Ursinus           |   3 |  8.15
+ 2015-03-28 | home | Dominican (NY)       |   2 |  5.52 | LIU Post          |   2 | 18.38
+ 2015-03-28 | home | Drexel               |   1 |  8.48 | Fairfield         |   1 |  9.01
+ 2015-03-28 | home | Eastern Conn. St.    |   3 |  7.41 | Southern Me.      |   3 |  8.35
+ 2015-03-28 | home | Emmanuel (GA)        |   2 |  8.25 | Young Harris      |   2 | 12.29
+ 2015-03-28 | home | Ferrum               |   3 |  9.37 | Marymount (VA)    |   3 | 11.61
+ 2015-03-28 | home | Florida Tech         |   2 | 12.43 | Rollins           |   2 |  8.65
+ 2015-03-28 | home | Franciscan           |   3 |  6.01 | MSOE              |   3 |  8.76
+ 2015-03-28 | home | Frank. & Marsh.      |   3 |  9.19 | Washington Col.   |   3 |  7.65
+ 2015-03-28 | home | Frostburg St.        |   3 | 11.18 | Chris. Newport    |   3 |  9.31
+ 2015-03-28 | home | Goucher              |   3 | 12.94 | Drew              |   3 |  6.91
+ 2015-03-28 | home | Green Mountain       |   3 |  6.70 | Maine Maritime    |   3 | 10.59
+ 2015-03-28 | home | Greensboro           |   3 |  7.80 | Huntingdon        |   3 |  7.66
+ 2015-03-28 | home | Guilford             |   3 | 15.90 | Bridgewater (VA)  |   3 |  6.25
+ 2015-03-28 | home | Hampden-Sydney       |   3 |  7.30 | Wash. & Lee       |   3 |  8.82
+ 2015-03-28 | home | Haverford            |   3 |  7.02 | McDaniel          |   3 |  8.45
+ 2015-03-28 | home | High Point           |   1 | 11.83 | Furman            |   1 |  7.03
+ 2015-03-28 | home | Holy Cross           |   1 |  9.01 | Lehigh            |   1 | 10.25
+ 2015-03-28 | home | Hood                 |   3 |  5.25 | Widener           |   3 |  8.10
+ 2015-03-28 | home | Hope                 |   3 | 10.18 | Ill. Wesleyan     |   3 | 13.61
+ 2015-03-28 | home | Ithaca               |   3 |  9.88 | Cabrini           |   3 |  8.68
+ 2015-03-28 | home | John Carroll         |   3 | 12.90 | Olivet            |   3 |  7.58
+ 2015-03-28 | home | Johns Hopkins        |   1 | 15.76 | Rutgers           |   1 |  9.18
+ 2015-03-28 | home | Johnson & Wales (RI) |   3 |  6.68 | Regis (MA)        |   3 |  8.69
+ 2015-03-28 | home | Keene St.            |   3 | 16.96 | UMass Dartmouth   |   3 |  9.13
+ 2015-03-28 | home | Keystone             |   3 |  9.64 | Neumann           |   3 |  9.24
+ 2015-03-28 | home | La Roche             |   3 |  8.12 | Mount Union       |   3 | 13.47
+ 2015-03-28 | home | Lasell               |   3 | 14.52 | Albertus Magnus   |   3 |  4.96
+ 2015-03-28 | home | Lindenwood (MO)      |   2 |  8.39 | Mercyhurst        |   2 |  7.57
+ 2015-03-28 | home | Loyola Maryland      |   1 | 12.44 | Colgate           |   1 |  9.08
+ 2015-03-28 | home | Lynchburg            |   3 | 12.86 | Roanoke           |   3 |  9.06
+ 2015-03-28 | home | Lyndon St.           |   3 |  4.40 | Husson            |   3 | 18.84
+ 2015-03-28 | home | Lynn                 |   2 |  8.02 | Mount Olive       |   2 |  9.95
+ 2015-03-28 | home | Mars Hill            |   2 | 15.77 | Lincoln Memorial  |   2 |  5.60
+ 2015-03-28 | home | Mary Washington      |   3 |  8.02 | York (PA)         |   3 |  8.93
+ 2015-03-28 | home | Marywood             |   3 | 13.91 | Immaculata        |   3 |  5.17
+ 2015-03-28 | home | Mass. Maritime       |   3 | 13.21 | Emerson           |   3 | 10.35
+ 2015-03-28 | home | Medaille             |   3 | 12.47 | Cobleskill St.    |   3 |  8.65
+ 2015-03-28 | home | Me.-Farmington       |   3 |  4.30 | New England Col.  |   3 | 20.39
+ 2015-03-28 | home | Mercer               |   1 | 10.36 | Bellarmine        |   1 | 11.56
+ 2015-03-28 | home | Merrimack            |   2 |  8.62 | Le Moyne          |   2 | 11.79
+ 2015-03-28 | home | MIT                  |   3 | 16.50 | Coast Guard       |   3 |  6.85
+ 2015-03-28 | home | Mitchell             |   3 |  5.25 | Rivier            |   3 |  7.92
+ 2015-03-28 | home | Molloy               |   2 |  8.39 | Seton Hill        |   2 |  9.85
+ 2015-03-28 | home | Mount Ida            |   3 |  7.61 | St. Joseph's (ME) |   3 |  7.52
+ 2015-03-28 | home | Mt. St. Joseph       |   3 |  5.58 | Saint Vincent     |   3 |  9.21
+ 2015-03-28 | home | Mt. St. Mary's       |   1 |  9.26 | Sacred Heart      |   1 |  8.79
+ 2015-03-28 | home | Mt. St. Vincent      |   3 |  6.96 | Farmingdale St.   |   3 | 13.42
+ 2015-03-28 | home | Muhlenberg           |   3 |  6.62 | Gettysburg        |   3 | 14.25
+ 2015-03-28 | home | Muskingum            |   3 |  5.88 | Thiel             |   3 | 10.72
+ 2015-03-28 | home | Navy                 |   1 | 10.14 | Boston U.         |   1 |  9.22
+ 2015-03-28 | home | Nazareth             |   3 | 14.76 | Elmira            |   3 |  3.96
+ 2015-03-28 | home | NJIT                 |   1 |  5.15 | Wagner            |   1 | 10.40
+ 2015-03-28 | home | Norwich              |   3 |  6.58 | Emmanuel (MA)     |   3 |  8.37
+ 2015-03-28 | home | Notre Dame           |   1 |  9.80 | Syracuse          |   1 | 10.40
+ 2015-03-28 | home | Oberlin              |   3 |  7.95 | Wooster           |   3 | 12.78
+ 2015-03-28 | home | Ohio Wesleyan        |   3 | 24.36 | Hiram             |   3 |  2.96
+ 2015-03-28 | home | Oswego St.           |   3 |  5.53 | SUNY Oneonta      |   3 |  7.44
+ 2015-03-28 | home | Otterbein            |   3 | 14.24 | Adrian            |   3 |  9.58
+ 2015-03-28 | home | Pace                 |   2 | 10.20 | Franklin Pierce   |   2 |  9.42
+ 2015-03-28 | home | Penn                 |   1 | 10.41 | Yale              |   1 | 12.86
+ 2015-03-28 | home | Piedmont             |   3 | 11.14 | Methodist         |   3 |  9.85
+ 2015-03-28 | home | Queens (NC)          |   2 | 13.02 | Fla. Southern     |   2 | 12.57
+ 2015-03-28 | home | Quinnipiac           |   1 |  7.79 | Marist            |   1 | 11.53
+ 2015-03-28 | home | Randolph             |   3 | 10.97 | Randolph-Macon    |   3 | 10.41
+ 2015-03-28 | home | Rensselaer           |   3 |  9.00 | Clarkson          |   3 |  5.97
+ 2015-03-28 | home | Robert Morris        |   1 |  9.39 | Hobart            |   1 | 11.62
+ 2015-03-28 | home | Roberts Wesleyan     |   2 |  5.57 | NYIT              |   2 | 14.53
+ 2015-03-28 | home | Roger Williams       |   3 | 12.70 | Gordon            |   3 |  8.41
+ 2015-03-28 | home | Rosemont             |   3 |  7.27 | FDU-Florham       |   3 | 12.18
+ 2015-03-28 | home | Saint Leo            |   2 |  7.28 | Tampa             |   2 | 11.08
+ 2015-03-28 | home | Saint Rose           |   2 | 11.57 | American Int'l    |   2 |  6.23
+ 2015-03-28 | home | Salve Regina         |   3 |  7.81 | Nichols           |   3 | 10.32
+ 2015-03-28 | home | Scranton             |   3 |  7.70 | Wash. & Jeff.     |   3 |  5.05
+ 2015-03-28 | home | Shorter              |   2 | 11.71 | Rhodes            |   3 |  9.92
+ 2015-03-28 | home | Skidmore             |   3 |  8.33 | Vassar            |   3 |  8.33
+ 2015-03-28 | home | Southern N.H.        |   2 | 10.31 | Saint Michael's   |   2 | 11.53
+ 2015-03-28 | home | Southern Va.         |   3 |  4.48 | Salisbury         |   3 | 24.13
+ 2015-03-28 | home | Springfield          |   3 |  9.60 | Babson            |   3 |  6.23
+ 2015-03-28 | home | St. Anselm           |   2 |  9.09 | Assumption        |   2 | 10.28
+ 2015-03-28 | home | Stevenson            |   3 | 11.41 | Albright          |   3 |  7.48
+ 2015-03-28 | home | St. John Fisher      |   3 |  9.86 | Hartwick          |   3 |  4.86
+ 2015-03-28 | home | St. John's (NY)      |   1 |  9.39 | Providence        |   1 |  6.72
+ 2015-03-28 | home | St. Lawrence         |   3 | 12.02 | Union (NY)        |   3 | 14.36
+ 2015-03-28 | home | Stockton             |   3 | 16.14 | Mt. St. Mary (NY) |   3 |  7.01
+ 2015-03-28 | home | SUNY Cortland        |   3 |  9.02 | Montclair St.     |   3 |  9.30
+ 2015-03-28 | home | SUNY Maritime        |   3 |  6.10 | Kean              |   3 |  8.08
+ 2015-03-28 | home | SUNY Poly            |   3 |  6.78 | Hilbert           |   3 | 10.05
+ 2015-03-28 | home | SUNY Potsdam         |   3 | 10.04 | SUNY Geneseo      |   3 |  7.33
+ 2015-03-28 | home | Susquehanna          |   3 |  9.58 | Merchant Marine   |   3 |  5.97
+ 2015-03-28 | home | Swarthmore           |   3 | 10.33 | Misericordia      |   3 |  9.65
+ 2015-03-28 | home | Thomas (ME)          |   3 |  3.94 | Castleton         |   3 | 14.38
+ 2015-03-28 | home | Towson               |   1 |  9.06 | Massachusetts     |   1 |  7.91
+ 2015-03-28 | home | Transylvania         |   3 |  6.71 | Capital           |   3 |  5.31
+ 2015-03-28 | home | Trinity (CT)         |   3 | 11.65 | Bowdoin           |   3 |  8.77
+ 2015-03-28 | home | Tusculum             |   2 | 12.78 | Brevard           |   2 |  9.74
+ 2015-03-28 | home | UMass Boston         |   3 | 10.39 | Salem St.         |   3 |  9.40
+ 2015-03-28 | home | Utica                |   3 | 12.49 | SUNY Canton       |   3 |  3.59
+ 2015-03-28 | home | Va. Wesleyan         |   3 | 11.52 | Shenandoah        |   3 |  8.64
+ 2015-03-28 | home | Vermont              |   1 | 11.08 | Stony Brook       |   1 | 17.38
+ 2015-03-28 | home | Villanova            |   1 |  9.16 | Marquette         |   1 |  9.33
+ 2015-03-28 | home | Virginia             |   1 | 12.65 | Richmond          |   1 | 10.14
+ 2015-03-28 | home | Wabash               |   3 |  4.24 | Kenyon            |   3 | 17.69
+ 2015-03-28 | home | Walsh                |   2 |  6.06 | Wheeling Jesuit   |   2 | 11.14
+ 2015-03-28 | home | Wesley               |   3 | 11.11 | St. Mary's (MD)   |   3 | 11.98
+ 2015-03-28 | home | Wesleyan (CT)        |   3 | 10.82 | Colby             |   3 | 10.54
+ 2015-03-28 | home | Western Conn. St.    |   3 |  6.21 | Plymouth St.      |   3 | 12.02
+ 2015-03-28 | home | Western New Eng.     |   3 | 13.64 | U New England     |   3 | 10.75
+ 2015-03-28 | home | Wheaton (MA)         |   3 |  9.19 | Clark (MA)        |   3 |  9.71
+ 2015-03-28 | home | Wingate              |   2 |  9.10 | Lenoir-Rhyne      |   2 | 12.97
+(144 rows)
 
+COPY 144
 COMMIT

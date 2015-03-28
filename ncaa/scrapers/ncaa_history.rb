@@ -14,7 +14,7 @@ nbsp = Nokogiri::HTML("&nbsp;").text
 url = "http://web1.ncaa.org/stats/StatsSrv/careerteam"
 agent.get(url)
 
-teams = CSV.read("ncaa_teams.csv")
+teams = CSV.read("ncaa_schools.csv")
 
 nicknames = CSV.open("ncaa_nicknames.csv","w")
 colors = CSV.open("ncaa_colors.csv","w")

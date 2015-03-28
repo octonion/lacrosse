@@ -7,7 +7,7 @@ agent = Mechanize.new{ |agent| agent.history.max_size=0 }
 agent.user_agent = 'Mozilla/5.0'
 
 url = "http://web1.ncaa.org/stats/exec/records"
-teams = CSV.read("csv/ncaa_teams.csv")
+teams = CSV.read("csv/ncaa_schools.csv")
 
 first_year = 2015
 last_year = 2015

@@ -15,7 +15,7 @@ agent.user_agent = 'Mozilla/5.0'
 url = "http://web1.ncaa.org/stats/StatsSrv/careerteam"
 agent.get(url)
 
-teams = CSV.read("ncaa_teams.csv")
+teams = CSV.read("ncaa_schools.csv")
 
 first_year = 2015
 last_year = 2015

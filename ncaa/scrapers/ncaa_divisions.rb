@@ -11,7 +11,7 @@ sport_code = "MLA"
 
 stats = CSV.open("csv/ncaa_divisions.csv","w")
 
-teams = CSV.read("csv/ncaa_teams.csv")
+teams = CSV.read("csv/ncaa_schools.csv")
 
 # Needed for referer
 
