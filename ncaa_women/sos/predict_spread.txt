@@ -1,0 +1,44 @@
+BEGIN
+SET
+    date    |        team        | h_div |  site   |         opp         | v_div | spread 
+------------+--------------------+-------+---------+---------------------+-------+--------
+ 2015-03-29 | Allegheny          |     3 | home    | Albion              |     3 |   -4.5
+ 2015-03-29 | Benedictine (IL)   |     3 | home    | Concordia Wisconsin |     3 |  -12.3
+ 2015-03-29 | Binghamton         |     1 | home    | UMass Lowell        |     1 |    7.1
+ 2015-03-29 | California         |     1 | home    | Cornell             |     1 |  -15.4
+ 2015-03-29 | Carthage           |     3 | neutral | Muskingum           |     3 |   14.0
+ 2015-03-29 | Cincinnati         |     1 | home    | UConn               |     1 |  -10.5
+ 2015-03-29 | Colorado Col.      |     3 | home    | Redlands            |     3 |   -1.2
+ 2015-03-29 | Defiance           |     3 | home    | Franklin            |     3 |   -1.2
+ 2015-03-29 | Detroit            |     1 | home    | Kennesaw St.        |     1 |   10.3
+ 2015-03-29 | Dubuque            |     3 | home    | Cornell College     |     3 |   17.2
+ 2015-03-29 | Howard             |     1 | home    | Jacksonville        |     1 |  -25.1
+ 2015-03-29 | LaGrange           |     3 | home    | Methodist           |     3 |  -11.3
+ 2015-03-29 | La Salle           |     1 | home    | George Washington   |     1 |    1.4
+ 2015-03-29 | LIU Post           |     2 | home    | Findlay             |     2 |   11.7
+ 2015-03-29 | Loras              |     3 | home    | Wartburg            |     3 |    2.1
+ 2015-03-29 | Massachusetts      |     1 | home    | George Mason        |     1 |    7.0
+ 2015-03-29 | Mt. St. Mary's     |     1 | home    | Columbia            |     1 |   -4.4
+ 2015-03-29 | North Central (IL) |     3 | home    | Southwestern (TX)   |     3 |    0.0
+ 2015-03-29 | Northwestern       |     1 | home    | Louisville          |     1 |   -1.5
+ 2015-03-29 | Norwich            |     3 | home    | Southern Vt.        |     3 |    5.9
+ 2015-03-29 | Notre Dame         |     1 | home    | North Carolina      |     1 |   -3.7
+ 2015-03-29 | Ohio St.           |     1 | home    | Hofstra             |     1 |    3.9
+ 2015-03-29 | Old Dominion       |     1 | home    | Stetson             |     1 |    6.5
+ 2015-03-29 | Post               |     2 | home    | Wilmington (DE)     |     2 |   -6.1
+ 2015-03-29 | Richmond           |     1 | home    | Saint Joseph's      |     1 |    2.2
+ 2015-03-29 | Robert Morris      |     1 | home    | Campbell            |     1 |    6.7
+ 2015-03-29 | Sewanee            |     3 | home    | Berry               |     3 |    6.7
+ 2015-03-29 | Shepherd           |     2 | home    | Notre Dame (OH)     |     2 |   11.6
+ 2015-03-29 | Southern Me.       |     3 | home    | Castleton           |     3 |   -4.3
+ 2015-03-29 | St. Bonaventure    |     1 | home    | Duquesne            |     1 |   -3.7
+ 2015-03-29 | St. Elizabeth      |     3 | home    | Medaille            |     3 |  -13.8
+ 2015-03-29 | SUNY Geneseo       |     3 | neutral | SUNY New Paltz      |     3 |   11.2
+ 2015-03-29 | Thiel              |     3 | home    | Thomas More         |     3 |   17.7
+ 2015-03-29 | Virginia Tech      |     1 | home    | William & Mary      |     1 |    1.0
+ 2015-03-29 | West Va. Wesleyan  |     2 | home    | Urbana              |     2 |    7.8
+ 2015-03-29 | Wheeling Jesuit    |     2 | home    | Tiffin              |     2 |   -3.9
+ 2015-03-29 | Whitman            |     3 | home    | Pacific (OR)        |     3 |   -7.8
+(37 rows)
+
+COMMIT
