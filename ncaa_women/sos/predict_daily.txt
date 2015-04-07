@@ -1,45 +1,57 @@
 BEGIN
 SET
-    date    |  site   |        home        | div | score |        away         | div | score 
-------------+---------+--------------------+-----+-------+---------------------+-----+-------
- 2015-03-29 | home    | Allegheny          |   3 | 10.61 | Albion              |   3 | 15.15
- 2015-03-29 | home    | Benedictine (IL)   |   3 |  4.74 | Concordia Wisconsin |   3 | 17.05
- 2015-03-29 | home    | Binghamton         |   1 | 12.13 | UMass Lowell        |   1 |  5.07
- 2015-03-29 | home    | California         |   1 |  8.09 | Cornell             |   1 | 23.53
- 2015-03-29 | neutral | Carthage           |   3 | 19.79 | Muskingum           |   3 |  5.77
- 2015-03-29 | home    | Cincinnati         |   1 |  6.23 | UConn               |   1 | 16.72
- 2015-03-29 | home    | Colorado Col.      |   3 | 11.53 | Redlands            |   3 | 12.68
- 2015-03-29 | home    | Defiance           |   3 |  7.96 | Franklin            |   3 |  9.16
- 2015-03-29 | home    | Detroit            |   1 | 17.50 | Kennesaw St.        |   1 |  7.16
- 2015-03-29 | home    | Dubuque            |   3 | 22.61 | Cornell College     |   3 |  5.43
- 2015-03-29 | home    | Howard             |   1 |  4.42 | Jacksonville        |   1 | 29.54
- 2015-03-29 | home    | LaGrange           |   3 |  5.38 | Methodist           |   3 | 16.70
- 2015-03-29 | home    | La Salle           |   1 | 11.49 | George Washington   |   1 | 10.10
- 2015-03-29 | home    | LIU Post           |   2 | 17.90 | Findlay             |   2 |  6.16
- 2015-03-29 | home    | Loras              |   3 |  8.34 | Wartburg            |   3 |  6.22
- 2015-03-29 | home    | Massachusetts      |   1 | 11.14 | George Mason        |   1 |  4.17
- 2015-03-29 | home    | Mt. St. Mary's     |   1 |  7.76 | Columbia            |   1 | 12.12
- 2015-03-29 | home    | North Central (IL) |   3 | 11.93 | Southwestern (TX)   |   3 | 11.94
- 2015-03-29 | home    | Northwestern       |   1 |  9.30 | Louisville          |   1 | 10.80
- 2015-03-29 | home    | Norwich            |   3 | 13.80 | Southern Vt.        |   3 |  7.92
- 2015-03-29 | home    | Notre Dame         |   1 |  8.39 | North Carolina      |   1 | 12.12
- 2015-03-29 | home    | Ohio St.           |   1 | 12.62 | Hofstra             |   1 |  8.76
- 2015-03-29 | home    | Old Dominion       |   1 | 13.65 | Stetson             |   1 |  7.11
- 2015-03-29 | home    | Post               |   2 |  8.76 | Wilmington (DE)     |   2 | 14.83
- 2015-03-29 | home    | Richmond           |   1 | 10.91 | Saint Joseph's      |   1 |  8.75
- 2015-03-29 | home    | Robert Morris      |   1 | 17.39 | Campbell            |   1 | 10.72
- 2015-03-29 | home    | Sewanee            |   3 | 16.78 | Berry               |   3 | 10.06
- 2015-03-29 | home    | Shepherd           |   2 | 19.77 | Notre Dame (OH)     |   2 |  8.13
- 2015-03-29 | home    | Southern Me.       |   3 |  8.67 | Castleton           |   3 | 12.94
- 2015-03-29 | home    | St. Bonaventure    |   1 |  9.31 | Duquesne            |   1 | 13.02
- 2015-03-29 | home    | St. Elizabeth      |   3 |  3.68 | Medaille            |   3 | 17.50
- 2015-03-29 | neutral | SUNY Geneseo       |   3 | 17.21 | SUNY New Paltz      |   3 |  6.01
- 2015-03-29 | home    | Thiel              |   3 | 21.48 | Thomas More         |   3 |  3.78
- 2015-03-29 | home    | Virginia Tech      |   1 | 10.87 | William & Mary      |   1 |  9.88
- 2015-03-29 | home    | West Va. Wesleyan  |   2 | 13.31 | Urbana              |   2 |  5.50
- 2015-03-29 | home    | Wheeling Jesuit    |   2 |  9.58 | Tiffin              |   2 | 13.45
- 2015-03-29 | home    | Whitman            |   3 |  5.88 | Pacific (OR)        |   3 | 13.69
-(37 rows)
+    date    | site |        home        | div | score |        away        | div | score 
+------------+------+--------------------+-----+-------+--------------------+-----+-------
+ 2015-04-07 | home | Adrian             |   3 |  7.89 | Hope               |   3 |  9.70
+ 2015-04-07 | home | Albion             |   3 | 17.41 | Alma               |   3 |  7.76
+ 2015-04-07 | home | Beloit             |   3 | 10.35 | North Central (IL) |   3 | 12.91
+ 2015-04-07 | home | Boston College     |   1 | 14.22 | Harvard            |   1 |  8.16
+ 2015-04-07 | home | Bowdoin            |   3 |  8.30 | Colby              |   3 |  7.63
+ 2015-04-07 | home | Brevard            |   2 | 16.41 | Chowan             |   2 | 13.86
+ 2015-04-07 | home | Bridgewater (VA)   |   3 |  9.26 | Va. Wesleyan       |   3 |  8.67
+ 2015-04-07 | home | Buffalo St.        |   3 | 10.31 | Brockport          |   3 | 14.65
+ 2015-04-07 | home | Calvin             |   3 | 13.05 | Urbana             |   2 |  7.18
+ 2015-04-07 | home | Castleton          |   3 | 15.57 | Worcester St.      |   3 |  9.13
+ 2015-04-07 | home | Colby-Sawyer       |   3 | 16.80 | Green Mountain     |   3 |  4.21
+ 2015-04-07 | home | Connecticut Col.   |   3 |  6.93 | Amherst            |   3 | 13.02
+ 2015-04-07 | home | Eastern Conn. St.  |   3 | 10.03 | Westfield St.      |   3 | 14.58
+ 2015-04-07 | home | Fitchburg St.      |   3 | 15.21 | Mount Ida          |   3 |  8.24
+ 2015-04-07 | home | Fla. Southern      |   2 | 15.27 | Saint Leo          |   2 |  6.96
+ 2015-04-07 | home | Johns Hopkins      |   1 |  5.96 | Stony Brook        |   1 |  7.85
+ 2015-04-07 | home | Kalamazoo          |   3 | 14.23 | Trine              |   3 |  6.91
+ 2015-04-07 | home | Kean               |   3 |  5.63 | Montclair St.      |   3 | 11.31
+ 2015-04-07 | home | LaGrange           |   3 |  6.41 | Berry              |   3 | 15.39
+ 2015-04-07 | home | Lancaster Bible    |   3 | 13.30 | St. Elizabeth      |   3 |  4.35
+ 2015-04-07 | home | Lees-McRae         |   2 |  8.92 | Pfeiffer           |   2 | 21.69
+ 2015-04-07 | home | Maine Maritime     |   3 |  4.81 | Husson             |   3 | 16.37
+ 2015-04-07 | home | Manhattanville     |   3 | 12.17 | Western Conn. St.  |   3 | 21.48
+ 2015-04-07 | home | Medaille           |   3 | 10.86 | SUNY Poly          |   3 | 10.88
+ 2015-04-07 | home | Me.-Farmington     |   3 |  7.98 | Thomas (ME)        |   3 | 11.91
+ 2015-04-07 | home | Molloy             |   2 | 11.16 | Bridgeport         |   2 | 12.57
+ 2015-04-07 | home | Mt. St. Joseph     |   3 | 11.39 | Defiance           |   3 |  4.86
+ 2015-04-07 | home | Newberry           |   2 |  4.97 | Queens (NC)        |   2 | 18.71
+ 2015-04-07 | home | New England Col.   |   3 | 17.51 | Johnson St.        |   3 |  7.55
+ 2015-04-07 | home | New Haven          |   2 | 19.97 | Southern Conn. St. |   2 |  6.35
+ 2015-04-07 | home | Notre Dame (MD)    |   3 |  6.68 | Goucher            |   3 | 15.66
+ 2015-04-07 | home | Oswego St.         |   3 |  7.11 | SUNY Geneseo       |   3 | 10.98
+ 2015-04-07 | home | Regis (MA)         |   3 | 11.15 | Salem St.          |   3 |  7.18
+ 2015-04-07 | home | Rowan              |   3 |  8.40 | TCNJ               |   3 | 12.72
+ 2015-04-07 | home | Rutgers-Camden     |   3 |  4.93 | Stockton           |   3 | 13.80
+ 2015-04-07 | home | Salisbury          |   3 | 12.72 | Chris. Newport     |   3 |  6.94
+ 2015-04-07 | home | Shorter            |   2 |  9.39 | Coker              |   2 | 13.27
+ 2015-04-07 | home | St. Bonaventure    |   1 | 10.87 | Binghamton         |   1 | 12.39
+ 2015-04-07 | home | St. Mary's (IN)    |   3 | 11.95 | Olivet             |   3 | 12.18
+ 2015-04-07 | home | St. Thomas Aquinas |   2 | 16.11 | Wilmington (DE)    |   2 |  9.15
+ 2015-04-07 | home | SUNY Canton        |   3 | 10.22 | Clarkson           |   3 | 13.45
+ 2015-04-07 | home | SUNY Cortland      |   3 | 23.89 | SUNY Oneonta       |   3 |  7.97
+ 2015-04-07 | home | SUNY Potsdam       |   3 | 11.89 | SUNY New Paltz     |   3 |  9.62
+ 2015-04-07 | home | Sweet Briar        |   3 |  5.34 | Wash. & Lee        |   3 | 16.76
+ 2015-04-07 | home | Syracuse           |   1 | 12.23 | Notre Dame         |   1 |  9.32
+ 2015-04-07 | home | Trinity (CT)       |   3 | 16.85 | Wesleyan (CT)      |   3 |  6.07
+ 2015-04-07 | home | UMass Dartmouth    |   3 |  8.95 | Framingham St.     |   3 |  9.53
+ 2015-04-07 | home | Union (NY)         |   3 |  8.25 | Middlebury         |   3 | 13.36
+ 2015-04-07 | home | Wittenberg         |   3 |  9.22 | Oberlin            |   3 | 10.54
+(49 rows)
 
-COPY 37
+COPY 49
 COMMIT

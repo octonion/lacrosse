@@ -57,7 +57,7 @@ records_header = ["year","team_id","team_name","wins","losses","ties",
         team_count += 1
         records << row
       end
-      records.flush
+      #records.flush
     end
 
     page.parser.xpath(game_path).each do |tr|
@@ -91,7 +91,7 @@ records_header = ["year","team_id","team_name","wins","losses","ties",
       games << [year,team_name,team_id,row[0],opponent_id,row[2],row[4],
                 row[6],row[8],row[10],row[12],row[14]]
     end
-    games.flush
+    #games.flush
   end
   records.close
   games.close

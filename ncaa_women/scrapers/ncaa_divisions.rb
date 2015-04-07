@@ -16,7 +16,13 @@ teams = CSV.read("csv/ncaa_schools.csv")
 # Needed for referer
 
 url = "http://web1.ncaa.org/stats/StatsSrv/careersearch"
-page = agent.get(url)
+
+begin
+  page = agent.get(url)
+rescue
+  sleep 3
+  print "retrying get ... \n"
+end
 
 form = page.forms[1]
 
@@ -25,11 +31,25 @@ teams.each do |team|
   team_id = team[0]
   team_name = team[1]
 
-  form.searchOrg = team_id
-  form.academicYear = "X"
-  form.searchSport = sport_code
-  form.searchDiv = "X"
-  page = form.submit
+  begin
+    form.searchOrg = team_id
+    form.academicYear = "X"
+    form.searchSport = sport_code
+    form.searchDiv = "X"
+    page = form.submit
+  rescue
+    begin
+      print "retrying get ... \n"
+      page = agent.get(url)
+    rescue
+      sleep 3
+      retry
+    end
+    form = page.forms[1]
+    print "retrying submit ... \n"
+    sleep 3
+    retry
+  end
 
   sp = "/html/body/form/table/tr/td[1]/table/tr/td/table/tr/td/a"
   show = page.search(sp)
