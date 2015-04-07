@@ -1,23 +1,9 @@
 BEGIN
 SET
-    date    |        team         | h_div | site |        opp        | v_div | spread 
-------------+---------------------+-------+------+-------------------+-------+--------
- 2015-03-29 | Alma                |     3 | home | MSOE              |     3 |    6.7
- 2015-03-29 | Berry               |     3 | home | Hendrix           |     3 |    3.4
- 2015-03-29 | Bryant              |     1 | home | Saint Joseph's    |     1 |   -0.5
- 2015-03-29 | Cazenovia           |     3 | home | Keuka             |     3 |   -6.1
- 2015-03-29 | Centre              |     3 | home | Millsaps          |     3 |   11.8
- 2015-03-29 | Concordia Wisconsin |     3 | home | Whittier          |     3 |    0.0
- 2015-03-29 | Elmhurst            |     3 | home | Southwestern (TX) |     3 |    1.1
- 2015-03-29 | Hanover             |     3 | home | Defiance          |     3 |   17.7
- 2015-03-29 | Huntingdon          |     3 | home | Centenary (LA)    |     3 |   13.1
- 2015-03-29 | Maryland            |     1 | home | Michigan          |     1 |    7.7
- 2015-03-29 | North Carolina      |     1 | home | Duke              |     1 |    4.1
- 2015-03-29 | Penn St.            |     1 | home | Ohio St.          |     1 |   -0.3
- 2015-03-29 | Post                |     2 | home | Dist. Columbia    |     2 |    2.8
- 2015-03-29 | Princeton           |     1 | home | Brown             |     1 |    0.4
- 2015-03-29 | Sewanee             |     3 | home | Birmingham-So.    |     3 |    7.6
- 2015-03-29 | Wheelock            |     3 | home | Johnson St.       |     3 |   -2.8
-(16 rows)
+    date    | team  | h_div | site |             opp              | v_div | spread 
+------------+-------+-------+------+------------------------------+-------+--------
+ 2015-04-06 | Keuka |     3 | home | %                           +|     3 |   19.7
+            |       |       |      |                   Alfred St. |       | 
+(1 row)
 
 COMMIT

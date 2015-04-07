@@ -1,24 +1,43 @@
 BEGIN
 SET
-    date    | site |        home         | div | score |       away        | div | score 
-------------+------+---------------------+-----+-------+-------------------+-----+-------
- 2015-03-29 | home | Alma                |   3 | 11.73 | MSOE              |   3 |  5.01
- 2015-03-29 | home | Berry               |   3 | 11.05 | Hendrix           |   3 |  7.62
- 2015-03-29 | home | Bryant              |   1 |  7.68 | Saint Joseph's    |   1 |  8.13
- 2015-03-29 | home | Cazenovia           |   3 |  9.11 | Keuka             |   3 | 15.21
- 2015-03-29 | home | Centre              |   3 | 18.14 | Millsaps          |   3 |  6.33
- 2015-03-29 | home | Concordia Wisconsin |   3 |  7.65 | Whittier          |   3 |  7.60
- 2015-03-29 | home | Elmhurst            |   3 |  9.78 | Southwestern (TX) |   3 |  8.72
- 2015-03-29 | home | Hanover             |   3 | 22.68 | Defiance          |   3 |  4.98
- 2015-03-29 | home | Huntingdon          |   3 | 16.47 | Centenary (LA)    |   3 |  3.39
- 2015-03-29 | home | Maryland            |   1 | 12.35 | Michigan          |   1 |  4.66
- 2015-03-29 | home | North Carolina      |   1 | 16.69 | Duke              |   1 | 12.54
- 2015-03-29 | home | Penn St.            |   1 |  7.13 | Ohio St.          |   1 |  7.40
- 2015-03-29 | home | Post                |   2 | 11.47 | Dist. Columbia    |   2 |  8.69
- 2015-03-29 | home | Princeton           |   1 | 14.44 | Brown             |   1 | 14.02
- 2015-03-29 | home | Sewanee             |   3 | 12.64 | Birmingham-So.    |   3 |  5.06
- 2015-03-29 | home | Wheelock            |   3 |  6.54 | Johnson St.       |   3 |  9.32
-(16 rows)
+    date    | site |       home       | div | score |       away       | div | score 
+------------+------+------------------+-----+-------+------------------+-----+-------
+ 2015-04-07 | home | Adelphi          |   2 | 13.66 | Assumption       |   2 |  6.68
+ 2015-04-07 | home | American Int'l   |   2 |  5.94 | Pace             |   2 | 13.44
+ 2015-04-07 | home | Amherst          |   3 | 13.57 | Connecticut Col. |   3 |  7.65
+ 2015-04-07 | home | Anna Maria       |   3 |  4.58 | Mount Ida        |   3 | 17.81
+ 2015-04-07 | home | Babson           |   3 |  9.81 | Bowdoin          |   3 |  7.23
+ 2015-04-07 | home | Bentley          |   2 | 11.77 | Southern N.H.    |   2 |  7.76
+ 2015-04-07 | home | Boston U.        |   1 | 13.28 | Harvard          |   1 | 12.93
+ 2015-04-07 | home | Bryant           |   1 | 10.36 | Sacred Heart     |   1 |  6.67
+ 2015-04-07 | home | Chestnut Hill    |   2 | 15.35 | Dominican (NY)   |   2 |  6.13
+ 2015-04-07 | home | Cornell          |   1 | 16.05 | Canisius         |   1 |  5.30
+ 2015-04-07 | home | Curry            |   3 |  7.60 | Gordon           |   3 | 11.62
+ 2015-04-07 | home | Drew             |   3 |  9.48 | Vassar           |   3 | 11.62
+ 2015-04-07 | home | Franklin Pierce  |   2 | 12.14 | Saint Michael's  |   2 |  8.87
+ 2015-04-07 | home | Frank. & Marsh.  |   3 |  7.93 | Scranton         |   3 |  6.70
+ 2015-04-07 | home | Hamilton         |   3 |  8.97 | Williams         |   3 |  9.37
+ 2015-04-07 | home | Hofstra          |   1 | 10.42 | Marist           |   1 |  8.25
+ 2015-04-07 | home | Lafayette        |   1 | 12.97 | NJIT             |   1 |  5.28
+ 2015-04-07 | home | Le Moyne         |   2 | 14.68 | Saint Rose       |   2 |  4.23
+ 2015-04-07 | home | Limestone        |   2 | 32.95 | Lees-McRae       |   2 |  4.42
+ 2015-04-07 | home | Lindenwood (MO)  |   2 | 17.14 | Adams St.        |   2 |  6.76
+ 2015-04-07 | home | Lyndon St.       |   3 |  9.26 | Green Mountain   |   3 |  7.31
+ 2015-04-07 | home | Maine Maritime   |   3 | 12.34 | Husson           |   3 |  8.35
+ 2015-04-07 | home | Medaille         |   3 |  4.64 | Alfred           |   3 | 19.17
+ 2015-04-07 | home | New England Col. |   3 | 13.90 | Johnson St.      |   3 |  4.46
+ 2015-04-07 | home | Notre Dame       |   1 | 13.40 | Marquette        |   1 |  7.12
+ 2015-04-07 | home | Rochester Inst.  |   3 | 15.40 | Nazareth         |   3 |  8.67
+ 2015-04-07 | home | Saint Joseph's   |   1 | 10.59 | Wagner           |   1 |  5.94
+ 2015-04-07 | home | Salem St.        |   3 | 10.29 | MIT              |   3 | 11.16
+ 2015-04-07 | home | Skidmore         |   3 |  8.64 | Castleton        |   3 |  7.07
+ 2015-04-07 | home | St. Anselm       |   2 |  6.48 | Merrimack        |   2 | 15.66
+ 2015-04-07 | home | Thomas (ME)      |   3 |  8.03 | Me.-Farmington   |   3 |  4.06
+ 2015-04-07 | home | Tufts            |   3 | 15.32 | Bates            |   3 |  8.10
+ 2015-04-07 | home | Tusculum         |   2 | 14.43 | North Greenville |   2 |  7.17
+ 2015-04-07 | home | Wells            |   3 | 10.27 | SUNY Canton      |   3 |  8.95
+ 2015-04-07 | home | Wesleyan (CT)    |   3 | 11.38 | Trinity (CT)     |   3 |  7.43
+(35 rows)
 
-COPY 16
+COPY 35
 COMMIT

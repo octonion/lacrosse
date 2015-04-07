@@ -3,11 +3,16 @@
 require 'csv'
 require 'mechanize'
 
+bad = '%'
+
 agent = Mechanize.new{ |agent| agent.history.max_size=0 }
 agent.user_agent = 'Mozilla/5.0'
 
-url = "http://web1.ncaa.org/stats/exec/records"
+search_url = "http://web1.ncaa.org/stats/exec/records"
 teams = CSV.read("csv/ncaa_schools.csv")
+
+game_path = "//table/tr[3]/td/form/table[2]/tr"
+record_path = "//table/tr[3]/td/form/table[1]/tr[2]"
 
 first_year = 2015
 last_year = 2015
@@ -35,39 +40,58 @@ records_header = ["year","team_id","team_name","wins","losses","ties",
     team_name = team[1]
     print "#{year}/#{team_name} (#{team_count}/#{game_count})\n"
     begin
-      page = agent.post(url, {"academicYear" => "#{year}", "orgId" => team_id,
-                             "sportCode" => "MLA"})
+      page = agent.post(search_url, {"academicYear" => "#{year}",
+                          "orgId" => team_id, "sportCode" => "MLA"})
     rescue
-      print "  -> error, retrying\n"
+      print "#{year}/#{team_name} -> error, retrying\n"
+      sleep 3
       retry
     end
 
     begin
-      page.parser.xpath("//table/tr[3]/td/form/table[1]/tr[2]").each do |row|
-        r = []
-        row.xpath("td").each do |d|
-          r += [d.text.strip]
+      page.parser.xpath(record_path).each do |tr|
+        row = [year,team_id]
+        tr.xpath("td").each do |td|
+          row += [td.inner_text.strip]
         end
         team_count += 1
-        records << [year,team_id]+r
+        records << row
       end
-      records.flush
+      #records.flush
     end
 
-    page.parser.xpath("//table/tr[3]/td/form/table[2]/tr").each do |row|
-      r = []
-      row.xpath("td").each do |d|
-        r += [d.text.strip,d.inner_html.strip]
+    page.parser.xpath(game_path).each do |tr|
+
+      row = []
+      tr.xpath("td").each do |td|
+
+        a = td.xpath("a").first
+        if not(a==nil)
+          text = a.inner_text
+          text = text.gsub(bad,"").strip
+          url = a.attributes["href"].value.strip
+        else
+          text = td.inner_text
+          text = text.gsub(bad,"").strip
+          url = nil
+        end
+        row += [text, url]
       end
-      if (r[0]=="Opponent")
+      if (row[0]=="Opponent")
         next
       end
-      opponent_id = r[1][/(\d+)/]
+
+      if not(row[1]==nil)
+        opponent_id = row[1][/(\d+)/]
+      else
+        opponent_id=nil
+      end
+
       game_count += 1
-      games << [year,team_name,team_id,r[0],opponent_id,r[2],r[4],
-                r[6],r[8],r[10],r[12],r[14]]
+      games << [year,team_name,team_id,row[0],opponent_id,row[2],row[4],
+                row[6],row[8],row[10],row[12],row[14]]
     end
-    games.flush
+    #games.flush
   end
   records.close
   games.close
