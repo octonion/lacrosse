@@ -1,56 +1,20 @@
 BEGIN
 SET
-    date    |        team        | h_div | site |        opp         | v_div | spread 
-------------+--------------------+-------+------+--------------------+-------+--------
- 2015-04-07 | Adrian             |     3 | home | Hope               |     3 |   -1.8
- 2015-04-07 | Albion             |     3 | home | Alma               |     3 |    9.7
- 2015-04-07 | Beloit             |     3 | home | North Central (IL) |     3 |   -2.6
- 2015-04-07 | Boston College     |     1 | home | Harvard            |     1 |    6.1
- 2015-04-07 | Bowdoin            |     3 | home | Colby              |     3 |    0.7
- 2015-04-07 | Brevard            |     2 | home | Chowan             |     2 |    2.6
- 2015-04-07 | Bridgewater (VA)   |     3 | home | Va. Wesleyan       |     3 |    0.6
- 2015-04-07 | Buffalo St.        |     3 | home | Brockport          |     3 |   -4.3
- 2015-04-07 | Calvin             |     3 | home | Urbana             |     2 |    5.9
- 2015-04-07 | Castleton          |     3 | home | Worcester St.      |     3 |    6.4
- 2015-04-07 | Colby-Sawyer       |     3 | home | Green Mountain     |     3 |   12.6
- 2015-04-07 | Connecticut Col.   |     3 | home | Amherst            |     3 |   -6.1
- 2015-04-07 | Eastern Conn. St.  |     3 | home | Westfield St.      |     3 |   -4.6
- 2015-04-07 | Fitchburg St.      |     3 | home | Mount Ida          |     3 |    7.0
- 2015-04-07 | Fla. Southern      |     2 | home | Saint Leo          |     2 |    8.3
- 2015-04-07 | Johns Hopkins      |     1 | home | Stony Brook        |     1 |   -1.9
- 2015-04-07 | Kalamazoo          |     3 | home | Trine              |     3 |    7.3
- 2015-04-07 | Kean               |     3 | home | Montclair St.      |     3 |   -5.7
- 2015-04-07 | LaGrange           |     3 | home | Berry              |     3 |   -9.0
- 2015-04-07 | Lancaster Bible    |     3 | home | St. Elizabeth      |     3 |    8.9
- 2015-04-07 | Lees-McRae         |     2 | home | Pfeiffer           |     2 |  -12.8
- 2015-04-07 | Maine Maritime     |     3 | home | Husson             |     3 |  -11.6
- 2015-04-07 | Manhattanville     |     3 | home | Western Conn. St.  |     3 |   -9.3
- 2015-04-07 | Medaille           |     3 | home | SUNY Poly          |     3 |    0.0
- 2015-04-07 | Me.-Farmington     |     3 | home | Thomas (ME)        |     3 |   -3.9
- 2015-04-07 | Molloy             |     2 | home | Bridgeport         |     2 |   -1.4
- 2015-04-07 | Mt. St. Joseph     |     3 | home | Defiance           |     3 |    6.5
- 2015-04-07 | Newberry           |     2 | home | Queens (NC)        |     2 |  -13.7
- 2015-04-07 | New England Col.   |     3 | home | Johnson St.        |     3 |   10.0
- 2015-04-07 | New Haven          |     2 | home | Southern Conn. St. |     2 |   13.6
- 2015-04-07 | Notre Dame (MD)    |     3 | home | Goucher            |     3 |   -9.0
- 2015-04-07 | Oswego St.         |     3 | home | SUNY Geneseo       |     3 |   -3.9
- 2015-04-07 | Regis (MA)         |     3 | home | Salem St.          |     3 |    4.0
- 2015-04-07 | Rowan              |     3 | home | TCNJ               |     3 |   -4.3
- 2015-04-07 | Rutgers-Camden     |     3 | home | Stockton           |     3 |   -8.9
- 2015-04-07 | Salisbury          |     3 | home | Chris. Newport     |     3 |    5.8
- 2015-04-07 | Shorter            |     2 | home | Coker              |     2 |   -3.9
- 2015-04-07 | St. Bonaventure    |     1 | home | Binghamton         |     1 |   -1.5
- 2015-04-07 | St. Mary's (IN)    |     3 | home | Olivet             |     3 |   -0.2
- 2015-04-07 | St. Thomas Aquinas |     2 | home | Wilmington (DE)    |     2 |    7.0
- 2015-04-07 | SUNY Canton        |     3 | home | Clarkson           |     3 |   -3.2
- 2015-04-07 | SUNY Cortland      |     3 | home | SUNY Oneonta       |     3 |   15.9
- 2015-04-07 | SUNY Potsdam       |     3 | home | SUNY New Paltz     |     3 |    2.3
- 2015-04-07 | Sweet Briar        |     3 | home | Wash. & Lee        |     3 |  -11.4
- 2015-04-07 | Syracuse           |     1 | home | Notre Dame         |     1 |    2.9
- 2015-04-07 | Trinity (CT)       |     3 | home | Wesleyan (CT)      |     3 |   10.8
- 2015-04-07 | UMass Dartmouth    |     3 | home | Framingham St.     |     3 |   -0.6
- 2015-04-07 | Union (NY)         |     3 | home | Middlebury         |     3 |   -5.1
- 2015-04-07 | Wittenberg         |     3 | home | Oberlin            |     3 |   -1.3
-(49 rows)
+    date    |       team       | h_div | site |         opp          | v_div | spread 
+------------+------------------+-------+------+----------------------+-------+--------
+ 2015-04-13 | Albany (NY)      |     1 | home | Dartmouth            |     1 |    9.1
+ 2015-04-13 | Daniel Webster   |     3 | home | St. Joseph (CT)      |     3 |  -11.1
+ 2015-04-13 | Dubuque          |     3 | home | Aurora               |     3 |    1.6
+ 2015-04-13 | Elmira           |     3 | home | Farmingdale St.      |     3 |   -4.2
+ 2015-04-13 | Emmanuel (MA)    |     3 | home | Nichols              |     3 |    5.4
+ 2015-04-13 | Grand Valley St. |     2 | home | Regis (CO)           |     2 |    1.5
+ 2015-04-13 | Lasell           |     3 | home | Johnson & Wales (RI) |     3 |    2.4
+ 2015-04-13 | Neumann          |     3 | home | Rutgers-Camden       |     3 |    7.4
+ 2015-04-13 | Oglethorpe       |     3 | home | LaGrange             |     3 |    4.5
+ 2015-04-13 | Queens (NC)      |     2 | home | Lindenwood (MO)      |     2 |   -2.4
+ 2015-04-13 | Rivier           |     3 | home | Norwich              |     3 |   -2.2
+ 2015-04-13 | Saint Leo        |     2 | home | Shorter              |     2 |   12.0
+ 2015-04-13 | St. Elizabeth    |     3 | home | Medaille             |     3 |  -18.1
+(13 rows)
 
 COMMIT
