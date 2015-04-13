@@ -67,4 +67,17 @@ from r
 where div_id=3
 order by rk asc;
 
+copy (
+select
+rk,
+team,
+'D'||div_id::text as div,
+str,
+ofs,
+dfs,
+sos
+from r
+order by rk asc
+) to '/tmp/current_ranking.csv' csv header;
+
 commit;

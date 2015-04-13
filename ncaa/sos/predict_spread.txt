@@ -1,9 +1,10 @@
 BEGIN
 SET
-    date    | team  | h_div | site |             opp              | v_div | spread 
-------------+-------+-------+------+------------------------------+-------+--------
- 2015-04-06 | Keuka |     3 | home | %                           +|     3 |   19.7
-            |       |       |      |                   Alfred St. |       | 
-(1 row)
+    date    |     team      | h_div | site |         opp         | v_div | spread 
+------------+---------------+-------+------+---------------------+-------+--------
+ 2015-04-13 | Alfred St.    |     3 | home | Wells               |     3 |   -2.7
+ 2015-04-13 | Lyndon St.    |     3 | home | Daniel Webster      |     3 |   -5.2
+ 2015-04-13 | Wash. & Jeff. |     3 | home | Notre Dame de Namur |     2 |    4.3
+(3 rows)
 
 COMMIT

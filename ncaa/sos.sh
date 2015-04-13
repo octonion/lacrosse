@@ -21,6 +21,7 @@ psql lacrosse -f sos/schedule_factors.sql
 psql lacrosse -c "vacuum full verbose analyze ncaa._schedule_factors;"
 
 psql lacrosse -f sos/current_ranking.sql > sos/current_ranking.txt
+cp /tmp/current_ranking.csv sos/current_ranking.csv
 
 psql lacrosse -f sos/division_ranking.sql > sos/division_ranking.txt
 
