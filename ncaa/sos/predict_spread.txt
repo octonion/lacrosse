@@ -1,23 +1,7 @@
 BEGIN
 SET
-    date    |      team       | h_div |  site   |        opp        | v_div | spread 
-------------+-----------------+-------+---------+-------------------+-------+--------
- 2015-04-24 | Berry           |     3 | neutral | Centre            |     3 |    0.2
- 2015-04-24 | Bucknell        |     1 | neutral | Colgate           |     1 |   -0.7
- 2015-04-24 | Catawba         |     2 | home    | Adams St.         |     2 |    3.2
- 2015-04-24 | Colorado Col.   |     3 | home    | Whittier          |     3 |    4.9
- 2015-04-24 | Duke            |     1 | neutral | Notre Dame        |     1 |   -2.8
- 2015-04-24 | Fairfield       |     1 | home    | Hofstra           |     1 |    0.7
- 2015-04-24 | Franciscan      |     3 | home    | Bethany (WV)      |     3 |   -6.0
- 2015-04-24 | Hartford        |     1 | home    | Stony Brook       |     1 |   -3.7
- 2015-04-24 | Massachusetts   |     1 | home    | Delaware          |     1 |    4.1
- 2015-04-24 | Navy            |     1 | home    | Army West Point   |     1 |   -1.5
- 2015-04-24 | North Carolina  |     1 | neutral | Syracuse          |     1 |   -2.0
- 2015-04-24 | Pace            |     2 | home    | Bentley           |     2 |    3.1
- 2015-04-24 | Plymouth St.    |     3 | home    | Eastern Conn. St. |     3 |    1.8
- 2015-04-24 | Sewanee         |     3 | home    | Birmingham-So.    |     3 |    7.7
- 2015-04-24 | UMass Dartmouth |     3 | home    | UMass Boston      |     3 |    2.9
- 2015-04-24 | Walsh           |     2 | home    | Lake Erie         |     2 |  -10.1
-(16 rows)
+ date | team | h_div | site | opp | v_div | spread 
+------+------+-------+------+-----+-------+--------
+(0 rows)
 
 COMMIT

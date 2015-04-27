@@ -1,24 +1,8 @@
 BEGIN
 SET
-    date    |  site   |      home       | div | score |       away        | div | score 
-------------+---------+-----------------+-----+-------+-------------------+-----+-------
- 2015-04-24 | neutral | Bucknell        |   1 |  8.92 | Colgate           |   1 |  9.66
- 2015-04-24 | home    | Catawba         |   2 | 13.69 | Adams St.         |   2 | 10.50
- 2015-04-24 | neutral | Centre          |   3 |  9.06 | Berry             |   3 |  9.22
- 2015-04-24 | home    | Colorado Col.   |   3 | 11.90 | Whittier          |   3 |  7.01
- 2015-04-24 | neutral | Duke            |   1 | 11.29 | Notre Dame        |   1 | 14.10
- 2015-04-24 | home    | Fairfield       |   1 |  8.58 | Hofstra           |   1 |  7.89
- 2015-04-24 | home    | Franciscan      |   3 |  6.81 | Bethany (WV)      |   3 | 12.81
- 2015-04-24 | home    | Hartford        |   1 |  9.68 | Stony Brook       |   1 | 13.40
- 2015-04-24 | home    | Massachusetts   |   1 | 12.88 | Delaware          |   1 |  8.76
- 2015-04-24 | home    | Navy            |   1 |  7.49 | Army West Point   |   1 |  8.99
- 2015-04-24 | neutral | North Carolina  |   1 | 12.14 | Syracuse          |   1 | 14.19
- 2015-04-24 | home    | Pace            |   2 | 11.83 | Bentley           |   2 |  8.68
- 2015-04-24 | home    | Plymouth St.    |   3 |  9.04 | Eastern Conn. St. |   3 |  7.23
- 2015-04-24 | home    | Sewanee         |   3 | 13.21 | Birmingham-So.    |   3 |  5.54
- 2015-04-24 | home    | UMass Dartmouth |   3 | 10.44 | UMass Boston      |   3 |  7.58
- 2015-04-24 | home    | Walsh           |   2 |  4.12 | Lake Erie         |   2 | 14.26
-(16 rows)
+ date | site | home | div | score | away | div | score 
+------+------+------+-----+-------+------+-----+-------
+(0 rows)
 
-COPY 16
+COPY 0
 COMMIT
