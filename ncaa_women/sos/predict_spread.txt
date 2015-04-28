@@ -1,43 +1,25 @@
 BEGIN
 SET
-    date    |       team        | h_div |  site   |         opp          | v_div | spread 
-------------+-------------------+-------+---------+----------------------+-------+--------
- 2015-04-24 | Alderson Broaddus |     2 | home    | Findlay              |     2 |  -16.2
- 2015-04-24 | Bard              |     3 | home    | Clarkson             |     3 |   -8.6
- 2015-04-24 | Brockport         |     3 | home    | Oswego St.           |     3 |    8.7
- 2015-04-24 | Bryant            |     1 | home    | Wagner               |     1 |    2.9
- 2015-04-24 | Campbell          |     1 | home    | Coastal Caro.        |     1 |   -3.9
- 2015-04-24 | Cazenovia         |     3 | home    | Wells                |     3 |    5.5
- 2015-04-24 | Central Conn. St. |     1 | home    | Mt. St. Mary's       |     1 |    0.3
- 2015-04-24 | Colgate           |     1 | neutral | Navy                 |     1 |   -2.5
- 2015-04-24 | Colorado          |     1 | home    | Fresno St.           |     1 |    8.8
- 2015-04-24 | Denver            |     1 | home    | Oregon               |     1 |    2.2
- 2015-04-24 | Duquesne          |     1 | home    | Davidson             |     1 |    1.5
- 2015-04-24 | Elmhurst          |     3 | home    | Wartburg             |     3 |    5.0
- 2015-04-24 | Emmanuel (MA)     |     3 | neutral | St. Joseph's (ME)    |     3 |   -0.8
- 2015-04-24 | Fla. Southern     |     2 | home    | Florida Tech         |     2 |   12.0
- 2015-04-24 | Fort Lewis        |     2 | home    | Adams St.            |     2 |   10.2
- 2015-04-24 | Gardner-Webb      |     1 | home    | Presbyterian         |     1 |   -5.4
- 2015-04-24 | George Mason      |     1 | home    | George Washington    |     1 |    1.9
- 2015-04-24 | High Point        |     1 | home    | Winthrop             |     1 |   -2.1
- 2015-04-24 | Lake Erie         |     2 | home    | Grand Valley St.     |     2 |   -7.1
- 2015-04-24 | Lasell            |     3 | home    | Johnson & Wales (RI) |     3 |    2.9
- 2015-04-24 | LIU Brooklyn      |     1 | home    | Saint Francis (PA)   |     1 |    3.7
- 2015-04-24 | Longwood          |     1 | home    | Liberty              |     1 |   -2.7
- 2015-04-24 | Loyola Maryland   |     1 | home    | Boston U.            |     1 |    6.7
- 2015-04-24 | Massachusetts     |     1 | home    | Richmond             |     1 |    6.1
- 2015-04-24 | McKendree         |     2 | home    | Ursuline             |     2 |   12.3
- 2015-04-24 | Medaille          |     3 | home    | Penn St.-Abington    |     3 |    7.0
- 2015-04-24 | Rollins           |     2 | home    | Saint Leo            |     2 |    6.9
- 2015-04-24 | Sacred Heart      |     1 | home    | Robert Morris        |     1 |   -1.9
- 2015-04-24 | Saint Joseph's    |     1 | home    | La Salle             |     1 |   -1.5
- 2015-04-24 | Saint Vincent     |     3 | home    | Transylvania         |     3 |    5.9
- 2015-04-24 | Stetson           |     1 | home    | Jacksonville         |     1 |  -11.7
- 2015-04-24 | Thiel             |     3 | neutral | Wash. & Jeff.        |     3 |    3.3
- 2015-04-24 | Tiffin            |     2 | home    | Walsh                |     2 |   14.5
- 2015-04-24 | Union (NY)        |     3 | home    | Rensselaer           |     3 |    3.6
- 2015-04-24 | Vassar            |     3 | home    | St. Lawrence         |     3 |    1.4
- 2015-04-24 | William Smith     |     3 | home    | Skidmore             |     3 |   -0.1
-(36 rows)
+    date    |       team        | h_div | site |        opp        | v_div | spread 
+------------+-------------------+-------+------+-------------------+-------+--------
+ 2015-04-28 | Bridgewater St.   |     3 | home | Salem St.         |     3 |    8.6
+ 2015-04-28 | Brockport         |     3 | home | SUNY Oneonta      |     3 |    6.7
+ 2015-04-28 | Coastal Caro.     |     1 | home | Campbell          |     1 |    6.0
+ 2015-04-28 | Elms              |     3 | home | Southern Vt.      |     3 |    5.6
+ 2015-04-28 | Findlay           |     2 | home | Ursuline          |     2 |   16.1
+ 2015-04-28 | High Point        |     1 | home | Longwood          |     1 |    5.4
+ 2015-04-28 | Hilbert           |     3 | home | Keuka             |     3 |  -11.2
+ 2015-04-28 | Lake Erie         |     2 | home | McKendree         |     2 |    0.6
+ 2015-04-28 | Liberty           |     1 | home | Gardner-Webb      |     1 |   19.6
+ 2015-04-28 | Seton Hill        |     2 | home | Indiana (PA)      |     2 |    4.1
+ 2015-04-28 | Southern Me.      |     3 | home | Eastern Conn. St. |     3 |    2.5
+ 2015-04-28 | SUNY Geneseo      |     3 | home | Buffalo St.       |     3 |    8.5
+ 2015-04-28 | SUNY Poly         |     3 | home | Cazenovia         |     3 |    4.0
+ 2015-04-28 | West Chester      |     2 | home | Bloomsburg        |     2 |    4.1
+ 2015-04-28 | Western Conn. St. |     3 | home | UMass Dartmouth   |     3 |   10.5
+ 2015-04-28 | Wheelock          |     3 | home | Bay Path          |     3 |   11.6
+ 2015-04-28 | Winthrop          |     1 | home | Presbyterian      |     1 |   17.9
+ 2015-04-28 | Worcester St.     |     3 | home | Framingham St.    |     3 |    5.8
+(18 rows)
 
 COMMIT
