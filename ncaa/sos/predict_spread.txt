@@ -1,7 +1,39 @@
 BEGIN
 SET
- date | team | h_div | site | opp | v_div | spread 
-------+------+-------+------+-----+-------+--------
-(0 rows)
+    date    |       team       | h_div | site |         opp          | v_div | spread 
+------------+------------------+-------+------+----------------------+-------+--------
+ 2015-04-29 | Adrian           |     3 | home | Alma                 |     3 |    5.8
+ 2015-04-29 | Albion           |     3 | home | Olivet               |     3 |   11.5
+ 2015-04-29 | Augustana (IL)   |     3 | home | Ill. Wesleyan        |     3 |    2.0
+ 2015-04-29 | Aurora           |     3 | home | Beloit               |     3 |    9.5
+ 2015-04-29 | Babson           |     3 | home | Wheaton (MA)         |     3 |    4.2
+ 2015-04-29 | Becker           |     3 | home | Regis (MA)           |     3 |    0.8
+ 2015-04-29 | Benedictine (IL) |     3 | home | Concordia Wisconsin  |     3 |   -0.9
+ 2015-04-29 | Capital          |     3 | home | John Carroll         |     3 |    0.4
+ 2015-04-29 | Carthage         |     3 | home | Elmhurst             |     3 |    6.6
+ 2015-04-29 | Elizabethtown    |     3 | home | Catholic             |     3 |    2.5
+ 2015-04-29 | Endicott         |     3 | home | Gordon               |     3 |   12.8
+ 2015-04-29 | Gettysburg       |     3 | home | Washington Col.      |     3 |   10.3
+ 2015-04-29 | Ithaca           |     3 | home | Stevens              |     3 |    4.1
+ 2015-04-29 | Keuka            |     3 | home | Hilbert              |     3 |    3.4
+ 2015-04-29 | LIU Post         |     2 | home | Molloy               |     2 |    4.7
+ 2015-04-29 | Messiah          |     3 | home | Albright             |     3 |   -1.9
+ 2015-04-29 | Misericordia     |     3 | home | FDU-Florham          |     3 |    4.4
+ 2015-04-29 | Mitchell         |     3 | home | Daniel Webster       |     3 |    3.5
+ 2015-04-29 | Montclair St.    |     3 | home | Farmingdale St.      |     3 |    7.8
+ 2015-04-29 | Morrisville St.  |     3 | home | Cazenovia            |     3 |    6.7
+ 2015-04-29 | Mt. St. Vincent  |     3 | home | Johnson & Wales (RI) |     3 |   -3.2
+ 2015-04-29 | Nazareth         |     3 | home | St. John Fisher      |     3 |    7.0
+ 2015-04-29 | NYIT             |     2 | home | Mercy                |     2 |    4.8
+ 2015-04-29 | Otterbein        |     3 | home | Baldwin Wallace      |     3 |    2.2
+ 2015-04-29 | Plattsburgh St.  |     3 | home | SUNY Potsdam         |     3 |    3.7
+ 2015-04-29 | Springfield      |     3 | home | MIT                  |     3 |    5.5
+ 2015-04-29 | Stockton         |     3 | home | Kean                 |     3 |    1.5
+ 2015-04-29 | SUNY Cortland    |     3 | home | SUNY Oneonta         |     3 |    8.1
+ 2015-04-29 | Susquehanna      |     3 | home | Scranton             |     3 |    0.7
+ 2015-04-29 | Swarthmore       |     3 | home | Vassar               |     3 |    2.4
+ 2015-04-29 | Ursinus          |     3 | home | Dickinson            |     3 |    4.0
+ 2015-04-29 | Western New Eng. |     3 | home | Roger Williams       |     3 |    2.7
+(32 rows)
 
 COMMIT
