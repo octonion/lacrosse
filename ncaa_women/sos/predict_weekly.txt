@@ -2,100 +2,84 @@ BEGIN
 SET
     date    |  site   |        home         | div | score |        away        | div | score 
 ------------+---------+---------------------+-----+-------+--------------------+-----+-------
- 2015-04-29 | home    | Adelphi             |   2 | 17.24 | Saint Michael's    |   2 |  4.22
- 2015-05-01 | neutral | Albany (NY)         |   1 | 15.25 | Vermont            |   1 |  6.77
- 2015-04-29 | home    | Albion              |   3 | 16.17 | Hope               |   3 |  6.68
- 2015-04-29 | home    | Augustana (IL)      |   3 | 18.95 | Elmhurst           |   3 |  3.03
- 2015-05-01 | neutral | Aurora              |   3 | 10.29 | Beloit             |   3 | 10.89
- 2015-04-29 | home    | Baldwin Wallace     |   3 | 10.55 | John Carroll       |   3 |  9.78
+ 2015-05-02 | home    | Adelphi             |   2 | 11.20 | Stonehill          |   2 |  5.90
+ 2015-05-01 | neutral | Albany (NY)         |   1 | 15.25 | Vermont            |   1 |  6.76
+ 2015-05-02 | home    | Augustana (IL)      |   3 | 14.91 | Carthage           |   3 |  5.57
+ 2015-05-01 | neutral | Aurora              |   3 | 10.30 | Beloit             |   3 | 10.89
+ 2015-04-30 | home    | Becker              |   3 |  9.97 | Wheelock           |   3 |  8.76
  2015-05-02 | home    | Boston College      |   1 | 16.15 | Boston U.          |   1 |  6.70
- 2015-05-02 | neutral | Bowdoin             |   3 |  8.88 | Middlebury         |   3 | 11.30
- 2015-04-28 | home    | Bridgewater St.     |   3 | 16.19 | Salem St.          |   3 |  7.57
- 2015-04-28 | home    | Brockport           |   3 | 16.77 | SUNY Oneonta       |   3 | 10.05
- 2015-05-01 | home    | Bryant              |   1 | 14.05 | Robert Morris      |   1 | 10.02
- 2015-04-29 | home    | Cabrini             |   3 | 14.13 | Marywood           |   3 |  5.98
- 2015-04-29 | home    | Calvin              |   3 | 16.02 | Olivet             |   3 |  9.50
- 2015-05-01 | home    | Canisius            |   1 | 11.87 | Marist             |   1 |  9.39
- 2015-04-29 | home    | Carthage            |   3 | 13.49 | North Central (IL) |   3 | 10.44
- 2015-04-29 | home    | Castleton           |   3 | 14.16 | Husson             |   3 |  6.52
- 2015-04-29 | home    | Catholic            |   3 | 17.56 | Goucher            |   3 |  6.19
- 2015-04-28 | home    | Coastal Caro.       |   1 | 15.79 | Campbell           |   1 |  9.75
- 2015-04-30 | neutral | Colorado            |   1 | 11.56 | San Diego St.      |   1 |  9.73
- 2015-05-02 | neutral | Colorado Mesa       |   2 |  6.92 | Lindenwood (MO)    |   2 | 17.55
- 2015-05-01 | home    | Concordia Wisconsin |   3 | 20.25 | Benedictine (IL)   |   3 |  4.10
+ 2015-05-02 | neutral | Bowdoin             |   3 |  8.86 | Middlebury         |   3 | 11.31
+ 2015-05-01 | home    | Bryant              |   1 | 14.05 | Robert Morris      |   1 | 10.03
+ 2015-05-02 | home    | Cabrini             |   3 | 12.88 | Neumann            |   3 |  7.77
+ 2015-05-02 | home    | Calvin              |   3 | 10.26 | Albion             |   3 | 12.75
+ 2015-05-01 | home    | Canisius            |   1 | 11.87 | Marist             |   1 |  9.40
+ 2015-05-02 | home    | Castleton           |   3 | 13.52 | Thomas (ME)        |   3 |  6.64
+ 2015-05-02 | home    | Catholic            |   3 | 16.74 | Susquehanna        |   3 |  8.89
+ 2015-05-01 | neutral | Coastal Caro.       |   1 | 12.15 | Liberty            |   1 | 12.64
+ 2015-04-30 | neutral | Colorado            |   1 | 11.57 | San Diego St.      |   1 |  9.74
+ 2015-05-02 | neutral | Colorado Mesa       |   2 |  6.92 | Lindenwood (MO)    |   2 | 17.54
+ 2015-05-01 | home    | Concordia Wisconsin |   3 | 20.25 | Benedictine (IL)   |   3 |  4.09
  2015-05-01 | neutral | Cornell             |   1 |  9.32 | Penn               |   1 |  9.29
- 2015-05-01 | home    | Delaware            |   1 |  9.47 | James Madison      |   1 |  9.87
- 2015-04-30 | home    | Denver              |   1 | 10.62 | Oregon             |   1 |  8.11
- 2015-04-29 | neutral | Detroit             |   1 | 13.02 | Stetson            |   1 |  9.03
- 2015-04-30 | home    | Dowling             |   2 | 12.05 | St. Thomas Aquinas |   2 |  8.69
- 2015-05-03 | home    | Duke                |   1 | 10.70 | Johns Hopkins      |   1 |  7.13
+ 2015-05-01 | home    | Delaware            |   1 |  9.47 | James Madison      |   1 |  9.86
+ 2015-05-02 | home    | Denison             |   3 | 11.45 | Oberlin            |   3 |  9.42
+ 2015-04-30 | home    | Denver              |   1 | 10.61 | Oregon             |   1 |  8.11
+ 2015-05-01 | neutral | Detroit             |   1 | 10.07 | Old Dominion       |   1 | 14.35
+ 2015-04-30 | home    | Dowling             |   2 | 12.04 | St. Thomas Aquinas |   2 |  8.67
+ 2015-05-03 | home    | Duke                |   1 | 10.71 | Johns Hopkins      |   1 |  7.12
  2015-05-01 | neutral | Duquesne            |   1 |  8.33 | Richmond           |   1 |  8.79
- 2015-04-28 | home    | Elms                |   3 | 14.28 | Southern Vt.       |   3 |  8.65
  2015-05-01 | neutral | Fairfield           |   1 |  8.40 | Monmouth           |   1 |  6.92
- 2015-04-29 | home    | Farmingdale St.     |   3 | 17.74 | Mt. St. Mary (NY)  |   3 |  6.79
- 2015-04-29 | home    | FDU-Florham         |   3 | 14.95 | Eastern            |   3 |  6.17
- 2015-04-28 | home    | Findlay             |   2 | 24.67 | Ursuline           |   2 |  8.57
- 2015-04-30 | neutral | Florida             |   1 | 16.93 | Villanova          |   1 |  6.65
- 2015-05-02 | neutral | Frank. & Marsh.     |   3 | 13.35 | Washington Col.    |   3 |  7.38
- 2015-04-29 | neutral | Furman              |   1 | 14.04 | Kennesaw St.       |   1 |  7.65
- 2015-05-01 | neutral | George Mason        |   1 |  5.72 | Massachusetts      |   1 | 12.79
- 2015-04-28 | home    | High Point          |   1 | 12.71 | Longwood           |   1 |  7.27
- 2015-04-28 | home    | Hilbert             |   3 |  5.92 | Keuka              |   3 | 17.10
- 2015-04-29 | home    | Hilbert             |   3 |  5.88 | Morrisville St.    |   3 | 16.16
- 2015-05-01 | neutral | Hofstra             |   1 |  8.81 | Towson             |   1 |  9.07
- 2015-04-28 | home    | Lake Erie           |   2 | 11.34 | McKendree          |   2 | 10.77
- 2015-04-29 | home    | Le Moyne            |   2 | 17.55 | Assumption         |   2 |  6.23
- 2015-04-28 | home    | Liberty             |   1 | 24.40 | Gardner-Webb       |   1 |  4.84
- 2015-05-02 | home    | Limestone           |   2 | 18.07 | Wheeling Jesuit    |   2 |  4.99
- 2015-04-30 | home    | LIU Post            |   2 | 15.59 | Molloy             |   2 |  5.71
- 2015-05-02 | home    | Loyola Maryland     |   1 | 10.32 | Syracuse           |   1 | 11.48
- 2015-05-02 | neutral | Medaille            |   3 | 10.37 | Morrisville St.    |   3 | 16.28
+ 2015-05-02 | home    | FDU-Florham         |   3 | 14.95 | Misericordia       |   3 |  7.21
+ 2015-05-01 | neutral | Findlay             |   2 | 11.71 | Tiffin             |   2 | 16.63
+ 2015-04-30 | home    | Fitchburg St.       |   3 | 11.94 | Bridgewater St.    |   3 | 12.96
+ 2015-04-30 | neutral | Florida             |   1 | 17.07 | Villanova          |   1 |  6.75
+ 2015-05-02 | neutral | Frank. & Marsh.     |   3 | 13.33 | Washington Col.    |   3 |  7.39
+ 2015-05-01 | neutral | Fredonia            |   3 |  6.63 | SUNY Geneseo       |   3 |  8.02
+ 2015-05-01 | neutral | George Mason        |   1 |  5.72 | Massachusetts      |   1 | 12.80
+ 2015-05-02 | home    | Gettysburg          |   3 | 14.71 | Haverford          |   3 |  6.06
+ 2015-05-01 | home    | Grand Valley St.    |   2 | 15.62 | McKendree          |   2 |  6.55
+ 2015-05-01 | neutral | Hofstra             |   1 |  8.82 | Towson             |   1 |  9.08
+ 2015-05-01 | home    | Jacksonville        |   1 | 15.89 | Furman             |   1 |  5.74
+ 2015-04-30 | home    | Keene St.           |   3 | 16.03 | Western Conn. St.  |   3 | 14.47
+ 2015-05-02 | home    | Keuka               |   3 | 11.95 | SUNY Poly          |   3 |  9.75
+ 2015-05-02 | neutral | Le Moyne            |   2 | 10.64 | New Haven          |   2 |  8.89
+ 2015-05-02 | home    | Limestone           |   2 | 18.08 | Wheeling Jesuit    |   2 |  4.97
+ 2015-04-30 | home    | LIU Post            |   2 | 15.95 | Molloy             |   2 |  5.66
+ 2015-05-01 | home    | Lock Haven          |   2 | 11.58 | Seton Hill         |   2 |  5.66
+ 2015-05-02 | neutral | Medaille            |   3 | 10.10 | Morrisville St.    |   3 | 16.50
+ 2015-05-01 | neutral | Mercyhurst          |   2 | 10.71 | West Chester       |   2 |  9.80
+ 2015-04-30 | home    | Messiah             |   3 | 14.27 | Arcadia            |   3 |  5.97
  2015-04-30 | neutral | Michigan            |   1 |  7.44 | Northwestern       |   1 | 15.50
- 2015-04-29 | home    | Misericordia        |   3 | 14.25 | King's (PA)        |   3 | 10.07
- 2015-05-02 | neutral | MIT                 |   3 | 12.20 | Wellesley          |   3 |  9.40
- 2015-04-29 | home    | Montclair St.       |   3 | 12.90 | Rowan              |   3 |  9.75
- 2015-04-29 | home    | Mount Union         |   3 | 16.86 | Otterbein          |   3 |  5.20
- 2015-05-01 | neutral | Mt. St. Mary's      |   1 |  8.64 | Wagner             |   1 | 10.44
- 2015-04-29 | home    | Muhlenberg          |   3 | 12.83 | Haverford          |   3 | 11.14
- 2015-05-02 | home    | Navy                |   1 | 12.25 | Virginia Tech      |   1 |  7.67
- 2015-05-02 | home    | Nazareth            |   3 |  8.94 | Ithaca             |   3 | 10.50
- 2015-04-29 | home    | Neumann             |   3 | 12.31 | Immaculata         |   3 |  9.18
- 2015-05-02 | home    | Pomona-Pitzer       |   3 | 10.22 | Occidental         |   3 |  8.58
- 2015-05-01 | home    | Princeton           |   1 | 11.18 | Harvard            |   1 |  9.10
- 2015-04-29 | home    | Randolph-Macon      |   3 | 14.26 | Va. Wesleyan       |   3 | 10.18
- 2015-05-02 | home    | Regis (CO)          |   2 | 13.10 | Fort Lewis         |   2 |  9.08
- 2015-04-29 | home    | Roger Williams      |   3 | 11.55 | Endicott           |   3 |  8.78
- 2015-04-30 | home    | Rutgers             |   1 |  9.02 | Ohio St.           |   1 | 14.60
- 2015-05-02 | home    | Salisbury           |   3 |  8.82 | York (PA)          |   3 |  5.87
- 2015-04-29 | home    | Scranton            |   3 | 10.75 | Susquehanna        |   3 | 12.79
- 2015-04-28 | home    | Seton Hill          |   2 | 14.01 | Indiana (PA)       |   2 |  9.95
- 2015-04-30 | home    | Shepherd            |   2 | 18.38 | UVa-Wise           |   2 |  4.39
- 2015-05-01 | neutral | Skidmore            |   3 |  9.69 | Vassar             |   3 |  8.25
- 2015-04-28 | home    | Southern Me.        |   3 | 12.64 | Eastern Conn. St.  |   3 | 10.12
+ 2015-05-02 | neutral | MIT                 |   3 | 12.19 | Wellesley          |   3 |  9.35
+ 2015-05-02 | home    | Mount Union         |   3 | 14.18 | Baldwin Wallace    |   3 |  6.41
+ 2015-05-01 | neutral | Mt. St. Mary's      |   1 |  8.64 | Wagner             |   1 | 10.45
+ 2015-05-02 | home    | Navy                |   1 | 12.25 | Virginia Tech      |   1 |  7.68
+ 2015-05-02 | home    | Nazareth            |   3 |  8.93 | Ithaca             |   3 | 10.53
+ 2015-04-30 | home    | Plymouth St.        |   3 | 17.67 | Southern Me.       |   3 |  8.99
+ 2015-05-02 | home    | Pomona-Pitzer       |   3 | 10.23 | Occidental         |   3 |  8.60
+ 2015-05-01 | home    | Princeton           |   1 | 11.19 | Harvard            |   1 |  9.11
+ 2015-05-02 | home    | Regis (CO)          |   2 | 13.11 | Fort Lewis         |   2 |  9.10
+ 2015-04-30 | home    | Regis (MA)          |   3 | 15.84 | Elms               |   3 |  5.40
+ 2015-04-30 | home    | Rutgers             |   1 |  9.01 | Ohio St.           |   1 | 14.61
+ 2015-05-02 | home    | Salisbury           |   3 |  8.82 | York (PA)          |   3 |  5.88
+ 2015-04-30 | home    | Shepherd            |   2 | 18.37 | UVa-Wise           |   2 |  4.40
+ 2015-05-01 | neutral | Skidmore            |   3 |  9.68 | Vassar             |   3 |  8.26
  2015-05-02 | home    | Springfield         |   3 | 10.55 | Wheaton (MA)       |   3 |  6.42
- 2015-04-30 | home    | Stevenson           |   3 | 10.24 | Lebanon Valley     |   3 |  8.73
- 2015-05-02 | neutral | St. John Fisher     |   3 |  9.79 | Stevens            |   3 |  9.77
- 2015-04-29 | home    | St. Joseph's (L.I.) |   3 | 15.75 | Purchase           |   3 |  7.26
- 2015-04-29 | home    | Stonehill           |   2 | 12.86 | Bentley            |   2 |  7.88
- 2015-05-01 | home    | Stony Brook         |   1 | 12.83 | UMBC               |   1 |  4.62
- 2015-04-28 | home    | SUNY Geneseo        |   3 | 14.51 | Buffalo St.        |   3 |  5.97
- 2015-04-28 | home    | SUNY Poly           |   3 | 12.11 | Cazenovia          |   3 |  8.14
- 2015-04-29 | home    | TCNJ                |   3 | 13.99 | Kean               |   3 |  3.97
- 2015-04-29 | home    | Thomas (ME)         |   3 |  8.94 | Colby-Sawyer       |   3 |  8.82
- 2015-05-02 | home    | Trinity (CT)        |   3 | 13.53 | Tufts              |   3 |  7.28
- 2015-04-30 | home    | UConn               |   1 | 12.15 | Georgetown         |   1 |  7.24
- 2015-05-01 | home    | Union (NY)          |   3 | 11.49 | Rochester (NY)     |   3 |  6.56
- 2015-04-29 | home    | Wash. & Lee         |   3 | 11.58 | Lynchburg          |   3 |  7.18
- 2015-04-28 | home    | West Chester        |   2 | 12.03 | Bloomsburg         |   2 |  7.90
- 2015-04-28 | home    | Western Conn. St.   |   3 | 21.79 | UMass Dartmouth    |   3 | 11.31
- 2015-04-29 | home    | Western New Eng.    |   3 | 16.38 | Gordon             |   3 | 10.18
- 2015-04-30 | neutral | West Va. Wesleyan   |   2 | 10.64 | Wheeling Jesuit    |   2 | 11.36
- 2015-04-28 | home    | Wheelock            |   3 | 17.47 | Bay Path           |   3 |  5.90
- 2015-04-28 | home    | Winthrop            |   1 | 22.86 | Presbyterian       |   1 |  5.00
- 2015-04-29 | home    | Wittenberg          |   3 | 12.23 | Oberlin            |   3 | 10.96
- 2015-04-29 | home    | Wooster             |   3 | 11.68 | Denison            |   3 | 12.41
- 2015-04-28 | home    | Worcester St.       |   3 | 14.76 | Framingham St.     |   3 |  8.96
-(93 rows)
+ 2015-04-30 | home    | Stevenson           |   3 | 10.24 | Lebanon Valley     |   3 |  8.71
+ 2015-05-02 | neutral | St. John Fisher     |   3 |  9.81 | Stevens            |   3 |  9.79
+ 2015-05-02 | home    | St. Joseph's (L.I.) |   3 |  9.02 | Farmingdale St.    |   3 |  9.55
+ 2015-05-01 | home    | Stony Brook         |   1 | 12.82 | UMBC               |   1 |  4.61
+ 2015-05-01 | home    | SUNY Cortland       |   3 | 18.29 | Brockport          |   3 |  9.65
+ 2015-05-02 | home    | Syracuse            |   1 | 12.49 | Loyola Maryland    |   1 |  9.48
+ 2015-05-02 | home    | TCNJ                |   3 | 13.48 | Rowan              |   3 |  6.45
+ 2015-05-02 | home    | Trinity (CT)        |   3 | 13.56 | Tufts              |   3 |  7.28
+ 2015-04-30 | home    | UConn               |   1 | 12.13 | Georgetown         |   1 |  7.23
+ 2015-05-01 | home    | Union (NY)          |   3 | 11.52 | Rochester (NY)     |   3 |  6.54
+ 2015-05-02 | home    | Wash. & Lee         |   3 | 11.51 | Randolph-Macon     |   3 |  7.85
+ 2015-05-02 | home    | Western New Eng.    |   3 | 12.97 | Roger Williams     |   3 | 13.34
+ 2015-04-30 | home    | Westfield St.       |   3 | 14.30 | Worcester St.      |   3 | 10.54
+ 2015-04-30 | neutral | West Va. Wesleyan   |   2 | 10.65 | Wheeling Jesuit    |   2 | 11.32
+ 2015-05-01 | home    | Winthrop            |   1 | 11.58 | High Point         |   1 |  8.21
+(77 rows)
 
-COPY 93
+COPY 77
 COMMIT
