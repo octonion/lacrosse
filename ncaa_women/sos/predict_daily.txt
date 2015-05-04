@@ -1,26 +1,8 @@
 BEGIN
 SET
-    date    |  site   |       home        | div | score |        away        | div | score 
-------------+---------+-------------------+-----+-------+--------------------+-----+-------
- 2015-04-30 | home    | Becker            |   3 |  9.97 | Wheelock           |   3 |  8.76
- 2015-04-30 | neutral | Colorado          |   1 | 11.57 | San Diego St.      |   1 |  9.74
- 2015-04-30 | home    | Denver            |   1 | 10.61 | Oregon             |   1 |  8.11
- 2015-04-30 | home    | Dowling           |   2 | 12.04 | St. Thomas Aquinas |   2 |  8.67
- 2015-04-30 | home    | Fitchburg St.     |   3 | 11.94 | Bridgewater St.    |   3 | 12.96
- 2015-04-30 | neutral | Florida           |   1 | 17.07 | Villanova          |   1 |  6.75
- 2015-04-30 | home    | Keene St.         |   3 | 16.03 | Western Conn. St.  |   3 | 14.47
- 2015-04-30 | home    | LIU Post          |   2 | 15.95 | Molloy             |   2 |  5.66
- 2015-04-30 | home    | Messiah           |   3 | 14.27 | Arcadia            |   3 |  5.97
- 2015-04-30 | neutral | Michigan          |   1 |  7.44 | Northwestern       |   1 | 15.50
- 2015-04-30 | home    | Plymouth St.      |   3 | 17.67 | Southern Me.       |   3 |  8.99
- 2015-04-30 | home    | Regis (MA)        |   3 | 15.84 | Elms               |   3 |  5.40
- 2015-04-30 | home    | Rutgers           |   1 |  9.01 | Ohio St.           |   1 | 14.61
- 2015-04-30 | home    | Shepherd          |   2 | 18.37 | UVa-Wise           |   2 |  4.40
- 2015-04-30 | home    | Stevenson         |   3 | 10.24 | Lebanon Valley     |   3 |  8.71
- 2015-04-30 | home    | UConn             |   1 | 12.13 | Georgetown         |   1 |  7.23
- 2015-04-30 | home    | Westfield St.     |   3 | 14.30 | Worcester St.      |   3 | 10.54
- 2015-04-30 | neutral | West Va. Wesleyan |   2 | 10.65 | Wheeling Jesuit    |   2 | 11.32
-(18 rows)
+ date | site | home | div | score | away | div | score 
+------+------+------+-----+-------+------+-----+-------
+(0 rows)
 
-COPY 18
+COPY 0
 COMMIT

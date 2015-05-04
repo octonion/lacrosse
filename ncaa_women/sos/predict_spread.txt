@@ -1,25 +1,7 @@
 BEGIN
 SET
-    date    |       team        | h_div |  site   |        opp         | v_div | spread 
-------------+-------------------+-------+---------+--------------------+-------+--------
- 2015-04-30 | Becker            |     3 | home    | Wheelock           |     3 |    1.2
- 2015-04-30 | Colorado          |     1 | neutral | San Diego St.      |     1 |    1.8
- 2015-04-30 | Denver            |     1 | home    | Oregon             |     1 |    2.5
- 2015-04-30 | Dowling           |     2 | home    | St. Thomas Aquinas |     2 |    3.4
- 2015-04-30 | Fitchburg St.     |     3 | home    | Bridgewater St.    |     3 |   -1.0
- 2015-04-30 | Florida           |     1 | neutral | Villanova          |     1 |   10.3
- 2015-04-30 | Keene St.         |     3 | home    | Western Conn. St.  |     3 |    1.6
- 2015-04-30 | LIU Post          |     2 | home    | Molloy             |     2 |   10.3
- 2015-04-30 | Messiah           |     3 | home    | Arcadia            |     3 |    8.3
- 2015-04-30 | Michigan          |     1 | neutral | Northwestern       |     1 |   -8.1
- 2015-04-30 | Plymouth St.      |     3 | home    | Southern Me.       |     3 |    8.7
- 2015-04-30 | Regis (MA)        |     3 | home    | Elms               |     3 |   10.4
- 2015-04-30 | Rutgers           |     1 | home    | Ohio St.           |     1 |   -5.6
- 2015-04-30 | Shepherd          |     2 | home    | UVa-Wise           |     2 |   14.0
- 2015-04-30 | Stevenson         |     3 | home    | Lebanon Valley     |     3 |    1.5
- 2015-04-30 | UConn             |     1 | home    | Georgetown         |     1 |    4.9
- 2015-04-30 | Westfield St.     |     3 | home    | Worcester St.      |     3 |    3.8
- 2015-04-30 | West Va. Wesleyan |     2 | neutral | Wheeling Jesuit    |     2 |   -0.7
-(18 rows)
+ date | team | h_div | site | opp | v_div | spread 
+------+------+-------+------+-----+-------+--------
+(0 rows)
 
 COMMIT
