@@ -1,24 +1,7 @@
 BEGIN
 SET
-    date    |       team        | h_div |  site   |        opp        | v_div | spread 
-------------+-------------------+-------+---------+-------------------+-------+--------
- 2015-04-30 | Albany (NY)       |     1 | home    | Hartford          |     1 |   10.7
- 2015-04-30 | Bryant            |     1 | neutral | Hobart            |     1 |    0.8
- 2015-04-30 | Detroit           |     1 | neutral | Quinnipiac        |     1 |    2.0
- 2015-04-30 | Drexel            |     1 | neutral | Towson            |     1 |   -1.3
- 2015-04-30 | Eastern Conn. St. |     3 | home    | Western Conn. St. |     3 |    3.1
- 2015-04-30 | Fairfield         |     1 | home    | Massachusetts     |     1 |    2.1
- 2015-04-30 | Georgetown        |     1 | neutral | Marquette         |     1 |    1.2
- 2015-04-30 | High Point        |     1 | neutral | Mercer            |     1 |    4.2
- 2015-04-30 | Johns Hopkins     |     1 | neutral | Penn St.          |     1 |    2.6
- 2015-04-30 | Keene St.         |     3 | home    | Western Conn. St. |     3 |   11.8
- 2015-04-30 | Lyndon St.        |     3 | home    | Albertus Magnus   |     3 |   -8.0
- 2015-04-30 | Marist            |     1 | home    | Monmouth          |     1 |    4.9
- 2015-04-30 | Maryland          |     1 | home    | Ohio St.          |     1 |    3.7
- 2015-04-30 | Richmond          |     1 | home    | Furman            |     1 |    5.2
- 2015-04-30 | Saint Joseph's    |     1 | home    | Mt. St. Mary's    |     1 |    5.0
- 2015-04-30 | Stony Brook       |     1 | neutral | Vermont           |     1 |    6.4
- 2015-04-30 | Villanova         |     1 | home    | Denver            |     1 |   -4.9
-(17 rows)
+ date | team | h_div | site | opp | v_div | spread 
+------+------+-------+------+-----+-------+--------
+(0 rows)
 
 COMMIT

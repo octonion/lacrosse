@@ -9,7 +9,7 @@ if [ $db_exists -eq 0 ] ; then
    eval $cmd
 fi
 
-psql lacrosse -f schema/create_schema_ncaa.sql
+psql lacrosse -f schema/create_schema.sql
 
 tail -q -n+2 csv/ncaa_games_*.csv > /tmp/ncaa_games.csv
 psql lacrosse -f loaders/load_ncaa_games.sql
