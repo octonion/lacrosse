@@ -1,8 +1,28 @@
 BEGIN
 SET
- date | site | home | div | score | away | div | score 
-------+------+------+-----+-------+------+-----+-------
-(0 rows)
+    date    | site |      home       | div | score |      away       | div | score 
+------------+------+-----------------+-----+-------+-----------------+-----+-------
+ 2015-05-06 | home | Amherst         |   3 | 16.32 | Castleton       |   3 |  5.19
+ 2015-05-06 | home | Augustana (IL)  |   3 |  9.21 | Albion          |   3 | 10.71
+ 2015-05-06 | home | Bates           |   3 | 16.33 | Keene St.       |   3 | 11.25
+ 2015-05-06 | home | Cabrini         |   3 |  7.75 | Ursinus         |   3 |  7.31
+ 2015-05-06 | home | Endicott        |   3 | 12.88 | Colorado Col.   |   3 | 10.20
+ 2015-05-06 | home | Gettysburg      |   3 | 16.02 | Catholic        |   3 |  5.82
+ 2015-05-06 | home | Lynchburg       |   3 | 14.87 | Sewanee         |   3 |  6.22
+ 2015-05-06 | home | Marist          |   1 |  9.28 | Bryant          |   1 |  7.64
+ 2015-05-06 | home | Marywood        |   3 |  8.92 | Misericordia    |   3 |  8.29
+ 2015-05-06 | home | Middlebury      |   3 | 13.10 | Montclair St.   |   3 | 10.85
+ 2015-05-06 | home | Ohio Wesleyan   |   3 | 13.63 | Carthage        |   3 |  4.67
+ 2015-05-06 | home | Otterbein       |   3 | 10.94 | Aurora          |   3 |  9.62
+ 2015-05-06 | home | Rochester Inst. |   3 | 17.75 | Morrisville St. |   3 |  4.78
+ 2015-05-06 | home | Salisbury       |   3 | 14.22 | Roanoke         |   3 |  7.02
+ 2015-05-06 | home | Stevenson       |   3 | 12.90 | Eastern         |   3 |  8.56
+ 2015-05-06 | home | Stockton        |   3 | 11.03 | Lebanon Valley  |   3 |  6.95
+ 2015-05-06 | home | SUNY Cortland   |   3 | 13.73 | Springfield     |   3 |  8.16
+ 2015-05-06 | home | Towson          |   1 |  9.43 | High Point      |   1 |  7.25
+ 2015-05-06 | home | Tufts           |   3 | 20.69 | Emmanuel (MA)   |   3 |  5.65
+ 2015-05-06 | home | Union (NY)      |   3 | 10.40 | Nazareth        |   3 | 11.15
+(20 rows)
 
-COPY 0
+COPY 20
 COMMIT
