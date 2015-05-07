@@ -1,7 +1,11 @@
 BEGIN
 SET
- date | team | h_div | site | opp | v_div | spread 
-------+------+-------+------+-----+-------+--------
-(0 rows)
+    date    |      team      | h_div | site |     opp      | v_div | spread 
+------------+----------------+-------+------+--------------+-------+--------
+ 2015-05-06 | Arcadia        |     3 | home | Drew         |     3 |    2.0
+ 2015-05-06 | Lebanon Valley |     3 | home | SUNY Canton  |     3 |    7.2
+ 2015-05-06 | McDaniel       |     3 | home | Misericordia |     3 |   11.1
+ 2015-05-06 | Stevens        |     3 | home | Neumann      |     3 |   11.7
+(4 rows)
 
 COMMIT
