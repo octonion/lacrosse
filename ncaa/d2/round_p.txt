@@ -1,0 +1,31 @@
+BEGIN
+ rd |      name       |   p   
+----+-----------------+-------
+  2 | Limestone       | 0.797
+  2 | Le Moyne        | 0.793
+  2 | Lake Erie       | 0.593
+  2 | Merrimack       | 0.504
+  2 | Adelphi         | 0.496
+  2 | Tampa           | 0.407
+  2 | LIU Post        | 0.207
+  2 | Lindenwood (MO) | 0.203
+  3 | Limestone       | 0.597
+  3 | Le Moyne        | 0.579
+  3 | Lake Erie       | 0.221
+  3 | Merrimack       | 0.184
+  3 | Adelphi         | 0.180
+  3 | Tampa           | 0.122
+  3 | Lindenwood (MO) | 0.060
+  3 | LIU Post        | 0.057
+  4 | Le Moyne        | 0.389
+  4 | Limestone       | 0.318
+  4 | Adelphi         | 0.083
+  4 | Merrimack       | 0.080
+  4 | Lake Erie       | 0.074
+  4 | Tampa           | 0.029
+  4 | LIU Post        | 0.016
+  4 | Lindenwood (MO) | 0.010
+(24 rows)
+
+COPY 24
+COMMIT
