@@ -1,12 +1,18 @@
 BEGIN
 SET
-    date    | site |      home      | div | score |     away     | div | score 
-------------+------+----------------+-----+-------+--------------+-----+-------
- 2015-05-06 | home | Arcadia        |   3 | 12.21 | Drew         |   3 | 10.23
- 2015-05-06 | home | Lebanon Valley |   3 | 14.24 | SUNY Canton  |   3 |  7.01
- 2015-05-06 | home | McDaniel       |   3 | 20.13 | Misericordia |   3 |  9.04
- 2015-05-06 | home | Stevens        |   3 | 17.56 | Neumann      |   3 |  5.84
-(4 rows)
+    date    |  site   |     home      | div | score |        away         | div | score 
+------------+---------+---------------+-----+-------+---------------------+-----+-------
+ 2015-05-08 | neutral | Albany (NY)   |   1 |  9.13 | Penn                |   1 |  7.36
+ 2015-05-08 | neutral | Bryant        |   1 |  6.71 | Loyola Maryland     |   1 | 15.16
+ 2015-05-08 | neutral | Fairfield     |   1 |  7.42 | Princeton           |   1 | 10.67
+ 2015-05-08 | neutral | Florida       |   1 | 14.84 | Stanford            |   1 | 11.38
+ 2015-05-08 | neutral | Jacksonville  |   1 |  6.97 | Massachusetts       |   1 |  9.63
+ 2015-05-08 | neutral | James Madison |   1 | 11.61 | Southern California |   1 | 10.02
+ 2015-05-08 | neutral | Johns Hopkins |   1 |  9.02 | Penn St.            |   1 | 10.10
+ 2015-05-08 | home    | Northwestern  |   1 | 11.60 | Louisville          |   1 | 10.04
+ 2015-05-08 | neutral | Notre Dame    |   1 | 10.83 | Ohio St.            |   1 | 10.09
+ 2015-05-08 | home    | Virginia      |   1 | 14.95 | Winthrop            |   1 |  7.99
+(10 rows)
 
-COPY 4
+COPY 10
 COMMIT
