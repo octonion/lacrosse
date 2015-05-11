@@ -1,15 +1,11 @@
 BEGIN
-    team_name    |   p   
------------------+-------
- Le Moyne        | 0.389
- Limestone       | 0.318
- Adelphi         | 0.083
- Merrimack       | 0.080
- Lake Erie       | 0.074
- Tampa           | 0.029
- LIU Post        | 0.016
- Lindenwood (MO) | 0.010
-(8 rows)
+ team_name |   p   
+-----------+-------
+ Le Moyne  | 0.462
+ Limestone | 0.352
+ Merrimack | 0.103
+ Lake Erie | 0.083
+(4 rows)
 
-COPY 8
+COPY 4
 COMMIT
