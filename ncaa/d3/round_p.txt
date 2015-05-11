@@ -1,71 +1,31 @@
 BEGIN
  rd |      name       |   p   
 ----+-----------------+-------
-  3 | Ohio Wesleyan   | 0.956
-  3 | Lynchburg       | 0.951
-  3 | Rochester Inst. | 0.915
-  3 | Tufts           | 0.806
-  3 | Gettysburg      | 0.752
-  3 | Amherst         | 0.700
-  3 | SUNY Cortland   | 0.622
-  3 | Salisbury       | 0.561
-  3 | Stevenson       | 0.439
-  3 | Endicott        | 0.378
-  3 | Middlebury      | 0.300
-  3 | Ursinus         | 0.248
-  3 | Bates           | 0.194
-  3 | Union (NY)      | 0.085
-  3 | Aurora          | 0.049
-  3 | Albion          | 0.044
-  4 | Rochester Inst. | 0.799
-  4 | Tufts           | 0.640
-  4 | Ohio Wesleyan   | 0.516
-  4 | Lynchburg       | 0.483
-  4 | Gettysburg      | 0.419
-  4 | Salisbury       | 0.321
-  4 | Amherst         | 0.215
-  4 | Stevenson       | 0.194
-  4 | SUNY Cortland   | 0.113
-  4 | Bates           | 0.080
-  4 | Middlebury      | 0.065
-  4 | Ursinus         | 0.062
-  4 | Endicott        | 0.061
-  4 | Union (NY)      | 0.027
-  4 | Albion          | 0.003
-  4 | Aurora          | 0.002
-  5 | Rochester Inst. | 0.595
-  5 | Tufts           | 0.268
-  5 | Ohio Wesleyan   | 0.262
-  5 | Gettysburg      | 0.239
-  5 | Lynchburg       | 0.227
-  5 | Salisbury       | 0.166
-  5 | Stevenson       | 0.090
-  5 | Amherst         | 0.055
-  5 | SUNY Cortland   | 0.034
-  5 | Ursinus         | 0.016
-  5 | Endicott        | 0.016
-  5 | Bates           | 0.016
-  5 | Middlebury      | 0.010
-  5 | Union (NY)      | 0.005
-  5 | Albion          | 0.000
-  5 | Aurora          | 0.000
-  6 | Rochester Inst. | 0.380
-  6 | Tufts           | 0.142
-  6 | Ohio Wesleyan   | 0.122
-  6 | Gettysburg      | 0.103
-  6 | Lynchburg       | 0.090
-  6 | Salisbury       | 0.086
-  6 | Stevenson       | 0.035
-  6 | Amherst         | 0.018
-  6 | SUNY Cortland   | 0.009
-  6 | Bates           | 0.004
-  6 | Ursinus         | 0.004
-  6 | Endicott        | 0.004
-  6 | Middlebury      | 0.002
-  6 | Union (NY)      | 0.001
-  6 | Albion          | 0.000
-  6 | Aurora          | 0.000
-(64 rows)
+  4 | Rochester Inst. | 0.865
+  4 | Tufts           | 0.770
+  4 | Salisbury       | 0.552
+  4 | Gettysburg      | 0.539
+  4 | Ohio Wesleyan   | 0.461
+  4 | Lynchburg       | 0.448
+  4 | Amherst         | 0.230
+  4 | SUNY Cortland   | 0.135
+  5 | Rochester Inst. | 0.622
+  5 | Tufts           | 0.295
+  5 | Gettysburg      | 0.291
+  5 | Salisbury       | 0.276
+  5 | Ohio Wesleyan   | 0.235
+  5 | Lynchburg       | 0.198
+  5 | Amherst         | 0.051
+  5 | SUNY Cortland   | 0.032
+  6 | Rochester Inst. | 0.387
+  6 | Tufts           | 0.151
+  6 | Salisbury       | 0.138
+  6 | Gettysburg      | 0.120
+  6 | Ohio Wesleyan   | 0.105
+  6 | Lynchburg       | 0.075
+  6 | Amherst         | 0.015
+  6 | SUNY Cortland   | 0.008
+(24 rows)
 
-COPY 64
+COPY 24
 COMMIT

@@ -1,23 +1,15 @@
 BEGIN
     team_name    |   p   
 -----------------+-------
- Rochester Inst. | 0.380
- Tufts           | 0.142
- Ohio Wesleyan   | 0.122
- Gettysburg      | 0.103
- Lynchburg       | 0.090
- Salisbury       | 0.086
- Stevenson       | 0.035
- Amherst         | 0.018
- SUNY Cortland   | 0.009
- Ursinus         | 0.004
- Bates           | 0.004
- Endicott        | 0.004
- Middlebury      | 0.002
- Union (NY)      | 0.001
- Aurora          | 0.000
- Albion          | 0.000
-(16 rows)
+ Rochester Inst. | 0.387
+ Tufts           | 0.151
+ Salisbury       | 0.138
+ Gettysburg      | 0.120
+ Ohio Wesleyan   | 0.105
+ Lynchburg       | 0.075
+ Amherst         | 0.015
+ SUNY Cortland   | 0.008
+(8 rows)
 
-COPY 16
+COPY 8
 COMMIT
