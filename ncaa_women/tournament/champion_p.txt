@@ -1,33 +1,15 @@
 BEGIN
-      team_name      |   p   
----------------------+-------
- Maryland            | 0.331
- North Carolina      | 0.183
- Stony Brook         | 0.129
- Duke                | 0.107
- Syracuse            | 0.059
- Boston College      | 0.038
- Florida             | 0.037
- Albany (NY)         | 0.024
- Virginia            | 0.019
- Penn St.            | 0.014
- Loyola Maryland     | 0.012
- Northwestern        | 0.009
- Stanford            | 0.008
- Massachusetts       | 0.008
- James Madison       | 0.005
- Louisville          | 0.004
- Penn                | 0.003
- Notre Dame          | 0.003
- Johns Hopkins       | 0.003
- Princeton           | 0.002
- Southern California | 0.001
- Ohio St.            | 0.001
- Jacksonville        | 0.000
- Winthrop            | 0.000
- Bryant              | 0.000
- Fairfield           | 0.000
-(26 rows)
+    team_name    |   p   
+-----------------+-------
+ Maryland        | 0.357
+ North Carolina  | 0.345
+ Duke            | 0.140
+ Syracuse        | 0.080
+ Penn St.        | 0.032
+ Loyola Maryland | 0.022
+ Northwestern    | 0.018
+ Princeton       | 0.007
+(8 rows)
 
-COPY 26
+COPY 8
 COMMIT
