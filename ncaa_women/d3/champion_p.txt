@@ -1,45 +1,23 @@
 BEGIN
-      team_name      |   p   
----------------------+-------
- SUNY Cortland       | 0.314
- Trinity (CT)        | 0.248
- Frank. & Marsh.     | 0.171
- Gettysburg          | 0.158
- Middlebury          | 0.030
- Salisbury           | 0.024
- TCNJ                | 0.020
- Bowdoin             | 0.012
- Messiah             | 0.007
- Catholic            | 0.007
- Fredonia            | 0.003
- Tufts               | 0.002
- York (PA)           | 0.001
- Augustana (IL)      | 0.001
- Union (NY)          | 0.001
- Mount Union         | 0.001
- Western New Eng.    | 0.000
- Cabrini             | 0.000
- Albion              | 0.000
- Concordia Wisconsin | 0.000
- FDU-Florham         | 0.000
- Bridgewater St.     | 0.000
- Wash. & Lee         | 0.000
- Castleton           | 0.000
- Keene St.           | 0.000
- Meredith            | 0.000
- Pomona-Pitzer       | 0.000
- Hamilton            | 0.000
- Regis (MA)          | 0.000
- Rhodes              | 0.000
- Occidental          | 0.000
- St. Joseph's (ME)   | 0.000
- St. Joseph's (L.I.) | 0.000
- MIT                 | 0.000
- Sewanee             | 0.000
- St. John Fisher     | 0.000
- Denison             | 0.000
- Morrisville St.     | 0.000
-(38 rows)
+    team_name    |   p   
+-----------------+-------
+ SUNY Cortland   | 0.313
+ Trinity (CT)    | 0.241
+ Frank. & Marsh. | 0.182
+ Gettysburg      | 0.169
+ Middlebury      | 0.043
+ TCNJ            | 0.023
+ Bowdoin         | 0.010
+ Catholic        | 0.007
+ Fredonia        | 0.004
+ Tufts           | 0.004
+ York (PA)       | 0.002
+ Augustana (IL)  | 0.001
+ Mount Union     | 0.001
+ Hamilton        | 0.001
+ Pomona-Pitzer   | 0.000
+ Wash. & Lee     | 0.000
+(16 rows)
 
-COPY 38
+COPY 16
 COMMIT
