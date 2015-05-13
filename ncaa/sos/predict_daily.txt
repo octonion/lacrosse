@@ -1,8 +1,12 @@
 BEGIN
 SET
- date | site | home | div | score | away | div | score 
-------+------+------+-----+-------+------+-----+-------
-(0 rows)
+    date    | site |      home       | div | score |     away      | div | score 
+------------+------+-----------------+-----+-------+---------------+-----+-------
+ 2015-05-13 | home | Gettysburg      |   3 |  9.92 | Ohio Wesleyan |   3 |  8.95
+ 2015-05-13 | home | Lynchburg       |   3 |  8.71 | Salisbury     |   3 |  9.65
+ 2015-05-13 | home | Rochester Inst. |   3 | 15.55 | SUNY Cortland |   3 |  9.10
+ 2015-05-13 | home | Tufts           |   3 | 14.67 | Amherst       |   3 | 10.14
+(4 rows)
 
-COPY 0
+COPY 4
 COMMIT
