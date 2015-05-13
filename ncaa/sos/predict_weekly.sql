@@ -7,11 +7,11 @@ select
 g.game_date::date as date,
 'home' as site,
 hd.team_name as home,
-hd.div_id as div,
+'D'||hd.div_id as div,
 (exp(i.estimate)*y.exp_factor*hdof.exp_factor*h.offensive*o.exp_factor*v.defensive*vddf.exp_factor)::numeric(4,2) as score,
 
 vd.team_name as away,
-vd.div_id as div,
+'D'||vd.div_id as div,
 (exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*hddf.exp_factor*h.defensive*d.exp_factor)::numeric(4,2) as score
 
 from ncaa.games g
@@ -51,11 +51,11 @@ select
 g.game_date::date as date,
 'neutral' as site,
 hd.team_name as home,
-hd.div_id as div,
+'D'||hd.div_id as div,
 (exp(i.estimate)*y.exp_factor*hdof.exp_factor*h.offensive*v.defensive*vddf.exp_factor)::numeric(4,2) as score,
 
 vd.team_name as away,
-vd.div_id as div,
+'D'||vd.div_id as div,
 (exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*hddf.exp_factor*h.defensive)::numeric(4,2) as score
 
 from ncaa.games g
@@ -95,11 +95,11 @@ select
 g.game_date::date as date,
 'home' as site,
 hd.team_name as home,
-hd.div_id as div,
+'D'||hd.div_id as div,
 (exp(i.estimate)*y.exp_factor*hdof.exp_factor*h.offensive*o.exp_factor*v.defensive*vddf.exp_factor)::numeric(4,2) as score,
 
 vd.team_name as away,
-vd.div_id as div,
+'D'||vd.div_id as div,
 (exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*hddf.exp_factor*h.defensive*d.exp_factor)::numeric(4,2) as score
 
 from ncaa.games g
@@ -139,11 +139,11 @@ select
 g.game_date::date as date,
 'neutral' as site,
 hd.team_name as home,
-hd.div_id as div,
+'D'||hd.div_id as div,
 (exp(i.estimate)*y.exp_factor*hdof.exp_factor*h.offensive*v.defensive*vddf.exp_factor)::numeric(4,2) as score,
 
 vd.team_name as away,
-vd.div_id as div,
+'D'||vd.div_id as div,
 (exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*hddf.exp_factor*h.defensive)::numeric(4,2) as score
 
 from ncaa.games g
