@@ -25,7 +25,7 @@ box_scores_xpath = '//*[@id="contentArea"]/table[position()>4]/tr[position()>2]'
 
 #periods_xpath = '//table[position()=1 and @class="mytable"]/tr[position()>1]'
 
-nthreads = 10
+nthreads = 8
 
 base_sleep = 0
 sleep_increment = 3
@@ -57,6 +57,10 @@ game_ids.compact!
 game_ids.sort!
 game_ids.uniq!
 
+# Randomize
+
+game_ids.shuffle!
+
 #game_ids = game_ids[0..199]
 
 n = game_ids.size
@@ -67,7 +71,7 @@ threads = []
 
 game_ids.each_slice(gpt).with_index do |ids,i|
 
-  sleep i%5
+  #sleep i%5
 
   threads << Thread.new(ids) do |t_ids|
 

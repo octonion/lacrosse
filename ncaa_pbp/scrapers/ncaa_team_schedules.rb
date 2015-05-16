@@ -10,7 +10,7 @@ agent.user_agent = 'Mozilla/5.0'
 year = ARGV[0]
 division = ARGV[1]
 
-nthreads = 10
+nthreads = 8
 
 base_sleep = 0
 sleep_increment = 3

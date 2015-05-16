@@ -7,7 +7,7 @@ require 'mechanize'
 agent = Mechanize.new{ |agent| agent.history.max_size=0 }
 agent.user_agent = 'Mozilla/5.0'
 
-nthreads = 10
+nthreads = 8
 
 base_sleep = 0
 sleep_increment = 3

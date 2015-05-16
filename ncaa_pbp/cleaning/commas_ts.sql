@@ -10,6 +10,14 @@ set shots = replace(shots, ',', ''),
     g_min = replace(g_min, ',', ''),
     gaa = replace(gaa, ',', '');
 
+-- Some pen_time entries use interval notation
+-- Convert to minutes, recast back to text
+
+update ncaa_pbp.team_summaries
+set pen_time = (split_part(pen_time,':',1)::integer*60+
+                split_part(pen_time,':',2)::integer)::text
+where pen_time like '%:%';
+
 -- Some g_min entries use interval notation
 -- Convert to minutes, recast back to text
 
