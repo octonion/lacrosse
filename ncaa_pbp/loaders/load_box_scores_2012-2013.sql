@@ -19,7 +19,7 @@ create temporary table bs (
        turnovers				integer,
        caused_turnovers				integer,
        fo_won					integer,
-       fos_taken				integer,
+       fo_taken					integer,
        pen 					integer,
        pen_time					integer,
        g_min					integer,
@@ -41,13 +41,13 @@ insert into ncaa_pbp.box_scores
 (
 game_id,section_id,player_id,player_name,player_url,starter,position,
 goals,assists,points,shots,sog,man_up_g,man_down_g,gb,
-turnovers,caused_turnovers,fo_won,fos_taken,
+turnovers,caused_turnovers,fo_won,fo_taken,
 pen,pen_time,g_min,goals_allowed,saves,w,l,t,rc,yc,clears,att,clear_pct)
 (
 select
 game_id,section_id,player_id,player_name,player_url,starter,position,
 goals,assists,points,shots,sog,man_up_g,man_down_g,gb,
-turnovers,caused_turnovers,fo_won,fos_taken,
+turnovers,caused_turnovers,fo_won,fo_taken,
 pen,pen_time,g_min,goals_allowed,saves,w,l,t,rc,yc,
 NULL as clears,
 NULL as att,

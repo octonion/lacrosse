@@ -21,7 +21,7 @@ create table ncaa_pbp.box_scores (
        turnovers				integer,
        caused_turnovers				integer,
        fo_won					integer,
-       fos_taken				integer,
+       fo_taken				integer,
        pen 					integer,
        pen_time					integer,
        g_min					integer,
