@@ -2119,8 +2119,8 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Fla. Southern,233,Gannon,246,03/01/2015,18,7,Home,"",-,150
 2015,Fla. Southern,233,Wilmington (DE),1460,03/03/2015,19,6,Home,"",-,85
 2015,Fla. Southern,233,Regis (CO),568,03/03/2015,20,13,Home,"",-,113
-2015,Fla. Southern,233,Wheeling Jesuit,12799,03/07/2015,18,8,Home,"",-,108
 2015,Fla. Southern,233,Mount Olive,1245,03/07/2015,11,8,Home,"",-,210
+2015,Fla. Southern,233,Wheeling Jesuit,12799,03/07/2015,18,8,Home,"",-,108
 2015,Fla. Southern,233,Queens (NC),11504,03/10/2015,16,8,Home,"",-,60
 2015,Fla. Southern,233,Seton Hill,30063,03/14/2015,13,10,Home,"",-,201
 2015,Fla. Southern,233,Lenoir-Rhyne,1170,03/17/2015,15,7,Home,"",-,50
@@ -4814,6 +4814,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Olivet,525,Calvin,114,04/29/2015,11,20,Away,"",-,89
 2015,Oregon,529,Presbyterian,1320,02/13/2015,18,1,Away,"",-,115
 2015,Oregon,529,High Point,19651,02/15/2015,9,8,Away,"",-,583
+2015,Oregon,529,San Diego St.,626,02/24/2015,7,8,Home,"",2 OT,296
 2015,Oregon,529,San Diego St.,626,02/28/2015,7,8,Home,"",2 OT,296
 2015,Oregon,529,St. Mary's (CA),610,03/01/2015,21,3,Home,"",-,228
 2015,Oregon,529,George Washington,249,03/10/2015,8,6,Home,"",-,191
@@ -5032,7 +5033,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Pomona-Pitzer,549,Redlands,567,04/25/2015,7,6,Home,"",3 OT,147
 2015,Pomona-Pitzer,549,Occidental,516,05/02/2015,8,3,Home,"",-,147
 2015,Pomona-Pitzer,549,Occidental,516,05/10/2015,7,5,Home,"",-,74
-2015,Pomona-Pitzer,549,Trinity (CT),713,05/16/2015,0,0,Away,"",-,0
+2015,Pomona-Pitzer,549,Trinity (CT),713,05/16/2015,2,16,Away,"",-,435
 2015,Post,1318,American Int'l,22,03/09/2015,7,17,Home,"",-,85
 2015,Post,1318,Caldwell,995,03/13/2015,10,12,Home,"",-,65
 2015,Post,1318,Caldwell,995,03/17/2015,9,12,Home,"",-,0
@@ -5697,6 +5698,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Salve Regina,623,Endicott,8981,04/25/2015,7,14,Away,"",-,143
 2015,San Diego St.,626,Florida,235,02/20/2015,7,17,Away,"",-,224
 2015,San Diego St.,626,Jacksonville,316,02/22/2015,11,18,Away,"",-,122
+2015,San Diego St.,626,Oregon,529,02/24/2015,8,7,Away,"",2 OT,296
 2015,San Diego St.,626,Oregon,529,02/28/2015,8,7,Away,"",2 OT,296
 2015,San Diego St.,626,Campbell,115,03/06/2015,16,8,Neutral,"Fresno, Calif.",1 OT,60
 2015,San Diego St.,626,Fresno St.,96,03/08/2015,15,4,Away,"",-,153
@@ -5710,7 +5712,6 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,San Diego St.,626,Colorado,157,04/12/2015,6,7,Home,"",-,481
 2015,San Diego St.,626,Stanford,674,04/17/2015,10,22,Away,"",-,302
 2015,San Diego St.,626,UC Davis,108,04/19/2015,12,9,Away,"",-,174
-2015,San Diego St.,626,Southern California,657,04/24/2015,4,16,Home,"",-,378
 2015,San Diego St.,626,Southern California,657,04/25/2015,4,16,Home,"",-,378
 2015,San Diego St.,626,Colorado,157,04/30/2015,6,15,Neutral,"Denver, Colo.",-,295
 2015,Scranton,633,Messiah,411,02/24/2015,1,16,Away,"",-,42
@@ -5766,7 +5767,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Sewanee,652,Birmingham-So.,28593,04/11/2015,16,9,Away,"",-,155
 2015,Sewanee,652,Millsaps,426,04/25/2015,18,8,Home,"",-,153
 2015,Sewanee,652,Rhodes,573,04/26/2015,10,13,Home,"",-,194
-2015,Sewanee,652,Wash. & Lee,752,05/10/2015,4,18,Away,"",-,0
+2015,Sewanee,652,Wash. & Lee,752,05/10/2015,4,18,Away,"",-,275
 2015,Shenandoah,637,Mary Washington,390,02/18/2015,6,15,Home,"",-,107
 2015,Shenandoah,637,Lebanon Valley,351,02/22/2015,8,7,Home,"",-,107
 2015,Shenandoah,637,Frostburg St.,243,02/24/2015,9,7,Home,"",-,47
@@ -5929,7 +5930,6 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Southern California,657,Denver,183,04/12/2015,16,4,Home,"",-,422
 2015,Southern California,657,UC Davis,108,04/17/2015,15,5,Away,"",-,305
 2015,Southern California,657,Stanford,674,04/19/2015,6,12,Away,"",-,410
-2015,Southern California,657,San Diego St.,626,04/24/2015,16,4,Away,"",-,378
 2015,Southern California,657,San Diego St.,626,04/25/2015,16,4,Away,"",-,378
 2015,Southern California,657,Denver,183,05/01/2015,17,9,Away,"",-,335
 2015,Southern California,657,Stanford,674,05/03/2015,11,16,Neutral,"Denver, Colo.",-,257
@@ -6308,8 +6308,8 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Stevenson,21852,Haverford,276,03/07/2015,14,6,Home,"",-,123
 2015,Stevenson,21852,Montclair St.,442,03/10/2015,11,10,Home,"",-,0
 2015,Stevenson,21852,Farmingdale St.,27892,03/13/2015,9,8,Home,"",-,56
-2015,Stevenson,21852,Vassar,737,03/17/2015,9,7,Neutral,"Bradenton, Fla.",-,50
 2015,Stevenson,21852,Clarkson,146,03/17/2015,8,12,Neutral,"Bradenton, Fla.",-,62
+2015,Stevenson,21852,Vassar,737,03/17/2015,9,7,Neutral,"Bradenton, Fla.",-,50
 2015,Stevenson,21852,Union (NY),727,03/22/2015,7,16,Home,"",-,136
 2015,Stevenson,21852,Messiah,411,03/25/2015,10,11,Home,"",-,0
 2015,Stevenson,21852,Albright,16,03/28/2015,10,6,Neutral,"Reading, Pa.",-,106
@@ -6555,8 +6555,8 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Sweet Briar,687,Randolph-Macon,565,04/11/2015,7,20,Home,"",-,45
 2015,Sweet Briar,687,Hollins,284,04/15/2015,17,4,Away,"",-,191
 2015,Sweet Briar,687,Lynchburg,374,04/18/2015,5,21,Away,"",-,225
-2015,Syracuse,688,Canisius,116,02/07/2015,21,13,Home,"",-,506
 2015,Syracuse,688,Denver,183,02/07/2015,18,10,Home,"",-,611
+2015,Syracuse,688,Canisius,116,02/07/2015,21,13,Home,"",-,506
 2015,Syracuse,688,Canisius,116,02/15/2015,19,7,Home,"",-,635
 2015,Syracuse,688,Virginia,746,02/23/2015,14,13,Home,"",-,481
 2015,Syracuse,688,UConn,164,02/25/2015,12,11,Home,"",-,462
@@ -6755,7 +6755,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Trinity (CT),713,Tufts,717,05/02/2015,8,7,Home,"",1 OT,521
 2015,Trinity (CT),713,Bowdoin,69,05/03/2015,13,8,Home,"",-,400
 2015,Trinity (CT),713,St. Joseph's (L.I.),1340,05/10/2015,16,6,Home,"",-,392
-2015,Trinity (CT),713,Pomona-Pitzer,549,05/16/2015,0,0,Home,"",-,0
+2015,Trinity (CT),713,Pomona-Pitzer,549,05/16/2015,16,2,Home,"",-,435
 2015,Tufts,717,Middlebury,420,02/28/2015,12,11,Away,"",-,125
 2015,Tufts,717,Endicott,8981,03/04/2015,18,5,Home,"",-,75
 2015,Tufts,717,Wheaton (MA),779,03/09/2015,11,8,Home,"",-,100
@@ -7190,7 +7190,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Wash. & Lee,752,Bridgewater (VA),75,04/22/2015,9,8,Home,"",-,82
 2015,Wash. & Lee,752,Lynchburg,374,04/29/2015,7,6,Home,"",1 OT,175
 2015,Wash. & Lee,752,Randolph-Macon,565,05/02/2015,8,7,Home,"",-,411
-2015,Wash. & Lee,752,Sewanee,652,05/10/2015,18,4,Home,"",-,0
+2015,Wash. & Lee,752,Sewanee,652,05/10/2015,18,4,Home,"",-,275
 2015,Wash. & Lee,752,Fredonia,242,05/16/2015,0,0,Neutral,"Lancaster, PA",-,0
 2015,Washington Col.,753,St. Mary's (MD),611,02/28/2015,9,10,Home,"",-,162
 2015,Washington Col.,753,Roger Williams,583,03/09/2015,14,7,Neutral,"Bradenton, FL",-,35

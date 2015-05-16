@@ -1,8 +1,21 @@
 BEGIN
 SET
- date | site | home | div | score | away | div | score 
-------+------+------+-----+-------+------+-----+-------
-(0 rows)
+    date    |  site   |      home       | div | score |      away       | div | score 
+------------+---------+-----------------+-----+-------+-----------------+-----+-------
+ 2015-05-16 | neutral | Adelphi         |   2 |  9.94 | Le Moyne        |   2 |  7.31
+ 2015-05-16 | neutral | Bowdoin         |   3 |  7.32 | TCNJ            |   3 |  8.15
+ 2015-05-16 | neutral | Catholic        |   3 | 11.34 | Mount Union     |   3 |  9.04
+ 2015-05-16 | home    | Duke            |   1 | 12.58 | Princeton       |   1 |  8.62
+ 2015-05-16 | home    | Frank. & Marsh. |   3 | 12.38 | Tufts           |   3 |  7.70
+ 2015-05-16 | neutral | Fredonia        |   3 |  8.20 | Wash. & Lee     |   3 |  7.05
+ 2015-05-16 | home    | Gettysburg      |   3 | 11.34 | York (PA)       |   3 |  6.68
+ 2015-05-16 | neutral | Hamilton        |   3 |  7.39 | Middlebury      |   3 | 10.43
+ 2015-05-16 | neutral | Lock Haven      |   2 |  9.44 | Lindenwood (MO) |   2 |  6.78
+ 2015-05-16 | home    | North Carolina  |   1 | 12.86 | Penn St.        |   1 |  8.56
+ 2015-05-16 | home    | SUNY Cortland   |   3 | 15.88 | Augustana (IL)  |   3 |  7.16
+ 2015-05-16 | home    | Syracuse        |   1 | 11.54 | Loyola Maryland |   1 | 10.07
+ 2015-05-16 | home    | Trinity (CT)    |   3 | 13.14 | Pomona-Pitzer   |   3 |  5.77
+(13 rows)
 
-COPY 0
+COPY 13
 COMMIT
