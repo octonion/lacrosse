@@ -1,8 +1,6 @@
 begin;
 
-drop table if exists ncaa_pbp.box_scores;
-
-create table ncaa_pbp.box_scores (
+create temporary table bs (
        game_id					integer,
        section_id				integer,
        player_id				integer,
@@ -31,16 +29,30 @@ create table ncaa_pbp.box_scores (
        l     					integer,
        t     					integer,
        rc    					integer,
-       yc    					integer,
-       clears					integer,
-       att					integer,
-       clear_pct				float
-       
--- this will fail if the two teams are in different divisions
--- best fix?
---       primary key (game_id, section_id, player_name, position)
+       yc    					integer
+--       clears					integer,
+--       att					integer,
+--       clear_pct				float
 );
 
-copy ncaa_pbp.box_scores from '/tmp/box_scores.csv' with delimiter as E'\t' csv;
+copy bs from '/tmp/box_scores.csv' with delimiter as E'\t' csv;
+
+insert into ncaa_pbp.box_scores
+(
+game_id,section_id,player_id,player_name,player_url,starter,position,
+goals,assists,points,shots,sog,man_up_g,man_down_g,gb,
+turnovers,caused_turnovers,fo_won,fos_taken,
+pen,pen_time,g_min,goals_allowed,saves,w,l,t,rc,yc,clears,att,clear_pct)
+(
+select
+game_id,section_id,player_id,player_name,player_url,starter,position,
+goals,assists,points,shots,sog,man_up_g,man_down_g,gb,
+turnovers,caused_turnovers,fo_won,fos_taken,
+pen,pen_time,g_min,goals_allowed,saves,w,l,t,rc,yc,
+NULL as clears,
+NULL as att,
+NULL as clear_pct
+from bs
+);
 
 commit;

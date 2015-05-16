@@ -54,30 +54,37 @@ psql lacrosse -f loaders/load_box_scores.sql
 rm /tmp/box_scores.csv
 rm /tmp/ncaa_box_scores_*.csv
 
+# Box scores - 2013
+
+cp csv/ncaa_box_scores_2013*.csv.gz /tmp
+gzip -d /tmp/ncaa_box_scores_*.csv.gz
+tail -q -n+2 /tmp/ncaa_box_scores_*.csv >> /tmp/box_scores.csv
+psql lacrosse -f loaders/load_box_scores_2013.sql
+rm /tmp/box_scores.csv
+rm /tmp/ncaa_box_scores_*.csv
+
 # Player summaries - 2014-2015
 
-#tail -q -n+2 csv/ncaa_player_summaries_201[45]*.csv >> /tmp/player_summaries.csv
-#rpl -q '""' '' /tmp/player_summaries.csv
-#rpl -q ' ' '' /tmp/player_summaries.csv
-#psql lacrosse -f loaders/load_player_summaries_hitting.sql
-#rm /tmp/player_summaries.csv
+tail -q -n+2 csv/ncaa_player_summaries_201[45]*.csv >> /tmp/player_summaries.csv
+rpl -q '""' '' /tmp/player_summaries.csv
+rpl -q ' ' '' /tmp/player_summaries.csv
+psql lacrosse -f loaders/load_player_summaries.sql
+rm /tmp/player_summaries.csv
 
 # Team summaries - 2014-2015
 
-#tail -q -n+2 csv/ncaa_team_summaries_201[45]*.csv >> /tmp/team_summaries.csv
-#rpl -e '\t-\t' '\t\t' /tmp/team_summaries.csv
-#rpl -e '\t-\t' '\t\t' /tmp/team_summaries.csv
-#rpl -q '""' '' /tmp/team_summaries.csv
-#rpl -q ' ' '' /tmp/team_summaries.csv
-#psql lacrosse -f loaders/load_team_summaries_hitting.sql
-#rm /tmp/team_summaries.csv
+tail -q -n+2 csv/ncaa_team_summaries_201[45]*.csv >> /tmp/team_summaries.csv
+rpl -e '\t-\t' '\t\t' /tmp/team_summaries.csv
+rpl -e '\t-\t' '\t\t' /tmp/team_summaries.csv
+rpl -q '""' '' /tmp/team_summaries.csv
+rpl -q ' ' '' /tmp/team_summaries.csv
+psql lacrosse -f loaders/load_team_summaries.sql
+rm /tmp/team_summaries.csv
 
 # Remove commas from some columns, convert to integer
 
-#psql lacrosse -f cleaning/commas_psp.sql
-#psql lacrosse -f cleaning/commas_tsh.sql
-#psql lacrosse -f cleaning/commas_tsp.sql
-#psql lacrosse -f cleaning/commas_tsf.sql
+psql lacrosse -f cleaning/commas_ps.sql
+psql lacrosse -f cleaning/commas_ts.sql
 
 # Game periods
 
@@ -100,7 +107,7 @@ rm /tmp/ncaa_games_play_by_play_*.csv
 
 psql lacrosse -f cleaning/deduplicate_periods.sql
 psql lacrosse -f cleaning/deduplicate_pbp.sql
-#psql lacrosse -f cleaning/deduplicate_bsh.sql
+psql lacrosse -f cleaning/deduplicate_bs.sql
 #psql lacrosse -f cleaning/deduplicate_bsp.sql
 #psql lacrosse -f cleaning/deduplicate_bsf.sql
 
@@ -108,6 +115,4 @@ psql lacrosse -f cleaning/deduplicate_pbp.sql
 
 psql lacrosse -f cleaning/add_pk_periods.sql
 psql lacrosse -f cleaning/add_pk_pbp.sql
-#psql lacrosse -f cleaning/add_pk_bsh.sql
-#psql lacrosse -f cleaning/add_pk_bsp.sql
-#psql lacrosse -f cleaning/add_pk_bsf.sql
+psql lacrosse -f cleaning/add_pk_bs.sql
