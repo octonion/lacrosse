@@ -1,15 +1,11 @@
 BEGIN
     team_name    |   p   
 -----------------+-------
- Rochester Inst. | 0.362
- Salisbury       | 0.180
- Tufts           | 0.154
- Gettysburg      | 0.122
- Lynchburg       | 0.079
- Ohio Wesleyan   | 0.075
- Amherst         | 0.017
- SUNY Cortland   | 0.011
-(8 rows)
+ Rochester Inst. | 0.436
+ Gettysburg      | 0.232
+ Tufts           | 0.182
+ Lynchburg       | 0.150
+(4 rows)
 
-COPY 8
+COPY 4
 COMMIT
