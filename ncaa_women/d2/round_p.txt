@@ -1,15 +1,9 @@
 BEGIN
  rd |    name    |   p   
 ----+------------+-------
-  3 | Lock Haven | 0.791
-  3 | Adelphi    | 0.778
-  3 | Le Moyne   | 0.222
-  3 | Lindenwood | 0.209
-  4 | Adelphi    | 0.453
-  4 | Lock Haven | 0.427
-  4 | Le Moyne   | 0.067
-  4 | Lindenwood | 0.053
-(8 rows)
+  4 | Adelphi    | 0.523
+  4 | Lock Haven | 0.477
+(2 rows)
 
-COPY 8
+COPY 2
 COMMIT
