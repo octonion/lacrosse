@@ -1,11 +1,10 @@
 BEGIN
     team_name    |   p   
 -----------------+-------
- Rochester Inst. | 0.436
- Gettysburg      | 0.232
- Tufts           | 0.182
- Lynchburg       | 0.150
-(4 rows)
+ Rochester Inst. | 0.444
+ Lynchburg       | 0.371
+ Tufts           | 0.186
+(3 rows)
 
-COPY 4
+COPY 3
 COMMIT
