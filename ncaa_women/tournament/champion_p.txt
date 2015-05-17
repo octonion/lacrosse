@@ -1,15 +1,12 @@
 BEGIN
-    team_name    |   p   
------------------+-------
- Maryland        | 0.365
- North Carolina  | 0.339
- Duke            | 0.130
- Syracuse        | 0.069
- Penn St.        | 0.034
- Loyola Maryland | 0.033
- Northwestern    | 0.019
- Princeton       | 0.011
-(8 rows)
+   team_name    |   p   
+----------------+-------
+ North Carolina | 0.409
+ Maryland       | 0.341
+ Duke           | 0.132
+ Syracuse       | 0.103
+ Northwestern   | 0.014
+(5 rows)
 
-COPY 8
+COPY 5
 COMMIT
