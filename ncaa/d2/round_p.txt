@@ -1,15 +1,12 @@
 BEGIN
  rd |   name    |   p   
 ----+-----------+-------
-  3 | Le Moyne  | 0.724
   3 | Limestone | 0.698
   3 | Lake Erie | 0.302
-  3 | Merrimack | 0.276
-  4 | Le Moyne  | 0.468
-  4 | Limestone | 0.330
-  4 | Merrimack | 0.110
-  4 | Lake Erie | 0.093
-(8 rows)
+  4 | Le Moyne  | 0.647
+  4 | Limestone | 0.284
+  4 | Lake Erie | 0.069
+(5 rows)
 
-COPY 8
+COPY 5
 COMMIT
