@@ -1,15 +1,13 @@
 BEGIN
    team_name    |   p   
 ----------------+-------
- Denver         | 0.241
- Syracuse       | 0.236
- Notre Dame     | 0.161
- North Carolina | 0.106
- Maryland       | 0.102
- Albany (NY)    | 0.090
- Johns Hopkins  | 0.054
- Ohio St.       | 0.010
-(8 rows)
+ Denver         | 0.274
+ Notre Dame     | 0.256
+ Syracuse       | 0.226
+ North Carolina | 0.100
+ Maryland       | 0.095
+ Johns Hopkins  | 0.050
+(6 rows)
 
-COPY 8
+COPY 6
 COMMIT

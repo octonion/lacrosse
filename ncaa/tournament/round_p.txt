@@ -1,31 +1,23 @@
 BEGIN
  rd |      name      |   p   
 ----+----------------+-------
-  4 | Denver         | 0.831
   4 | Syracuse       | 0.642
-  4 | Notre Dame     | 0.573
   4 | Maryland       | 0.535
   4 | North Carolina | 0.465
-  4 | Albany (NY)    | 0.427
   4 | Johns Hopkins  | 0.358
-  4 | Ohio St.       | 0.169
-  5 | Denver         | 0.451
+  5 | Denver         | 0.511
+  5 | Notre Dame     | 0.489
   5 | Syracuse       | 0.403
-  5 | Notre Dame     | 0.308
   5 | Maryland       | 0.231
   5 | North Carolina | 0.220
-  5 | Albany (NY)    | 0.199
   5 | Johns Hopkins  | 0.146
-  5 | Ohio St.       | 0.042
-  6 | Denver         | 0.241
-  6 | Syracuse       | 0.236
-  6 | Notre Dame     | 0.161
-  6 | North Carolina | 0.106
-  6 | Maryland       | 0.102
-  6 | Albany (NY)    | 0.090
-  6 | Johns Hopkins  | 0.054
-  6 | Ohio St.       | 0.010
-(24 rows)
+  6 | Denver         | 0.274
+  6 | Notre Dame     | 0.256
+  6 | Syracuse       | 0.226
+  6 | North Carolina | 0.100
+  6 | Maryland       | 0.095
+  6 | Johns Hopkins  | 0.050
+(16 rows)
 
-COPY 24
+COPY 16
 COMMIT
