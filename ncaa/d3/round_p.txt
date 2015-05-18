@@ -1,12 +1,9 @@
 BEGIN
- rd |      name       |   p   
-----+-----------------+-------
-  5 | Rochester Inst. | 0.671
-  5 | Tufts           | 0.329
-  6 | Rochester Inst. | 0.444
-  6 | Lynchburg       | 0.371
-  6 | Tufts           | 0.186
-(5 rows)
+ rd |   name    |   p   
+----+-----------+-------
+  6 | Tufts     | 0.565
+  6 | Lynchburg | 0.435
+(2 rows)
 
-COPY 5
+COPY 2
 COMMIT
