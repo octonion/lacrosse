@@ -1,16 +1,8 @@
 BEGIN
 SET
-    date    |  site   |      home       | div | score |      away      | div | score 
-------------+---------+-----------------+-----+-------+----------------+-----+-------
- 2015-05-16 | neutral | Albany (NY)     | D1  | 12.75 | Notre Dame     | D1  | 13.98
- 2015-05-16 | home    | Denver          | D1  | 12.37 | Ohio St.       | D1  |  7.53
- 2015-05-17 | home    | Gettysburg      | D3  | 11.24 | Lynchburg      | D3  |  9.96
- 2015-05-17 | neutral | Johns Hopkins   | D1  | 10.78 | Syracuse       | D1  | 14.25
- 2015-05-16 | home    | Le Moyne        | D2  | 11.31 | Merrimack      | D2  |  8.37
- 2015-05-17 | home    | Limestone       | D2  | 11.22 | Lake Erie      | D2  |  8.64
- 2015-05-17 | neutral | Maryland        | D1  |  9.44 | North Carolina | D1  |  9.95
- 2015-05-17 | home    | Rochester Inst. | D3  | 15.40 | Tufts          | D3  | 12.32
-(8 rows)
+ date | site | home | div | score | away | div | score 
+------+------+------+-----+-------+------+-----+-------
+(0 rows)
 
-COPY 8
+COPY 0
 COMMIT
