@@ -1,31 +1,15 @@
 BEGIN
  rd |      name       |   p   
 ----+-----------------+-------
-  5 | Frank. & Marsh. | 0.876
-  5 | SUNY Cortland   | 0.849
-  5 | Middlebury      | 0.776
-  5 | Trinity (CT)    | 0.746
-  5 | TCNJ            | 0.254
-  5 | York (PA)       | 0.224
-  5 | Catholic        | 0.151
-  5 | Fredonia        | 0.124
-  6 | SUNY Cortland   | 0.663
-  6 | Frank. & Marsh. | 0.469
-  6 | Trinity (CT)    | 0.428
-  6 | Middlebury      | 0.248
-  6 | TCNJ            | 0.083
-  6 | Catholic        | 0.056
-  6 | York (PA)       | 0.033
-  6 | Fredonia        | 0.021
-  7 | SUNY Cortland   | 0.392
-  7 | Frank. & Marsh. | 0.234
-  7 | Trinity (CT)    | 0.224
-  7 | Middlebury      | 0.097
-  7 | TCNJ            | 0.028
-  7 | Catholic        | 0.015
-  7 | York (PA)       | 0.007
-  7 | Fredonia        | 0.004
-(24 rows)
+  6 | SUNY Cortland   | 0.750
+  6 | Trinity (CT)    | 0.528
+  6 | Frank. & Marsh. | 0.472
+  6 | Middlebury      | 0.250
+  7 | SUNY Cortland   | 0.427
+  7 | Trinity (CT)    | 0.261
+  7 | Frank. & Marsh. | 0.220
+  7 | Middlebury      | 0.092
+(8 rows)
 
-COPY 24
+COPY 8
 COMMIT

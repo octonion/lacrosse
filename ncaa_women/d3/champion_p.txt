@@ -1,15 +1,11 @@
 BEGIN
     team_name    |   p   
 -----------------+-------
- SUNY Cortland   | 0.392
- Frank. & Marsh. | 0.234
- Trinity (CT)    | 0.224
- Middlebury      | 0.097
- TCNJ            | 0.028
- Catholic        | 0.015
- York (PA)       | 0.007
- Fredonia        | 0.004
-(8 rows)
+ SUNY Cortland   | 0.427
+ Trinity (CT)    | 0.261
+ Frank. & Marsh. | 0.220
+ Middlebury      | 0.092
+(4 rows)
 
-COPY 8
+COPY 4
 COMMIT
