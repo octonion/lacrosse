@@ -33,7 +33,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Adelphi,3,Le Moyne,349,05/03/2015,14,5,Home,"",-,337
 2015,Adelphi,3,Stonehill,682,05/09/2015,10,6,Home,"",-,265
 2015,Adelphi,3,Le Moyne,349,05/16/2015,10,5,Neutral,"Salem, Va.",-,352
-2015,Adelphi,3,Lock Haven,360,05/17/2015,0,0,Neutral,"Salem, Va.",-,0
+2015,Adelphi,3,Lock Haven,360,05/17/2015,5,4,Neutral,"Salem, Va.",1 OT,621
 2015,Adrian,4,Augustana (IL),40,03/14/2015,1,19,Away,"",-,143
 2015,Adrian,4,Wittenberg,806,03/17/2015,2,21,Home,"",-,50
 2015,Adrian,4,Mount Union,452,03/20/2015,6,23,Away,"",-,72
@@ -1440,7 +1440,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Cornell College,166,IIT,30172,04/18/2015,9,10,Home,"",3 OT,165
 2015,Cornell College,166,Beloit,53,04/19/2015,5,15,Home,"",-,109
 2015,Curry,170,Lasell,8486,03/05/2015,3,11,Away,"",-,50
-2015,Curry,170,Emmanuel (MA),215,03/08/2015,8,14,Neutral,Bradenton FLA,1 OT,25
+2015,Curry,170,Emmanuel (MA),215,03/08/2015,8,14,Neutral,Bradenton FLA,-,25
 2015,Curry,170,Baldwin Wallace,46,03/10/2015,12,9,Neutral,"Bradenton, FLA",-,24
 2015,Curry,170,Johnson & Wales (RI),22626,03/17/2015,5,13,Home,"",-,50
 2015,Curry,170,Emerson,214,03/19/2015,2,15,Away,"",-,70
@@ -1737,6 +1737,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Dubuque,192,Benedictine (IL),296,02/21/2015,24,4,Away,"",-,48
 2015,Dubuque,192,Augsburg,38,03/02/2015,15,13,Away,"",-,70
 2015,Dubuque,192,Rhodes,573,03/08/2015,9,21,Away,"",-,72
+2015,Dubuque,192,Robert Morris (IL),,03/12/2015,7,14,Home,"",-,117
 2015,Dubuque,192,Robert Morris (IL),,03/13/2015,7,14,Home,"",-,117
 2015,Dubuque,192,Carroll (WI),120,03/24/2015,21,6,Home,"",-,35
 2015,Dubuque,192,Wartburg,750,03/26/2015,15,6,Home,"",-,57
@@ -1770,6 +1771,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Duke,193,Johns Hopkins,322,05/03/2015,8,9,Home,"",-,461
 2015,Duke,193,Southern California,657,05/10/2015,17,9,Home,"",-,185
 2015,Duke,193,Princeton,554,05/16/2015,7,3,Home,"",-,265
+2015,Duke,193,North Carolina,457,05/22/2015,0,0,Neutral,"Chester, PA",-,0
 2015,Duquesne,194,Robert Morris,579,02/18/2015,17,16,Neutral,"Greenville, Pa.",2 OT,0
 2015,Duquesne,194,Penn St.,539,02/24/2015,0,16,Home,"",-,129
 2015,Duquesne,194,Marquette,387,02/28/2015,7,8,Home,"",1 OT,208
@@ -1959,7 +1961,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Emmanuel (GA),30193,Brevard,30094,03/21/2015,10,13,Away,"",-,89
 2015,Emmanuel (GA),30193,Lees-McRae,13302,03/30/2015,14,13,Home,"",-,0
 2015,Emmanuel (GA),30193,Erskine,1072,04/08/2015,16,12,Home,"",-,90
-2015,Emmanuel (MA),215,Curry,170,03/08/2015,14,8,Neutral,Bradenton FLA,1 OT,25
+2015,Emmanuel (MA),215,Curry,170,03/08/2015,14,8,Neutral,Bradenton FLA,-,25
 2015,Emmanuel (MA),215,Becker,26107,03/10/2015,19,4,Neutral,"Bradenton, Fla.",-,40
 2015,Emmanuel (MA),215,Johnson & Wales (RI),22626,03/14/2015,4,11,Away,"",-,93
 2015,Emmanuel (MA),215,Mount Ida,27901,03/20/2015,14,8,Home,"",-,40
@@ -2121,8 +2123,8 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Fla. Southern,233,Gannon,246,03/01/2015,18,7,Home,"",-,150
 2015,Fla. Southern,233,Wilmington (DE),1460,03/03/2015,19,6,Home,"",-,85
 2015,Fla. Southern,233,Regis (CO),568,03/03/2015,20,13,Home,"",-,113
-2015,Fla. Southern,233,Wheeling Jesuit,12799,03/07/2015,18,8,Home,"",-,108
 2015,Fla. Southern,233,Mount Olive,1245,03/07/2015,11,8,Home,"",-,210
+2015,Fla. Southern,233,Wheeling Jesuit,12799,03/07/2015,18,8,Home,"",-,108
 2015,Fla. Southern,233,Queens (NC),11504,03/10/2015,16,8,Home,"",-,60
 2015,Fla. Southern,233,Seton Hill,30063,03/14/2015,13,10,Home,"",-,201
 2015,Fla. Southern,233,Lenoir-Rhyne,1170,03/17/2015,15,7,Home,"",-,50
@@ -2288,7 +2290,6 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Fredonia,242,SUNY Cortland,168,05/02/2015,6,15,Away,"",-,221
 2015,Fredonia,242,Denison,182,05/10/2015,10,5,Home,"",-,200
 2015,Fredonia,242,Wash. & Lee,752,05/16/2015,9,5,Neutral,"Lancaster, Pa.",-,85
-2015,Fredonia,242,Wash. & Lee,752,05/16/2015,9,5,Home,"",-,85
 2015,Fredonia,242,Frank. & Marsh.,239,05/17/2015,9,16,Away,"",-,174
 2015,Fresno St.,96,Stanford,674,02/18/2015,7,22,Away,"",-,252
 2015,Fresno St.,96,Southern California,657,02/24/2015,6,17,Away,"",-,129
@@ -2871,7 +2872,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Huntingdon,1130,Methodist,412,03/28/2015,7,19,Home,"",-,31
 2015,Huntingdon,1130,Birmingham-So.,28593,03/31/2015,12,14,Home,"",-,57
 2015,Huntingdon,1130,Berry,973,04/14/2015,11,16,Home,"",-,20
-2015,Husson,1133,St. Joseph's (ME),605,03/05/2015,8,17,Home,"",-,15
+2015,Husson,1133,St. Joseph's (ME),605,03/05/2015,8,17,Away,"",-,15
 2015,Husson,1133,Colby,151,03/08/2015,0,16,Away,"",-,100
 2015,Husson,1133,Daniel Webster,2691,03/15/2015,17,2,Away,"",-,6
 2015,Husson,1133,Johnson St.,324,03/21/2015,16,5,Home,"",-,30
@@ -3544,7 +3545,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Lock Haven,360,Mercyhurst,408,05/02/2015,11,6,Home,"",-,654
 2015,Lock Haven,360,Rollins,584,05/09/2015,12,3,Home,"",-,503
 2015,Lock Haven,360,Lindenwood (MO),30136,05/16/2015,11,6,Neutral,"Salem, Va.",-,426
-2015,Lock Haven,360,Adelphi,3,05/17/2015,0,0,Neutral,"Salem, Va.",-,0
+2015,Lock Haven,360,Adelphi,3,05/17/2015,4,5,Neutral,"Salem, Va.",1 OT,621
 2015,Longwood,363,Navy,726,02/08/2015,2,17,Away,"",-,982
 2015,Longwood,363,Elon,1068,02/14/2015,7,10,Home,"",1 OT,62
 2015,Longwood,363,Old Dominion,523,02/22/2015,7,19,Away,"",-,184
@@ -3768,6 +3769,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Maryland,392,Ohio St.,518,05/01/2015,10,11,Neutral,"Piscataway, N.J.",-,645
 2015,Maryland,392,Massachusetts,400,05/10/2015,19,8,Home,"",-,531
 2015,Maryland,392,Northwestern,509,05/17/2015,17,5,Home,"",-,980
+2015,Maryland,392,Syracuse,688,05/22/2015,0,0,Neutral,"Chester, PA",-,0
 2015,Marymount (VA),394,Randolph-Macon,565,02/25/2015,8,12,Home,"",-,111
 2015,Marymount (VA),394,Lynchburg,374,02/28/2015,9,13,Home,"",-,154
 2015,Marymount (VA),394,Shenandoah,637,03/04/2015,7,9,Home,"",-,100
@@ -4564,6 +4566,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,North Carolina,457,Syracuse,688,04/26/2015,8,9,Neutral,"Charlottesville, Va.",2 OT,483
 2015,North Carolina,457,Florida,235,05/10/2015,11,6,Home,"",-,303
 2015,North Carolina,457,Penn St.,539,05/16/2015,11,8,Home,"",-,343
+2015,North Carolina,457,Duke,193,05/22/2015,0,0,Neutral,"Chester, PA",-,0
 2015,North Central (IL),492,Aurora,42,03/10/2015,14,13,Away,"",1 OT,111
 2015,North Central (IL),492,Albion,15,03/12/2015,8,14,Home,"",-,55
 2015,North Central (IL),492,Carroll (WI),120,03/14/2015,22,4,Away,"",-,0
@@ -4841,7 +4844,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Oswego St.,530,Rochester Inst.,580,03/04/2015,9,11,Away,"",-,104
 2015,Oswego St.,530,Houghton,30160,03/07/2015,18,6,Away,"",-,50
 2015,Oswego St.,530,Clarkson,146,03/10/2015,10,11,Neutral,"Cazenovia, N.Y.",-,41
-2015,Oswego St.,530,Springfield,673,03/15/2015,6,11,Neutral,"Orlando, Fla.",-,80
+2015,Oswego St.,530,Springfield,673,03/15/2015,6,11,Neutral,"Orlando, FL",-,80
 2015,Oswego St.,530,U New England,1255,03/17/2015,19,9,Neutral,"Kissimmee, Fla.",-,65
 2015,Oswego St.,530,SUNY Canton,30165,03/25/2015,14,13,Away,"",-,89
 2015,Oswego St.,530,SUNY Oneonta,526,03/28/2015,9,16,Neutral,"Manlius, N.Y.",-,58
@@ -6042,7 +6045,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Springfield,673,Connecticut Col.,163,03/06/2015,10,6,Home,"",-,50
 2015,Springfield,673,Plymouth St.,548,03/07/2015,8,1,Home,"",-,100
 2015,Springfield,673,Amherst,24,03/12/2015,8,9,Away,"",2 OT,108
-2015,Springfield,673,Oswego St.,530,03/15/2015,11,6,Neutral,"Orlando, Fla.",-,80
+2015,Springfield,673,Oswego St.,530,03/15/2015,11,6,Neutral,"Orlando, FL",-,80
 2015,Springfield,673,Keene St.,330,03/17/2015,14,6,Neutral,"Clermont, FL",-,100
 2015,Springfield,673,Wellesley,760,03/25/2015,10,5,Away,"",-,45
 2015,Springfield,673,MIT,398,03/28/2015,16,9,Away,"",-,55
@@ -6153,7 +6156,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,St. Joseph's (L.I.),1340,Keene St.,330,05/09/2015,13,9,Neutral,"Hartford, Conn.",-,384
 2015,St. Joseph's (L.I.),1340,Trinity (CT),713,05/10/2015,6,16,Away,"",-,392
 2015,St. Joseph's (ME),605,U New England,1255,03/01/2015,12,15,Away,"",-,100
-2015,St. Joseph's (ME),605,Husson,1133,03/05/2015,17,8,Away,"",-,15
+2015,St. Joseph's (ME),605,Husson,1133,03/05/2015,17,8,Home,"",-,15
 2015,St. Joseph's (ME),605,Maine Maritime,378,03/09/2015,21,1,Neutral,"Portland, Maine",-,106
 2015,St. Joseph's (ME),605,Southern Me.,662,03/11/2015,15,12,Away,"",-,80
 2015,St. Joseph's (ME),605,St. Joseph (CT),8687,03/14/2015,21,2,Home,"",-,50
@@ -6584,6 +6587,7 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Syracuse,688,Loyola Maryland,369,05/02/2015,8,9,Home,"",-,"1,022"
 2015,Syracuse,688,Penn,540,05/10/2015,13,10,Home,"",-,461
 2015,Syracuse,688,Loyola Maryland,369,05/16/2015,10,7,Home,"",-,636
+2015,Syracuse,688,Maryland,392,05/22/2015,0,0,Neutral,"Chester, PA",-,0
 2015,Tampa,689,Rollins,584,02/08/2015,5,24,Away,"",-,316
 2015,Tampa,689,Molloy,437,02/15/2015,13,14,Home,"",-,117
 2015,Tampa,689,Limestone,1174,02/20/2015,6,18,Away,"",-,75
@@ -7199,7 +7203,6 @@ year,team_name,team_id,opponent_name,opponent_id,game_date,team_score,opponent_s
 2015,Wash. & Lee,752,Lynchburg,374,04/29/2015,7,6,Home,"",1 OT,175
 2015,Wash. & Lee,752,Randolph-Macon,565,05/02/2015,8,7,Home,"",-,411
 2015,Wash. & Lee,752,Sewanee,652,05/10/2015,18,4,Home,"",-,275
-2015,Wash. & Lee,752,Fredonia,242,05/16/2015,5,9,Away,"",-,85
 2015,Wash. & Lee,752,Fredonia,242,05/16/2015,5,9,Neutral,"Lancaster, Pa.",-,85
 2015,Washington Col.,753,St. Mary's (MD),611,02/28/2015,9,10,Home,"",-,162
 2015,Washington Col.,753,Roger Williams,583,03/09/2015,14,7,Neutral,"Bradenton, FL",-,35
