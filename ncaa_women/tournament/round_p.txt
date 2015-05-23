@@ -1,15 +1,9 @@
 BEGIN
  rd |      name      |   p   
 ----+----------------+-------
-  5 | Maryland       | 0.761
-  5 | North Carolina | 0.702
-  5 | Duke           | 0.298
-  5 | Syracuse       | 0.239
-  6 | Maryland       | 0.412
-  6 | North Carolina | 0.387
-  6 | Duke           | 0.122
-  6 | Syracuse       | 0.079
-(8 rows)
+  6 | North Carolina | 0.501
+  6 | Maryland       | 0.499
+(2 rows)
 
-COPY 8
+COPY 2
 COMMIT

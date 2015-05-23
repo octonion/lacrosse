@@ -1,11 +1,9 @@
 BEGIN
    team_name    |   p   
 ----------------+-------
- Maryland       | 0.412
- North Carolina | 0.387
- Duke           | 0.122
- Syracuse       | 0.079
-(4 rows)
+ North Carolina | 0.501
+ Maryland       | 0.499
+(2 rows)
 
-COPY 4
+COPY 2
 COMMIT
