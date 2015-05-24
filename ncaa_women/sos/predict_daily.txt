@@ -1,8 +1,10 @@
 BEGIN
 SET
- date | site | home | div | score | away | div | score 
-------+------+------+-----+-------+------+-----+-------
-(0 rows)
+    date    |  site   |     home      | div | score |      away      | div | score 
+------------+---------+---------------+-----+-------+----------------+-----+-------
+ 2015-05-24 | neutral | Maryland      | D1  | 10.02 | North Carolina | D1  | 10.04
+ 2015-05-24 | neutral | SUNY Cortland | D3  | 11.75 | Trinity (CT)   | D3  | 10.95
+(2 rows)
 
-COPY 0
+COPY 2
 COMMIT
