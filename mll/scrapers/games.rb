@@ -41,7 +41,7 @@ seasons.each do |season|
 
         case j
         when 1,2
-          team = td.xpath("a").first.text rescue nil
+          team = td.xpath("a").first.text.scrub.strip rescue nil
           href = td.xpath("a").first.attributes["href"].to_s
           team_id = href.split("=")[1].split("&")[0] rescue nil
           href = href.scrub.strip rescue nil
@@ -97,7 +97,7 @@ seasons.each do |season|
         
       end
 
-      row += [nil, nil, nil, nil, nil]
+      row += [nil, nil, nil, nil, nil, nil]
 
     end
 
