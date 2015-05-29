@@ -25,11 +25,11 @@ insert into mll.results
 select
 g.game_id,
 g.year,
-trim(both from g.away_name),
+g.away_name,
 g.away_id,
-trim(both from g.home_name),
+g.home_name,
 g.home_id,
-'Away' as field,
+'defense_home' as field,
 g.away_score,
 g.home_score,
 (case when g.overtime is null then '0 OT'
@@ -58,11 +58,11 @@ insert into mll.results
 select
 g.game_id,
 g.year,
-trim(both from g.home_name),
+g.home_name,
 g.home_id,
-trim(both from g.away_name),
+g.away_name,
 g.away_id,
-'Home' as field,
+'offense_home' as field,
 g.home_score,
 g.away_score,
 (case when g.overtime is null then '0 OT'

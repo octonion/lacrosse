@@ -1,0 +1,12 @@
+BEGIN
+SET
+    date    | site |    home    | score |   away    | score 
+------------+------+------------+-------+-----------+-------
+ 2015-05-30 | home | Boston     | 14.07 | Florida   | 12.19
+ 2015-05-30 | home | Charlotte  | 12.18 | New York  | 13.35
+ 2015-05-30 | home | Chesapeake | 13.03 | Rochester | 11.89
+ 2015-05-29 | home | Denver     | 13.62 | Ohio      | 12.61
+(4 rows)
+
+COPY 4
+COMMIT
