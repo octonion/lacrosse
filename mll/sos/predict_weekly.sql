@@ -32,7 +32,7 @@ join mll._basic_factors i
 where
    (g.game_date||', '||g.year::text)::date
      between current_date and current_date+6
-order by home asc;
+order by date,home asc;
 
 copy
 (
@@ -66,7 +66,7 @@ join mll._basic_factors i
 where
    (g.game_date||', '||g.year::text)::date
      between current_date and current_date+6
-order by home asc
+order by date,home asc
 ) to '/tmp/predict_weekly.csv' csv header;
 
 commit;
