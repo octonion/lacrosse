@@ -1,0 +1,9 @@
+BEGIN
+SET
+    date    | site |  home   | score |   away   | score 
+------------+------+---------+-------+----------+-------
+ 2015-05-30 | home | Toronto | 11.03 | Edmonton | 10.88
+(1 row)
+
+COPY 1
+COMMIT
