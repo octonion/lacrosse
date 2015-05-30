@@ -3,7 +3,7 @@
 require 'csv'
 require 'open-uri'
 
-base = "http://www.pointstreak.com/flashapp/getlivegamedata.php"
+base = "http://www.pointstreak.com/flashapp/teamstats_xml.php"
 
 ARGV.each do |game_file|
 
@@ -12,22 +12,24 @@ ARGV.each do |game_file|
   games.each do |game|
 
     year = game[2]
+    home_id = game[4]
     home = game[5]
+    away_id = game[8]
     away = game[9]
     date = game[12]
 
     game_id = game[16]
 
     if (game_id==nil)
-      print "#{year} - #{home} vs #{away} on #{date} - no PBP\n"
+      print "#{year} - #{home} vs #{away} on #{date} - no boxscore\n"
       next
     else
-      print "#{year} - #{home} vs #{away} on #{date} - PBP\n"
+      print "#{year} - #{home} vs #{away} on #{date} - boxscore\n"
     end
 
-    url = "#{base}?gameid=#{game_id}"
+    url = "#{base}?homesteamid=#{home_id}&awaysteamid=#{away_id}&gameid=#{game_id}"
 
-    file_name = "xml/#{game_id}.xml"
+    file_name = "xml/boxscore_#{game_id}.xml"
 
     open(file_name, 'wb') do |file|
       file << open(url).read
