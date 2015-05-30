@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PSILive xmlns="urn:www.pointstreak.com" BuildNumber="v3.4Lb8">
+	<General LeagueID="4905" HomeDivID="D32262" HomeDivName="West Division" HomeTeamID="221276" HomeName="Minnesota" AwayDivName="East Division" AwayTeamID="221283" AwayName="Rochester" realtime="1" VideoAvailableTime="" VideoAvailableCountdown="0">
+		<Settings ForwardTime="no" GameClock="yes" SportType="Lacrosse">
+			<PeriodLengths P1="15" P2="15" P3="15" P4="15" OT1="15" OT2="15" OT3="15" OT4="15"/>
+		</Settings>
+		<Officials>
+			<HeadReferee Name="Default  Referee"/>
+			<HeadReferee2 Name=""/>
+			<AssistantReferee1 Name=""/>
+			<AssistantReferee2 Name=""/>
+		</Officials>
+	</General>
+	<Summary>
+		<Score Home="3" Away="6"/>
+		<Home Name="Minnesota">
+			<Period Num="1" G="2" S="2" PIM="0"/>
+		</Home>
+		<Away Name="Rochester">
+			<Period Num="1" G="3" S="3" PIM="0"/>
+		</Away>
+	</Summary>
+	<GameState Status="Final" Period="1" Time="0" realtime="1">
+		<CurrentState Name="Even Strength"/>
+		<LastEvent Type="Goal" TeamID="221283" PlayerID="8202505" A1="0" A2="0" Flag="ES" Period="2" Time="627" EventID="GOAL168"/>
+	</GameState>
+	<HomeTeam>
+		<Player PlayerID="3606433" Name="Joe Cinosky" Number="4" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8200291" Name="Josh Funk" Number="5" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8206612" Name="Scott Self" Number="6" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="3606438" Name="Aaron Wilson" Number="10" Pos="F" G="1" A="0" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="8206613" Name="Richard Morgan" Number="11" Pos="D" G="0" A="1" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8206617" Name="Tim Campeau" Number="15" Pos="F" G="0" A="1" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="3606425" Name="Noah Talbot" Number="16" Pos="F" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="3606422" Name="Sean Pollock" Number="17" Pos="F" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8206645" Name="Ryan Benesch" Number="21" Pos="F" G="0" A="1" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="3606432" Name="Andrew Watt" Number="22" Pos="F" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="3606423" Name="Jon Sullivan" Number="23" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8206650" Name="Sean Thomson" Number="24" Pos="F" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8200283" Name="Nick Inch" Number="34" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8200293" Name="Kevin Ross" Number="71" Pos="F" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8206660" Name="Jay Thorimbert" Number="75" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8206662" Name="Zack Greer" Number="88" Pos="F" G="1" A="0" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="8206663" Name="Callum Crawford" Number="98" Pos="F" G="1" A="2" SOG="1" PIM="0" PLUS="0"/>
+		<Goalie PlayerID="3606426" Name="Nick Patterson" Number="93" SA="6" GA="6" SAV="0" InNet="Yes" PIM="0" Type="Starter" Minutes="0"/>
+	</HomeTeam>
+	<AwayTeam>
+		<Player PlayerID="3606594" Name="Joe Walters" Number="1" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="3606581" Name="Chris Schiller" Number="2" Pos="D" G="0" A="1" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8200166" Name="Mac Allen" Number="7" Pos="D" G="1" A="0" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="8200176" Name="Craig Point" Number="9" Pos="F" G="1" A="2" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="8202501" Name="Joel McCready" Number="10" Pos="T" G="0" A="1" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8200162" Name="Shawn Evans" Number="15" Pos="F" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8200161" Name="Steve Toll" Number="17" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8202503" Name="Peter Jacobs" Number="18" Pos="F" G="0" A="1" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8202504" Name="Scott Evans" Number="19" Pos="F" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8202505" Name="Kevin Fines" Number="21" Pos="D" G="1" A="0" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="8202507" Name="John Grant" Number="24" Pos="F" G="0" A="2" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8202508" Name="Scott Ditzell" Number="25" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="3606595" Name="Shawn Williams" Number="51" Pos="F" G="2" A="0" SOG="2" PIM="0" PLUS="0"/>
+		<Player PlayerID="3606596" Name="Bobby McBride" Number="67" Pos="T" G="1" A="0" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="8215600" Name="Aaron Bold" Number="77" Pos="" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8202519" Name="Sid Smith" Number="79" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8202522" Name="Chris Driscoll" Number="93" Pos="T" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Goalie PlayerID="8200157" Name="Pat OToole" Number="39" SA="3" GA="3" SAV="0" InNet="Yes" PIM="0" Type="Starter" Minutes="0"/>
+	</AwayTeam>
+	<PlayByPlay>
+		<Period Num="1">
+			<Event Type="Goal" TeamID="221276" PlayerID="3606438" A1="8206617" A2="8206663" Flag="ES" Period="1" Time="236" EventID="GOAL160"/>
+			<Event Type="Goal" TeamID="221283" PlayerID="3606596" A1="3606581" A2="0" Flag="ES" Period="1" Time="361" EventID="GOAL162"/>
+			<Event Type="Goal" TeamID="221276" PlayerID="8206662" A1="8206645" A2="8206663" Flag="ES/EA" Period="1" Time="746" EventID="GOAL161"/>
+			<Event Type="Goal" TeamID="221283" PlayerID="3606595" A1="8202507" A2="8200176" Flag="PP" Period="1" Time="843" EventID="GOAL163"/>
+			<Event Type="Goal" TeamID="221283" PlayerID="8200166" A1="0" A2="0" Flag="ES" Period="1" Time="867" EventID="GOAL164"/>
+		</Period>
+		<Period Num="2">
+			<Event Type="Goal" TeamID="221283" PlayerID="3606595" A1="8200176" A2="8202501" Flag="ES" Period="2" Time="205" EventID="GOAL165"/>
+			<Event Type="Goal" TeamID="221276" PlayerID="8206663" A1="8206613" A2="0" Flag="ES" Period="2" Time="554" EventID="GOAL166"/>
+			<Event Type="Goal" TeamID="221283" PlayerID="8200176" A1="8202503" A2="8202507" Flag="ES" Period="2" Time="615" EventID="GOAL167"/>
+			<Event Type="Goal" TeamID="221283" PlayerID="8202505" A1="0" A2="0" Flag="ES" Period="2" Time="627" EventID="GOAL168"/>
+		</Period>
+	</PlayByPlay>
+</PSILive>

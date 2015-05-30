@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PSILive xmlns="urn:www.pointstreak.com" BuildNumber="v3.4Lb8">
+	<General LeagueID="14244" HomeDivID="D83577" HomeDivName="NLL Playoffs 2015" HomeTeamID="554683" HomeName="Toronto" AwayDivName="NLL Playoffs 2015" AwayTeamID="558506" AwayName="Rochester" realtime="1" VideoAvailableTime="" VideoAvailableCountdown="0">
+		<Settings ForwardTime="no" GameClock="yes" SportType="Lacrosse">
+			<PeriodLengths P1="15" P2="15" P3="15" P4="15" OT1="15" OT2="15" OT3="15" OT4="15" OT5="15"/>
+		</Settings>
+		<Officials>
+			<HeadReferee Name="Todd Labranche"/>
+			<HeadReferee2 Name=""/>
+			<AssistantReferee1 Name="Josh Hiltz"/>
+			<AssistantReferee2 Name="Ryan Fowler"/>
+		</Officials>
+	</General>
+	<Summary>
+		<Score Home="8" Away="2"/>
+		<Home Name="Toronto">
+			<Period Num="1" G="8" S="11" PIM="0"/>
+		</Home>
+		<Away Name="Rochester">
+			<Period Num="1" G="2" S="7" PIM="2"/>
+		</Away>
+	</Summary>
+	<GameState Status="In Progress" Period="1" Time="600" realtime="1">
+		<CurrentState Name="Home Power Play"/>
+		<LastEvent Type="Shot" TeamID="558506" PlayerID="8617985" Period="1" Time="593" EventID="SHOT9"/>
+		<PenaltyBox>
+			<Player TeamID="558506" PlayerID="8617981" Severity="Bench Minor" Infraction="Too Many Men" Minutes="2" Period="1" Time="545" TimeLeft="65"/>
+		</PenaltyBox>
+	</GameState>
+	<HomeTeam>
+		<Player PlayerID="8560413" Name="Brock Sorensen" Number="3" Pos="T" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8560403" Name="Jesse Gamble" Number="4" Pos="T" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8560407" Name="Sandy Chapman" Number="5" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8625233" Name="Colin Doyle" Number="7" Pos="F" G="1" A="1" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="8560405" Name="Patrick Merrill" Number="9" Pos="F" G="1" A="0" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="8560406" Name="Rob Hellyer" Number="10" Pos="F" G="2" A="2" SOG="2" PIM="0" PLUS="0"/>
+		<Player PlayerID="8560414" Name="Brett Hickey" Number="11" Pos="F" G="0" A="5" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8560408" Name="Kevin Crowley" Number="12" Pos="F" G="1" A="1" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="8560402" Name="Rob Marshall" Number="14" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8560417" Name="Stephan Leblanc" Number="17" Pos="F" G="1" A="2" SOG="2" PIM="0" PLUS="0"/>
+		<Player PlayerID="8560418" Name="Josh Sanderson" Number="19" Pos="F" G="2" A="1" SOG="2" PIM="0" PLUS="0"/>
+		<Player PlayerID="8560415" Name="Bill Greer" Number="21" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8560416" Name="Kasey Beirnes" Number="33" Pos="F" G="0" A="1" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="8560419" Name="Brodie Merrill" Number="37" Pos="T" G="0" A="0" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="8560411" Name="Jeff Gilbert" Number="44" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8560399" Name="Damon Edwards" Number="45" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Goalie PlayerID="8560404" Name="Brandon Miller" Number="35" SA="7" GA="2" SAV="5" InNet="Yes" PIM="0" Type="Starter" Minutes="10"/>
+		<Goalie PlayerID="8560410" Name="Nick Rose" Number="66" SA="0" GA="0" SAV="0" InNet="No" PIM="0" Type="Backup" Minutes="0"/>
+	</HomeTeam>
+	<AwayTeam>
+		<Player PlayerID="8617984" Name="Joe Walters" Number="1" Pos="F" G="1" A="1" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="8617983" Name="Paul Dawson" Number="2" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8617975" Name="Scott Self" Number="5" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8617992" Name="Dan Dawson" Number="6" Pos="F" G="0" A="1" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8617981" Name="Craig Point" Number="9" Pos="F" G="0" A="1" SOG="0" PIM="2" PLUS="0"/>
+		<Player PlayerID="8617990" Name="Joe Resetarits" Number="15" Pos="F" G="1" A="0" SOG="3" PIM="0" PLUS="0"/>
+		<Player PlayerID="8617982" Name="Dylan Evans" Number="16" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8617985" Name="Cory Vitarelli" Number="23" Pos="F" G="0" A="0" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="8617977" Name="Brad Self" Number="25" Pos="D" G="0" A="0" SOG="2" PIM="0" PLUS="0"/>
+		<Player PlayerID="8617986" Name="Mike Kirk" Number="26" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8617993" Name="Stephen Keogh" Number="28" Pos="F" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8617987" Name="Ian Llord" Number="29" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8617978" Name="Jon Sullivan" Number="32" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8617991" Name="Scott Campbell" Number="37" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8617976" Name="Jordan Hall" Number="44" Pos="T" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8617989" Name="Sid Smith" Number="79" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Goalie PlayerID="8617974" Name="Matt Vinc" Number="48" SA="6" GA="5" SAV="1" InNet="No" PIM="0" Type="Starter" Minutes="4"/>
+		<Goalie PlayerID="8617988" Name="Angus Goodleaf" Number="55" SA="5" GA="3" SAV="2" InNet="Yes" PIM="0" Type="Backup" Minutes="6"/>
+	</AwayTeam>
+	<PlayByPlay>
+		<Period Num="1">
+			<Event Type="Faceoff" TeamID="554683" PlayerWonID="8560405" PlayerLostID="8617982" Period="1" Time="0" EventID="FACEOFF2"/>
+			<Event Type="Goal" TeamID="554683" PlayerID="8560418" A1="8560414" A2="8560417" Flag="PP" Period="1" Time="29" EventID="GOAL2"/>
+			<Event Type="Faceoff" TeamID="558506" PlayerWonID="8617982" PlayerLostID="8560405" Period="1" Time="29" EventID="FACEOFF3"/>
+			<Event Type="Goal" TeamID="554683" PlayerID="8560418" A1="8560406" A2="8560414" Flag="ES" Period="1" Time="73" EventID="GOAL3"/>
+			<Event Type="Faceoff" TeamID="554683" PlayerWonID="8560405" PlayerLostID="8617982" Period="1" Time="73" EventID="FACEOFF4"/>
+			<Event Type="Shotoff" TeamID="558506" PlayerID="8617984" Period="1" Time="121" EventID="SHOTOFF2"/>
+			<Event Type="Shot" TeamID="554683" PlayerID="8560419" Period="1" Time="128" EventID="SHOT2"/>
+			<Event Type="Shot" TeamID="558506" PlayerID="8617990" Period="1" Time="151" EventID="SHOT3"/>
+			<Event Type="Goal" TeamID="554683" PlayerID="8625233" A1="8560408" A2="0" Flag="ES" Period="1" Time="182" EventID="GOAL4"/>
+			<Event Type="Shotoff" TeamID="558506" PlayerID="8617984" Period="1" Time="200" EventID="SHOTOFF3"/>
+			<Event Type="Goal" TeamID="554683" PlayerID="8560417" A1="8560406" A2="8560414" Flag="ES" Period="1" Time="222" EventID="GOAL5"/>
+			<Event Type="Faceoff" TeamID="554683" PlayerWonID="8560405" PlayerLostID="8617982" Period="1" Time="222" EventID="FACEOFF5"/>
+			<Event Type="Goal" TeamID="554683" PlayerID="8560408" A1="8625233" A2="8560418" Flag="ES" Period="1" Time="253" EventID="GOAL6"/>
+			<Event Type="GoalieEntered" TeamID="558506" PlayerID="8617988" Period="1" Time="253" EventID="NA"/>
+			<Event Type="Faceoff" TeamID="554683" PlayerWonID="8560405" PlayerLostID="8617982" Period="1" Time="253" EventID="FACEOFF6"/>
+			<Event Type="Goal" TeamID="554683" PlayerID="8560406" A1="8560414" A2="8560417" Flag="ES" Period="1" Time="285" EventID="GOAL7"/>
+			<Event Type="Faceoff" TeamID="554683" PlayerWonID="8560405" PlayerLostID="8617982" Period="1" Time="285" EventID="FACEOFF7"/>
+			<Event Type="Shotoff" TeamID="558506" PlayerID="8617976" Period="1" Time="314" EventID="SHOTOFF4"/>
+			<Event Type="Shot" TeamID="558506" PlayerID="8617977" Period="1" Time="347" EventID="SHOT4"/>
+			<Event Type="Goal" TeamID="554683" PlayerID="8560406" A1="8560414" A2="8560416" Flag="ES" Period="1" Time="379" EventID="GOAL8"/>
+			<Event Type="Faceoff" TeamID="558506" PlayerWonID="8617982" PlayerLostID="8560405" Period="1" Time="379" EventID="FACEOFF8"/>
+			<Event Type="Goal" TeamID="558506" PlayerID="8617990" A1="8617981" A2="8617984" Flag="ES" Period="1" Time="400" EventID="GOAL9"/>
+			<Event Type="Faceoff" TeamID="558506" PlayerWonID="8617982" PlayerLostID="8560405" Period="1" Time="400" EventID="FACEOFF9"/>
+			<Event Type="Shotoff" TeamID="558506" PlayerID="8617985" Period="1" Time="424" EventID="SHOTOFF5"/>
+			<Event Type="Shot" TeamID="554683" PlayerID="8560417" Period="1" Time="454" EventID="SHOT5"/>
+			<Event Type="Shot" TeamID="554683" PlayerID="8560416" Period="1" Time="480" EventID="SHOT6"/>
+			<Event Type="Goal" TeamID="558506" PlayerID="8617984" A1="8617992" A2="0" Flag="ES" Period="1" Time="494" EventID="GOAL10"/>
+			<Event Type="Faceoff" TeamID="558506" PlayerWonID="8617982" PlayerLostID="8560405" Period="1" Time="494" EventID="FACEOFF10"/>
+			<Event Type="Shot" TeamID="558506" PlayerID="8617990" Period="1" Time="514" EventID="SHOT7"/>
+			<Event Type="PenaltyShot" TeamID="554683" PlayerID="8560405" Scored="Yes" Period="1" Time="545" EventID=""/>
+			<Event Type="Goal" TeamID="554683" PlayerID="8560405" A1="0" A2="0" Flag="PS" Period="1" Time="545" EventID="GOAL11"/>
+			<Event Type="Penalty" TeamID="558506" PlayerID="8617981" Severity="Bench Minor" Infraction="Too Many Men" Minutes="2" Period="1" Time="545" EventID="PEN2"/>
+			<Event Type="Faceoff" TeamID="558506" PlayerWonID="8617982" PlayerLostID="8560405" Period="1" Time="545" EventID="FACEOFF11"/>
+			<Event Type="Shot" TeamID="558506" PlayerID="8617977" Period="1" Time="551" EventID="SHOT8"/>
+			<Event Type="Shot" TeamID="558506" PlayerID="8617985" Period="1" Time="593" EventID="SHOT9"/>
+		</Period>
+	</PlayByPlay>
+</PSILive>

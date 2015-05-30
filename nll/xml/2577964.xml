@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PSILive xmlns="urn:www.pointstreak.com" BuildNumber="v3.4Lb6">
+	<General LeagueID="13554" HomeDivID="D79873" HomeDivName="West Division" HomeTeamID="530395" HomeName="Minnesota" AwayDivName="West Division" AwayTeamID="530398" AwayName="Washington" realtime="1" VideoAvailableTime="" VideoAvailableCountdown="0">
+		<Settings ForwardTime="no" GameClock="yes" SportType="Lacrosse">
+			<PeriodLengths P1="15" P2="15" P3="15" P4="15" OT1="15" OT2="15" OT3="15" OT4="15"/>
+		</Settings>
+		<Officials>
+			<HeadReferee Name="Greg Hart"/>
+			<HeadReferee2 Name=""/>
+			<AssistantReferee1 Name="Jeff Dolan"/>
+			<AssistantReferee2 Name="Daren Yates"/>
+		</Officials>
+	</General>
+	<Summary>
+		<Score Home="11" Away="10"/>
+		<Home Name="Minnesota">
+			<Period Num="1" G="1" S="12" PIM="4"/>
+			<Period Num="2" G="5" S="11" PIM="2"/>
+			<Period Num="3" G="1" S="10" PIM="0"/>
+			<Period Num="4" G="3" S="12" PIM="2"/>
+		</Home>
+		<Away Name="Washington">
+			<Period Num="1" G="2" S="9" PIM="2"/>
+			<Period Num="2" G="2" S="13" PIM="2"/>
+			<Period Num="3" G="3" S="14" PIM="2"/>
+			<Period Num="4" G="3" S="11" PIM="2"/>
+		</Away>
+	</Summary>
+	<GameState Status="Final" Period="4" Time="879" realtime="1">
+		<CurrentState Name="Away Power Play"/>
+		<LastEvent Type="Goal" TeamID="530395" PlayerID="8221215" A1="8221180" A2="8221181" Flag="ES" Period="5" Time="133" EventID="GOAL438"/>
+		<PenaltyBox>
+			<Player TeamID="530395" PlayerID="8221180" Severity="Minor" Infraction="Holding" Minutes="2" Period="4" Time="879" TimeLeft="120"/>
+		</PenaltyBox>
+	</GameState>
+	<HomeTeam>
+		<Player PlayerID="8221184" Name="Joe Cinosky" Number="4" Pos="D" G="0" A="1" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="1" Name="Taylor Hass" Number="9" Pos="A" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8221185" Name="Aaron Wilson" Number="10" Pos="F" G="2" A="3" SOG="8" PIM="0" PLUS="0"/>
+		<Player PlayerID="8221209" Name="Richard Morgan" Number="11" Pos="D" G="1" A="1" SOG="4" PIM="2" PLUS="0"/>
+		<Player PlayerID="8221210" Name="Eric Pacey" Number="12" Pos="D" G="0" A="1" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8221181" Name="Noah Talbot" Number="16" Pos="F" G="0" A="1" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8221179" Name="Sean Pollock" Number="17" Pos="F" G="0" A="0" SOG="3" PIM="0" PLUS="0"/>
+		<Player PlayerID="8222295" Name="Andrew Suitor" Number="20" Pos="T" G="0" A="2" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8221215" Name="Ryan Benesch" Number="21" Pos="F" G="3" A="2" SOG="11" PIM="0" PLUS="0"/>
+		<Player PlayerID="8221183" Name="Andrew Watt" Number="22" Pos="F" G="0" A="1" SOG="2" PIM="0" PLUS="0"/>
+		<Player PlayerID="8221180" Name="Jon Sullivan" Number="23" Pos="D" G="0" A="1" SOG="0" PIM="2" PLUS="0"/>
+		<Player PlayerID="8222294" Name="Rory Smith" Number="24" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8222293" Name="Mat Giles" Number="27" Pos="F" G="0" A="0" SOG="2" PIM="0" PLUS="0"/>
+		<Player PlayerID="8221193" Name="Nick Inch" Number="34" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8221192" Name="Travis Hill" Number="47" Pos="F" G="0" A="0" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="8221199" Name="Kevin Ross" Number="71" Pos="F" G="1" A="2" SOG="4" PIM="2" PLUS="0"/>
+		<Player PlayerID="3" Name="Zack Greer" Number="88" Pos="" G="2" A="2" SOG="3" PIM="2" PLUS="0"/>
+		<Player PlayerID="8221203" Name="Callum Crawford" Number="98" Pos="F" G="2" A="3" SOG="9" PIM="0" PLUS="0"/>
+		<Goalie PlayerID="8221194" Name="Kevin Croswell" Number="31" SA="0" GA="0" SAV="0" InNet="No" PIM="0" Type="Backup" Minutes="0"/>
+		<Goalie PlayerID="8221182" Name="Nick Patterson" Number="93" SA="50" GA="10" SAV="40" InNet="Yes" PIM="0" Type="Starter" Minutes="2"/>
+	</HomeTeam>
+	<AwayTeam>
+		<Player PlayerID="8222309" Name="Jeff Moleski" Number="3" Pos="D" G="0" A="1" SOG="2" PIM="0" PLUS="0"/>
+		<Player PlayerID="8221251" Name="Curtis Hodgson" Number="6" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8221252" Name="Tom Johnson" Number="8" Pos="F" G="3" A="0" SOG="6" PIM="0" PLUS="0"/>
+		<Player PlayerID="8221253" Name="Paul Rabil" Number="9" Pos="F" G="3" A="3" SOG="6" PIM="0" PLUS="0"/>
+		<Player PlayerID="8221254" Name="Rhys Duch" Number="10" Pos="F" G="2" A="1" SOG="7" PIM="0" PLUS="0"/>
+		<Player PlayerID="8221233" Name="Luke Wiles" Number="15" Pos="F" G="1" A="2" SOG="9" PIM="0" PLUS="0"/>
+		<Player PlayerID="8221236" Name="Kyle Hartzell" Number="18" Pos="F" G="0" A="1" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8222308" Name="Craig Conn" Number="20" Pos="F" G="0" A="1" SOG="2" PIM="0" PLUS="0"/>
+		<Player PlayerID="8222307" Name="Chet Koneczny" Number="21" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8221242" Name="Mike Grimes" Number="23" Pos="D" G="1" A="0" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="8221243" Name="Chris ODougherty" Number="24" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8221244" Name="Eric Martin" Number="25" Pos="D" G="0" A="2" SOG="0" PIM="2" PLUS="0"/>
+		<Player PlayerID="8221245" Name="Cam Sedgwick" Number="29" Pos="F" G="0" A="1" SOG="5" PIM="0" PLUS="0"/>
+		<Player PlayerID="8221225" Name="Jamison Koesterer" Number="39" Pos="F" G="0" A="0" SOG="0" PIM="4" PLUS="0"/>
+		<Player PlayerID="8221226" Name="Lewis Ratcliff" Number="42" Pos="F" G="0" A="4" SOG="12" PIM="0" PLUS="0"/>
+		<Player PlayerID="8222305" Name="Chris McElroy" Number="44" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8221228" Name="Jason Bloom" Number="47" Pos="F" G="0" A="0" SOG="0" PIM="2" PLUS="0"/>
+		<Player PlayerID="2" Name="Tyler Codron" Number="77" Pos="" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Goalie PlayerID="8221222" Name="Tyler Richards" Number="0" SA="47" GA="11" SAV="36" InNet="Yes" PIM="0" Type="Starter" Minutes="2"/>
+		<Goalie PlayerID="8221224" Name="Matt Roik" Number="33" SA="0" GA="0" SAV="0" InNet="No" PIM="0" Type="Backup" Minutes="0"/>
+	</AwayTeam>
+	<PlayByPlay>
+		<Period Num="1">
+			<Event Type="Penalty" TeamID="530395" PlayerID="3" Severity="Minor" Infraction="Illegal Cross Checking" Minutes="2" Period="1" Time="192" EventID="PEN225"/>
+			<Event Type="Goal" TeamID="530395" PlayerID="3" A1="8221215" A2="8221203" Flag="ES" Period="1" Time="383" EventID="GOAL418"/>
+			<Event Type="Goal" TeamID="530398" PlayerID="8221253" A1="8221226" A2="8221244" Flag="ES" Period="1" Time="407" EventID="GOAL419"/>
+			<Event Type="Penalty" TeamID="530395" PlayerID="8221199" Severity="Minor" Infraction="Interference" Minutes="2" Period="1" Time="637" EventID="PEN226"/>
+			<Event Type="Goal" TeamID="530398" PlayerID="8221254" A1="8221226" A2="8221233" Flag="PP" Period="1" Time="749" EventID="GOAL420"/>
+			<Event Type="Penalty" TeamID="530398" PlayerID="8221225" Severity="Minor" Infraction="Holding" Minutes="2" Period="1" Time="776" EventID="PEN227"/>
+		</Period>
+		<Period Num="2">
+			<Event Type="Goal" TeamID="530398" PlayerID="8221233" A1="8222309" A2="8221236" Flag="ES" Period="2" Time="14" EventID="GOAL421"/>
+			<Event Type="Goal" TeamID="530395" PlayerID="8221203" A1="8221185" A2="8221184" Flag="ES/EA" Period="2" Time="63" EventID="GOAL422"/>
+			<Event Type="Goal" TeamID="530398" PlayerID="8221253" A1="0" A2="0" Flag="ES" Period="2" Time="83" EventID="GOAL423"/>
+			<Event Type="Penalty" TeamID="530398" PlayerID="8221225" Severity="Minor" Infraction="Boarding" Minutes="2" Period="2" Time="115" EventID="PEN228"/>
+			<Event Type="Goal" TeamID="530395" PlayerID="8221215" A1="8221185" A2="3" Flag="ES" Period="2" Time="242" EventID="GOAL424"/>
+			<Event Type="Goal" TeamID="530395" PlayerID="8221203" A1="8221210" A2="8221183" Flag="ES/EA" Period="2" Time="362" EventID="GOAL425"/>
+			<Event Type="Goal" TeamID="530395" PlayerID="8221209" A1="8222295" A2="8221182" Flag="ES" Period="2" Time="387" EventID="GOAL426"/>
+			<Event Type="Penalty" TeamID="530395" PlayerID="8221209" Severity="Minor" Infraction="Illegal Cross Checking" Minutes="2" Period="2" Time="457" EventID="PEN229"/>
+			<Event Type="Goal" TeamID="530395" PlayerID="8221199" A1="8221203" A2="3" Flag="ES" Period="2" Time="695" EventID="GOAL427"/>
+		</Period>
+		<Period Num="3">
+			<Event Type="Goal" TeamID="530398" PlayerID="8221252" A1="8221254" A2="8221253" Flag="ES" Period="3" Time="52" EventID="GOAL428"/>
+			<Event Type="Goal" TeamID="530398" PlayerID="8221254" A1="8221245" A2="8222308" Flag="ES" Period="3" Time="107" EventID="GOAL429"/>
+			<Event Type="Goal" TeamID="530395" PlayerID="8221215" A1="8222295" A2="8221182" Flag="ES" Period="3" Time="718" EventID="GOAL430"/>
+			<Event Type="Goal" TeamID="530398" PlayerID="8221252" A1="8221253" A2="8221222" Flag="ES" Period="3" Time="806" EventID="GOAL431"/>
+			<Event Type="Penalty" TeamID="530398" PlayerID="8221228" Severity="Minor" Infraction="Illegal Cross Checking" Minutes="2" Period="3" Time="861" EventID="PEN230"/>
+		</Period>
+		<Period Num="4">
+			<Event Type="Goal" TeamID="530395" PlayerID="3" A1="8221209" A2="8221185" Flag="ES" Period="4" Time="179" EventID="GOAL432"/>
+			<Event Type="Goal" TeamID="530398" PlayerID="8221242" A1="8221244" A2="0" Flag="ES" Period="4" Time="240" EventID="GOAL433"/>
+			<Event Type="Goal" TeamID="530395" PlayerID="8221185" A1="8221215" A2="8221199" Flag="ES/EA" Period="4" Time="337" EventID="GOAL434"/>
+			<Event Type="Penalty" TeamID="530398" PlayerID="8221244" Severity="Minor" Infraction="Unsportsmanlike Conduct" Minutes="2" Period="4" Time="475" EventID="PEN231"/>
+			<Event Type="Goal" TeamID="530395" PlayerID="8221185" A1="8221199" A2="8221203" Flag="PP" Period="4" Time="512" EventID="GOAL435"/>
+			<Event Type="Goal" TeamID="530398" PlayerID="8221252" A1="8221226" A2="8221253" Flag="ES" Period="4" Time="548" EventID="GOAL436"/>
+			<Event Type="Goal" TeamID="530398" PlayerID="8221253" A1="8221233" A2="8221226" Flag="ES" Period="4" Time="679" EventID="GOAL437"/>
+			<Event Type="Penalty" TeamID="530395" PlayerID="8221180" Severity="Minor" Infraction="Holding" Minutes="2" Period="4" Time="879" EventID="PEN232"/>
+		</Period>
+		<Period Num="5">
+			<Event Type="Goal" TeamID="530395" PlayerID="8221215" A1="8221180" A2="8221181" Flag="ES" Period="5" Time="133" EventID="GOAL438"/>
+		</Period>
+	</PlayByPlay>
+</PSILive>

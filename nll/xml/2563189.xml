@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PSILive xmlns="urn:www.pointstreak.com" BuildNumber="v3.5La4">
+	<General LeagueID="13569" HomeDivID="D79869" HomeDivName="East Division" HomeTeamID="529293" HomeName="New England" AwayDivName="East Division" AwayTeamID="529294" AwayName="Rochester" realtime="1" VideoAvailableTime="" VideoAvailableCountdown="0">
+		<Settings ForwardTime="no" GameClock="yes" SportType="lacrosse">
+			<PeriodLengths P1="15" P2="15" P3="15" P4="15" OT1="15" OT2="15" OT3="15" OT4="15"/>
+		</Settings>
+		<Officials>
+			<HeadReferee Name="Chris Williams"/>
+			<HeadReferee2 Name=""/>
+			<AssistantReferee1 Name="Ty Wilkinson"/>
+			<AssistantReferee2 Name="Dan Gonsalvas"/>
+		</Officials>
+	</General>
+	<Summary>
+		<Score Home="17" Away="7"/>
+		<Home Name="New England">
+			<Period Num="1" G="4" S="15" PIM="2"/>
+			<Period Num="2" G="2" S="14" PIM="17"/>
+			<Period Num="3" G="6" S="9" PIM="5"/>
+			<Period Num="4" G="5" S="9" PIM="30"/>
+		</Home>
+		<Away Name="Rochester">
+			<Period Num="1" G="2" S="12" PIM="2"/>
+			<Period Num="2" G="2" S="10" PIM="19"/>
+			<Period Num="3" G="2" S="11" PIM="2"/>
+			<Period Num="4" G="1" S="8" PIM="26"/>
+		</Away>
+	</Summary>
+	<GameState Status="Final" Period="4" Time="900" realtime="1">
+		<CurrentState Name="Even Strength"/>
+		<LastEvent Type="Penalty" TeamID="529294" PlayerID="8281453" Severity="Misconduct" Infraction="Misconduct" Minutes="10" Period="4" Time="900" EventID="PEN44"/>
+		<PenaltyBox>
+			<Player TeamID="529293" PlayerID="8285918" Severity="Major" Infraction="Fighting" Minutes="5" Period="4" Time="900" TimeLeft="300"/>
+			<Player TeamID="529294" PlayerID="8281453" Severity="Major" Infraction="Fighting" Minutes="5" Period="4" Time="900" TimeLeft="300"/>
+		</PenaltyBox>
+	</GameState>
+	<HomeTeam>
+		<Player PlayerID="8285929" Name="Mike Manley" Number="5" Pos="D" G="0" A="0" SOG="0" PIM="10" PLUS="0"/>
+		<Player PlayerID="8285919" Name="Michael Diehl" Number="6" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8285943" Name="Joel White" Number="11" Pos="T" G="2" A="0" SOG="3" PIM="0" PLUS="0"/>
+		<Player PlayerID="8285930" Name="Brett Manney" Number="13" Pos="D" G="0" A="0" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="8285939" Name="Patrick Saunders" Number="14" Pos="F" G="3" A="3" SOG="7" PIM="0" PLUS="0"/>
+		<Player PlayerID="8285924" Name="Ryan Hotaling" Number="20" Pos="T" G="0" A="1" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8285918" Name="Kevin Crowley" Number="21" Pos="F" G="6" A="4" SOG="15" PIM="15" PLUS="0"/>
+		<Player PlayerID="8285908" Name="Kevin Buchanan" Number="27" Pos="F" G="2" A="3" SOG="7" PIM="5" PLUS="0"/>
+		<Player PlayerID="8285928" Name="Jamie Lincoln" Number="42" Pos="F" G="1" A="4" SOG="5" PIM="0" PLUS="0"/>
+		<Player PlayerID="8285932" Name="Michael McNamara" Number="58" Pos="D" G="0" A="0" SOG="0" PIM="10" PLUS="0"/>
+		<Player PlayerID="8340695" Name="Sheldon Burns" Number="71" Pos="D" G="0" A="0" SOG="0" PIM="4" PLUS="0"/>
+		<Player PlayerID="8285937" Name="Quinn Powless" Number="77" Pos="F" G="0" A="2" SOG="2" PIM="0" PLUS="0"/>
+		<Player PlayerID="8285933" Name="Brian Megill" Number="84" Pos="D" G="0" A="1" SOG="0" PIM="5" PLUS="0"/>
+		<Player PlayerID="8285921" Name="Craig England" Number="88" Pos="D" G="0" A="0" SOG="0" PIM="5" PLUS="0"/>
+		<Player PlayerID="8285909" Name="Kyle Buchanan" Number="91" Pos="F" G="3" A="6" SOG="7" PIM="0" PLUS="0"/>
+		<Player PlayerID="8285935" Name="William OBrien" Number="96" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Goalie PlayerID="8294268" Name="Tye Belanger" Number="31" SA="0" GA="0" SAV="0" InNet="No" PIM="0" Type="Backup" Minutes="0"/>
+		<Goalie PlayerID="8285927" Name="Evan Kirk" Number="35" SA="41" GA="7" SAV="34" InNet="Yes" PIM="0" Type="Starter" Minutes="15"/>
+	</HomeTeam>
+	<AwayTeam>
+		<Player PlayerID="8281452" Name="Joe Walters" Number="1" Pos="F" G="1" A="0" SOG="3" PIM="0" PLUS="0"/>
+		<Player PlayerID="8281462" Name="Paul Dawson" Number="2" Pos="D" G="0" A="0" SOG="1" PIM="7" PLUS="0"/>
+		<Player PlayerID="8281463" Name="Scott Self" Number="5" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8281464" Name="Dan Dawson" Number="6" Pos="F" G="0" A="2" SOG="4" PIM="0" PLUS="0"/>
+		<Player PlayerID="8281454" Name="Craig Point" Number="9" Pos="F" G="1" A="1" SOG="5" PIM="0" PLUS="0"/>
+		<Player PlayerID="8294903" Name="Aaron Wilson" Number="10" Pos="F" G="0" A="1" SOG="9" PIM="2" PLUS="0"/>
+		<Player PlayerID="8281455" Name="Dylan Evans" Number="16" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8281456" Name="Cory Vitarelli" Number="23" Pos="F" G="3" A="2" SOG="7" PIM="0" PLUS="0"/>
+		<Player PlayerID="8319799" Name="Brad Self" Number="25" Pos="D" G="0" A="1" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="8281459" Name="Mike Kirk" Number="26" Pos="D" G="0" A="0" SOG="0" PIM="4" PLUS="0"/>
+		<Player PlayerID="8281465" Name="Ian Llord" Number="29" Pos="D" G="0" A="0" SOG="0" PIM="2" PLUS="0"/>
+		<Player PlayerID="8281449" Name="Jon Sullivan" Number="32" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8281457" Name="Scott Campbell" Number="37" Pos="D" G="0" A="1" SOG="0" PIM="7" PLUS="0"/>
+		<Player PlayerID="8285949" Name="Jordan Hall" Number="44" Pos="T" G="2" A="1" SOG="2" PIM="0" PLUS="0"/>
+		<Player PlayerID="8281453" Name="Sid Smith" Number="79" Pos="D" G="0" A="0" SOG="0" PIM="27" PLUS="0"/>
+		<Player PlayerID="8281450" Name="Cody Jamieson" Number="88" Pos="F" G="0" A="3" SOG="9" PIM="0" PLUS="0"/>
+		<Goalie PlayerID="8281451" Name="Matt Vinc" Number="48" SA="47" GA="17" SAV="30" InNet="Yes" PIM="0" Type="Starter" Minutes="15"/>
+		<Goalie PlayerID="8281466" Name="Angus Goodleaf" Number="55" SA="0" GA="0" SAV="0" InNet="No" PIM="0" Type="Backup" Minutes="0"/>
+	</AwayTeam>
+	<PlayByPlay>
+		<Period Num="1">
+			<Event Type="Goal" TeamID="529293" PlayerID="8285909" A1="8285928" A2="0" Flag="ES" Period="1" Time="31" EventID="GOAL23"/>
+			<Event Type="Penalty" TeamID="529294" PlayerID="8294903" Severity="Minor" Infraction="Interference" Minutes="2" Period="1" Time="121" EventID="PEN24"/>
+			<Event Type="Penalty" TeamID="529293" PlayerID="8340695" Severity="Bench Minor" Infraction="Illegal Substitution" Minutes="2" Period="1" Time="255" EventID="PEN25"/>
+			<Event Type="Goal" TeamID="529293" PlayerID="8285908" A1="0" A2="0" Flag="ES" Period="1" Time="557" EventID="GOAL24"/>
+			<Event Type="Goal" TeamID="529293" PlayerID="8285918" A1="8285937" A2="8285909" Flag="ES" Period="1" Time="575" EventID="GOAL25"/>
+			<Event Type="Goal" TeamID="529293" PlayerID="8285939" A1="8285918" A2="0" Flag="ES" Period="1" Time="645" EventID="GOAL26"/>
+			<Event Type="Goal" TeamID="529294" PlayerID="8281452" A1="8319799" A2="0" Flag="ES" Period="1" Time="747" EventID="GOAL27"/>
+			<Event Type="Goal" TeamID="529294" PlayerID="8285949" A1="8281456" A2="8281464" Flag="ES" Period="1" Time="834" EventID="GOAL28"/>
+		</Period>
+		<Period Num="2">
+			<Event Type="Penalty" TeamID="529293" PlayerID="8285929" Severity="Misconduct" Infraction="Misconduct" Minutes="10" Period="2" Time="12" EventID="PEN26"/>
+			<Event Type="Penalty" TeamID="529293" PlayerID="8285933" Severity="Major" Infraction="Fighting" Minutes="5" Period="2" Time="12" EventID="PEN27"/>
+			<Event Type="Penalty" TeamID="529294" PlayerID="8281457" Severity="Minor" Infraction="Roughing" Minutes="2" Period="2" Time="12" EventID="PEN28"/>
+			<Event Type="Penalty" TeamID="529294" PlayerID="8281457" Severity="Major" Infraction="Fighting" Minutes="5" Period="2" Time="12" EventID="PEN29"/>
+			<Event Type="Penalty" TeamID="529294" PlayerID="8281453" Severity="Misconduct" Infraction="Misconduct" Minutes="10" Period="2" Time="12" EventID="PEN30"/>
+			<Event Type="Goal" TeamID="529293" PlayerID="8285918" A1="8285939" A2="8285909" Flag="ES" Period="2" Time="137" EventID="GOAL29"/>
+			<Event Type="Goal" TeamID="529293" PlayerID="8285918" A1="8285908" A2="8285924" Flag="ES" Period="2" Time="292" EventID="GOAL30"/>
+			<Event Type="Penalty" TeamID="529294" PlayerID="8281465" Severity="Minor" Infraction="Holding" Minutes="2" Period="2" Time="452" EventID="PEN31"/>
+			<Event Type="Goal" TeamID="529294" PlayerID="8285949" A1="8281450" A2="8281464" Flag="SH" Period="2" Time="494" EventID="GOAL31"/>
+			<Event Type="Timeout" TeamID="529293" Period="2" Time="494" EventID=""/>
+			<Event Type="Penalty" TeamID="529293" PlayerID="8340695" Severity="Bench Minor" Infraction="Illegal Substitution" Minutes="2" Period="2" Time="635" EventID="PEN32"/>
+			<Event Type="Goal" TeamID="529294" PlayerID="8281456" A1="8281454" A2="8281457" Flag="PP" Period="2" Time="648" EventID="GOAL32"/>
+		</Period>
+		<Period Num="3">
+			<Event Type="Faceoff" TeamID="529293" PlayerWonID="8285924" PlayerLostID="8281455" Period="3" Time="0" EventID="FACEOFF7"/>
+			<Event Type="Penalty" TeamID="529294" PlayerID="8281453" Severity="Minor" Infraction="Illegal Cross Checking" Minutes="2" Period="3" Time="38" EventID="PEN33"/>
+			<Event Type="Goal" TeamID="529293" PlayerID="8285939" A1="8285909" A2="8285918" Flag="PP" Period="3" Time="150" EventID="GOAL33"/>
+			<Event Type="Goal" TeamID="529293" PlayerID="8285918" A1="8285908" A2="0" Flag="ES" Period="3" Time="275" EventID="GOAL34"/>
+			<Event Type="Shot" TeamID="529294" PlayerID="8281450" Period="3" Time="400" EventID="SHOT84"/>
+			<Event Type="Shotoff" TeamID="529293" PlayerID="8285924" Period="3" Time="407" EventID="SHOTOFF35"/>
+			<Event Type="Shotoff" TeamID="529294" PlayerID="8281464" Period="3" Time="425" EventID="SHOTOFF36"/>
+			<Event Type="Goal" TeamID="529293" PlayerID="8285908" A1="8285909" A2="0" Flag="ES" Period="3" Time="454" EventID="GOAL35"/>
+			<Event Type="Goal" TeamID="529294" PlayerID="8281456" A1="8281450" A2="8294903" Flag="ES" Period="3" Time="520" EventID="GOAL36"/>
+			<Event Type="Penalty" TeamID="529293" PlayerID="8285908" Severity="Major" Infraction="High Sticking" Minutes="5" Period="3" Time="564" EventID="PEN34"/>
+			<Event Type="Shot" TeamID="529294" PlayerID="8281450" Period="3" Time="577" EventID="SHOT85"/>
+			<Event Type="Shot" TeamID="529293" PlayerID="0" Period="3" Time="671" EventID="SHOT86"/>
+			<Event Type="Shot" TeamID="529294" PlayerID="8281450" Period="3" Time="697" EventID="SHOT87"/>
+			<Event Type="Shot" TeamID="529294" PlayerID="0" Period="3" Time="728" EventID="SHOT88"/>
+			<Event Type="Goal" TeamID="529293" PlayerID="8285943" A1="0" A2="0" Flag="SH" Period="3" Time="742" EventID="GOAL37"/>
+			<Event Type="Goal" TeamID="529294" PlayerID="8281454" A1="8285949" A2="8281456" Flag="PP" Period="3" Time="778" EventID="GOAL38"/>
+			<Event Type="Shot" TeamID="529293" PlayerID="8285939" Period="3" Time="848" EventID="SHOT89"/>
+			<Event Type="Goal" TeamID="529293" PlayerID="8285909" A1="8285928" A2="8285939" Flag="ES" Period="3" Time="878" EventID="GOAL39"/>
+			<Event Type="Goal" TeamID="529293" PlayerID="8285943" A1="8285933" A2="0" Flag="ES" Period="3" Time="899" EventID="GOAL40"/>
+		</Period>
+		<Period Num="4">
+			<Event Type="Timeout" TeamID="529294" Period="4" Time="0" EventID=""/>
+			<Event Type="Shot" TeamID="529294" PlayerID="8281454" Period="4" Time="67" EventID="SHOT90"/>
+			<Event Type="Shot" TeamID="529293" PlayerID="8285918" Period="4" Time="89" EventID="SHOT91"/>
+			<Event Type="Shot" TeamID="529294" PlayerID="8294903" Period="4" Time="110" EventID="SHOT92"/>
+			<Event Type="Penalty" TeamID="529293" PlayerID="8285921" Severity="Major" Infraction="Fighting" Minutes="5" Period="4" Time="154" EventID="PEN35"/>
+			<Event Type="Penalty" TeamID="529294" PlayerID="8281462" Severity="Minor" Infraction="Checking from Behind" Minutes="2" Period="4" Time="154" EventID="PEN36"/>
+			<Event Type="Penalty" TeamID="529294" PlayerID="8281462" Severity="Major" Infraction="Fighting" Minutes="5" Period="4" Time="154" EventID="PEN37"/>
+			<Event Type="Goal" TeamID="529293" PlayerID="8285909" A1="8285928" A2="8285939" Flag="PP" Period="4" Time="224" EventID="GOAL41"/>
+			<Event Type="Shot" TeamID="529294" PlayerID="0" Period="4" Time="247" EventID="SHOT93"/>
+			<Event Type="Shot" TeamID="529294" PlayerID="8281456" Period="4" Time="298" EventID="SHOT94"/>
+			<Event Type="Shotoff" TeamID="529294" PlayerID="8294903" Period="4" Time="345" EventID="SHOTOFF37"/>
+			<Event Type="Shotoff" TeamID="529293" PlayerID="8285939" Period="4" Time="377" EventID="SHOTOFF38"/>
+			<Event Type="Shot" TeamID="529293" PlayerID="8285943" Period="4" Time="382" EventID="SHOT95"/>
+			<Event Type="Penalty" TeamID="529294" PlayerID="8281459" Severity="Minor" Infraction="Illegal Cross Checking" Minutes="2" Period="4" Time="433" EventID="PEN38"/>
+			<Event Type="Shot" TeamID="529293" PlayerID="8285919" Period="4" Time="477" EventID="SHOT96"/>
+			<Event Type="Shotoff" TeamID="529294" PlayerID="8281450" Period="4" Time="499" EventID="SHOTOFF39"/>
+			<Event Type="Goal" TeamID="529293" PlayerID="8285928" A1="8285909" A2="8285918" Flag="PP" Period="4" Time="528" EventID="GOAL42"/>
+			<Event Type="Shot" TeamID="529294" PlayerID="8294903" Period="4" Time="611" EventID="SHOT97"/>
+			<Event Type="Shot" TeamID="529294" PlayerID="8281454" Period="4" Time="636" EventID="SHOT98"/>
+			<Event Type="Goal" TeamID="529293" PlayerID="8285918" A1="8285908" A2="0" Flag="ES" Period="4" Time="663" EventID="GOAL43"/>
+			<Event Type="Shotoff" TeamID="529294" PlayerID="8281456" Period="4" Time="696" EventID="SHOTOFF40"/>
+			<Event Type="Goal" TeamID="529293" PlayerID="8285918" A1="8285928" A2="8285909" Flag="ES" Period="4" Time="720" EventID="GOAL44"/>
+			<Event Type="Penalty" TeamID="529294" PlayerID="8281459" Severity="Minor" Infraction="Slashing" Minutes="2" Period="4" Time="753" EventID="PEN39"/>
+			<Event Type="Goal" TeamID="529293" PlayerID="8285939" A1="8285918" A2="8285937" Flag="PP" Period="4" Time="783" EventID="GOAL45"/>
+			<Event Type="Shot" TeamID="529293" PlayerID="8285908" Period="4" Time="865" EventID="SHOT99"/>
+			<Event Type="Goal" TeamID="529294" PlayerID="8281456" A1="8281450" A2="0" Flag="ES" Period="4" Time="875" EventID="GOAL46"/>
+			<Event Type="Penalty" TeamID="529293" PlayerID="8285932" Severity="Misconduct" Infraction="Misconduct" Minutes="10" Period="4" Time="900" EventID="PEN40"/>
+			<Event Type="Penalty" TeamID="529293" PlayerID="8285918" Severity="Major" Infraction="Fighting" Minutes="5" Period="4" Time="900" EventID="PEN41"/>
+			<Event Type="Penalty" TeamID="529293" PlayerID="8285918" Severity="Misconduct" Infraction="Misconduct" Minutes="10" Period="4" Time="900" EventID="PEN42"/>
+			<Event Type="Penalty" TeamID="529294" PlayerID="8281453" Severity="Major" Infraction="Fighting" Minutes="5" Period="4" Time="900" EventID="PEN43"/>
+			<Event Type="Penalty" TeamID="529294" PlayerID="8281453" Severity="Misconduct" Infraction="Misconduct" Minutes="10" Period="4" Time="900" EventID="PEN44"/>
+		</Period>
+	</PlayByPlay>
+</PSILive>

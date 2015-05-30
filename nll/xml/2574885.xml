@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PSILive xmlns="urn:www.pointstreak.com" BuildNumber="v3.4Lb8">
+	<General LeagueID="4905" HomeDivID="D32262" HomeDivName="West Division" HomeTeamID="221273" HomeName="Calgary" AwayDivName="West Division" AwayTeamID="221276" AwayName="Minnesota" realtime="1" VideoAvailableTime="" VideoAvailableCountdown="0">
+		<Settings ForwardTime="no" GameClock="yes" SportType="Lacrosse">
+			<PeriodLengths P1="15" P2="15" P3="15" P4="15" OT1="15" OT2="15" OT3="15" OT4="15"/>
+		</Settings>
+		<Officials>
+			<HeadReferee Name="Ron Crosato"/>
+			<HeadReferee2 Name=""/>
+			<AssistantReferee1 Name="Bob Taylor"/>
+			<AssistantReferee2 Name="Default  Linesman"/>
+		</Officials>
+	</General>
+	<Summary>
+		<Score Home="13" Away="17"/>
+		<Home Name="Calgary">
+			<Period Num="1" G="3" S="15" PIM="16"/>
+			<Period Num="2" G="4" S="17" PIM="7"/>
+			<Period Num="3" G="3" S="22" PIM="0"/>
+			<Period Num="4" G="3" S="18" PIM="6"/>
+		</Home>
+		<Away Name="Minnesota">
+			<Period Num="1" G="3" S="8" PIM="6"/>
+			<Period Num="2" G="4" S="10" PIM="2"/>
+			<Period Num="3" G="3" S="8" PIM="7"/>
+			<Period Num="4" G="7" S="11" PIM="4"/>
+		</Away>
+	</Summary>
+	<GameState Status="Final" Period="4" Time="878" realtime="1">
+		<CurrentState Name="3 on 3"/>
+		<LastEvent Type="GoalieEntered" TeamID="221273" PlayerID="8207460" Period="4" Time="880" EventID="NA"/>
+		<PenaltyBox>
+			<Player TeamID="221273" PlayerID="3606364" Severity="Minor" Infraction="Roughing" Minutes="2" Period="4" Time="878" TimeLeft="120"/>
+			<Player TeamID="221276" PlayerID="3606425" Severity="Minor" Infraction="Illegal Cross Checking" Minutes="2" Period="4" Time="867" TimeLeft="109"/>
+		</PenaltyBox>
+	</GameState>
+	<HomeTeam>
+		<Player PlayerID="3606353" Name="Devan Wray" Number="4" Pos="T" G="0" A="1" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8207444" Name="Rob Van Beek" Number="7" Pos="T" G="0" A="0" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="8207445" Name="Craig Conn" Number="8" Pos="F" G="2" A="2" SOG="12" PIM="0" PLUS="0"/>
+		<Player PlayerID="8207447" Name="Curtis Manning" Number="10" Pos="D" G="0" A="0" SOG="0" PIM="5" PLUS="0"/>
+		<Player PlayerID="8200210" Name="Jeff Moleski" Number="14" Pos="T" G="0" A="2" SOG="1" PIM="2" PLUS="0"/>
+		<Player PlayerID="8200215" Name="Mike Carnegie" Number="16" Pos="D" G="0" A="0" SOG="1" PIM="12" PLUS="0"/>
+		<Player PlayerID="8200208" Name="Josh Sanderson" Number="19" Pos="F" G="0" A="5" SOG="7" PIM="0" PLUS="0"/>
+		<Player PlayerID="3606348" Name="Bruce Codd" Number="20" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8215565" Name="Craig Gelsvik" Number="26" Pos="" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="3606351" Name="Andrew McBride" Number="37" Pos="D" G="0" A="0" SOG="0" PIM="2" PLUS="0"/>
+		<Player PlayerID="3606359" Name="Nolan Heavenor" Number="40" Pos="T" G="1" A="3" SOG="4" PIM="2" PLUS="0"/>
+		<Player PlayerID="3606364" Name="Dane Dobbie" Number="44" Pos="F" G="5" A="1" SOG="20" PIM="4" PLUS="0"/>
+		<Player PlayerID="8200222" Name="Mike Kilby" Number="55" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="3606360" Name="Scott Ranger" Number="71" Pos="F" G="2" A="3" SOG="8" PIM="0" PLUS="0"/>
+		<Player PlayerID="3606358" Name="Jeff Shattler" Number="77" Pos="T" G="1" A="3" SOG="15" PIM="2" PLUS="0"/>
+		<Player PlayerID="8200216" Name="Peter McFetridge" Number="80" Pos="D" G="2" A="0" SOG="3" PIM="0" PLUS="0"/>
+		<Goalie PlayerID="8200220" Name="Matt King" Number="30" SA="17" GA="10" SAV="7" InNet="No" PIM="0" Type="Backup" Minutes="15"/>
+		<Goalie PlayerID="8207460" Name="Mike Poulin" Number="33" SA="20" GA="7" SAV="13" InNet="Yes" PIM="0" Type="Starter" Minutes="0"/>
+	</HomeTeam>
+	<AwayTeam>
+		<Player PlayerID="3606433" Name="Joe Cinosky" Number="4" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8206612" Name="Scott Self" Number="6" Pos="D" G="0" A="1" SOG="0" PIM="2" PLUS="0"/>
+		<Player PlayerID="8200272" Name="Dan Marohl" Number="7" Pos="F" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="3606438" Name="Aaron Wilson" Number="10" Pos="F" G="4" A="2" SOG="6" PIM="0" PLUS="0"/>
+		<Player PlayerID="8206613" Name="Richard Morgan" Number="11" Pos="D" G="1" A="0" SOG="1" PIM="5" PLUS="0"/>
+		<Player PlayerID="8206614" Name="Eric Pacey" Number="12" Pos="D" G="0" A="1" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8206617" Name="Tim Campeau" Number="15" Pos="F" G="0" A="3" SOG="2" PIM="0" PLUS="0"/>
+		<Player PlayerID="3606425" Name="Noah Talbot" Number="16" Pos="F" G="0" A="0" SOG="0" PIM="4" PLUS="0"/>
+		<Player PlayerID="3606422" Name="Sean Pollock" Number="17" Pos="F" G="2" A="3" SOG="4" PIM="0" PLUS="0"/>
+		<Player PlayerID="8206645" Name="Ryan Benesch" Number="21" Pos="F" G="2" A="9" SOG="7" PIM="0" PLUS="0"/>
+		<Player PlayerID="3606432" Name="Andrew Watt" Number="22" Pos="F" G="1" A="0" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="3606423" Name="Jon Sullivan" Number="23" Pos="D" G="1" A="0" SOG="1" PIM="2" PLUS="0"/>
+		<Player PlayerID="8200283" Name="Nick Inch" Number="34" Pos="D" G="0" A="0" SOG="1" PIM="4" PLUS="0"/>
+		<Player PlayerID="8200293" Name="Kevin Ross" Number="71" Pos="F" G="3" A="0" SOG="6" PIM="0" PLUS="0"/>
+		<Player PlayerID="8206660" Name="Jay Thorimbert" Number="75" Pos="T" G="1" A="0" SOG="2" PIM="0" PLUS="0"/>
+		<Player PlayerID="8206663" Name="Callum Crawford" Number="98" Pos="F" G="2" A="7" SOG="6" PIM="0" PLUS="0"/>
+		<Goalie PlayerID="8200284" Name="Kevin Croswell" Number="31" SA="0" GA="0" SAV="0" InNet="No" PIM="0" Type="Backup" Minutes="0"/>
+		<Goalie PlayerID="3606426" Name="Nick Patterson" Number="93" SA="72" GA="13" SAV="59" InNet="Yes" PIM="2" Type="Starter" Minutes="15"/>
+	</AwayTeam>
+	<PlayByPlay>
+		<Period Num="1">
+			<Event Type="Goal" TeamID="221273" PlayerID="3606359" A1="3606358" A2="0" Flag="ES" Period="1" Time="81" EventID="GOAL265"/>
+			<Event Type="Penalty" TeamID="221273" PlayerID="3606358" Severity="Minor" Infraction="Holding" Minutes="2" Period="1" Time="121" EventID="PEN384"/>
+			<Event Type="Goal" TeamID="221276" PlayerID="3606438" A1="8206663" A2="8206645" Flag="PP" Period="1" Time="134" EventID="GOAL266"/>
+			<Event Type="Goal" TeamID="221276" PlayerID="8206645" A1="3606422" A2="0" Flag="ES" Period="1" Time="267" EventID="GOAL267"/>
+			<Event Type="Penalty" TeamID="221273" PlayerID="8200215" Severity="Minor" Infraction="Int Contact - Dead Ball" Minutes="2" Period="1" Time="273" EventID="PEN385"/>
+			<Event Type="Penalty" TeamID="221276" PlayerID="8200283" Severity="Minor" Infraction="Roughing" Minutes="2" Period="1" Time="273" EventID="PEN386"/>
+			<Event Type="Penalty" TeamID="221273" PlayerID="8200215" Severity="Misconduct" Infraction="Int Contact - Dead Ball" Minutes="10" Period="1" Time="273" EventID="PEN387"/>
+			<Event Type="Goal" TeamID="221273" PlayerID="3606360" A1="3606358" A2="8200210" Flag="ES" Period="1" Time="312" EventID="GOAL268"/>
+			<Event Type="Penalty" TeamID="221276" PlayerID="3606423" Severity="Minor" Infraction="Illegal Cross Checking" Minutes="2" Period="1" Time="550" EventID="PEN388"/>
+			<Event Type="Penalty" TeamID="221273" PlayerID="3606364" Severity="Minor" Infraction="Unsportsmanlike Conduct" Minutes="2" Period="1" Time="550" EventID="PEN389"/>
+			<Event Type="Penalty" TeamID="221276" PlayerID="3606426" Severity="Minor" Infraction="Interference" Minutes="2" Period="1" Time="632" EventID="PEN390"/>
+			<Event Type="Goal" TeamID="221276" PlayerID="8200293" A1="3606422" A2="8206645" Flag="SH" Period="1" Time="751" EventID="GOAL269"/>
+			<Event Type="Goal" TeamID="221273" PlayerID="8207445" A1="3606353" A2="8200208" Flag="ES" Period="1" Time="880" EventID="GOAL270"/>
+		</Period>
+		<Period Num="2">
+			<Event Type="Penalty" TeamID="221276" PlayerID="8200283" Severity="Minor" Infraction="Illegal Cross Checking" Minutes="2" Period="2" Time="88" EventID="PEN391"/>
+			<Event Type="Goal" TeamID="221273" PlayerID="3606364" A1="8207445" A2="3606358" Flag="PP" Period="2" Time="115" EventID="GOAL271"/>
+			<Event Type="Goal" TeamID="221273" PlayerID="3606364" A1="8200208" A2="3606359" Flag="ES" Period="2" Time="134" EventID="GOAL272"/>
+			<Event Type="Penalty" TeamID="221273" PlayerID="3606351" Severity="Minor" Infraction="Illegal Cross Checking" Minutes="2" Period="2" Time="258" EventID="PEN392"/>
+			<Event Type="Penalty" TeamID="221273" PlayerID="8207447" Severity="Major" Infraction="High Sticking" Minutes="5" Period="2" Time="258" EventID="PEN393"/>
+			<Event Type="Goal" TeamID="221276" PlayerID="3606438" A1="8206617" A2="8206663" Flag="PP" Period="2" Time="360" EventID="GOAL273"/>
+			<Event Type="Goal" TeamID="221276" PlayerID="8206663" A1="3606422" A2="8206645" Flag="PP" Period="2" Time="409" EventID="GOAL274"/>
+			<Event Type="Goal" TeamID="221273" PlayerID="8200216" A1="3606360" A2="0" Flag="ES" Period="2" Time="597" EventID="GOAL275"/>
+			<Event Type="Goal" TeamID="221276" PlayerID="8200293" A1="8206617" A2="0" Flag="ES" Period="2" Time="706" EventID="GOAL276"/>
+			<Event Type="Goal" TeamID="221276" PlayerID="3606438" A1="8206612" A2="0" Flag="ES" Period="2" Time="806" EventID="GOAL277"/>
+			<Event Type="Goal" TeamID="221273" PlayerID="3606360" A1="8200208" A2="0" Flag="ES" Period="2" Time="864" EventID="GOAL278"/>
+		</Period>
+		<Period Num="3">
+			<Event Type="Penalty" TeamID="221276" PlayerID="3606425" Severity="Minor" Infraction="Holding" Minutes="2" Period="3" Time="187" EventID="PEN394"/>
+			<Event Type="Penalty" TeamID="221276" PlayerID="8206613" Severity="Major" Infraction="Illegal Cross Checking" Minutes="5" Period="3" Time="284" EventID="PEN395"/>
+			<Event Type="Goal" TeamID="221273" PlayerID="3606364" A1="8200208" A2="3606359" Flag="PP" Period="3" Time="294" EventID="GOAL279"/>
+			<Event Type="GoalieEntered" TeamID="221273" PlayerID="8200220" Period="3" Time="368" EventID="NA"/>
+			<Event Type="Goal" TeamID="221276" PlayerID="8206613" A1="3606426" A2="0" Flag="ES" Period="3" Time="593" EventID="GOAL280"/>
+			<Event Type="Goal" TeamID="221276" PlayerID="3606432" A1="8206663" A2="0" Flag="ES" Period="3" Time="713" EventID="GOAL281"/>
+			<Event Type="Goal" TeamID="221273" PlayerID="3606364" A1="8200208" A2="0" Flag="ES" Period="3" Time="751" EventID="GOAL282"/>
+			<Event Type="Goal" TeamID="221276" PlayerID="3606422" A1="8206663" A2="8206645" Flag="ES" Period="3" Time="779" EventID="GOAL283"/>
+			<Event Type="Goal" TeamID="221273" PlayerID="8200216" A1="8200210" A2="0" Flag="ES" Period="3" Time="831" EventID="GOAL284"/>
+		</Period>
+		<Period Num="4">
+			<Event Type="Penalty" TeamID="221273" PlayerID="8200210" Severity="Minor" Infraction="Slashing" Minutes="2" Period="4" Time="40" EventID="PEN396"/>
+			<Event Type="Goal" TeamID="221276" PlayerID="3606438" A1="8206645" A2="8206663" Flag="PP" Period="4" Time="55" EventID="GOAL285"/>
+			<Event Type="Goal" TeamID="221273" PlayerID="3606358" A1="3606360" A2="0" Flag="ES/EA" Period="4" Time="102" EventID="GOAL293"/>
+			<Event Type="Penalty" TeamID="221273" PlayerID="3606359" Severity="Minor" Infraction="Holding" Minutes="2" Period="4" Time="111" EventID="PEN397"/>
+			<Event Type="Goal" TeamID="221276" PlayerID="8200293" A1="8206645" A2="8206663" Flag="PP" Period="4" Time="130" EventID="GOAL286"/>
+			<Event Type="Goal" TeamID="221273" PlayerID="3606364" A1="3606360" A2="8207445" Flag="ES" Period="4" Time="150" EventID="GOAL287"/>
+			<Event Type="Goal" TeamID="221276" PlayerID="3606422" A1="8206617" A2="8206645" Flag="ES" Period="4" Time="258" EventID="GOAL288"/>
+			<Event Type="Goal" TeamID="221273" PlayerID="8207445" A1="3606359" A2="3606364" Flag="ES" Period="4" Time="272" EventID="GOAL289"/>
+			<Event Type="Goal" TeamID="221276" PlayerID="8206660" A1="8206645" A2="0" Flag="ES" Period="4" Time="417" EventID="GOAL290"/>
+			<Event Type="Goal" TeamID="221276" PlayerID="8206645" A1="3606438" A2="8206663" Flag="ES" Period="4" Time="523" EventID="GOAL291"/>
+			<Event Type="Goal" TeamID="221276" PlayerID="8206663" A1="8206645" A2="3606438" Flag="ES" Period="4" Time="600" EventID="GOAL292"/>
+			<Event Type="Penalty" TeamID="221276" PlayerID="8206612" Severity="Minor" Infraction="Illegal Cross Checking" Minutes="2" Period="4" Time="732" EventID="PEN398"/>
+			<Event Type="Penalty" TeamID="221276" PlayerID="3606425" Severity="Minor" Infraction="Illegal Cross Checking" Minutes="2" Period="4" Time="867" EventID="PEN399"/>
+			<Event Type="Goal" TeamID="221276" PlayerID="3606423" A1="8206614" A2="0" Flag="SH/EN" Period="4" Time="878" EventID="GOAL294"/>
+			<Event Type="Penalty" TeamID="221273" PlayerID="3606364" Severity="Minor" Infraction="Roughing" Minutes="2" Period="4" Time="878" EventID="PEN400"/>
+			<Event Type="GoaliePulled" TeamID="221273" PlayerID="8200220" Period="4" Time="879" EventID="NA"/>
+			<Event Type="GoalieEntered" TeamID="221273" PlayerID="8207460" Period="4" Time="880" EventID="NA"/>
+		</Period>
+	</PlayByPlay>
+</PSILive>

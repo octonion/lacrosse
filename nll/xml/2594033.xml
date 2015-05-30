@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PSILive xmlns="urn:www.pointstreak.com" BuildNumber="v3.4Lb8">
+	<General LeagueID="13568" HomeDivID="D79887" HomeDivName="NLL Playoffs 2014" HomeTeamID="534421" HomeName="Rochester" AwayDivName="NLL Playoffs 2014" AwayTeamID="534423" AwayName="Calgary" realtime="1" VideoAvailableTime="" VideoAvailableCountdown="0">
+		<Settings ForwardTime="no" GameClock="yes" SportType="Lacrosse">
+			<PeriodLengths P1="10" OT1="15" OT2="15" OT3="15" OT4="15" OT5="15"/>
+		</Settings>
+		<Officials>
+			<HeadReferee Name="Mark Gardonio"/>
+			<HeadReferee2 Name=""/>
+			<AssistantReferee1 Name="Chris Williams"/>
+			<AssistantReferee2 Name="Ryan Fowler"/>
+		</Officials>
+	</General>
+	<Summary>
+		<Score Home="3" Away="2"/>
+		<Home Name="Rochester">
+			<Period Num="1" G="3" S="11" PIM="0"/>
+		</Home>
+		<Away Name="Calgary">
+			<Period Num="1" G="2" S="9" PIM="2"/>
+		</Away>
+	</Summary>
+	<GameState Status="Final" Period="1" Time="311" realtime="1">
+		<CurrentState Name="Home Power Play"/>
+		<LastEvent Type="Goal" TeamID="534421" PlayerID="8277830" A1="8277814" A2="8277831" Flag="ES" Period="1" Time="541" EventID="GOAL1134"/>
+		<PenaltyBox>
+			<Player TeamID="534423" PlayerID="8277867" Severity="Minor" Infraction="Holding" Minutes="2" Period="1" Time="311" TimeLeft="120"/>
+		</PenaltyBox>
+	</GameState>
+	<HomeTeam>
+		<Player PlayerID="8277814" Name="Joe Walters" Number="1" Pos="D" G="1" A="2" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="8277812" Name="Paul Dawson" Number="2" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8277817" Name="Scott Self" Number="5" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8277831" Name="Dan Dawson" Number="6" Pos="D" G="0" A="1" SOG="2" PIM="0" PLUS="0"/>
+		<Player PlayerID="8277830" Name="Craig Point" Number="9" Pos="F" G="2" A="0" SOG="2" PIM="0" PLUS="0"/>
+		<Player PlayerID="8277819" Name="Dylan Evans" Number="16" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8277815" Name="Cory Vitarelli" Number="23" Pos="F" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8277821" Name="Brad Self" Number="25" Pos="D" G="0" A="0" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="8277816" Name="Mike Kirk" Number="26" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8277809" Name="Stephen Keogh" Number="28" Pos="F" G="0" A="0" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="8277822" Name="Ian Llord" Number="29" Pos="D" G="0" A="1" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8277806" Name="Jon Sullivan" Number="32" Pos="F" G="0" A="1" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8277825" Name="Scott Campbell" Number="37" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8277824" Name="Sid Smith" Number="79" Pos="D" G="0" A="0" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="8277820" Name="Cody Jamieson" Number="88" Pos="A" G="0" A="0" SOG="3" PIM="0" PLUS="0"/>
+		<Player PlayerID="8277810" Name="Johnny Powless" Number="93" Pos="F" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Goalie PlayerID="8277829" Name="Matt Vinc" Number="48" SA="9" GA="2" SAV="7" InNet="Yes" PIM="0" Type="Starter" Minutes="5"/>
+		<Goalie PlayerID="8277807" Name="Angus Goodleaf" Number="55" SA="0" GA="0" SAV="0" InNet="No" PIM="0" Type="Backup" Minutes="0"/>
+	</HomeTeam>
+	<AwayTeam>
+		<Player PlayerID="8277868" Name="Dan MacRae" Number="3" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8277872" Name="Garrett McIntosh" Number="6" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8277867" Name="Curtis Manning" Number="10" Pos="D" G="0" A="0" SOG="0" PIM="2" PLUS="0"/>
+		<Player PlayerID="8277884" Name="Greg Harnett" Number="11" Pos="F" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8277876" Name="Shawn Evans" Number="15" Pos="F" G="1" A="1" SOG="2" PIM="0" PLUS="0"/>
+		<Player PlayerID="8277879" Name="Mike Carnegie" Number="16" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8277875" Name="Curtis Dickson" Number="17" Pos="F" G="1" A="1" SOG="3" PIM="0" PLUS="0"/>
+		<Player PlayerID="8277877" Name="Travis Cornwall" Number="20" Pos="T" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8277883" Name="Karsen Leung" Number="21" Pos="T" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8277865" Name="Jon Harnett" Number="33" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8277866" Name="Daryl Veltman" Number="36" Pos="F" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8277880" Name="Andrew McBride" Number="37" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="8277882" Name="Dane Dobbie" Number="44" Pos="F" G="0" A="0" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="8277870" Name="Scott Ranger" Number="71" Pos="F" G="0" A="0" SOG="2" PIM="0" PLUS="0"/>
+		<Player PlayerID="8277881" Name="Jeff Shattler" Number="77" Pos="F" G="0" A="1" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="8277878" Name="Peter McFetridge" Number="80" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Goalie PlayerID="8277864" Name="Mike Poulin" Number="30" SA="11" GA="3" SAV="8" InNet="Yes" PIM="0" Type="Starter" Minutes="5"/>
+		<Goalie PlayerID="8277869" Name="Frankie Scigliano" Number="92" SA="0" GA="0" SAV="0" InNet="No" PIM="0" Type="Backup" Minutes="0"/>
+	</AwayTeam>
+	<PlayByPlay>
+		<Period Num="1">
+			<Event Type="Goal" TeamID="534423" PlayerID="8277876" A1="8277881" A2="8277875" Flag="ES" Period="1" Time="162" EventID="GOAL1130"/>
+			<Event Type="Goal" TeamID="534423" PlayerID="8277875" A1="8277876" A2="0" Flag="ES" Period="1" Time="280" EventID="GOAL1131"/>
+			<Event Type="Penalty" TeamID="534423" PlayerID="8277867" Severity="Minor" Infraction="Holding" Minutes="2" Period="1" Time="311" EventID="PEN887"/>
+			<Event Type="Goal" TeamID="534421" PlayerID="8277830" A1="8277814" A2="8277806" Flag="ES" Period="1" Time="466" EventID="GOAL1132"/>
+			<Event Type="Goal" TeamID="534421" PlayerID="8277814" A1="8277822" A2="0" Flag="ES" Period="1" Time="517" EventID="GOAL1133"/>
+			<Event Type="Goal" TeamID="534421" PlayerID="8277830" A1="8277814" A2="8277831" Flag="ES" Period="1" Time="541" EventID="GOAL1134"/>
+		</Period>
+	</PlayByPlay>
+</PSILive>
