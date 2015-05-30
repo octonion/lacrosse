@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PSILive xmlns="urn:www.pointstreak.com" BuildNumber="v3.1L1">
+	<General LeagueID="8519" HomeDivID="D53594" HomeDivName="Major League Lacrosse" HomeTeamID="361252" HomeName="Long Island" AwayDivName="Major League Lacrosse" AwayTeamID="361259" AwayName="Ohio" realtime="1" VideoAvailableTime="" VideoAvailableCountdown="0">
+		<Settings ForwardTime="no" GameClock="yes">
+			<PeriodLengths P1="15" P2="15" P3="15" P4="15" OT1="10" OT2="10" OT3="10" OT4="10" OT5="10"/>
+		</Settings>
+		<Officials>
+			<Referee Name="Default  Referee"/>
+			<Referee2 Name=""/>
+			<Linesman1 Name="Default  Linesman"/>
+			<Linesman2 Name=""/>
+		</Officials>
+	</General>
+	<Summary>
+		<Score Home="20" Away="10"/>
+		<Home Name="Long Island">
+			<Period Num="1" G="4" S="8" PIM="0"/>
+			<Period Num="2" G="3" S="6" PIM="0"/>
+			<Period Num="3" G="6" S="10" PIM="0"/>
+			<Period Num="4" G="7" S="10" PIM="0"/>
+		</Home>
+		<Away Name="Ohio">
+			<Period Num="1" G="3" S="5" PIM="1"/>
+			<Period Num="2" G="2" S="4" PIM="0"/>
+			<Period Num="3" G="4" S="5" PIM="0"/>
+			<Period Num="4" G="1" S="5" PIM="0"/>
+		</Away>
+	</Summary>
+	<GameState Status="Final" Period="4" Time="900" realtime="1">
+		<CurrentState Name="Even Strength"/>
+		<LastEvent Type="Shotoff" TeamID="361259" PlayerID="5691295" Period="4" Time="893" EventID="SHOTOFF42"/>
+	</GameState>
+	<HomeTeam>
+		<Player PlayerID="5979347" Name="Albert Maione" Number="0" Pos="M" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="5684630" Name="Dan Cocchi" Number="1" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="5979346" Name="Brian Langtry" Number="6" Pos="M" G="5" A="0" SOG="8" PIM="0" PLUS="0"/>
+		<Player PlayerID="5959143" Name="Grant Catalino" Number="11" Pos="A" G="3" A="1" SOG="5" PIM="0" PLUS="0"/>
+		<Player PlayerID="5684628" Name="Stephen Peyser" Number="18" Pos="M" G="3" A="0" SOG="9" PIM="0" PLUS="0"/>
+		<Player PlayerID="6108727" Name="Tim Henderson" Number="21" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="6108726" Name="Tommy Palasek" Number="22" Pos="A" G="2" A="0" SOG="3" PIM="0" PLUS="0"/>
+		<Player PlayerID="5684638" Name="Mike Ward" Number="23" Pos="M" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="5684623" Name="Brian Karalunas" Number="25" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="5959118" Name="Doug Shanahan" Number="26" Pos="M" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="5684624" Name="Ryan Young" Number="27" Pos="A" G="1" A="0" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="1" Name="Greg Gurenlian" Number="32" Pos="F" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="5684622" Name="Parker McKee" Number="35" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="5691280" Name="Max Seibald" Number="42" Pos="M" G="4" A="1" SOG="6" PIM="0" PLUS="0"/>
+		<Player PlayerID="5691277" Name="Chris Passavia" Number="44" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="6080794" Name="Matt Gibson" Number="66" Pos="A" G="1" A="4" SOG="2" PIM="0" PLUS="0"/>
+		<Player PlayerID="6080796" Name="Michael Skudin" Number="92" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Goalie PlayerID="5684629" Name="Drew Adams" Number="14" SA="18" GA="10" SAV="8" InNet="No" PIM="0" Type="Starter" Minutes="13"/>
+		<Goalie PlayerID="5684632" Name="Matt Madalon" Number="19" SA="1" GA="0" SAV="1" InNet="Yes" PIM="0" Type="Backup" Minutes="2"/>
+	</HomeTeam>
+	<AwayTeam>
+		<Player PlayerID="5691295" Name="Chazz Woodson" Number="1" Pos="A" G="2" A="1" SOG="2" PIM="0" PLUS="0"/>
+		<Player PlayerID="5691286" Name="Dan Groot" Number="2" Pos="M" G="0" A="0" SOG="0" PIM="1" PLUS="0"/>
+		<Player PlayerID="5691285" Name="Brett Garber" Number="3" Pos="M" G="1" A="0" SOG="2" PIM="0" PLUS="0"/>
+		<Player PlayerID="5691288" Name="Brett Hughes" Number="6" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="5979359" Name="Eric OBrien" Number="10" Pos="FO" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="5979357" Name="Ray Megill" Number="12" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="5691284" Name="Andrew Combs" Number="14" Pos="A" G="0" A="1" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="5979358" Name="Matt Messina" Number="19" Pos="M" G="1" A="0" SOG="2" PIM="0" PLUS="0"/>
+		<Player PlayerID="6107943" Name="Rob Rotanz" Number="20" Pos="M" G="1" A="0" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="5979352" Name="Jim Connolly" Number="21" Pos="A" G="1" A="1" SOG="4" PIM="0" PLUS="0"/>
+		<Player PlayerID="5691290" Name="Jordan Levine" Number="22" Pos="M" G="1" A="0" SOG="2" PIM="0" PLUS="0"/>
+		<Player PlayerID="5691283" Name="Matt Casey" Number="26" Pos="M" G="0" A="1" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="5691289" Name="Anthony Kelly" Number="34" Pos="FO" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="5691293" Name="Kevin Ridgway" Number="35" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="5691282" Name="Greg Bice" Number="44" Pos="D" G="0" A="0" SOG="0" PIM="0" PLUS="0"/>
+		<Player PlayerID="5691287" Name="Kyle Hartzell" Number="81" Pos="D" G="0" A="0" SOG="1" PIM="0" PLUS="0"/>
+		<Player PlayerID="5691291" Name="Connor Martin" Number="88" Pos="A" G="3" A="0" SOG="3" PIM="0" PLUS="0"/>
+		<Goalie PlayerID="5691294" Name="Stefan Schroder" Number="9" SA="34" GA="19" SAV="15" InNet="Yes" PIM="0" Type="Starter" Minutes="15"/>
+		<Goalie PlayerID="5691292" Name="Brian Phipps" Number="30" SA="0" GA="0" SAV="0" InNet="No" PIM="0" Type="Backup" Minutes="0"/>
+	</AwayTeam>
+	<PlayByPlay>
+		<Period Num="1">
+			<Event Type="Faceoff" TeamID="361252" PlayerWonID="1" PlayerLostID="5691289" Period="1" Time="0" EventID="FACEOFF2"/>
+			<Event Type="Goal" TeamID="361252" PlayerID="5979346" A1="6080794" A2="0" Flag="ES" Period="1" Time="23" EventID="GOAL2"/>
+			<Event Type="Faceoff" TeamID="361252" PlayerWonID="1" PlayerLostID="5691289" Period="1" Time="23" EventID="FACEOFF3"/>
+			<Event Type="Shotoff" TeamID="361252" PlayerID="5959143" Period="1" Time="86" EventID="SHOTOFF2"/>
+			<Event Type="Faceoff" TeamID="361259" PlayerWonID="5691289" PlayerLostID="1" Period="1" Time="90" EventID="FACEOFF4"/>
+			<Event Type="Goal" TeamID="361252" PlayerID="5979346" A1="6080794" A2="0" Flag="ES" Period="1" Time="94" EventID="GOAL3"/>
+			<Event Type="Shotoff" TeamID="361252" PlayerID="5979346" Period="1" Time="176" EventID="SHOTOFF3"/>
+			<Event Type="Shotoff" TeamID="361252" PlayerID="5979346" Period="1" Time="186" EventID="SHOTOFF4"/>
+			<Event Type="Goal" TeamID="361259" PlayerID="5691285" A1="5979352" A2="0" Flag="ES" Period="1" Time="231" EventID="GOAL4"/>
+			<Event Type="Faceoff" TeamID="361252" PlayerWonID="1" PlayerLostID="5691289" Period="1" Time="231" EventID="FACEOFF5"/>
+			<Event Type="Shotoff" TeamID="361252" PlayerID="5691280" Period="1" Time="310" EventID="SHOTOFF5"/>
+			<Event Type="Goal" TeamID="361259" PlayerID="5691290" A1="5691295" A2="0" Flag="ES" Period="1" Time="347" EventID="GOAL5"/>
+			<Event Type="Faceoff" TeamID="361259" PlayerWonID="5979359" PlayerLostID="1" Period="1" Time="347" EventID="FACEOFF6"/>
+			<Event Type="Shot" TeamID="361259" PlayerID="5979352" Period="1" Time="402" EventID="SHOT2"/>
+			<Event Type="Goal" TeamID="361252" PlayerID="6080794" A1="0" A2="0" Flag="ES" Period="1" Time="419" EventID="GOAL6"/>
+			<Event Type="Faceoff" TeamID="361252" PlayerWonID="1" PlayerLostID="5691289" Period="1" Time="419" EventID="FACEOFF7"/>
+			<Event Type="Penalty" TeamID="361259" PlayerID="5691286" Severity="Personal Foul 1" Infraction="Slashing" Minutes="1" Period="1" Time="465" EventID="PEN2"/>
+			<Event Type="Shot" TeamID="361252" PlayerID="5684628" Period="1" Time="465" EventID="SHOT3"/>
+			<Event Type="Shotoff" TeamID="361252" PlayerID="5959143" Period="1" Time="495" EventID="SHOTOFF6"/>
+			<Event Type="Shot" TeamID="361252" PlayerID="5979346" Period="1" Time="557" EventID="SHOT4"/>
+			<Event Type="Shotoff" TeamID="361259" PlayerID="6107943" Period="1" Time="604" EventID="SHOTOFF7"/>
+			<Event Type="Penalty" TeamID="361252" PlayerID="5959118" Severity="Technical Foul" Infraction="Pushing" Minutes="0" Period="1" Time="610" EventID="PEN3"/>
+			<Event Type="Goal" TeamID="361259" PlayerID="5979352" A1="5691284" A2="0" Flag="PP" Period="1" Time="642" EventID="GOAL7"/>
+			<Event Type="Faceoff" TeamID="361259" PlayerWonID="5979359" PlayerLostID="1" Period="1" Time="642" EventID="FACEOFF8"/>
+			<Event Type="Shotoff" TeamID="361259" PlayerID="5691284" Period="1" Time="704" EventID="SHOTOFF8"/>
+			<Event Type="Goal" TeamID="361252" PlayerID="5684624" A1="6080794" A2="0" Flag="ES" Period="1" Time="725" EventID="GOAL8"/>
+			<Event Type="Faceoff" TeamID="361252" PlayerWonID="1" PlayerLostID="5691289" Period="1" Time="725" EventID="FACEOFF9"/>
+			<Event Type="Shot" TeamID="361252" PlayerID="6108726" Period="1" Time="758" EventID="SHOT5"/>
+			<Event Type="Shotoff" TeamID="361252" PlayerID="5691280" Period="1" Time="781" EventID="SHOTOFF9"/>
+			<Event Type="Shot" TeamID="361252" PlayerID="5684628" Period="1" Time="799" EventID="SHOT6"/>
+			<Event Type="Shot" TeamID="361259" PlayerID="5979352" Period="1" Time="900" EventID="SHOT7"/>
+		</Period>
+		<Period Num="2">
+			<Event Type="Faceoff" TeamID="361252" PlayerWonID="1" PlayerLostID="5979359" Period="2" Time="0" EventID="FACEOFF10"/>
+			<Event Type="Shotoff" TeamID="361252" PlayerID="5684624" Period="2" Time="40" EventID="SHOTOFF10"/>
+			<Event Type="Penalty" TeamID="361252" PlayerID="5684628" Severity="Technical Foul" Infraction="Offsides" Minutes="0" Period="2" Time="80" EventID="PEN4"/>
+			<Event Type="Shotoff" TeamID="361259" PlayerID="5979352" Period="2" Time="88" EventID="SHOTOFF11"/>
+			<Event Type="Shotoff" TeamID="361259" PlayerID="5691285" Period="2" Time="98" EventID="SHOTOFF12"/>
+			<Event Type="Shotoff" TeamID="361252" PlayerID="5959143" Period="2" Time="182" EventID="SHOTOFF13"/>
+			<Event Type="Shot" TeamID="361252" PlayerID="5691280" Period="2" Time="194" EventID="SHOT8"/>
+			<Event Type="Shot" TeamID="361252" PlayerID="5959143" Period="2" Time="241" EventID="SHOT9"/>
+			<Event Type="Penalty" TeamID="361252" PlayerID="5684630" Severity="Technical Foul" Infraction="Pushing" Minutes="0" Period="2" Time="262" EventID="PEN5"/>
+			<Event Type="Shotoff" TeamID="361259" PlayerID="5691285" Period="2" Time="278" EventID="SHOTOFF14"/>
+			<Event Type="Shotoff" TeamID="361259" PlayerID="5691291" Period="2" Time="288" EventID="SHOTOFF15"/>
+			<Event Type="Shotoff" TeamID="361259" PlayerID="5691291" Period="2" Time="298" EventID="SHOTOFF16"/>
+			<Event Type="Goal" TeamID="361259" PlayerID="5979358" A1="0" A2="0" Flag="ES" Period="2" Time="325" EventID="GOAL9"/>
+			<Event Type="Faceoff" TeamID="361252" PlayerWonID="1" PlayerLostID="5691289" Period="2" Time="325" EventID="FACEOFF11"/>
+			<Event Type="Shotoff" TeamID="361252" PlayerID="5691280" Period="2" Time="388" EventID="SHOTOFF17"/>
+			<Event Type="Shot" TeamID="361252" PlayerID="5684628" Period="2" Time="397" EventID="SHOT10"/>
+			<Event Type="Goal" TeamID="361259" PlayerID="5691295" A1="0" A2="0" Flag="ES" Period="2" Time="512" EventID="GOAL10"/>
+			<Event Type="Faceoff" TeamID="361252" PlayerWonID="1" PlayerLostID="5691289" Period="2" Time="512" EventID="FACEOFF12"/>
+			<Event Type="Shotoff" TeamID="361259" PlayerID="5691286" Period="2" Time="568" EventID="SHOTOFF18"/>
+			<Event Type="Shot" TeamID="361259" PlayerID="5691284" Period="2" Time="580" EventID="SHOT11"/>
+			<Event Type="Goal" TeamID="361252" PlayerID="5979346" A1="5691280" A2="0" Flag="ES" Period="2" Time="590" EventID="GOAL11"/>
+			<Event Type="Faceoff" TeamID="361259" PlayerWonID="5979359" PlayerLostID="1" Period="2" Time="590" EventID="FACEOFF13"/>
+			<Event Type="Shotoff" TeamID="361259" PlayerID="6107943" Period="2" Time="673" EventID="SHOTOFF19"/>
+			<Event Type="Shotoff" TeamID="361259" PlayerID="5691295" Period="2" Time="698" EventID="SHOTOFF20"/>
+			<Event Type="Shotoff" TeamID="361252" PlayerID="5684628" Period="2" Time="737" EventID="SHOTOFF21"/>
+			<Event Type="Goal" TeamID="361252" PlayerID="5979346" A1="5959143" A2="0" Flag="ES" Period="2" Time="762" EventID="GOAL12"/>
+			<Event Type="Faceoff" TeamID="361259" PlayerWonID="5979359" PlayerLostID="1" Period="2" Time="762" EventID="FACEOFF14"/>
+			<Event Type="Shot" TeamID="361259" PlayerID="5691283" Period="2" Time="817" EventID="SHOT12"/>
+			<Event Type="Goal" TeamID="361252" PlayerID="5691280" A1="0" A2="0" Flag="ES" Period="2" Time="851" EventID="GOAL13"/>
+			<Event Type="Faceoff" TeamID="361252" PlayerWonID="1" PlayerLostID="5691289" Period="2" Time="851" EventID="FACEOFF15"/>
+			<Event Type="Shotoff" TeamID="361252" PlayerID="5684628" Period="2" Time="898" EventID="SHOTOFF22"/>
+		</Period>
+		<Period Num="3">
+			<Event Type="Faceoff" TeamID="361252" PlayerWonID="1" PlayerLostID="5691289" Period="3" Time="0" EventID="FACEOFF16"/>
+			<Event Type="Shotoff" TeamID="361259" PlayerID="5979352" Period="3" Time="68" EventID="SHOTOFF23"/>
+			<Event Type="Shot" TeamID="361252" PlayerID="5684628" Period="3" Time="101" EventID="SHOT13"/>
+			<Event Type="Shot" TeamID="361252" PlayerID="5684628" Period="3" Time="118" EventID="SHOT14"/>
+			<Event Type="Goal" TeamID="361252" PlayerID="5684628" A1="0" A2="0" Flag="TP" Period="3" Time="179" EventID="GOAL14"/>
+			<Event Type="Faceoff" TeamID="361259" PlayerWonID="5979359" PlayerLostID="1" Period="3" Time="179" EventID="FACEOFF17"/>
+			<Event Type="Goal" TeamID="361259" PlayerID="5691291" A1="0" A2="0" Flag="ES" Period="3" Time="244" EventID="GOAL15"/>
+			<Event Type="Faceoff" TeamID="361252" PlayerWonID="1" PlayerLostID="5691289" Period="3" Time="244" EventID="FACEOFF18"/>
+			<Event Type="Shotoff" TeamID="361252" PlayerID="5979346" Period="3" Time="294" EventID="SHOTOFF24"/>
+			<Event Type="Goal" TeamID="361252" PlayerID="5691280" A1="0" A2="0" Flag="ES" Period="3" Time="354" EventID="GOAL16"/>
+			<Event Type="Faceoff" TeamID="361252" PlayerWonID="1" PlayerLostID="5979359" Period="3" Time="354" EventID="FACEOFF19"/>
+			<Event Type="Shotoff" TeamID="361252" PlayerID="1" Period="3" Time="384" EventID="SHOTOFF25"/>
+			<Event Type="Goal" TeamID="361252" PlayerID="5959143" A1="0" A2="0" Flag="ES" Period="3" Time="423" EventID="GOAL17"/>
+			<Event Type="Faceoff" TeamID="361252" PlayerWonID="1" PlayerLostID="5691289" Period="3" Time="423" EventID="FACEOFF20"/>
+			<Event Type="Shotoff" TeamID="361252" PlayerID="6108726" Period="3" Time="431" EventID="SHOTOFF26"/>
+			<Event Type="Shotoff" TeamID="361252" PlayerID="5684630" Period="3" Time="438" EventID="SHOTOFF27"/>
+			<Event Type="Goal" TeamID="361252" PlayerID="5684628" A1="0" A2="0" Flag="ES" Period="3" Time="474" EventID="GOAL18"/>
+			<Event Type="Faceoff" TeamID="361252" PlayerWonID="1" PlayerLostID="5979359" Period="3" Time="474" EventID="FACEOFF21"/>
+			<Event Type="Penalty" TeamID="361259" PlayerID="5979359" Severity="Technical Foul" Infraction="Pushing" Minutes="0" Period="3" Time="497" EventID="PEN6"/>
+			<Event Type="Shotoff" TeamID="361252" PlayerID="5959143" Period="3" Time="511" EventID="SHOTOFF28"/>
+			<Event Type="Shotoff" TeamID="361252" PlayerID="5684628" Period="3" Time="528" EventID="SHOTOFF29"/>
+			<Event Type="Shot" TeamID="361252" PlayerID="5691280" Period="3" Time="557" EventID="SHOT15"/>
+			<Event Type="Shot" TeamID="361259" PlayerID="5979352" Period="3" Time="596" EventID="SHOT16"/>
+			<Event Type="Shot" TeamID="361252" PlayerID="5684628" Period="3" Time="640" EventID="SHOT17"/>
+			<Event Type="Shotoff" TeamID="361252" PlayerID="5691280" Period="3" Time="655" EventID="SHOTOFF30"/>
+			<Event Type="Shot" TeamID="361252" PlayerID="6080794" Period="3" Time="664" EventID="SHOT18"/>
+			<Event Type="Goal" TeamID="361252" PlayerID="5979346" A1="0" A2="0" Flag="ES" Period="3" Time="667" EventID="GOAL19"/>
+			<Event Type="Faceoff" TeamID="361259" PlayerWonID="5979357" PlayerLostID="1" Period="3" Time="687" EventID="FACEOFF22"/>
+			<Event Type="Goal" TeamID="361259" PlayerID="5691291" A1="0" A2="0" Flag="ES" Period="3" Time="719" EventID="GOAL20"/>
+			<Event Type="Faceoff" TeamID="361259" PlayerWonID="5979357" PlayerLostID="1" Period="3" Time="719" EventID="FACEOFF23"/>
+			<Event Type="Shotoff" TeamID="361259" PlayerID="5979357" Period="3" Time="743" EventID="SHOTOFF31"/>
+			<Event Type="Goal" TeamID="361259" PlayerID="5691291" A1="5691283" A2="0" Flag="ES" Period="3" Time="772" EventID="GOAL21"/>
+			<Event Type="Faceoff" TeamID="361252" PlayerWonID="1" PlayerLostID="5979357" Period="3" Time="772" EventID="FACEOFF24"/>
+			<Event Type="Shotoff" TeamID="361252" PlayerID="5959143" Period="3" Time="848" EventID="SHOTOFF32"/>
+			<Event Type="Goal" TeamID="361259" PlayerID="5691295" A1="0" A2="0" Flag="ES" Period="3" Time="892" EventID="GOAL22"/>
+			<Event Type="Faceoff" TeamID="361259" PlayerWonID="5979357" PlayerLostID="1" Period="3" Time="892" EventID="FACEOFF25"/>
+		</Period>
+		<Period Num="4">
+			<Event Type="Faceoff" TeamID="361252" PlayerWonID="1" PlayerLostID="5979357" Period="4" Time="0" EventID="FACEOFF26"/>
+			<Event Type="Shotoff" TeamID="361252" PlayerID="1" Period="4" Time="11" EventID="SHOTOFF33"/>
+			<Event Type="Shotoff" TeamID="361252" PlayerID="5979346" Period="4" Time="65" EventID="SHOTOFF34"/>
+			<Event Type="Shot" TeamID="361252" PlayerID="5979346" Period="4" Time="86" EventID="SHOT19"/>
+			<Event Type="Shotoff" TeamID="361259" PlayerID="5691287" Period="4" Time="94" EventID="SHOTOFF36"/>
+			<Event Type="Shot" TeamID="361259" PlayerID="5691285" Period="4" Time="115" EventID="SHOT20"/>
+			<Event Type="Shotoff" TeamID="361252" PlayerID="5684628" Period="4" Time="133" EventID="SHOTOFF37"/>
+			<Event Type="Shotoff" TeamID="361252" PlayerID="6080794" Period="4" Time="146" EventID="SHOTOFF38"/>
+			<Event Type="Goal" TeamID="361259" PlayerID="6107943" A1="0" A2="0" Flag="ES" Period="4" Time="204" EventID="GOAL23"/>
+			<Event Type="Faceoff" TeamID="361252" PlayerWonID="1" PlayerLostID="5979357" Period="4" Time="204" EventID="FACEOFF27"/>
+			<Event Type="Goal" TeamID="361252" PlayerID="5684628" A1="0" A2="0" Flag="ES" Period="4" Time="255" EventID="GOAL24"/>
+			<Event Type="Faceoff" TeamID="361252" PlayerWonID="1" PlayerLostID="5691289" Period="4" Time="255" EventID="FACEOFF28"/>
+			<Event Type="Goal" TeamID="361252" PlayerID="5691280" A1="0" A2="0" Flag="ES" Period="4" Time="297" EventID="GOAL25"/>
+			<Event Type="Faceoff" TeamID="361252" PlayerWonID="1" PlayerLostID="5691289" Period="4" Time="297" EventID="FACEOFF29"/>
+			<Event Type="Goal" TeamID="361252" PlayerID="5959143" A1="0" A2="0" Flag="ES" Period="4" Time="368" EventID="GOAL26"/>
+			<Event Type="Faceoff" TeamID="361259" PlayerWonID="5979357" PlayerLostID="1" Period="4" Time="368" EventID="FACEOFF30"/>
+			<Event Type="Shot" TeamID="361259" PlayerID="5691290" Period="4" Time="384" EventID="SHOT21"/>
+			<Event Type="Shot" TeamID="361252" PlayerID="5959143" Period="4" Time="434" EventID="SHOT22"/>
+			<Event Type="Shot" TeamID="361252" PlayerID="5979346" Period="4" Time="444" EventID="SHOT23"/>
+			<Event Type="Timeout" TeamID="361252" Period="4" Time="447" EventID=""/>
+			<Event Type="Shotoff" TeamID="361259" PlayerID="5979352" Period="4" Time="519" EventID="SHOTOFF39"/>
+			<Event Type="Goal" TeamID="361252" PlayerID="5959143" A1="0" A2="0" Flag="ES" Period="4" Time="596" EventID="GOAL27"/>
+			<Event Type="Faceoff" TeamID="361252" PlayerWonID="1" PlayerLostID="5979357" Period="4" Time="596" EventID="FACEOFF31"/>
+			<Event Type="Goal" TeamID="361252" PlayerID="5691280" A1="0" A2="0" Flag="ES" Period="4" Time="654" EventID="GOAL28"/>
+			<Event Type="Faceoff" TeamID="361252" PlayerWonID="1" PlayerLostID="5979359" Period="4" Time="654" EventID="FACEOFF32"/>
+			<Event Type="Goal" TeamID="361252" PlayerID="6108726" A1="0" A2="0" Flag="ES" Period="4" Time="719" EventID="GOAL29"/>
+			<Event Type="Faceoff" TeamID="361252" PlayerWonID="1" PlayerLostID="5979359" Period="4" Time="719" EventID="FACEOFF33"/>
+			<Event Type="Shot" TeamID="361259" PlayerID="5691287" Period="4" Time="759" EventID="SHOT24"/>
+			<Event Type="Goal" TeamID="361252" PlayerID="6108726" A1="6080794" A2="0" Flag="ES" Period="4" Time="768" EventID="GOAL30"/>
+			<Event Type="GoalieEntered" TeamID="361252" PlayerID="5684632" Period="4" Time="768" EventID="NA"/>
+			<Event Type="Faceoff" TeamID="361259" PlayerWonID="5691289" PlayerLostID="1" Period="4" Time="768" EventID="FACEOFF34"/>
+			<Event Type="Shot" TeamID="361259" PlayerID="5979358" Period="4" Time="812" EventID="SHOT25"/>
+			<Event Type="Shotoff" TeamID="361259" PlayerID="5691294" Period="4" Time="884" EventID="SHOTOFF40"/>
+			<Event Type="Shotoff" TeamID="361259" PlayerID="5691295" Period="4" Time="893" EventID="SHOTOFF42"/>
+		</Period>
+	</PlayByPlay>
+</PSILive>
