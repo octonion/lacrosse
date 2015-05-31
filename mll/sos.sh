@@ -23,5 +23,8 @@ psql lacrosse -c "vacuum full verbose analyze mll._schedule_factors;"
 psql lacrosse -f sos/current_ranking.sql > sos/current_ranking.txt
 cp /tmp/current_ranking.csv sos/current_ranking.csv
 
-#psql lacrosse -f sos/predict_daily.sql > sos/predict_daily.txt
-#cp /tmp/predict_daily.csv sos/predict_daily.csv
+psql lacrosse -f sos/predict_daily.sql > sos/predict_daily.txt
+cp /tmp/predict_daily.csv sos/predict_daily.csv
+
+psql lacrosse -f sos/predict_weekly.sql > sos/predict_weekly.txt
+cp /tmp/predict_weekly.csv sos/predict_weekly.csv
