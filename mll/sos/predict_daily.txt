@@ -1,8 +1,12 @@
 BEGIN
 SET
- date | site | home | score | away | score 
-------+------+------+-------+------+-------
-(0 rows)
+    date    | site |    home    | score |  away   | score 
+------------+------+------------+-------+---------+-------
+ 2015-06-05 | home | Charlotte  | 12.62 | Ohio    | 13.35
+ 2015-06-05 | home | New York   | 14.80 | Florida | 11.71
+ 2015-06-06 | home | Chesapeake | 13.32 | Denver  | 12.91
+ 2015-06-06 | home | Rochester  | 13.10 | Boston  | 12.85
+(4 rows)
 
-COPY 0
+COPY 4
 COMMIT
