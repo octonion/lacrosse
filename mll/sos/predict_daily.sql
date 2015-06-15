@@ -6,11 +6,24 @@ select
 
 (g.game_date||', '||g.year::text)::date as date,
 'home' as site,
+
 ht.team_name as home,
-(exp(i.estimate)*y.exp_factor*h.offensive*o.exp_factor*v.defensive)::numeric(4,2) as score,
+(exp(i.estimate)*y.exp_factor*h.offensive*o.exp_factor*v.defensive)::numeric(4,1) as e_score,
 
 vt.team_name as away,
-(exp(i.estimate)*y.exp_factor*v.offensive*h.defensive*d.exp_factor)::numeric(4,2) as score
+(exp(i.estimate)*y.exp_factor*v.offensive*h.defensive*d.exp_factor)::numeric(4,1) as e_score,
+
+skellam(exp(i.estimate)*y.exp_factor*h.offensive*o.exp_factor*v.defensive,
+        exp(i.estimate)*y.exp_factor*v.offensive*h.defensive*d.exp_factor,
+	'win')::numeric(4,3) as win,
+
+skellam(exp(i.estimate)*y.exp_factor*h.offensive*o.exp_factor*v.defensive,
+        exp(i.estimate)*y.exp_factor*v.offensive*h.defensive*d.exp_factor,
+	'lose')::numeric(4,3) as lose,
+
+skellam(exp(i.estimate)*y.exp_factor*h.offensive*o.exp_factor*v.defensive,
+        exp(i.estimate)*y.exp_factor*v.offensive*h.defensive*d.exp_factor,
+	'tie')::numeric(4,3) as tie
 
 from mll.games g
 join mll._schedule_factors h
@@ -31,7 +44,7 @@ join mll._basic_factors i
   on (i.factor)=('(Intercept)')
 where
    (g.game_date||', '||g.year::text)::date
-     between current_date and current_date+1
+     between current_date and current_date
 order by date,home asc;
 
 copy
@@ -40,11 +53,24 @@ select
 
 (g.game_date||', '||g.year::text)::date as date,
 'home' as site,
+
 ht.team_name as home,
-(exp(i.estimate)*y.exp_factor*h.offensive*o.exp_factor*v.defensive)::numeric(4,2) as score,
+(exp(i.estimate)*y.exp_factor*h.offensive*o.exp_factor*v.defensive)::numeric(4,2) as e_score,
 
 vt.team_name as away,
-(exp(i.estimate)*y.exp_factor*v.offensive*h.defensive*d.exp_factor)::numeric(4,2) as score
+(exp(i.estimate)*y.exp_factor*v.offensive*h.defensive*d.exp_factor)::numeric(4,2) as e_score,
+
+skellam(exp(i.estimate)*y.exp_factor*h.offensive*o.exp_factor*v.defensive,
+        exp(i.estimate)*y.exp_factor*v.offensive*h.defensive*d.exp_factor,
+	'win')::numeric(4,3) as win,
+
+skellam(exp(i.estimate)*y.exp_factor*h.offensive*o.exp_factor*v.defensive,
+        exp(i.estimate)*y.exp_factor*v.offensive*h.defensive*d.exp_factor,
+	'lose')::numeric(4,3) as lose,
+
+skellam(exp(i.estimate)*y.exp_factor*h.offensive*o.exp_factor*v.defensive,
+        exp(i.estimate)*y.exp_factor*v.offensive*h.defensive*d.exp_factor,
+	'tie')::numeric(4,3) as tie
 
 from mll.games g
 join mll._schedule_factors h
@@ -65,7 +91,7 @@ join mll._basic_factors i
   on (i.factor)=('(Intercept)')
 where
    (g.game_date||', '||g.year::text)::date
-     between current_date and current_date+1
+     between current_date and current_date
 order by date,home asc
 ) to '/tmp/predict_daily.csv' csv header;
 

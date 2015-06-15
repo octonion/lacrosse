@@ -1,7 +1,7 @@
 BEGIN
 SET
- date | site | home | score | away | score 
-------+------+------+-------+------+-------
+ date | site | home | e_score | away | e_score | win | lose | tie 
+------+------+------+---------+------+---------+-----+------+-----
 (0 rows)
 
 COPY 0
