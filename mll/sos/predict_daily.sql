@@ -8,10 +8,10 @@ select
 'home' as site,
 
 ht.team_name as home,
-(exp(i.estimate)*y.exp_factor*h.offensive*o.exp_factor*v.defensive)::numeric(4,1) as e_score,
+(exp(i.estimate)*y.exp_factor*h.offensive*o.exp_factor*v.defensive)::numeric(4,1) as e_p,
 
 vt.team_name as away,
-(exp(i.estimate)*y.exp_factor*v.offensive*h.defensive*d.exp_factor)::numeric(4,1) as e_score,
+(exp(i.estimate)*y.exp_factor*v.offensive*h.defensive*d.exp_factor)::numeric(4,1) as e_p,
 
 skellam(exp(i.estimate)*y.exp_factor*h.offensive*o.exp_factor*v.defensive,
         exp(i.estimate)*y.exp_factor*v.offensive*h.defensive*d.exp_factor,
@@ -55,10 +55,10 @@ select
 'home' as site,
 
 ht.team_name as home,
-(exp(i.estimate)*y.exp_factor*h.offensive*o.exp_factor*v.defensive)::numeric(4,2) as e_score,
+(exp(i.estimate)*y.exp_factor*h.offensive*o.exp_factor*v.defensive)::numeric(4,2) as e_p,
 
 vt.team_name as away,
-(exp(i.estimate)*y.exp_factor*v.offensive*h.defensive*d.exp_factor)::numeric(4,2) as e_score,
+(exp(i.estimate)*y.exp_factor*v.offensive*h.defensive*d.exp_factor)::numeric(4,2) as e_p,
 
 skellam(exp(i.estimate)*y.exp_factor*h.offensive*o.exp_factor*v.defensive,
         exp(i.estimate)*y.exp_factor*v.offensive*h.defensive*d.exp_factor,
