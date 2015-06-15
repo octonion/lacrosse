@@ -30,7 +30,7 @@ seasons.each do |season|
 
     type = tr.attributes["class"].to_s
 
-    row = [league_id, season_id, year]
+    row = [league_id, ls_name, season_id, year]
 
     location = nil
 

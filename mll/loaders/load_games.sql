@@ -4,6 +4,7 @@ drop table if exists mll.games;
 
 create table mll.games (
 	league_id	      integer,
+	league_name	      text,
 	season_id	      integer,
 	year		      integer,
 	game_number	      text,

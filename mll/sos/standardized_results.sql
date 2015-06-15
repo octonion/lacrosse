@@ -5,6 +5,7 @@ drop table if exists mll.results;
 create table mll.results (
 	game_id		      integer,
 	year		      integer,
+	game_date	      date,
 	team_name	      text,
 	team_id		      integer,
 	opponent_name	      text,
@@ -16,7 +17,7 @@ create table mll.results (
 );
 
 insert into mll.results
-(game_id,year,
+(game_id,year,game_date,
  team_name,team_id,
  opponent_name,opponent_id,
  field,
@@ -25,6 +26,7 @@ insert into mll.results
 select
 g.game_id,
 g.year,
+(g.game_date||' '||g.year)::date as game_date,
 g.away_name,
 g.away_id,
 g.home_name,
@@ -46,10 +48,13 @@ and g.home_score >= 0
 
 and g.away_id is not NULL
 and g.home_id is not NULL
+
+and (g.league_name like '%Summer%' or
+     g.league_name like '%Playoffs%')
 );
 
 insert into mll.results
-(game_id,year,
+(game_id,year,game_date,
  team_name,team_id,
  opponent_name,opponent_id,
  field,
@@ -58,6 +63,7 @@ insert into mll.results
 select
 g.game_id,
 g.year,
+(g.game_date||' '||g.year)::date as game_date,
 g.home_name,
 g.home_id,
 g.away_name,
@@ -79,6 +85,9 @@ and g.home_score >= 0
 
 and g.away_id is not NULL
 and g.home_id is not NULL
+
+and (g.league_name like '%Summer%' or
+     g.league_name like '%Playoffs%')
 );
 
 commit;
