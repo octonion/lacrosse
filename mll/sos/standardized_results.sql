@@ -33,7 +33,7 @@ g.home_name,
 g.home_id,
 'defense_home' as field,
 g.away_score,
-g.home_p,
+g.home_score,
 (case when g.overtime is null then '0 OT'
       else g.overtime end) as game_length
 from mll.games g
@@ -41,10 +41,10 @@ where
 
 TRUE
 and g.away_score is not NULL
-and g.home_p is not NULL
+and g.home_score is not NULL
 
 and g.away_score >= 0
-and g.home_p >= 0
+and g.home_score >= 0
 
 and g.away_id is not NULL
 and g.home_id is not NULL
@@ -69,7 +69,7 @@ g.home_id,
 g.away_name,
 g.away_id,
 'offense_home' as field,
-g.home_p,
+g.home_score,
 g.away_score,
 (case when g.overtime is null then '0 OT'
       else g.overtime end) as game_length
@@ -78,10 +78,10 @@ where
 
 TRUE
 and g.away_score is not NULL
-and g.home_p is not NULL
+and g.home_score is not NULL
 
 and g.away_score >= 0
-and g.home_p >= 0
+and g.home_score >= 0
 
 and g.away_id is not NULL
 and g.home_id is not NULL
