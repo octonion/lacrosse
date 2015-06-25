@@ -1,10 +1,12 @@
 BEGIN
 SET
-    date    | site |   home    | e_p  |   away   | e_p  |  win  | lose  |  tie  
-------------+------+-----------+------+----------+------+-------+-------+-------
- 2015-06-26 | home | Florida   | 12.7 | New York | 14.4 | 0.341 | 0.585 | 0.073
- 2015-06-27 | home | Charlotte | 13.6 | Denver   | 13.7 | 0.449 | 0.474 | 0.077
-(2 rows)
+    date    | site |   home    | e_p  |    away    | e_p  |  win  | lose  |  tie  
+------------+------+-----------+------+------------+------+-------+-------+-------
+ 2015-06-26 | home | Florida   | 12.4 | New York   | 14.2 | 0.327 | 0.600 | 0.073
+ 2015-06-27 | home | Charlotte | 13.1 | Denver     | 13.4 | 0.440 | 0.482 | 0.078
+ 2015-06-28 | home | Boston    | 13.3 | Chesapeake | 12.4 | 0.526 | 0.396 | 0.078
+ 2015-06-28 | home | Rochester | 12.8 | Ohio       | 12.5 | 0.486 | 0.434 | 0.080
+(4 rows)
 
-COPY 2
+COPY 4
 COMMIT
