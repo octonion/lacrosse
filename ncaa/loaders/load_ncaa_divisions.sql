@@ -5,7 +5,7 @@ drop table if exists ncaa.teams_divisions;
 create table ncaa.teams_divisions (
 	sport_code		text,
 	team_name		text,
-	team_id		integer,
+	team_id			integer,
 	pulled_name		text,
 	javascript		text,
 	year			integer,
