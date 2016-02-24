@@ -42,10 +42,10 @@ seasons.each do |season|
         case j
         when 1,2
           team = td.xpath("a").first.text.scrub.strip rescue nil
-          href = td.xpath("a").first.attributes["href"].to_s
+          href = td.xpath("a").first.attributes["href"].to_s rescue nil
           team_id = href.split("=")[1].split("&")[0] rescue nil
           href = href.scrub.strip rescue nil
-          team_url = URI.join(url, href).to_s
+          team_url = URI.join(url, href).to_s rescue nil
           score = td.xpath("b").first.text rescue nil
           row += [team_id, team, team_url, score]
         when 5
