@@ -24,8 +24,8 @@ team_score::float as gs
 from ncaa.results r
 
 where
-    r.year between 2002 and 2015
---and r.game_date < '2015/11/29'::date
+    r.year between 2002 and 2016
+--and r.game_date < '2016/11/29'::date
 and r.team_div_id is not null
 and r.opponent_div_id is not null
 and r.pulled_id = least(r.team_id,r.opponent_id)

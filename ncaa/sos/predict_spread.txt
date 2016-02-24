@@ -1,7 +1,14 @@
 BEGIN
 SET
- date | team | h_div | site | opp | v_div | spread 
-------+------+-------+------+-----+-------+--------
-(0 rows)
+    date    |      team      | h_div | site |       opp        | v_div | spread 
+------------+----------------+-------+------+------------------+-------+--------
+ 2016-02-23 | Hampden-Sydney |     3 | home | Catholic         |     3 |    3.9
+ 2016-02-23 | Harvard        |     1 | home | Holy Cross       |     1 |    2.5
+ 2016-02-23 | Keene St.      |     3 | home | Western New Eng. |     3 |    6.6
+ 2016-02-23 | Mercer         |     1 | home | Siena            |     1 |   -0.6
+ 2016-02-23 | Richmond       |     1 | home | Mt. St. Mary's   |     1 |    1.6
+ 2016-02-23 | Virginia       |     1 | home | High Point       |     1 |    4.2
+ 2016-02-23 | Wagner         |     1 | home | Monmouth         |     1 |   -4.0
+(7 rows)
 
 COMMIT

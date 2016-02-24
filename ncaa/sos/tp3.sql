@@ -53,13 +53,13 @@ and r.pulled_id = r.team_id
 and r.team_id < r.opponent_id
 
 --and r.game_date between current_date and current_date
-and r.game_date = '2015/4/6'::date
+and r.game_date = '2016/4/6'::date
 
 and r.team_score is not null
 and r.opponent_score is not null
 and r.team_score>=0
 and r.opponent_score>=0
-and r.year=2015
+and r.year=2016
 and not((r.team_score,r.opponent_score)=(0,0))
 group by div,field
 order by div,field;
@@ -115,13 +115,13 @@ and r.pulled_id = r.team_id
 and r.team_id < r.opponent_id
 
 --and r.game_date between current_date and current_date
-and r.game_date = '2015/4/6'::date
+and r.game_date = '2016/4/6'::date
 
 and r.team_score is not null
 and r.opponent_score is not null
 and r.team_score>=0
 and r.opponent_score>=0
-and r.year=2015
+and r.year=2016
 and not((r.team_score,r.opponent_score)=(0,0))
 group by div
 order by div;

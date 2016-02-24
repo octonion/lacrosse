@@ -24,8 +24,8 @@ team_score::float as gs
 from ncaa.results r
 
 where
-    r.year between 2002 and 2015
---and r.game_date < '2015/11/29'::date
+    r.year between 2002 and 2016
+--and r.game_date < '2016/11/29'::date
 and r.team_div_id is not null
 and r.opponent_div_id is not null
 and r.pulled_id = least(r.team_id,r.opponent_id)
@@ -38,7 +38,7 @@ and r.pulled_id = least(r.team_id,r.opponent_id)
 
 --and not(extract(month from r.game_date)) in (1,2,3,4)
 
---and (r.year < 2015 or (r.year=2015 and r.game_date < '2015/4/6'::date))
+--and (r.year < 2016 or (r.year=2016 and r.game_date < '2016/4/6'::date))
 
 ;")
 
@@ -110,7 +110,12 @@ detach(games)
 dim(g)
 
 model <- gs ~ year+field+d_div+o_div+game_length+(1|offense)+(1|defense)+(1|game_id)
-fit <- glmer(model,data=g,REML=TRUE,verbose=TRUE,family=poisson(link=log))
+fit <- glmer(model,
+             data=g,
+	     verbose=TRUE,
+	     family=poisson(link=log),
+	     nAGQ=0,
+	     control=glmerControl(optimizer = "nloptwrap"))
 
 fit
 summary(fit)
