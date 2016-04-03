@@ -1,9 +1,20 @@
 BEGIN
 SET
-    date    | site | home | div | score |  away  | div | score 
-------------+------+------+-----+-------+--------+-----+-------
- 2016-03-28 | home | MSOE | D3  |  9.63 | Dallas | D3  |  5.12
-(1 row)
+    date    |  site   |       home        | div | score |        away         | div | score 
+------------+---------+-------------------+-----+-------+---------------------+-----+-------
+ 2016-04-03 | home    | Adams St.         | D2  | 12.16 | Notre Dame de Namur | D2  |  7.07
+ 2016-04-03 | home    | Aurora            | D3  | 20.18 | Cornell College     | D3  |  5.48
+ 2016-04-03 | home    | Bethany (WV)      | D3  | 13.50 | Defiance            | D3  |  4.96
+ 2016-04-03 | home    | Colgate           | D1  |  6.69 | Loyola Maryland     | D1  |  8.73
+ 2016-04-03 | home    | Colorado Col.     | D3  |  9.92 | Carthage            | D3  |  7.57
+ 2016-04-03 | home    | Davis & Elkins    | D2  |  7.58 | Ala.-Huntsville     | D2  | 11.25
+ 2016-04-03 | home    | High Point        | D1  | 12.06 | Mercer              | D1  |  8.26
+ 2016-04-03 | home    | Lincoln Memorial  | D2  | 14.80 | Brevard             | D2  |  9.72
+ 2016-04-03 | home    | Ohio St.          | D1  | 10.75 | Penn St.            | D1  | 11.39
+ 2016-04-03 | neutral | Rockhurst         | D2  |  9.39 | Westminster (UT)    | D2  | 11.97
+ 2016-04-03 | home    | Southwestern (TX) | D3  |  8.26 | Whittier            | D3  | 13.39
+ 2016-04-03 | home    | Stony Brook       | D1  | 16.95 | Vermont             | D1  |  8.34
+(12 rows)
 
-COPY 1
+COPY 12
 COMMIT
