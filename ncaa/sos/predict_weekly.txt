@@ -1,273 +1,250 @@
 BEGIN
 SET
-    date    |  site   |         home         | div | score |        away         | div | score 
-------------+---------+----------------------+-----+-------+---------------------+-----+-------
- 2016-04-16 | home    | Adams St.            | D2  | 11.10 | Colorado St.-Pueblo | D2  |  9.56
- 2016-04-16 | home    | Adelphi              | D2  | 12.87 | Bentley             | D2  |  7.93
- 2016-04-20 | home    | Adrian               | D3  |  7.37 | Trine               | D3  | 12.43
- 2016-04-16 | home    | Air Force            | D1  | 15.77 | VMI                 | D1  |  3.59
- 2016-04-16 | home    | Ala.-Huntsville      | D2  |  9.96 | Lees-McRae          | D2  | 10.72
- 2016-04-16 | home    | Albany (NY)          | D1  | 17.14 | Binghamton          | D1  |  8.28
- 2016-04-21 | home    | Albertus Magnus      | D3  |  9.39 | Mitchell            | D3  | 14.09
- 2016-04-16 | home    | Albertus Magnus      | D3  |  8.15 | Lasell              | D3  | 14.80
- 2016-04-16 | home    | Albion               | D3  | 12.71 | Alma                | D3  | 10.18
- 2016-04-16 | home    | Albright             | D3  |  7.50 | Stevenson           | D3  | 13.80
- 2016-04-21 | home    | Alderson Broaddus    | D2  | 23.04 | Davis & Elkins      | D2  |  4.98
- 2016-04-20 | home    | Alma                 | D3  | 11.78 | Hope                | D3  |  8.78
- 2016-04-20 | home    | Alvernia             | D3  |  8.82 | Arcadia             | D3  |  9.96
- 2016-04-16 | home    | Anna Maria           | D3  |  4.51 | Rivier              | D3  | 16.83
- 2016-04-16 | home    | Arcadia              | D3  |  5.91 | Lebanon Valley      | D3  |  8.95
- 2016-04-16 | home    | Army West Point      | D1  |  8.75 | Navy                | D1  |  8.14
- 2016-04-20 | home    | Assumption           | D2  |  7.96 | Merrimack           | D2  | 17.28
- 2016-04-16 | home    | Assumption           | D2  | 10.50 | St. Anselm          | D2  | 12.89
- 2016-04-20 | home    | Augustana (IL)       | D3  | 14.90 | Beloit              | D3  |  8.61
- 2016-04-16 | home    | Aurora               | D3  | 22.40 | Beloit              | D3  |  7.70
- 2016-04-17 | home    | Babson               | D3  | 10.88 | Roger Williams      | D3  | 10.34
- 2016-04-20 | home    | Baldwin Wallace      | D3  | 11.20 | Mount Union         | D3  |  5.92
- 2016-04-19 | home    | Bates                | D3  | 13.69 | Tufts               | D3  | 13.65
- 2016-04-20 | home    | Becker               | D3  |  9.85 | Wheelock            | D3  |  5.63
- 2016-04-16 | home    | Becker               | D3  |  9.37 | Daniel Webster      | D3  | 11.60
- 2016-04-20 | home    | Benedictine (IL)     | D3  |  8.45 | Aurora              | D3  | 16.98
- 2016-04-20 | home    | Bentley              | D2  |  8.90 | Pace                | D2  |  8.98
- 2016-04-20 | home    | Bethany (WV)         | D3  |  7.07 | Thiel               | D3  | 17.36
- 2016-04-20 | home    | Bowdoin              | D3  | 12.28 | Colby               | D3  |  6.48
- 2016-04-16 | home    | Brevard              | D2  |  7.36 | Wingate             | D2  | 13.80
- 2016-04-16 | home    | Bridgewater (VA)     | D3  |  7.32 | Randolph            | D3  |  8.07
- 2016-04-16 | home    | Brown                | D1  | 12.69 | Yale                | D1  |  9.17
- 2016-04-19 | home    | Brown                | D1  | 17.76 | Providence          | D1  |  7.16
- 2016-04-19 | home    | Bryant               | D1  | 13.87 | Mt. St. Mary's      | D1  |  8.93
- 2016-04-22 | home    | Bryn Athyn           | D3  | 16.06 | Cobleskill St.      | D3  |  6.25
- 2016-04-22 | home    | Bucknell             | D1  | 12.11 | Lehigh              | D1  |  9.63
- 2016-04-20 | home    | Calvin               | D3  |  9.18 | Albion              | D3  | 20.14
- 2016-04-19 | home    | Canisius             | D1  | 11.69 | Robert Morris       | D1  | 11.21
- 2016-04-20 | home    | Capital              | D3  | 17.47 | Wilmington (OH)     | D3  |  5.08
- 2016-04-20 | home    | Carthage             | D3  |  9.54 | Elmhurst            | D3  |  5.93
- 2016-04-16 | home    | Castleton            | D3  | 17.70 | Maine Maritime      | D3  |  7.01
- 2016-04-19 | home    | Catawba              | D2  | 12.75 | Brevard             | D2  |  7.37
- 2016-04-16 | home    | Catholic             | D3  | 11.60 | Susquehanna         | D3  |  9.81
- 2016-04-20 | home    | Cazenovia            | D3  |  8.47 | Morrisville St.     | D3  | 15.10
- 2016-04-20 | home    | Chestnut Hill        | D2  | 16.93 | Georgian Court      | D2  |  6.43
- 2016-04-16 | home    | Chris. Newport       | D3  |  8.24 | York (PA)           | D3  | 10.51
- 2016-04-20 | home    | Clark (MA)           | D3  | 14.52 | Mass. Maritime      | D3  |  6.18
- 2016-04-16 | home    | Clarkson             | D3  | 13.69 | Bard                | D3  |  5.12
- 2016-04-20 | home    | Coast Guard          | D3  |  8.20 | Springfield         | D3  | 10.09
- 2016-04-16 | home    | Cobleskill St.       | D3  |  4.04 | Keuka               | D3  | 15.27
- 2016-04-16 | home    | Coker                | D2  |  9.28 | Queens (NC)         | D2  | 16.54
- 2016-04-16 | home    | Colgate              | D1  |  9.68 | Holy Cross          | D1  |  8.42
- 2016-04-22 | home    | Colorado Mesa        | D2  | 16.86 | Colorado St.-Pueblo | D2  |  7.29
- 2016-04-16 | home    | Concordia Chicago    | D3  |  4.21 | MSOE                | D3  | 13.84
- 2016-04-16 | home    | Concordia Wisconsin  | D3  | 13.41 | Cornell College     | D3  |  5.25
- 2016-04-20 | home    | Concordia Wisconsin  | D3  | 13.36 | MSOE                | D3  |  4.91
- 2016-04-16 | home    | Connecticut Col.     | D3  | 10.28 | Hamilton            | D3  |  7.07
- 2016-04-16 | home    | Curry                | D3  | 10.15 | Nichols             | D3  |  8.84
- 2016-04-19 | home    | Daniel Webster       | D3  |  8.82 | Regis (MA)          | D3  |  9.61
- 2016-04-16 | home    | Defiance             | D3  |  3.02 | Wash. & Jeff.       | D3  | 21.18
- 2016-04-20 | home    | Delaware Valley      | D3  |  9.98 | King's (PA)         | D3  |  8.90
- 2016-04-16 | home    | Denison              | D3  |  8.83 | Ohio Wesleyan       | D3  |  8.90
- 2016-04-19 | home    | Denison              | D3  | 11.31 | Kenyon              | D3  |  6.80
- 2016-04-16 | home    | Denver               | D1  | 17.43 | St. John's (NY)     | D1  |  6.42
- 2016-04-16 | home    | DePauw               | D3  | 16.13 | Hiram               | D3  |  6.42
- 2016-04-16 | home    | DeSales              | D3  |  9.81 | Delaware Valley     | D3  |  6.59
- 2016-04-16 | home    | Dickinson            | D3  | 10.51 | Washington Col.     | D3  |  6.48
- 2016-04-16 | home    | Dist. Columbia       | D2  |  8.36 | Molloy              | D2  | 14.86
- 2016-04-16 | home    | Drew                 | D3  |  4.57 | Elizabethtown       | D3  | 11.56
- 2016-04-16 | home    | Drexel               | D1  |  9.68 | Hofstra             | D1  |  8.35
- 2016-04-16 | home    | Dubuque              | D3  |  3.90 | Augustana (IL)      | D3  | 15.64
- 2016-04-22 | home    | Duke                 | D1  | 10.74 | Marquette           | D1  |  9.15
- 2016-04-16 | home    | Eastern              | D3  | 10.90 | Misericordia        | D3  |  7.05
- 2016-04-16 | home    | Eastern Conn. St.    | D3  | 13.22 | UMass Dartmouth     | D3  |  9.62
- 2016-04-19 | neutral | Elizabethtown        | D3  |  8.21 | Wash. & Lee         | D3  |  9.45
- 2016-04-16 | home    | Elmhurst             | D3  |  8.83 | Ill. Wesleyan       | D3  | 16.70
- 2016-04-16 | home    | Elmira               | D3  |  6.19 | Alfred              | D3  | 15.03
- 2016-04-19 | home    | Elmira               | D3  |  6.21 | St. John Fisher     | D3  | 11.16
- 2016-04-20 | home    | Emerson              | D3  |  5.13 | MIT                 | D3  | 25.08
- 2016-04-20 | home    | Emmanuel (MA)        | D3  | 16.86 | Anna Maria          | D3  |  3.42
- 2016-04-16 | home    | Endicott             | D3  | 16.79 | Wentworth           | D3  |  7.43
- 2016-04-16 | home    | Fairfield            | D1  |  8.72 | Massachusetts       | D1  |  9.35
- 2016-04-20 | home    | Farmingdale St.      | D3  |  8.24 | Stockton            | D3  |  9.19
- 2016-04-20 | home    | FDU-Florham          | D3  |  7.81 | DeSales             | D3  |  9.99
- 2016-04-16 | home    | Franklin Pierce      | D2  | 12.42 | Southern N.H.       | D2  | 13.24
- 2016-04-16 | home    | Frank. & Marsh.      | D3  | 13.64 | Swarthmore          | D3  |  8.12
- 2016-04-16 | home    | Frostburg St.        | D3  | 14.66 | St. Mary's (MD)     | D3  |  7.15
- 2016-04-16 | home    | Gettysburg           | D3  |  9.33 | Ursinus             | D3  |  7.89
- 2016-04-20 | home    | Gordon               | D3  |  7.72 | Wentworth           | D3  | 10.77
- 2016-04-16 | home    | Goucher              | D3  | 12.39 | Moravian            | D3  |  5.64
- 2016-04-16 | home    | Guilford             | D3  |  9.63 | Randolph-Macon      | D3  |  6.49
- 2016-04-16 | home    | Gwynedd Mercy        | D3  |  9.44 | Centenary (NJ)      | D3  |  8.60
- 2016-04-19 | home    | Hamilton             | D3  |  7.24 | Rensselaer          | D3  | 11.59
- 2016-04-16 | home    | Hampden-Sydney       | D3  |  8.98 | Lynchburg           | D3  | 10.73
- 2016-04-16 | home    | Hanover              | D3  | 18.25 | Westminster (PA)    | D3  |  7.68
- 2016-04-16 | home    | Hartford             | D1  | 13.43 | Siena               | D1  |  7.24
- 2016-04-16 | home    | High Point           | D1  | 14.28 | Jacksonville        | D1  |  8.37
- 2016-04-19 | home    | Hiram                | D3  |  5.96 | Oberlin             | D3  | 18.51
- 2016-04-22 | home    | Holy Cross           | D1  |  8.76 | Boston U.           | D1  | 10.09
- 2016-04-16 | home    | Hood                 | D3  |  8.54 | Lycoming            | D3  |  8.15
- 2016-04-16 | home    | Hope                 | D3  | 11.49 | Kalamazoo           | D3  |  5.04
- 2016-04-22 | home    | Houghton             | D3  |  5.21 | Hartwick            | D3  | 13.18
- 2016-04-20 | home    | Husson               | D3  | 10.68 | Thomas (ME)         | D3  |  3.98
- 2016-04-20 | home    | Ill. Wesleyan        | D3  | 28.77 | Dubuque             | D3  |  4.29
- 2016-04-16 | home    | Ithaca               | D3  | 34.85 | Houghton            | D3  |  2.25
- 2016-04-16 | home    | John Carroll         | D3  |  8.36 | Capital             | D3  |  9.35
- 2016-04-20 | home    | Johnson St.          | D3  |  7.94 | Green Mountain      | D3  |  9.00
- 2016-04-16 | home    | Johnson St.          | D3  |  9.16 | Me.-Farmington      | D3  |  6.43
- 2016-04-20 | home    | Johnson & Wales (RI) | D3  |  8.63 | Lasell              | D3  |  9.23
- 2016-04-16 | home    | Johnson & Wales (RI) | D3  |  8.93 | Emmanuel (MA)       | D3  |  9.50
- 2016-04-22 | home    | Kalamazoo            | D3  |  4.46 | Alma                | D3  | 10.30
- 2016-04-20 | home    | Kalamazoo            | D3  |  5.69 | Olivet              | D3  | 11.35
- 2016-04-20 | home    | Kean                 | D3  |  8.50 | Montclair St.       | D3  | 10.35
- 2016-04-19 | home    | Keuka                | D3  | 20.47 | Wells               | D3  |  4.61
- 2016-04-16 | home    | Keystone             | D3  |  6.63 | Immaculata          | D3  | 11.08
- 2016-04-16 | home    | King's (PA)          | D3  | 10.95 | FDU-Florham         | D3  |  9.81
- 2016-04-22 | home    | Lafayette            | D1  |  7.59 | Colgate             | D1  |  9.21
- 2016-04-16 | home    | Lake Erie            | D2  |  8.64 | Limestone           | D2  | 15.99
- 2016-04-20 | home    | Lebanon Valley       | D3  |  8.55 | Lycoming            | D3  |  5.79
- 2016-04-19 | home    | Lees-McRae           | D2  |  4.88 | Limestone           | D2  | 35.38
- 2016-04-16 | home    | Lehigh               | D1  |  9.50 | Cornell             | D1  |  9.99
- 2016-04-16 | home    | Lenoir-Rhyne         | D2  | 16.08 | Lincoln Memorial    | D2  |  8.27
- 2016-04-16 | home    | LIU Post             | D2  | 10.03 | Dowling             | D2  |  8.10
- 2016-04-16 | home    | Loyola Maryland      | D1  | 10.19 | Boston U.           | D1  |  6.92
- 2016-04-22 | home    | Loyola Maryland      | D1  |  8.71 | Army West Point     | D1  |  8.57
- 2016-04-18 | home    | Lyndon St.           | D3  | 12.03 | Johnson St.         | D3  |  6.36
- 2016-04-16 | home    | Lynn                 | D2  | 12.19 | Fla. Southern       | D2  |  8.33
- 2016-04-19 | home    | Maine Maritime       | D3  | 16.94 | Me.-Farmington      | D3  |  5.52
- 2016-04-20 | home    | Manhattanville       | D3  |  4.38 | Eastern             | D3  | 11.06
- 2016-04-16 | home    | Marist               | D1  | 11.84 | Manhattan           | D1  |  5.12
- 2016-04-16 | home    | Marquette            | D1  | 10.14 | Providence          | D1  |  6.67
- 2016-04-16 | home    | Mars Hill            | D2  |  6.65 | Belmont Abbey       | D2  | 13.13
- 2016-04-16 | home    | Maryland             | D1  | 10.84 | Rutgers             | D1  |  7.90
- 2016-04-19 | home    | Maryland             | D1  |  8.58 | Navy                | D1  |  7.23
- 2016-04-16 | home    | Marymount (VA)       | D3  |  8.09 | Mary Washington     | D3  | 11.47
- 2016-04-16 | home    | Marywood             | D3  | 16.92 | Neumann             | D3  |  4.00
- 2016-04-16 | home    | Mass. Maritime       | D3  |  7.60 | Babson              | D3  | 15.01
- 2016-04-16 | home    | McDaniel             | D3  |  8.62 | Muhlenberg          | D3  |  6.43
- 2016-04-20 | home    | Medaille             | D3  |  4.96 | Hilbert             | D3  | 16.65
- 2016-04-17 | home    | Medaille             | D3  |  5.03 | Bryn Athyn          | D3  | 20.17
- 2016-04-16 | home    | Mercer               | D1  | 10.07 | Furman              | D1  |  9.34
- 2016-04-17 | home    | Mercyhurst           | D2  | 21.39 | Ohio Valley         | D2  |  4.76
- 2016-04-16 | home    | Messiah              | D3  |  8.01 | Widener             | D3  |  8.02
- 2016-04-16 | home    | Methodist            | D3  | 15.62 | Piedmont            | D3  |  5.07
- 2016-04-20 | home    | Misericordia         | D3  | 19.64 | Wilkes              | D3  |  5.22
- 2016-04-16 | home    | MIT                  | D3  | 10.67 | Clark (MA)          | D3  | 10.73
- 2016-04-16 | home    | Monmouth             | D1  |  9.54 | Detroit             | D1  |  6.44
- 2016-04-20 | home    | Moravian             | D3  |  9.51 | Immaculata          | D3  |  7.36
- 2016-04-17 | home    | Morrisville St.      | D3  | 14.41 | Hilbert             | D3  |  6.02
- 2016-04-16 | home    | Mount Ida            | D3  | 11.06 | Mitchell            | D3  |  9.23
- 2016-04-20 | home    | Mount Olive          | D2  | 10.84 | Queens (NC)         | D2  |  8.70
- 2016-04-16 | home    | Mount Olive          | D2  | 18.19 | Emmanuel (GA)       | D2  |  4.69
- 2016-04-16 | home    | Mt. St. Mary (NY)    | D3  |  9.28 | Kean                | D3  | 10.60
- 2016-04-16 | home    | Mt. St. Mary's       | D1  | 10.72 | Hobart              | D1  |  9.92
- 2016-04-16 | home    | Mt. St. Vincent      | D3  |  4.77 | Montclair St.       | D3  | 25.07
- 2016-04-20 | home    | Muskingum            | D3  |  4.51 | John Carroll        | D3  | 13.52
- 2016-04-22 | home    | Navy                 | D1  | 14.37 | Sacred Heart        | D1  |  5.97
- 2016-04-16 | home    | Nazareth             | D3  | 18.79 | Hartwick            | D3  |  5.77
- 2016-04-19 | home    | Nazareth             | D3  | 33.72 | Houghton            | D3  |  3.72
- 2016-04-16 | home    | New England Col.     | D3  | 13.63 | Husson              | D3  |  5.33
- 2016-04-20 | home    | New England Col.     | D3  | 12.53 | Castleton           | D3  |  9.24
- 2016-04-20 | home    | Nichols              | D3  |  7.97 | Endicott            | D3  | 14.77
- 2016-04-20 | home    | North Greenville     | D2  |  8.22 | Mars Hill           | D2  |  7.50
- 2016-04-16 | home    | Norwich              | D3  | 10.22 | St. Joseph's (ME)   | D3  |  6.48
- 2016-04-20 | home    | Norwich              | D3  |  8.60 | Mount Ida           | D3  |  9.36
- 2016-04-20 | home    | NYIT                 | D2  | 13.19 | Adelphi             | D2  | 11.47
- 2016-04-16 | home    | NYIT                 | D2  | 11.19 | Mercy               | D2  |  7.20
- 2016-04-16 | home    | Oberlin              | D3  | 19.25 | Wabash              | D3  |  7.68
- 2016-04-16 | home    | Ohio Northern        | D3  | 12.53 | Muskingum           | D3  |  5.01
- 2016-04-20 | home    | Ohio Northern        | D3  |  8.51 | Otterbein           | D3  | 10.39
- 2016-04-16 | home    | Ohio St.             | D1  | 11.85 | Michigan            | D1  |  8.16
- 2016-04-19 | home    | Ohio Wesleyan        | D3  | 22.80 | DePauw              | D3  |  4.88
- 2016-04-16 | home    | Olivet               | D3  | 16.91 | Adrian              | D3  |  8.83
- 2016-04-16 | home    | Otterbein            | D3  |  6.98 | Baldwin Wallace     | D3  |  9.74
- 2016-04-16 | home    | Penn                 | D1  | 10.20 | Harvard             | D1  | 10.54
- 2016-04-17 | home    | Penn St.             | D1  | 12.48 | Johns Hopkins       | D1  | 12.35
- 2016-04-16 | home    | Pfeiffer             | D2  | 11.65 | North Greenville    | D2  |  7.05
- 2016-04-20 | home    | Plymouth St.         | D3  |  7.64 | Keene St.           | D3  | 15.12
- 2016-04-16 | home    | Princeton            | D1  | 14.81 | Dartmouth           | D1  |  7.01
- 2016-04-16 | home    | Quinnipiac           | D1  | 11.19 | Canisius            | D1  |  8.65
- 2016-04-20 | home    | Randolph-Macon       | D3  |  8.52 | Va. Wesleyan        | D3  | 12.02
- 2016-04-16 | home    | Regis (MA)           | D3  | 11.09 | Wheelock            | D3  |  3.90
- 2016-04-16 | home    | Richmond             | D1  |  7.40 | Bellarmine          | D1  |  5.69
- 2016-04-16 | home    | RIT                  | D3  | 15.15 | Union (NY)          | D3  |  7.21
- 2016-04-19 | home    | RIT                  | D3  |  9.75 | Ithaca              | D3  |  9.96
- 2016-04-20 | home    | Roanoke              | D3  | 16.78 | Bridgewater (VA)    | D3  |  5.71
- 2016-04-16 | home    | Roberts Wesleyan     | D2  |  9.05 | Chestnut Hill       | D2  | 11.99
- 2016-04-17 | neutral | Rockhurst            | D2  | 10.79 | Walsh               | D2  | 11.35
- 2016-04-20 | home    | Roger Williams       | D3  | 11.57 | Salve Regina        | D3  |  7.52
- 2016-04-16 | home    | Rollins              | D2  | 10.63 | Florida Tech        | D2  |  8.16
- 2016-04-22 | home    | Rollins              | D2  |  8.79 | Tampa               | D2  | 12.18
- 2016-04-20 | home    | Rosemont             | D3  |  3.80 | Cabrini             | D3  | 23.84
- 2016-04-16 | home    | Rosemont             | D3  | 10.13 | Alvernia            | D3  |  9.82
- 2016-04-19 | home    | Sacred Heart         | D1  |  8.93 | Hartford            | D1  | 12.82
- 2016-04-16 | home    | Sacred Heart         | D1  | 11.87 | Wagner              | D1  |  8.35
- 2016-04-16 | home    | Saint Joseph's       | D1  | 11.36 | Bryant              | D1  |  9.84
- 2016-04-16 | home    | Saint Michael's      | D2  |  5.01 | Le Moyne            | D2  | 14.19
- 2016-04-16 | home    | Saint Rose           | D2  |  7.96 | Pace                | D2  |  9.84
- 2016-04-18 | home    | Saint Vincent        | D3  | 14.41 | La Roche            | D3  |  8.63
- 2016-04-16 | home    | Salem St.            | D3  |  8.01 | Plymouth St.        | D3  |  9.24
- 2016-04-16 | home    | Salisbury            | D3  | 12.66 | Cabrini             | D3  |  7.56
- 2016-04-16 | home    | Salve Regina         | D3  | 13.21 | Gordon              | D3  |  6.42
- 2016-04-16 | home    | Scranton             | D3  | 10.67 | Merchant Marine     | D3  |  8.09
- 2016-04-16 | home    | Shorter              | D2  | 11.10 | Young Harris        | D2  | 12.22
- 2016-04-16 | home    | Skidmore             | D3  |  6.58 | Rensselaer          | D3  | 13.30
- 2016-04-20 | home    | Southern Me.         | D3  | 10.16 | Salem St.           | D3  |  9.19
- 2016-04-16 | home    | Southern Me.         | D3  |  7.65 | Keene St.           | D3  | 19.04
- 2016-04-20 | home    | Southern N.H.        | D2  | 14.89 | St. Anselm          | D2  | 14.03
- 2016-04-16 | home    | Springfield          | D3  | 29.11 | Emerson             | D3  |  3.83
- 2016-04-20 | home    | Stevenson            | D3  | 11.59 | Messiah             | D3  |  5.78
- 2016-04-16 | home    | St. John Fisher      | D3  |  7.76 | Stevens             | D3  | 14.63
- 2016-04-20 | home    | St. Joseph's (ME)    | D3  |  8.27 | Rivier              | D3  | 13.00
- 2016-04-16 | home    | St. Lawrence         | D3  | 15.60 | Vassar              | D3  |  6.50
- 2016-04-16 | home    | Stockton             | D3  | 12.18 | SUNY Maritime       | D3  |  7.32
- 2016-04-16 | home    | Stony Brook          | D1  | 16.20 | UMass Lowell        | D1  |  6.58
- 2016-04-20 | home    | St. Thomas Aquinas   | D2  |  5.27 | Post                | D2  | 12.96
- 2016-04-19 | home    | SUNY Canton          | D3  |  6.37 | Oswego St.          | D3  | 11.73
- 2016-04-16 | home    | SUNY Canton          | D3  | 14.14 | Alfred St.          | D3  |  6.85
- 2016-04-20 | home    | SUNY Cortland        | D3  | 15.65 | Clarkson            | D3  |  7.87
- 2016-04-16 | home    | SUNY Geneseo         | D3  |  8.70 | Plattsburgh St.     | D3  | 10.40
- 2016-04-20 | home    | SUNY Maritime        | D3  | 10.26 | Mt. St. Mary (NY)   | D3  |  9.74
- 2016-04-16 | home    | SUNY Oneonta         | D3  |  8.03 | Brockport           | D3  |  9.59
- 2016-04-20 | home    | SUNY Poly            | D3  | 10.45 | Cobleskill St.      | D3  |  6.24
- 2016-04-16 | home    | SUNY Poly            | D3  | 12.75 | Wells               | D3  |  7.80
- 2016-04-19 | home    | SUNY Potsdam         | D3  |  7.19 | St. Lawrence        | D3  | 13.69
- 2016-04-16 | home    | SUNY Potsdam         | D3  |  8.94 | SUNY Cortland       | D3  | 13.24
- 2016-04-20 | home    | Syracuse             | D1  | 16.25 | Binghamton          | D1  |  8.09
- 2016-04-16 | home    | Syracuse             | D1  | 12.73 | North Carolina      | D1  | 11.67
- 2016-04-16 | home    | Thiel                | D3  | 11.93 | Saint Vincent       | D3  |  8.97
- 2016-04-16 | home    | Thomas (ME)          | D3  |  7.68 | Green Mountain      | D3  |  8.08
- 2016-04-16 | home    | Towson               | D1  | 12.34 | Delaware            | D1  |  5.92
- 2016-04-16 | home    | Transylvania         | D3  | 13.99 | Bethany (WV)        | D3  |  4.86
- 2016-04-16 | home    | Trine                | D3  | 14.70 | Calvin              | D3  |  6.87
- 2016-04-19 | home    | Trinity (CT)         | D3  | 13.36 | Skidmore            | D3  |  8.72
- 2016-04-16 | home    | Trinity (CT)         | D3  |  9.85 | Middlebury          | D3  | 12.82
- 2016-04-16 | home    | Tufts                | D3  | 16.75 | Amherst             | D3  | 14.94
- 2016-04-16 | home    | UIndy                | D2  |  8.70 | Seton Hill          | D2  | 10.65
- 2016-04-20 | home    | UMass Boston         | D3  | 11.66 | UMass Dartmouth     | D3  |  9.75
- 2016-04-19 | home    | UMass Lowell         | D1  | 10.79 | Dartmouth           | D1  |  8.01
- 2016-04-19 | home    | UMBC                 | D1  |  9.01 | Penn                | D1  | 12.59
- 2016-04-16 | home    | U New England        | D3  |  7.77 | Western New Eng.    | D3  | 11.90
- 2016-04-20 | home    | Utica                | D3  |  7.20 | Stevens             | D3  | 16.16
- 2016-04-16 | home    | Va. Wesleyan         | D3  |  9.73 | Roanoke             | D3  | 14.54
- 2016-04-16 | home    | Vermont              | D1  | 12.62 | UMBC                | D1  | 10.06
- 2016-04-16 | home    | Villanova            | D1  | 15.88 | Georgetown          | D1  |  7.94
- 2016-04-17 | home    | Virginia             | D1  | 11.82 | Duke                | D1  | 12.37
- 2016-04-16 | home    | Wash. & Lee          | D3  | 15.29 | Shenandoah          | D3  |  5.09
- 2016-04-16 | home    | Wesleyan (CT)        | D3  | 10.38 | Bowdoin             | D3  | 10.08
- 2016-04-16 | home    | Western Conn. St.    | D3  |  7.26 | UMass Boston        | D3  | 12.19
- 2016-04-20 | home    | Western Conn. St.    | D3  |  7.16 | Eastern Conn. St.   | D3  | 13.83
- 2016-04-20 | home    | Western New Eng.     | D3  | 16.10 | Curry               | D3  |  6.24
- 2016-04-20 | home    | Westminster (PA)     | D3  |  7.16 | Wash. & Jeff.       | D3  | 15.41
- 2016-04-16 | home    | Westminster (UT)     | D2  |  8.66 | Colorado Mesa       | D2  |  9.30
- 2016-04-22 | home    | Westminster (UT)     | D2  | 11.37 | Adams St.           | D2  |  6.12
- 2016-04-20 | home    | Wheaton (MA)         | D3  |  8.49 | Babson              | D3  | 10.41
- 2016-04-16 | home    | Wheaton (MA)         | D3  |  7.45 | Coast Guard         | D3  |  7.77
- 2016-04-16 | home    | Wheeling Jesuit      | D2  | 15.42 | Alderson Broaddus   | D2  | 10.45
- 2016-04-20 | home    | Wheelock             | D3  |  7.45 | Lyndon St.          | D3  |  7.68
- 2016-04-20 | home    | Widener              | D3  | 11.52 | Albright            | D3  |  8.61
- 2016-04-16 | home    | Wilkes               | D3  |  6.40 | Manhattanville      | D3  | 10.11
- 2016-04-20 | home    | Williams             | D3  | 15.23 | Vassar              | D3  |  9.53
- 2016-04-16 | home    | Williams             | D3  | 14.46 | Colby               | D3  |  9.38
- 2016-04-16 | home    | Wilmington (OH)      | D3  |  7.06 | Mount Union         | D3  | 13.51
- 2016-04-16 | home    | Wittenberg           | D3  | 12.16 | Wooster             | D3  |  9.76
- 2016-04-20 | home    | Wittenberg           | D3  | 21.81 | Wabash              | D3  |  6.52
-(265 rows)
+    date    |  site   |        home         | div | score |         away         | div | score 
+------------+---------+---------------------+-----+-------+----------------------+-----+-------
+ 2016-04-23 | home    | Adrian              | D3  | 11.35 | Calvin               | D3  | 10.98
+ 2016-04-26 | home    | Albany (NY)         | D1  | 17.00 | Siena                | D1  |  6.35
+ 2016-04-23 | home    | Albertus Magnus     | D3  |  9.36 | Rivier               | D3  | 17.88
+ 2016-04-26 | home    | Albright            | D3  | 10.61 | Lebanon Valley       | D3  |  7.21
+ 2016-04-26 | home    | Alderson Broaddus   | D2  |  8.88 | Seton Hill           | D2  | 15.33
+ 2016-04-23 | home    | Alderson Broaddus   | D2  |  8.76 | UIndy                | D2  | 11.21
+ 2016-04-23 | home    | Alfred              | D3  |  7.69 | Ithaca               | D3  | 16.84
+ 2016-04-26 | home    | Alma                | D3  | 15.09 | Calvin               | D3  |  6.88
+ 2016-04-23 | home    | Alvernia            | D3  |  8.11 | Hood                 | D3  | 11.05
+ 2016-04-23 | home    | American Int'l      | D2  |  6.76 | Saint Michael's      | D2  | 15.23
+ 2016-04-23 | home    | Amherst             | D3  | 16.86 | Williams             | D3  | 11.95
+ 2016-04-27 | home    | Amherst             | D3  | 15.51 | Trinity (CT)         | D3  |  9.94
+ 2016-04-27 | home    | Anna Maria          | D3  |  3.73 | Johnson & Wales (RI) | D3  | 14.58
+ 2016-04-23 | home    | Anna Maria          | D3  |  3.28 | Lasell               | D3  | 15.51
+ 2016-04-23 | home    | Arcadia             | D3  |  4.86 | Messiah              | D3  | 11.73
+ 2016-04-27 | home    | Augustana (IL)      | D3  | 11.43 | Ill. Wesleyan        | D3  | 13.74
+ 2016-04-23 | neutral | Aurora              | D3  | 12.81 | Wittenberg           | D3  |  9.95
+ 2016-04-24 | home    | Aurora              | D3  | 20.27 | MSOE                 | D3  |  5.00
+ 2016-04-27 | home    | Babson              | D3  | 31.23 | Emerson              | D3  |  4.33
+ 2016-04-23 | home    | Baldwin Wallace     | D3  | 12.29 | Ohio Northern        | D3  |  5.01
+ 2016-04-23 | home    | Bard                | D3  |  4.79 | Union (NY)           | D3  | 14.56
+ 2016-04-23 | home    | Bates               | D3  | 10.56 | Connecticut Col.     | D3  |  8.29
+ 2016-04-23 | home    | Becker              | D3  | 11.19 | Wheelock             | D3  |  5.55
+ 2016-04-23 | home    | Benedictine (IL)    | D3  | 13.27 | Cornell College      | D3  |  7.97
+ 2016-04-23 | home    | Bentley             | D2  |  7.21 | Merrimack            | D2  | 13.14
+ 2016-04-29 | home    | Bentley             | D2  |  4.85 | Le Moyne             | D2  | 12.27
+ 2016-04-24 | home    | Binghamton          | D1  |  8.59 | Stony Brook          | D1  | 13.51
+ 2016-04-23 | home    | Bowdoin             | D3  | 16.26 | Emmanuel (MA)        | D3  |  5.09
+ 2016-04-23 | home    | Bridgewater (VA)    | D3  |  6.11 | Hampden-Sydney       | D3  | 11.79
+ 2016-04-27 | home    | Brown               | D1  | 22.27 | Dartmouth            | D1  |  5.17
+ 2016-04-23 | home    | Bryant              | D1  | 11.79 | Hobart               | D1  |  7.92
+ 2016-04-24 | home    | Bryn Athyn          | D3  | 11.27 | SUNY Poly            | D3  |  6.68
+ 2016-04-27 | home    | Cabrini             | D3  | 21.99 | Immaculata           | D3  |  4.37
+ 2016-04-23 | home    | Cabrini             | D3  | 16.60 | Centenary (NJ)       | D3  |  5.38
+ 2016-04-23 | home    | Canisius            | D1  |  9.52 | Detroit              | D1  |  8.17
+ 2016-04-27 | home    | Carroll (WI)        | D3  |  2.51 | Elmhurst             | D3  | 19.53
+ 2016-04-23 | home    | Castleton           | D3  | 21.72 | Johnson St.          | D3  |  3.70
+ 2016-04-23 | home    | Catawba             | D2  |  8.63 | Lenoir-Rhyne         | D2  | 11.93
+ 2016-04-23 | home    | Catholic            | D3  | 14.84 | Merchant Marine      | D3  | 11.12
+ 2016-04-27 | home    | Centenary (NJ)      | D3  |  9.00 | Marywood             | D3  |  7.79
+ 2016-04-26 | home    | Chestnut Hill       | D2  | 16.12 | Dist. Columbia       | D2  |  9.66
+ 2016-04-23 | home    | Chestnut Hill       | D2  | 13.65 | Post                 | D2  |  9.93
+ 2016-04-23 | home    | Clark (MA)          | D3  | 10.98 | Babson               | D3  | 11.46
+ 2016-04-27 | home    | Cobleskill St.      | D3  |  8.16 | Cazenovia            | D3  | 16.51
+ 2016-04-23 | home    | Colby               | D3  |  8.20 | Middlebury           | D3  | 12.92
+ 2016-04-27 | home    | Colby               | D3  |  8.76 | Bates                | D3  | 13.33
+ 2016-04-24 | home    | Colorado Mesa       | D2  | 10.93 | Adams St.            | D2  |  4.97
+ 2016-04-29 | neutral | Colorado Mesa       | D2  |  7.76 | Lindenwood (MO)      | D2  |  8.31
+ 2016-04-23 | home    | Concordia Wisconsin | D3  | 24.37 | Concordia Chicago    | D3  |  2.41
+ 2016-04-23 | home    | Cornell             | D1  |  8.90 | Brown                | D1  | 14.34
+ 2016-04-26 | home    | Curry               | D3  |  7.92 | Roger Williams       | D3  | 12.03
+ 2016-04-23 | neutral | Dallas              | D3  |  6.25 | Alfred St.           | D3  | 10.06
+ 2016-04-23 | home    | Dartmouth           | D1  |  6.71 | Penn                 | D1  | 13.12
+ 2016-04-23 | neutral | Davis & Elkins      | D2  |  4.69 | Mars Hill            | D2  | 14.73
+ 2016-04-23 | home    | Defiance            | D3  |  3.31 | Saint Vincent        | D3  | 19.45
+ 2016-04-29 | home    | Delaware            | D1  |  8.54 | Fairfield            | D1  |  9.85
+ 2016-04-23 | home    | Delaware            | D1  |  8.52 | Drexel               | D1  | 10.02
+ 2016-04-23 | home    | Delaware Valley     | D3  | 10.23 | Manhattanville       | D3  |  6.55
+ 2016-04-23 | home    | DePauw              | D3  |  9.10 | Oberlin              | D3  | 12.82
+ 2016-04-23 | home    | DeSales             | D3  | 17.70 | Wilkes               | D3  |  4.69
+ 2016-04-26 | home    | DeSales             | D3  | 12.43 | Manhattanville       | D3  |  5.87
+ 2016-04-27 | home    | Dickinson           | D3  | 16.66 | Muhlenberg           | D3  |  5.20
+ 2016-04-23 | home    | Dominican (NY)      | D2  |  5.07 | NYIT                 | D2  | 18.19
+ 2016-04-23 | home    | Dowling             | D2  | 10.28 | Molloy               | D2  |  8.07
+ 2016-04-23 | home    | Drew                | D3  |  8.10 | Moravian             | D3  |  6.81
+ 2016-04-29 | home    | Drexel              | D1  |  8.76 | Massachusetts        | D1  |  8.72
+ 2016-04-23 | home    | Dubuque             | D3  | 11.27 | Carroll (WI)         | D3  |  3.64
+ 2016-04-26 | home    | Eastern             | D3  | 11.97 | FDU-Florham          | D3  |  5.04
+ 2016-04-26 | home    | Eastern Conn. St.   | D3  |  9.52 | UMass Boston         | D3  |  7.64
+ 2016-04-23 | home    | Elizabethtown       | D3  |  9.13 | Scranton             | D3  |  7.54
+ 2016-04-23 | home    | Elmhurst            | D3  |  7.66 | Augustana (IL)       | D3  | 10.04
+ 2016-04-27 | home    | Elmira              | D3  |  3.19 | Ithaca               | D3  | 20.21
+ 2016-04-23 | home    | Emerson             | D3  |  4.43 | Coast Guard          | D3  | 19.71
+ 2016-04-26 | home    | Endicott            | D3  | 13.95 | U New England        | D3  |  8.89
+ 2016-04-26 | home    | Farmingdale St.     | D3  |  7.22 | Montclair St.        | D3  | 11.22
+ 2016-04-23 | home    | Fla. Southern       | D2  |  9.77 | Saint Leo            | D2  | 10.94
+ 2016-04-23 | home    | Florida Tech        | D2  |  8.35 | Lynn                 | D2  | 10.70
+ 2016-04-27 | home    | Franciscan          | D3  | 14.71 | Westminster (PA)     | D3  | 11.92
+ 2016-04-23 | home    | Furman              | D1  |  9.65 | High Point           | D1  | 11.78
+ 2016-04-23 | home    | Georgetown          | D1  |  7.99 | Virginia             | D1  | 11.21
+ 2016-04-27 | home    | Georgian Court      | D2  |  9.66 | St. Thomas Aquinas   | D2  |  6.25
+ 2016-04-27 | home    | Gettysburg          | D3  | 13.21 | Frank. & Marsh.      | D3  |  6.86
+ 2016-04-23 | home    | Gordon              | D3  |  8.42 | Curry                | D3  | 11.75
+ 2016-04-23 | home    | Green Mountain      | D3  |  5.57 | Husson               | D3  | 10.92
+ 2016-04-26 | home    | Green Mountain      | D3  |  4.74 | Castleton            | D3  | 18.77
+ 2016-04-27 | home    | Hampden-Sydney      | D3  | 13.57 | Va. Wesleyan         | D3  |  8.66
+ 2016-04-27 | home    | Hanover             | D3  |  8.09 | Transylvania         | D3  |  9.34
+ 2016-04-23 | home    | Hanover             | D3  | 10.14 | Thiel                | D3  | 11.78
+ 2016-04-23 | home    | Hartford            | D1  | 12.95 | Vermont              | D1  |  9.53
+ 2016-04-23 | home    | Harvard             | D1  | 13.01 | Princeton            | D1  |  8.66
+ 2016-04-27 | home    | Haverford           | D3  |  6.58 | Ursinus              | D3  |  9.12
+ 2016-04-23 | home    | Haverford           | D3  |  9.09 | Frank. & Marsh.      | D3  |  8.31
+ 2016-04-27 | home    | Hilbert             | D3  |  5.49 | Keuka                | D3  | 10.23
+ 2016-04-23 | home    | Hilbert             | D3  | 11.46 | Cazenovia            | D3  | 10.18
+ 2016-04-26 | home    | Hope                | D3  | 11.44 | Albion               | D3  | 14.26
+ 2016-04-27 | home    | Houghton            | D3  |  4.97 | Alfred               | D3  | 23.04
+ 2016-04-25 | home    | Husson              | D3  | 10.83 | Maine Maritime       | D3  |  7.84
+ 2016-04-23 | home    | Ill. Wesleyan       | D3  | 12.96 | Carthage             | D3  |  8.68
+ 2016-04-23 | home    | Immaculata          | D3  |  7.32 | Marywood             | D3  | 10.31
+ 2016-04-23 | home    | Jacksonville        | D1  | 10.10 | Mercer               | D1  | 10.40
+ 2016-04-23 | home    | John Carroll        | D3  | 10.78 | Otterbein            | D3  |  8.48
+ 2016-04-27 | home    | John Carroll        | D3  |  6.85 | Baldwin Wallace      | D3  |  8.55
+ 2016-04-24 | home    | Johnson St.         | D3  |  6.34 | Wheelock             | D3  |  8.20
+ 2016-04-26 | home    | Kalamazoo           | D3  |  6.58 | Adrian               | D3  |  8.51
+ 2016-04-26 | home    | Keene St.           | D3  | 23.49 | Salem St.            | D3  |  6.81
+ 2016-04-29 | home    | Keene St.           | D3  | 17.36 | Eastern Conn. St.    | D3  |  7.79
+ 2016-04-23 | home    | Kenyon              | D3  | 26.29 | Hiram                | D3  |  4.41
+ 2016-04-23 | home    | Keuka               | D3  |  8.19 | Morrisville St.      | D3  |  7.92
+ 2016-04-23 | home    | Keystone            | D3  |  4.55 | Gwynedd Mercy        | D3  | 14.18
+ 2016-04-27 | home    | Keystone            | D3  |  7.87 | Rosemont             | D3  | 10.75
+ 2016-04-23 | home    | King's (PA)         | D3  |  5.70 | Eastern              | D3  | 12.68
+ 2016-04-27 | home    | King's (PA)         | D3  |  8.86 | Misericordia         | D3  | 13.25
+ 2016-04-27 | home    | Lasell              | D3  |  9.35 | Norwich              | D3  |  6.80
+ 2016-04-23 | home    | Lebanon Valley      | D3  |  5.20 | Stevenson            | D3  | 12.57
+ 2016-04-23 | home    | Lees-McRae          | D2  | 11.54 | Emmanuel (GA)        | D2  | 10.90
+ 2016-04-23 | home    | Le Moyne            | D2  | 14.60 | Adelphi              | D2  |  7.80
+ 2016-04-23 | home    | Limestone           | D2  | 14.80 | Mount Olive          | D2  |  7.31
+ 2016-04-23 | home    | Lincoln Memorial    | D2  | 12.78 | Coker                | D2  | 10.21
+ 2016-04-23 | home    | Lindenwood (MO)     | D2  | 12.74 | Rockhurst            | D2  |  7.68
+ 2016-04-23 | home    | LIU Post            | D2  | 10.28 | Mercy                | D2  |  6.97
+ 2016-04-23 | home    | Lycoming            | D3  |  8.18 | Albright             | D3  | 12.69
+ 2016-04-27 | home    | Lynchburg           | D3  | 16.35 | Randolph-Macon       | D3  |  5.98
+ 2016-04-23 | home    | Lynchburg           | D3  | 13.07 | Guilford             | D3  |  6.36
+ 2016-04-23 | home    | Maine Maritime      | D3  |  6.96 | New England Col.     | D3  | 20.11
+ 2016-04-23 | home    | Manhattan           | D1  |  8.29 | Siena                | D1  |  9.18
+ 2016-04-24 | home    | Maryland            | D1  | 10.79 | Ohio St.             | D1  |  6.49
+ 2016-04-23 | home    | Massachusetts       | D1  |  8.88 | Hofstra              | D1  |  7.89
+ 2016-04-27 | home    | Mass. Maritime      | D3  |  6.89 | Coast Guard          | D3  | 11.24
+ 2016-04-23 | home    | McDaniel            | D3  |  4.39 | Gettysburg           | D3  | 11.32
+ 2016-04-27 | home    | Medaille            | D3  |  7.70 | Alfred St.           | D3  | 11.14
+ 2016-04-23 | home    | Me.-Farmington      | D3  |  5.63 | Lyndon St.           | D3  | 13.17
+ 2016-04-25 | home    | Me.-Farmington      | D3  |  6.12 | Thomas (ME)          | D3  |  7.15
+ 2016-04-23 | home    | Mercyhurst          | D2  | 10.06 | Lake Erie            | D2  |  7.26
+ 2016-04-27 | home    | Mercyhurst          | D2  | 15.12 | Roberts Wesleyan     | D2  |  5.07
+ 2016-04-27 | neutral | Merrimack           | D2  | 12.51 | Dowling              | D2  |  9.04
+ 2016-04-26 | home    | Messiah             | D3  | 16.08 | Alvernia             | D3  |  4.16
+ 2016-04-23 | home    | Michigan            | D1  |  9.44 | Johns Hopkins        | D1  | 14.44
+ 2016-04-27 | home    | Middlebury          | D3  | 14.49 | Williams             | D3  | 10.48
+ 2016-04-23 | home    | Misericordia        | D3  | 12.51 | FDU-Florham          | D3  |  7.84
+ 2016-04-23 | home    | MIT                 | D3  | 14.28 | Mass. Maritime       | D3  |  6.73
+ 2016-04-26 | home    | Mitchell            | D3  |  8.91 | Merchant Marine      | D3  | 13.94
+ 2016-04-23 | home    | Mitchell            | D3  |  9.08 | Regis (MA)           | D3  |  7.79
+ 2016-04-23 | home    | Monmouth            | D1  |  8.92 | Quinnipiac           | D1  |  9.47
+ 2016-04-23 | home    | Montclair St.       | D3  | 16.04 | Mt. St. Mary (NY)    | D3  |  7.41
+ 2016-04-27 | home    | Mount Ida           | D3  | 17.38 | Albertus Magnus      | D3  |  8.36
+ 2016-04-23 | home    | Mount Union         | D3  |  8.12 | Capital              | D3  | 10.72
+ 2016-04-23 | home    | Mt. St. Mary's      | D1  | 12.62 | Wagner               | D1  |  7.89
+ 2016-04-23 | home    | Mt. St. Vincent     | D3  |  5.10 | Kean                 | D3  | 19.68
+ 2016-04-23 | home    | Muhlenberg          | D3  |  5.33 | Ursinus              | D3  | 15.08
+ 2016-04-23 | home    | Muskingum           | D3  |  7.70 | Wilmington (OH)      | D3  |  9.56
+ 2016-04-26 | home    | Nazareth            | D3  | 10.87 | RIT                  | D3  | 15.76
+ 2016-04-23 | neutral | Nazareth            | D3  | 12.39 | Western New Eng.     | D3  | 12.74
+ 2016-04-23 | home    | Neumann             | D3  |  7.40 | Rosemont             | D3  | 12.08
+ 2016-04-27 | home    | Neumann             | D3  |  4.27 | Gwynedd Mercy        | D3  | 15.93
+ 2016-04-26 | home    | Nichols             | D3  |  9.13 | Wentworth            | D3  |  9.09
+ 2016-04-23 | home    | NJIT                | D1  |  5.21 | Marist               | D1  | 12.50
+ 2016-04-23 | home    | North Carolina      | D1  |  9.52 | Notre Dame           | D1  | 10.01
+ 2016-04-23 | home    | Norwich             | D3  |  8.48 | Johnson & Wales (RI) | D3  |  8.00
+ 2016-04-23 | home    | Ohio Wesleyan       | D3  | 17.03 | Wooster              | D3  |  6.67
+ 2016-04-26 | home    | Olivet              | D3  |  9.82 | Trine                | D3  |  8.63
+ 2016-04-23 | home    | Olivet              | D3  | 13.33 | Hope                 | D3  | 11.17
+ 2016-04-27 | home    | Oswego St.          | D3  |  7.79 | SUNY Potsdam         | D3  |  9.97
+ 2016-04-23 | home    | Oswego St.          | D3  |  5.99 | Brockport            | D3  | 10.41
+ 2016-04-27 | home    | Otterbein           | D3  |  9.25 | Capital              | D3  | 10.69
+ 2016-04-23 | home    | Pace                | D2  | 13.77 | Assumption           | D2  |  8.29
+ 2016-04-26 | home    | Penn                | D1  | 10.40 | Saint Joseph's       | D1  | 10.56
+ 2016-04-23 | home    | Pfeiffer            | D2  |  9.01 | Belmont Abbey        | D2  | 12.90
+ 2016-04-27 | home    | Plattsburgh St.     | D3  | 12.75 | SUNY Oneonta         | D3  |  8.01
+ 2016-04-29 | home    | Plymouth St.        | D3  | 13.41 | Western Conn. St.    | D3  |  5.74
+ 2016-04-23 | home    | Plymouth St.        | D3  |  8.38 | Eastern Conn. St.    | D3  |  8.27
+ 2016-04-23 | home    | Providence          | D1  |  8.87 | Denver               | D1  | 12.59
+ 2016-04-23 | home    | Randolph            | D3  |  9.36 | Va. Wesleyan         | D3  | 10.72
+ 2016-04-27 | home    | Randolph            | D3  |  5.35 | Wash. & Lee          | D3  | 10.67
+ 2016-04-23 | home    | Randolph-Macon      | D3  | 10.71 | Shenandoah           | D3  |  8.26
+ 2016-04-26 | home    | Rensselaer          | D3  | 15.42 | Drew                 | D3  |  3.43
+ 2016-04-23 | home    | Rensselaer          | D3  |  9.12 | St. Lawrence         | D3  |  9.26
+ 2016-04-23 | home    | Richmond            | D1  |  6.14 | Air Force            | D1  |  7.09
+ 2016-04-23 | home    | Robert Morris       | D1  |  9.73 | Saint Joseph's       | D1  | 13.23
+ 2016-04-23 | home    | Roberts Wesleyan    | D2  | 12.30 | Dist. Columbia       | D2  | 11.60
+ 2016-04-23 | home    | Roger Williams      | D3  | 10.20 | Endicott             | D3  | 10.90
+ 2016-04-23 | home    | Rutgers             | D1  | 12.19 | Penn St.             | D1  | 11.14
+ 2016-04-26 | home    | Sacred Heart        | D1  |  8.02 | Bryant               | D1  | 13.50
+ 2016-04-23 | home    | Saint Rose          | D2  |  8.60 | Franklin Pierce      | D2  |  8.21
+ 2016-04-23 | home    | Salem St.           | D3  |  8.32 | UMass Boston         | D3  | 10.33
+ 2016-04-23 | home    | Seton Hill          | D2  | 14.97 | Wheeling Jesuit      | D2  |  9.93
+ 2016-04-23 | home    | Shorter             | D2  | 16.55 | Ala.-Huntsville      | D2  |  6.56
+ 2016-04-23 | home    | Skidmore            | D3  | 10.26 | Clarkson             | D3  |  9.72
+ 2016-04-26 | home    | Southern Me.        | D3  |  7.68 | Plymouth St.         | D3  |  9.82
+ 2016-04-26 | home    | Southern N.H.       | D2  | 17.23 | Post                 | D2  | 11.44
+ 2016-04-27 | home    | Springfield         | D3  | 11.36 | Clark (MA)           | D3  |  8.30
+ 2016-04-23 | home    | Springfield         | D3  | 12.02 | Wheaton (MA)         | D3  |  6.46
+ 2016-04-26 | home    | St. Anselm          | D2  | 10.55 | Bentley              | D2  |  8.55
+ 2016-04-23 | home    | Stevens             | D3  | 20.79 | Elmira               | D3  |  3.92
+ 2016-04-29 | home    | Stevenson           | D3  | 12.51 | Widener              | D3  |  7.01
+ 2016-04-23 | home    | St. John Fisher     | D3  | 11.82 | Utica                | D3  | 10.02
+ 2016-04-26 | home    | St. John Fisher     | D3  |  8.09 | Hamilton             | D3  | 12.00
+ 2016-04-23 | home    | St. John's (NY)     | D1  |  8.42 | Villanova            | D1  | 16.93
+ 2016-04-23 | home    | St. Joseph's (ME)   | D3  |  7.64 | Mount Ida            | D3  | 11.92
+ 2016-04-27 | home    | St. Joseph's (ME)   | D3  |  6.49 | Emmanuel (MA)        | D3  | 12.12
+ 2016-04-27 | home    | Stockton            | D3  | 12.14 | Kean                 | D3  |  7.96
+ 2016-04-24 | home    | SUNY Canton         | D3  | 12.94 | Dallas               | D3  |  4.35
+ 2016-04-23 | home    | SUNY Cortland       | D3  | 13.67 | Plattsburgh St.      | D3  |  8.97
+ 2016-04-27 | home    | SUNY Cortland       | D3  | 17.36 | SUNY Geneseo         | D3  |  7.53
+ 2016-04-27 | home    | SUNY Maritime       | D3  | 19.39 | Mt. St. Vincent      | D3  |  5.47
+ 2016-04-23 | home    | SUNY Maritime       | D3  |  8.55 | Farmingdale St.      | D3  |  9.12
+ 2016-04-23 | home    | SUNY Oneonta        | D3  | 11.17 | SUNY Geneseo         | D3  |  9.74
+ 2016-04-23 | home    | Susquehanna         | D3  |  9.94 | Goucher              | D3  |  8.54
+ 2016-04-23 | home    | Swarthmore          | D3  |  6.92 | Dickinson            | D3  | 12.79
+ 2016-04-27 | home    | Thomas (ME)         | D3  |  7.86 | Me.-Farmington       | D3  |  5.57
+ 2016-04-23 | home    | Towson              | D1  | 10.13 | Fairfield            | D1  |  7.26
+ 2016-04-23 | home    | Trine               | D3  |  8.84 | Albion               | D3  | 10.51
+ 2016-04-23 | home    | Trinity (CT)        | D3  | 11.33 | Hamilton             | D3  |  9.28
+ 2016-04-27 | home    | Tufts               | D3  | 13.60 | Bowdoin              | D3  | 11.84
+ 2016-04-23 | home    | Tufts               | D3  | 16.91 | Wesleyan (CT)        | D3  | 13.39
+ 2016-04-29 | home    | UMass Boston        | D3  | 10.80 | Southern Me.         | D3  |  7.33
+ 2016-04-26 | home    | UMass Dartmouth     | D3  | 16.18 | Western Conn. St.    | D3  |  7.84
+ 2016-04-29 | home    | UMass Dartmouth     | D3  | 13.68 | Salem St.            | D3  |  9.88
+ 2016-04-23 | home    | UMass Dartmouth     | D3  |  9.50 | Keene St.            | D3  | 21.55
+ 2016-04-24 | home    | UMass Lowell        | D1  |  9.81 | UMBC                 | D1  | 10.35
+ 2016-04-23 | home    | U New England       | D3  | 12.40 | Nichols              | D3  |  7.42
+ 2016-04-27 | home    | Utica               | D3  | 10.85 | Hartwick             | D3  |  8.51
+ 2016-04-27 | home    | Vassar              | D3  | 13.99 | Bard                 | D3  |  4.90
+ 2016-04-23 | home    | Vassar              | D3  |  7.31 | RIT                  | D3  | 16.49
+ 2016-04-23 | home    | VMI                 | D1  |  4.89 | Bellarmine           | D1  | 11.61
+ 2016-04-23 | home    | Wabash              | D3  |  4.02 | Denison              | D3  | 22.89
+ 2016-04-23 | home    | Walsh               | D2  | 16.85 | Ohio Valley          | D2  |  7.64
+ 2016-04-27 | home    | Washington Col.     | D3  |  9.53 | Swarthmore           | D3  |  6.74
+ 2016-04-23 | home    | Wash. & Jeff.       | D3  | 16.66 | Bethany (WV)         | D3  |  5.67
+ 2016-04-23 | home    | Wash. & Lee         | D3  |  9.78 | Roanoke              | D3  |  9.31
+ 2016-04-23 | home    | Wells               | D3  | 15.20 | Medaille             | D3  |  6.59
+ 2016-04-23 | home    | Wentworth           | D3  |  9.35 | Salve Regina         | D3  |  9.56
+ 2016-04-27 | home    | Wesleyan (CT)       | D3  | 10.97 | Connecticut Col.     | D3  |  8.92
+ 2016-04-23 | home    | Western Conn. St.   | D3  |  8.13 | Southern Me.         | D3  | 11.21
+ 2016-04-26 | home    | Western New Eng.    | D3  | 20.62 | Gordon               | D3  |  5.06
+ 2016-04-24 | home    | Westminster (UT)    | D2  | 17.88 | Colorado St.-Pueblo  | D2  |  8.36
+ 2016-04-27 | home    | Wheaton (MA)        | D3  |  8.56 | MIT                  | D3  |  9.72
+ 2016-04-23 | home    | Whittier            | D3  | 12.07 | Colorado Col.        | D3  | 11.39
+ 2016-04-26 | home    | Widener             | D3  | 15.13 | Arcadia              | D3  |  5.00
+ 2016-04-27 | home    | Wilkes              | D3  |  5.74 | Delaware Valley      | D3  | 13.25
+ 2016-04-27 | home    | Wilmington (OH)     | D3  |  7.96 | Ohio Northern        | D3  | 11.99
+ 2016-04-23 | home    | Wingate             | D2  | 11.11 | Tusculum             | D2  |  8.26
+ 2016-04-23 | home    | Yale                | D1  | 12.09 | Albany (NY)          | D1  |  9.19
+(242 rows)
 
-COPY 265
+COPY 242
 COMMIT
