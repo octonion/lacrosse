@@ -1,26 +1,12 @@
 BEGIN
 SET
-    date    |  site   |      home       | div | score |       away        | div | score 
-------------+---------+-----------------+-----+-------+-------------------+-----+-------
- 2016-04-29 | home    | Albion          | D3  | 15.39 | Olivet            | D3  | 11.35
- 2016-04-29 | home    | Bentley         | D2  |  4.51 | Le Moyne          | D2  | 12.98
- 2016-04-29 | neutral | Bucknell        | D1  |  9.20 | Loyola Maryland   | D1  | 10.24
- 2016-04-29 | neutral | Colorado Mesa   | D2  |  7.81 | Lindenwood (MO)   | D2  |  8.01
- 2016-04-29 | home    | Delaware        | D1  |  8.22 | Fairfield         | D1  |  9.86
- 2016-04-29 | home    | Drexel          | D1  |  8.75 | Massachusetts     | D1  |  8.00
- 2016-04-29 | neutral | Duke            | D1  | 10.73 | Notre Dame        | D1  | 10.92
- 2016-04-29 | home    | Keene St.       | D3  | 16.25 | Eastern Conn. St. | D3  |  8.43
- 2016-04-29 | home    | Limestone       | D2  | 23.37 | Pfeiffer          | D2  |  6.34
- 2016-04-29 | neutral | Mount Olive     | D2  |  9.75 | Belmont Abbey     | D2  |  9.71
- 2016-04-29 | home    | Navy            | D1  |  8.86 | Army West Point   | D1  |  7.69
- 2016-04-29 | neutral | North Carolina  | D1  | 11.01 | Syracuse          | D1  | 11.89
- 2016-04-29 | home    | Plymouth St.    | D3  | 13.95 | Western Conn. St. | D3  |  5.93
- 2016-04-29 | neutral | Rollins         | D2  |  8.84 | Saint Leo         | D2  |  9.88
- 2016-04-29 | home    | Stevenson       | D3  | 12.66 | Widener           | D3  |  7.02
- 2016-04-29 | home    | Tampa           | D2  | 15.21 | Fla. Southern     | D2  |  8.71
- 2016-04-29 | home    | UMass Boston    | D3  | 10.09 | Southern Me.      | D3  |  7.11
- 2016-04-29 | home    | UMass Dartmouth | D3  | 14.20 | Salem St.         | D3  |  9.44
-(18 rows)
+    date    | site |   home   | div | score |    away     | div | score 
+------------+------+----------+-----+-------+-------------+-----+-------
+ 2016-05-15 | home | Denver   | D1  | 11.31 | Towson      | D1  |  9.03
+ 2016-05-15 | home | Maryland | D1  | 11.73 | Quinnipiac  | D1  |  6.44
+ 2016-05-15 | home | Syracuse | D1  | 12.86 | Albany (NY) | D1  |  9.56
+ 2016-05-15 | home | Yale     | D1  |  9.48 | Navy        | D1  |  6.99
+(4 rows)
 
-COPY 18
+COPY 4
 COMMIT
