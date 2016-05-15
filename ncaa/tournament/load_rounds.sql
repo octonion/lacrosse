@@ -57,7 +57,7 @@ join ncaa._factors o
 join ncaa._factors d
   on (d.parameter,d.level)=('field','defense_home')
 where
-  r1.year=2015
+  r1.year=2016
 );
 
 insert into ncaa.matrix_p
@@ -85,7 +85,7 @@ join ncaa._factors o
 join ncaa._factors d
   on (d.parameter,d.level)=('field','defense_home')
 where
-  r1.year=2015
+  r1.year=2016
 );
 
 insert into ncaa.matrix_p
@@ -109,7 +109,7 @@ join ncaa._schedule_factors v
 join ncaa._schedule_factors h
   on (h.year,h.team_id)=(r1.year,r1.team_id)
 where
-  r1.year=2015
+  r1.year=2016
 );
 
 -- home advantage
@@ -138,31 +138,33 @@ r2.team_id,
 from ncaa.rounds r1
 join ncaa.rounds r2
   on (r2.year=r1.year and not(r2.team_id=r1.team_id))
-join (select generate_series(1, 5) round_id) gs
+join (select generate_series(1, 4) round_id) gs
   on TRUE
 where
-  r1.year=2015
+  r1.year=2016
 );
 
+/*
 -- Towson vs High Point
 
 update ncaa.matrix_field
 set field='home'
-where (year,round_id,team_id,opponent_id)=(2015,1,711,19651);
+where (year,round_id,team_id,opponent_id)=(2016,1,711,19651);
 
 update ncaa.matrix_field
 set field='away'
-where (year,round_id,team_id,opponent_id)=(2015,1,19651,711);
+where (year,round_id,team_id,opponent_id)=(2016,1,19651,711);
 
 -- Marist vs Bryant
 
 update ncaa.matrix_field
 set field='home'
-where (year,round_id,team_id,opponent_id)=(2015,1,386,81);
+where (year,round_id,team_id,opponent_id)=(2016,1,386,81);
 
 update ncaa.matrix_field
 set field='away'
-where (year,round_id,team_id,opponent_id)=(2015,1,81,386);
+where (year,round_id,team_id,opponent_id)=(2016,1,81,386);
+*/
 
 -- 1st round seeds have home
 
@@ -172,7 +174,7 @@ from ncaa.rounds r
 where (r.year,r.team_id)=
       (matrix_field.year,matrix_field.team_id)
 and r.round_id=1
-and matrix_field.round_id=2
+and matrix_field.round_id=1
 and r.seed is not null;
 
 update ncaa.matrix_field
@@ -181,39 +183,18 @@ from ncaa.rounds r
 where (r.year,r.team_id)=
       (matrix_field.year,matrix_field.team_id)
 and r.round_id=1
-and matrix_field.round_id=2
+and matrix_field.round_id=1
 and r.seed is null;
 
--- 2nd round Denver, Maryland, Johns Hopkins home
-
+-- 2nd round Bown home
 -- Denver
 
 update ncaa.matrix_field
 set field='home'
-where (year,round_id,team_id)=(2015,3,183);
+where (year,round_id,team_id)=(2016,2,80);
 
 update ncaa.matrix_field
 set field='away'
-where (year,round_id,opponent_id)=(2015,3,183);
-
--- Maryland
-
-update ncaa.matrix_field
-set field='home'
-where (year,round_id,team_id)=(2015,3,392);
-
-update ncaa.matrix_field
-set field='away'
-where (year,round_id,opponent_id)=(2015,3,392);
-
--- Johns Hopkins
-
-update ncaa.matrix_field
-set field='home'
-where (year,round_id,team_id)=(2015,3,322);
-
-update ncaa.matrix_field
-set field='away'
-where (year,round_id,opponent_id)=(2015,3,322);
+where (year,round_id,opponent_id)=(2016,2,80);
 
 commit;
