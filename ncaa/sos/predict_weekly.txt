@@ -1,12 +1,8 @@
 BEGIN
 SET
-    date    | site |   home   | div | score |    away     | div | score 
-------------+------+----------+-----+-------+-------------+-----+-------
- 2016-05-15 | home | Denver   | D1  | 11.31 | Towson      | D1  |  9.03
- 2016-05-15 | home | Maryland | D1  | 11.73 | Quinnipiac  | D1  |  6.44
- 2016-05-15 | home | Syracuse | D1  | 12.86 | Albany (NY) | D1  |  9.56
- 2016-05-15 | home | Yale     | D1  |  9.48 | Navy        | D1  |  6.99
-(4 rows)
+ date | site | home | div | score | away | div | score 
+------+------+------+-----+-------+------+-----+-------
+(0 rows)
 
-COPY 4
+COPY 0
 COMMIT
