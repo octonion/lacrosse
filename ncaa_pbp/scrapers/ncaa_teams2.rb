@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 
 require 'csv'
-
 require 'mechanize'
 
 agent = Mechanize.new{ |agent| agent.history.max_size=0 }
@@ -25,8 +24,6 @@ ncaa_teams << ["sport_code", "year", "year_id", "division_id",
 
 year_division_url = "http://stats.ncaa.org/team/inst_team_list?sport_code=#{sport_code}&academic_year=#{year}&division=#{division_id}&conf_id=-1&schedule_date="
 
-#valid_url_substring = "team/index/" ##{year_id}?org_id="
-
 print "\nRetrieving #{sport_code} division #{division_id} teams for #{year} ... "
 
 found_teams = 0
@@ -39,19 +36,15 @@ doc.search("a").each do |link|
 
   # Valid team URLs
 
-  #if (link_url).include?(valid_url_substring)
   if (link_url =~ /^\/team\/\d/)
 
     # NCAA year_id
 
-    #parameters = link_url.split("/")[-1]
-    #year_id = parameters.split("?")[0]
     parameters = link_url.split("/")
     year_id = parameters[-1]
 
     # NCAA team_id
 
-    #team_id = parameters.split("=")[1]
     team_id = parameters[-2]
 
     # NCAA team name

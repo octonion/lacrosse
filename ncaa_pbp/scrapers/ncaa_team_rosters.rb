@@ -7,7 +7,7 @@ require 'mechanize'
 agent = Mechanize.new{ |agent| agent.history.max_size=0 }
 agent.user_agent = 'Mozilla/5.0'
 
-nthreads = 8
+nthreads = 1
 
 base_sleep = 0
 sleep_increment = 3
@@ -22,8 +22,8 @@ base_url = 'http://stats.ncaa.org'
 
 roster_xpath = '//*[@id="stat_grid"]/tbody/tr'
 
-teams = CSV.read("csv/ncaa_teams_#{year}_#{division}.csv","r",{:col_sep => "\t", :headers => TRUE})
-ncaa_team_rosters = CSV.open("csv/ncaa_team_rosters_#{year}_#{division}.csv","w",{:col_sep => "\t"})
+teams = CSV.read("tsv/ncaa_teams_#{year}_#{division}.tsv","r",{:col_sep => "\t", :headers => TRUE})
+ncaa_team_rosters = CSV.open("tsv/ncaa_team_rosters_#{year}_#{division}.tsv","w",{:col_sep => "\t"})
 
 # Header for team file
 
