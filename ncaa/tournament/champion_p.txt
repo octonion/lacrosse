@@ -1,15 +1,9 @@
 BEGIN
-    team_name    |   p   
------------------+-------
- Brown           | 0.405
- Notre Dame      | 0.161
- Maryland        | 0.116
- Syracuse        | 0.101
- Loyola Maryland | 0.068
- Towson          | 0.064
- North Carolina  | 0.059
- Navy            | 0.026
-(8 rows)
+   team_name    |   p   
+----------------+-------
+ Maryland       | 0.622
+ North Carolina | 0.378
+(2 rows)
 
-COPY 8
+COPY 2
 COMMIT

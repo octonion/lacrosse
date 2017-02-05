@@ -14,8 +14,8 @@ teams = CSV.read("csv/ncaa_schools.csv")
 game_path = "//table/tr[3]/td/form/table[2]/tr"
 record_path = "//table/tr[3]/td/form/table[1]/tr[2]"
 
-first_year = 2016
-last_year = 2016
+first_year = ARGV[0]
+last_year = ARGV[1]
 
 games_header = ["year","team_name","team_id","opponent_name","opponent_id",
                 "game_date","team_score","opponent_score","location",

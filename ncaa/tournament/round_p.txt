@@ -1,31 +1,9 @@
 BEGIN
- rd |      name       |   p   
-----+-----------------+-------
-  3 | Brown           | 0.831
-  3 | Notre Dame      | 0.620
-  3 | Maryland        | 0.518
-  3 | Loyola Maryland | 0.508
-  3 | Towson          | 0.492
-  3 | Syracuse        | 0.482
-  3 | North Carolina  | 0.380
-  3 | Navy            | 0.169
-  4 | Brown           | 0.557
-  4 | Notre Dame      | 0.385
-  4 | Loyola Maryland | 0.218
-  4 | Towson          | 0.207
-  4 | Maryland        | 0.202
-  4 | North Carolina  | 0.190
-  4 | Syracuse        | 0.180
-  4 | Navy            | 0.060
-  5 | Brown           | 0.405
-  5 | Notre Dame      | 0.161
-  5 | Maryland        | 0.116
-  5 | Syracuse        | 0.101
-  5 | Loyola Maryland | 0.068
-  5 | Towson          | 0.064
-  5 | North Carolina  | 0.059
-  5 | Navy            | 0.026
-(24 rows)
+ rd |      name      |   p   
+----+----------------+-------
+  5 | Maryland       | 0.622
+  5 | North Carolina | 0.378
+(2 rows)
 
-COPY 24
+COPY 2
 COMMIT
