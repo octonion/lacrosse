@@ -14,31 +14,48 @@ retries = 4
 year = ARGV[0].to_i
 division = ARGV[1]
 
-ncaa_teams = CSV.read("csv/ncaa_teams_#{year}_#{division}.csv","r",{:col_sep => "\t", :headers => TRUE})
-ncaa_player_summaries = CSV.open("csv/ncaa_player_summaries_#{year}_#{division}.csv","w",{:col_sep => "\t"})
-ncaa_team_summaries = CSV.open("csv/ncaa_team_summaries_#{year}_#{division}.csv","w",{:col_sep => "\t"})
+ncaa_teams = CSV.read("tsv/ncaa_teams_#{year}_#{division}.tsv",
+                      "r",
+                      {:col_sep => "\t", :headers => TRUE})
+
+ncaa_player_summaries = CSV.open(
+  "tsv/ncaa_player_summaries_#{year}_#{division}.tsv",
+  "w",
+  {:col_sep => "\t"})
+
+ncaa_team_summaries = CSV.open(
+  "tsv/ncaa_team_summaries_#{year}_#{division}.tsv",
+  "w",
+  {:col_sep => "\t"})
 
 # Headers for files
+#Player	Pos	Goals	Assists	Points	Shots	SOG	Man-Up G	Man-Down G	GB	TO	CT	FO Won	FOs Taken	Pen	Pen Time	G Min	Goals Allowed	Saves	W	L	T	RC	YC	Clears	Att	Clear Pct
 
-#Jersey	Player	Yr	Pos
-#GP	GS	G	BA	OBPct	SlgPct
-#AB	R	H	2B	3B	TB	HR	RBI	BB	HBP
-#SF	SH	K	DP	SB	CS	Picked
+ncaa_player_summaries << [
+  "year", "year_id", "division_id",
+  "team_id", "team_name",
+  "player_id", "player_name", "player_url",
+  "position",
+  "goals", "assists", "points", "shots", "sog",
+  "man-up_g", "man-down_g",
+  "gb", "to", "ct", "fo_won", "fos_taken",
+  "pen", "pen_time",
+  "g_min", "goals_allowed", "saves",
+  "w", "l", "t", "rc", "yc", "clears", "att", "clear_pct"
+]
 
-ncaa_player_summaries << ["year", "year_id", "division_id",
-"team_id", "team_name",
-"jersey_number", "player_id", "player_name", "player_url", "class_year",
-"position",
-"gp", "gs", "g", "ba", "obp", "slg",
-"ab", "r", "h", "d", "t", "tb", "hr", "rbi", "bb", "hbp",
-"sf", "sh", "k", "dp", "sb", "cs", "picked"]
-
-ncaa_team_summaries << ["year", "year_id", "division_id",
-"team_id", "team_name",
-"jersey_number", "player_name", "class_year", "position",
-"gp", "gs", "g", "ba", "obp", "slg",
-"ab", "r", "h", "d", "t", "tb", "hr", "rbi", "bb", "hbp",
-"sf", "sh", "k", "dp", "sb", "cs", "picked"]
+ncaa_team_summaries << [
+  "year", "year_id", "division_id",
+  "team_id", "team_name",
+  "player_id", "player_name", "player_url",
+  "position",
+  "goals", "assists", "points", "shots", "sog",
+  "man-up_g", "man-down_g",
+  "gb", "to", "ct", "fo_won", "fos_taken",
+  "pen", "pen_time",
+  "g_min", "goals_allowed", "saves",
+  "w", "l", "t", "rc", "yc", "clears", "att", "clear_pct"
+]
 
 players_xpath = '//*[@id="stat_grid"]/tbody/tr'
 teams_xpath = '//*[@id="stat_grid"]/tfoot/tr' #[position()>1]'

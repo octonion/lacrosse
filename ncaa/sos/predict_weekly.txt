@@ -1,8 +1,72 @@
 BEGIN
 SET
- date | site | home | div | score | away | div | score 
-------+------+------+-----+-------+------+-----+-------
-(0 rows)
+    date    |  site   |       home       | div | score |      away       | div | score 
+------------+---------+------------------+-----+-------+-----------------+-----+-------
+ 2017-02-25 | home    | Adelphi          | D2  | 10.29 | LIU Post        | D2  |  7.91
+ 2017-02-25 | home    | Ala.-Huntsville  | D2  | 13.57 | Emmanuel (GA)   | D2  |  9.68
+ 2017-02-25 | home    | Brevard          | D2  | 14.00 | Pfeiffer        | D2  | 11.75
+ 2017-02-25 | home    | Brown            | D1  | 14.26 | Stony Brook     | D1  | 11.04
+ 2017-02-25 | home    | Bryant           | D1  |  9.68 | Hartford        | D1  |  6.58
+ 2017-02-25 | home    | Bucknell         | D1  | 12.39 | Colgate         | D1  | 11.45
+ 2017-02-22 | home    | Catawba          | D2  | 12.18 | Pfeiffer        | D2  | 10.13
+ 2017-02-22 | home    | Catholic         | D3  | 10.10 | Hampden-Sydney  | D3  | 11.82
+ 2017-02-25 | home    | Chowan           | D2  | 10.55 | Catawba         | D2  | 13.06
+ 2017-02-26 | neutral | Cleveland St.    | D1  |  7.11 | Air Force       | D1  | 11.02
+ 2017-02-25 | home    | Delaware         | D1  | 10.34 | Monmouth        | D1  | 10.22
+ 2017-02-25 | home    | Denver           | D1  | 16.99 | Cleveland St.   | D1  |  5.94
+ 2017-02-23 | home    | Detroit Mercy    | D1  | 12.33 | Jacksonville    | D1  |  8.79
+ 2017-02-25 | home    | Drexel           | D1  | 11.01 | Albany (NY)     | D1  | 11.66
+ 2017-02-25 | home    | Duke             | D1  | 12.89 | Saint Joseph's  | D1  |  7.70
+ 2017-02-22 | home    | Elizabethtown    | D3  | 10.61 | York (PA)       | D3  |  8.29
+ 2017-02-25 | home    | Fairfield        | D1  |  9.85 | Rutgers         | D1  | 14.96
+ 2017-02-25 | home    | Frank. & Marsh.  | D3  | 11.56 | Frostburg St.   | D3  |  8.99
+ 2017-02-25 | home    | Hampden-Sydney   | D3  | 14.57 | Chris. Newport  | D3  |  6.82
+ 2017-02-25 | home    | Harvard          | D1  |  9.47 | Massachusetts   | D1  |  6.11
+ 2017-02-25 | home    | High Point       | D1  |  8.59 | St. John's (NY) | D1  |  6.33
+ 2017-02-25 | home    | Hobart           | D1  | 14.68 | Cornell         | D1  | 12.93
+ 2017-02-25 | home    | Holy Cross       | D1  |  8.59 | Lehigh          | D1  | 10.76
+ 2017-02-21 | home    | Holy Cross       | D1  |  7.25 | Harvard         | D1  | 10.59
+ 2017-02-25 | home    | Huntingdon       | D3  |  7.00 | Rhodes          | D3  | 12.99
+ 2017-02-25 | home    | Lafayette        | D1  |  8.96 | Loyola Maryland | D1  | 13.99
+ 2017-02-25 | neutral | Le Moyne         | D2  |  8.82 | Lindenwood (MO) | D2  |  8.44
+ 2017-02-25 | home    | Lenoir-Rhyne     | D2  | 13.76 | Wheeling Jesuit | D2  | 11.20
+ 2017-02-25 | home    | Lynchburg        | D3  | 12.02 | Cabrini         | D3  |  8.25
+ 2017-02-25 | home    | Mars Hill        | D2  | 20.39 | Shorter         | D2  |  5.49
+ 2017-02-25 | home    | Maryland         | D1  | 18.59 | Yale            | D1  | 11.64
+ 2017-02-25 | neutral | Maryville (MO)   | D2  |  4.10 | Colorado Mesa   | D2  | 16.20
+ 2017-02-25 | home    | Mary Washington  | D3  | 10.16 | Ursinus         | D3  |  9.04
+ 2017-02-25 | home    | Marywood         | D3  |  9.48 | St. Mary's (MD) | D3  |  8.08
+ 2017-02-25 | home    | Molloy           | D2  |  7.21 | Merrimack       | D2  |  9.64
+ 2017-02-21 | home    | Monmouth         | D1  | 12.02 | Wagner          | D1  |  8.00
+ 2017-02-25 | home    | Mount Olive      | D2  | 12.38 | Florida Tech    | D2  | 11.58
+ 2017-02-26 | home    | Mt. St. Mary's   | D1  |  6.35 | Furman          | D1  | 11.24
+ 2017-02-21 | home    | Mt. St. Mary's   | D1  |  4.78 | Richmond        | D1  | 15.30
+ 2017-02-25 | home    | Navy             | D1  |  8.68 | Boston U.       | D1  | 10.65
+ 2017-02-25 | home    | North Carolina   | D1  | 11.25 | Johns Hopkins   | D1  |  9.25
+ 2017-02-25 | home    | North Greenville | D2  |  8.99 | Young Harris    | D2  |  8.57
+ 2017-02-22 | home    | Oglethorpe       | D3  |  8.42 | Huntingdon      | D3  | 14.25
+ 2017-02-25 | home    | Ohio St.         | D1  | 14.39 | Jacksonville    | D1  |  7.22
+ 2017-02-25 | home    | Penn             | D1  | 12.18 | Virginia        | D1  | 11.19
+ 2017-02-26 | home    | Piedmont         | D3  | 18.11 | Oglethorpe      | D3  |  7.85
+ 2017-02-25 | home    | Princeton        | D1  | 14.54 | Hofstra         | D1  | 10.75
+ 2017-02-21 | home    | Princeton        | D1  | 10.95 | Marist          | D1  | 11.50
+ 2017-02-25 | home    | Providence       | D1  | 11.96 | Vermont         | D1  |  8.99
+ 2017-02-26 | home    | Queens (NC)      | D2  | 13.94 | Fla. Southern   | D2  |  8.83
+ 2017-02-25 | home    | Quinnipiac       | D1  | 10.21 | Bellarmine      | D1  | 10.67
+ 2017-02-25 | home    | Richmond         | D1  |  6.55 | Marquette       | D1  |  8.38
+ 2017-02-25 | home    | Robert Morris    | D1  | 12.71 | Detroit Mercy   | D1  |  8.31
+ 2017-02-24 | home    | Rockhurst        | D2  |  9.96 | Colorado Mesa   | D2  | 12.41
+ 2017-02-25 | home    | Southern Va.     | D3  | 14.41 | Guilford        | D3  |  9.36
+ 2017-02-25 | home    | Syracuse         | D1  |  9.70 | Army West Point | D1  |  8.43
+ 2017-02-25 | home    | Tampa            | D2  | 10.99 | Limestone       | D2  | 10.16
+ 2017-02-25 | home    | Tusculum         | D2  | 11.78 | Walsh           | D2  |  8.06
+ 2017-02-26 | home    | UIndy            | D2  |  7.43 | Rollins         | D2  |  8.89
+ 2017-02-25 | home    | UMass Lowell     | D1  | 13.13 | Siena           | D1  | 12.68
+ 2017-02-25 | home    | UMBC             | D1  |  7.86 | Mercer          | D1  |  9.82
+ 2017-02-25 | home    | Villanova        | D1  | 11.58 | Penn St.        | D1  | 17.71
+ 2017-02-21 | home    | Virginia         | D1  | 19.74 | Siena           | D1  | 10.60
+ 2017-02-24 | home    | Wingate          | D2  | 11.15 | Fla. Southern   | D2  |  7.48
+(64 rows)
 
-COPY 0
+COPY 64
 COMMIT
