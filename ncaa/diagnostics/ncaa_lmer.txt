@@ -1,6 +1,6 @@
-[1] 58592     9
+[1] 58758     9
 [1] TRUE
-[1] 58592     8
+[1] 58758     8
 Generalized linear mixed model fit by maximum likelihood (Adaptive
   Gauss-Hermite Quadrature, nAGQ = 0) [glmerMod]
  Family: poisson  ( log )
@@ -8,30 +8,30 @@ Formula: gs ~ year + field + d_div + o_div + game_length + (1 | offense) +
     (1 | defense) + (1 | game_id)
    Data: g
       AIC       BIC    logLik  deviance  df.resid 
- 315068.2  315355.5 -157502.1  315004.2     58560 
+ 316112.3  316399.7 -158024.2  316048.3     58726 
 Random effects:
- Groups  Name        Std.Dev. 
- game_id (Intercept) 6.371e-05
- defense (Intercept) 3.570e-01
- offense (Intercept) 3.998e-01
-Number of obs: 58592, groups:  game_id, 29296; defense, 4107; offense, 4107
+ Groups  Name        Std.Dev.
+ game_id (Intercept) 0.0000  
+ defense (Intercept) 0.3568  
+ offense (Intercept) 0.3990  
+Number of obs: 58758, groups:  game_id, 29379; defense, 4197; offense, 4197
 Fixed Effects:
       (Intercept)           year2003           year2004           year2005  
-         2.263754          -0.036378          -0.042288          -0.025580  
+         2.264112          -0.036432          -0.042347          -0.025643  
          year2006           year2007           year2008           year2009  
-        -0.076622          -0.061461          -0.071377          -0.030303  
+        -0.076699          -0.061528          -0.071442          -0.030382  
          year2010           year2011           year2012           year2013  
-        -0.019640          -0.057973          -0.061848          -0.005185  
+        -0.019719          -0.058037          -0.061924          -0.005260  
          year2014           year2015           year2016           year2017  
-        -0.011149          -0.001805           0.026853           0.064408  
+        -0.011232          -0.001891           0.026762           0.067532  
 fielddefense_home  fieldoffense_home             d_div2             d_div3  
-        -0.056659           0.036921           0.524619           0.643720  
+        -0.056836           0.037061           0.511542           0.632573  
            o_div2             o_div3    game_length1 OT    game_length2 OT  
-        -0.493552          -0.666329           0.005437           0.003951  
+        -0.480310          -0.655585           0.005486           0.003759  
   game_length3 OT    game_length4 OT    game_length5 OT    game_length6 OT  
-        -0.017345          -0.033896          -0.212941           0.305635  
+        -0.017175          -0.033886          -0.212862           0.305406  
   game_length7 OT  
-         0.031775  
+         0.031759  
 Generalized linear mixed model fit by maximum likelihood (Adaptive
   Gauss-Hermite Quadrature, nAGQ = 0) [glmerMod]
  Family: poisson  ( log )
@@ -41,50 +41,50 @@ Formula: gs ~ year + field + d_div + o_div + game_length + (1 | offense) +
 Control: glmerControl(optimizer = "nloptwrap")
 
       AIC       BIC    logLik  deviance  df.resid 
- 315068.2  315355.5 -157502.1  315004.2     58560 
+ 316112.3  316399.7 -158024.2  316048.3     58726 
 
 Scaled residuals: 
     Min      1Q  Median      3Q     Max 
--4.7319 -0.6433 -0.0530  0.5582  4.3271 
+-4.7318 -0.6435 -0.0526  0.5577  4.3279 
 
 Random effects:
- Groups  Name        Variance  Std.Dev. 
- game_id (Intercept) 4.059e-09 6.371e-05
- defense (Intercept) 1.274e-01 3.570e-01
- offense (Intercept) 1.598e-01 3.998e-01
-Number of obs: 58592, groups:  game_id, 29296; defense, 4107; offense, 4107
+ Groups  Name        Variance Std.Dev.
+ game_id (Intercept) 0.0000   0.0000  
+ defense (Intercept) 0.1273   0.3568  
+ offense (Intercept) 0.1592   0.3990  
+Number of obs: 58758, groups:  game_id, 29379; defense, 4197; offense, 4197
 
 Fixed effects:
                    Estimate Std. Error z value Pr(>|z|)    
-(Intercept)        2.263754   0.041365   54.73  < 2e-16 ***
-year2003          -0.036378   0.053766   -0.68    0.499    
-year2004          -0.042288   0.053663   -0.79    0.431    
-year2005          -0.025580   0.053323   -0.48    0.631    
-year2006          -0.076622   0.053058   -1.44    0.149    
-year2007          -0.061461   0.052726   -1.17    0.244    
-year2008          -0.071377   0.052153   -1.37    0.171    
-year2009          -0.030303   0.051657   -0.59    0.557    
-year2010          -0.019640   0.051021   -0.38    0.700    
-year2011          -0.057973   0.050309   -1.15    0.249    
-year2012          -0.061848   0.049720   -1.24    0.214    
-year2013          -0.005185   0.048943   -0.11    0.916    
-year2014          -0.011149   0.048349   -0.23    0.818    
-year2015          -0.001805   0.048034   -0.04    0.970    
-year2016           0.026853   0.047762    0.56    0.574    
-year2017           0.064408   0.062839    1.02    0.305    
-fielddefense_home -0.056659   0.005916   -9.58  < 2e-16 ***
-fieldoffense_home  0.036921   0.005870    6.29 3.19e-10 ***
-d_div2             0.524619   0.046496   11.28  < 2e-16 ***
-d_div3             0.643720   0.045187   14.25  < 2e-16 ***
-o_div2            -0.493552   0.047389  -10.41  < 2e-16 ***
-o_div3            -0.666329   0.045665  -14.59  < 2e-16 ***
-game_length1 OT    0.005437   0.006893    0.79    0.430    
-game_length2 OT    0.003951   0.012286    0.32    0.748    
-game_length3 OT   -0.017345   0.022718   -0.76    0.445    
-game_length4 OT   -0.033896   0.034792   -0.97    0.330    
-game_length5 OT   -0.212941   0.273266   -0.78    0.436    
-game_length6 OT    0.305635   0.239506    1.28    0.202    
-game_length7 OT    0.031775   0.243712    0.13    0.896    
+(Intercept)        2.264112   0.041268   54.86  < 2e-16 ***
+year2003          -0.036432   0.053696   -0.68    0.497    
+year2004          -0.042347   0.053592   -0.79    0.429    
+year2005          -0.025643   0.053252   -0.48    0.630    
+year2006          -0.076699   0.052988   -1.45    0.148    
+year2007          -0.061528   0.052657   -1.17    0.243    
+year2008          -0.071442   0.052084   -1.37    0.170    
+year2009          -0.030382   0.051589   -0.59    0.556    
+year2010          -0.019719   0.050953   -0.39    0.699    
+year2011          -0.058037   0.050243   -1.16    0.248    
+year2012          -0.061924   0.049654   -1.25    0.212    
+year2013          -0.005260   0.048879   -0.11    0.914    
+year2014          -0.011232   0.048285   -0.23    0.816    
+year2015          -0.001891   0.047970   -0.04    0.969    
+year2016           0.026762   0.047699    0.56    0.575    
+year2017           0.067532   0.054627    1.24    0.216    
+fielddefense_home -0.056836   0.005910   -9.62  < 2e-16 ***
+fieldoffense_home  0.037061   0.005864    6.32 2.61e-10 ***
+d_div2             0.511542   0.046092   11.10  < 2e-16 ***
+d_div3             0.632573   0.044827   14.11  < 2e-16 ***
+o_div2            -0.480310   0.046973  -10.23  < 2e-16 ***
+o_div3            -0.655585   0.045293  -14.47  < 2e-16 ***
+game_length1 OT    0.005486   0.006892    0.80    0.426    
+game_length2 OT    0.003759   0.012281    0.31    0.760    
+game_length3 OT   -0.017175   0.022708   -0.76    0.449    
+game_length4 OT   -0.033886   0.034792   -0.97    0.330    
+game_length5 OT   -0.212862   0.273263   -0.78    0.436    
+game_length6 OT    0.305406   0.239502    1.28    0.202    
+game_length7 OT    0.031759   0.243711    0.13    0.896    
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 [1] TRUE

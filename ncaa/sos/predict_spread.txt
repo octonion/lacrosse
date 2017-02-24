@@ -1,18 +1,11 @@
 BEGIN
 SET
-    date    |      team       | h_div |  site   |      opp       | v_div | spread 
-------------+-----------------+-------+---------+----------------+-------+--------
- 2017-02-19 | Berry           |     3 | neutral | Hampden-Sydney |     3 |   -0.1
- 2017-02-19 | Brown           |     1 | home    | Quinnipiac     |     1 |   13.2
- 2017-02-19 | Cleveland St.   |     1 | home    | John Carroll   |     3 |    7.9
- 2017-02-19 | Denison         |     3 | home    | Wash. & Lee    |     3 |   -2.9
- 2017-02-19 | Florida Tech    |     2 | neutral | Wingate        |     2 |   -1.0
- 2017-02-19 | Le Moyne        |     2 | home    | American Int'l |     2 |   20.9
- 2017-02-19 | Maryville (MO)  |     2 | home    | Tampa          |     2 |  -10.9
- 2017-02-19 | Methodist       |     3 | home    | Oglethorpe     |     3 |   14.1
- 2017-02-19 | Rhodes          |     3 | home    | Carthage       |     3 |    1.1
- 2017-02-19 | St. John's (NY) |     1 | home    | Stony Brook    |     1 |   -6.3
- 2017-02-19 | Wheeling Jesuit |     2 | home    | Rockhurst      |     2 |   -1.6
-(11 rows)
+    date    |   team    | h_div | site |      opp      | v_div | spread 
+------------+-----------+-------+------+---------------+-------+--------
+ 2017-02-24 | Elmhurst  |     3 | home | Hendrix       |     3 |    5.3
+ 2017-02-24 | Rockhurst |     2 | home | Colorado Mesa |     2 |   -1.9
+ 2017-02-24 | Rosemont  |     3 | home | FDU-Florham   |     3 |    1.1
+ 2017-02-24 | Wingate   |     2 | home | Fla. Southern |     2 |    4.6
+(4 rows)
 
 COMMIT
