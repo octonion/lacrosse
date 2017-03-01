@@ -1,12 +1,55 @@
 BEGIN
 SET
-    date    | site |   home    | div | score |     away      | div | score 
-------------+------+-----------+-----+-------+---------------+-----+-------
- 2017-02-24 | home | Elmhurst  | D3  | 10.35 | Hendrix       | D3  |  5.05
- 2017-02-24 | home | Rockhurst | D2  | 10.41 | Colorado Mesa | D2  | 12.30
- 2017-02-24 | home | Rosemont  | D3  |  9.91 | FDU-Florham   | D3  |  8.85
- 2017-02-24 | home | Wingate   | D2  | 11.62 | Fla. Southern | D2  |  7.06
-(4 rows)
+    date    |  site   |       home       | div | score |         away         | div | score 
+------------+---------+------------------+-----+-------+----------------------+-----+-------
+ 2017-03-01 | home    | Albany (NY)      | D1  | 10.72 | Massachusetts        | D1  |  5.14
+ 2017-03-01 | home    | American Int'l   | D2  |  6.86 | Post                 | D2  | 13.65
+ 2017-03-01 | home    | Arcadia          | D3  |  7.33 | DeSales              | D3  |  9.05
+ 2017-03-01 | home    | Babson           | D3  |  9.59 | Bates                | D3  | 14.06
+ 2017-03-01 | home    | Benedictine (IL) | D3  | 13.48 | Fontbonne            | D3  |  6.17
+ 2017-03-01 | home    | Berry            | D3  | 25.92 | Oglethorpe           | D3  |  3.08
+ 2017-03-01 | home    | Bridgewater (VA) | D3  | 15.21 | Southern Va.         | D3  |  8.99
+ 2017-03-01 | home    | Carroll (WI)     | D3  | 10.61 | Northland            | D3  |  7.27
+ 2017-03-01 | home    | Centenary (NJ)   | D3  | 13.76 | Alvernia             | D3  | 11.22
+ 2017-03-01 | home    | Chris. Newport   | D3  |  9.82 | Va. Wesleyan         | D3  |  8.06
+ 2017-03-01 | home    | Coast Guard      | D3  |  6.86 | Eastern Conn. St.    | D3  |  8.35
+ 2017-03-01 | home    | Cornell College  | D3  | 11.42 | Dubuque              | D3  |  9.87
+ 2017-03-01 | home    | Delaware Valley  | D3  |  6.86 | Shenandoah           | D3  | 10.83
+ 2017-03-01 | home    | Drew             | D3  |  9.41 | SUNY Maritime        | D3  |  8.46
+ 2017-03-01 | home    | Elmhurst         | D3  |  7.30 | Concordia Wisconsin  | D3  |  8.66
+ 2017-03-01 | home    | Emmanuel (GA)    | D2  |  6.75 | North Greenville     | D2  | 22.92
+ 2017-03-01 | home    | Frank. & Marsh.  | D3  |  7.57 | Susquehanna          | D3  | 12.64
+ 2017-03-01 | home    | Georgian Court   | D2  | 10.96 | Dist. Columbia       | D2  | 14.92
+ 2017-03-01 | home    | Goucher          | D3  |  9.34 | McDaniel             | D3  | 12.73
+ 2017-03-01 | home    | Hampden-Sydney   | D3  | 12.49 | Cabrini              | D3  | 12.40
+ 2017-03-01 | home    | Hendrix          | D3  |  9.11 | Alma                 | D3  | 10.91
+ 2017-03-01 | home    | Houghton         | D3  |  9.55 | Lyndon St.           | D3  |  8.40
+ 2017-03-01 | home    | Huntingdon       | D3  | 11.21 | Capital              | D3  | 14.53
+ 2017-03-01 | home    | Kalamazoo        | D3  |  8.45 | Concordia Chicago    | D3  |  6.29
+ 2017-03-01 | home    | Kean             | D3  | 11.64 | Ferrum               | D3  |  8.79
+ 2017-03-01 | home    | Keystone         | D3  |  4.65 | Misericordia         | D3  | 14.83
+ 2017-03-01 | home    | La Roche         | D3  |  4.85 | Mount Union          | D3  | 13.68
+ 2017-03-01 | home    | Lebanon Valley   | D3  | 10.01 | Frostburg St.        | D3  |  7.13
+ 2017-03-01 | home    | Marymount (VA)   | D3  |  9.18 | Catholic             | D3  | 12.49
+ 2017-03-01 | home    | Messiah          | D3  |  9.30 | Adrian               | D3  |  7.31
+ 2017-03-01 | home    | Mitchell         | D3  |  5.84 | Albertus Magnus      | D3  | 13.60
+ 2017-03-01 | home    | Ohio Wesleyan    | D3  | 16.79 | Ill. Wesleyan        | D3  | 15.25
+ 2017-03-01 | home    | Piedmont         | D3  | 13.81 | Johnson & Wales (RI) | D3  |  8.95
+ 2017-03-01 | home    | Roberts Wesleyan | D2  |  8.82 | Le Moyne             | D2  | 14.15
+ 2017-03-01 | home    | Roger Williams   | D3  |  8.75 | Lasell               | D3  | 10.28
+ 2017-03-01 | home    | Skidmore         | D3  |  9.43 | Clark (MA)           | D3  | 11.77
+ 2017-03-01 | home    | Stevens          | D3  |  9.83 | Montclair St.        | D3  |  7.17
+ 2017-03-01 | home    | St. John's (NY)  | D1  |  8.87 | Saint Joseph's       | D1  |  8.61
+ 2017-03-01 | home    | St. Mary's (MD)  | D3  |  6.03 | Washington Col.      | D3  | 16.50
+ 2017-03-01 | home    | Stockton         | D3  | 12.60 | Haverford            | D3  |  8.43
+ 2017-03-01 | home    | Towson           | D1  | 10.30 | Loyola Maryland      | D1  | 12.43
+ 2017-03-01 | home    | Vassar           | D3  |  8.64 | SUNY Oneonta         | D3  |  6.94
+ 2017-03-01 | home    | Virginia         | D1  | 11.67 | High Point           | D1  |  9.04
+ 2017-03-01 | home    | Wash. & Jeff.    | D3  | 14.13 | Hood                 | D3  |  6.44
+ 2017-03-01 | neutral | Wesley           | D3  |  7.20 | Hanover              | D3  | 10.28
+ 2017-03-01 | home    | Wheaton (MA)     | D3  |  9.00 | Salve Regina         | D3  | 10.38
+ 2017-03-01 | home    | Wilkes           | D3  | 10.39 | Rosemont             | D3  |  7.06
+(47 rows)
 
-COPY 4
+COPY 47
 COMMIT

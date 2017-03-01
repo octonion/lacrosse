@@ -1,11 +1,23 @@
 BEGIN
 SET
-    date    |   team    | h_div | site |      opp      | v_div | spread 
-------------+-----------+-------+------+---------------+-------+--------
- 2017-02-24 | Elmhurst  |     3 | home | Hendrix       |     3 |    5.3
- 2017-02-24 | Rockhurst |     2 | home | Colorado Mesa |     2 |   -1.9
- 2017-02-24 | Rosemont  |     3 | home | FDU-Florham   |     3 |    1.1
- 2017-02-24 | Wingate   |     2 | home | Fla. Southern |     2 |    4.6
-(4 rows)
+    date    |       team        | h_div |  site   |        opp         | v_div | spread 
+------------+-------------------+-------+---------+--------------------+-------+--------
+ 2017-02-28 | Augustana (IL)    |     3 | home    | Eastern            |     3 |   -5.7
+ 2017-02-28 | Augustana (IL)    |     3 | neutral | Eastern            |     3 |   -6.6
+ 2017-02-28 | Beloit            |     3 | home    | North Central (IL) |     3 |   -6.2
+ 2017-02-28 | Birmingham-So.    |     3 | home    | Otterbein          |     3 |    1.7
+ 2017-02-28 | Boston U.         |     1 | home    | Bryant             |     1 |    4.1
+ 2017-02-28 | Dartmouth         |     1 | home    | Vermont            |     1 |   -5.3
+ 2017-02-28 | Drexel            |     1 | home    | Villanova          |     1 |   -0.6
+ 2017-02-28 | Fla. Southern     |     2 | home    | Lake Erie          |     2 |    2.8
+ 2017-02-28 | Hartford          |     1 | home    | Manhattan          |     1 |    1.4
+ 2017-02-28 | Hofstra           |     1 | home    | NJIT               |     1 |   13.1
+ 2017-02-28 | Limestone         |     2 | home    | Lees-McRae         |     2 |   18.4
+ 2017-02-28 | Mt. St. Mary (NY) |     3 | home    | Marywood           |     3 |    2.3
+ 2017-02-28 | Rutgers           |     1 | home    | Wagner             |     1 |    6.6
+ 2017-02-28 | Sacred Heart      |     1 | home    | Lafayette          |     1 |    6.5
+ 2017-02-28 | UMass Lowell      |     1 | home    | Fairfield          |     1 |    0.6
+ 2017-02-28 | VMI               |     1 | home    | Delaware           |     1 |   -5.4
+(16 rows)
 
 COMMIT
