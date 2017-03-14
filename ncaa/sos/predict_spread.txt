@@ -1,116 +1,39 @@
 BEGIN
 SET
-    date    |         team         | h_div |  site   |         opp          | v_div | spread 
-------------+----------------------+-------+---------+----------------------+-------+--------
- 2017-03-04 | Adelphi              |     2 | home    | American Int'l       |     2 |   16.0
- 2017-03-04 | Albright             |     3 | home    | Ursinus              |     3 |   -4.5
- 2017-03-04 | Alma                 |     3 | home    | Elmhurst             |     3 |    0.4
- 2017-03-04 | American Int'l       |     2 | home    | Adelphi              |     2 |  -13.9
- 2017-03-04 | Army West Point      |     1 | home    | Lafayette            |     1 |   10.4
- 2017-03-04 | Aurora               |     3 | home    | Fontbonne            |     3 |   21.2
- 2017-03-04 | Aurora               |     3 | home    | Monmouth (IL)        |     3 |   11.5
- 2017-03-04 | Bard                 |     3 | home    | Neumann              |     3 |    8.5
- 2017-03-04 | Belmont Abbey        |     2 | home    | Pfeiffer             |     2 |   10.1
- 2017-03-04 | Benedictine (IL)     |     3 | home    | Kalamazoo            |     3 |    4.3
- 2017-03-04 | Bethany (WV)         |     3 | home    | Oglethorpe           |     3 |    5.3
- 2017-03-04 | Binghamton           |     1 | home    | Hobart               |     1 |    3.4
- 2017-03-04 | Birmingham-So.       |     3 | neutral | Southern Va.         |     3 |    0.5
- 2017-03-04 | Boston U.            |     1 | home    | Air Force            |     1 |    2.3
- 2017-03-04 | Brockport            |     3 | home    | Clarkson             |     3 |    3.4
- 2017-03-04 | Carthage             |     3 | home    | Northwestern-St.Paul |     3 |   10.7
- 2017-03-04 | Catholic             |     3 | home    | Coast Guard          |     3 |   -1.4
- 2017-03-04 | Chowan               |     2 | home    | Davis & Elkins       |     2 |   -1.3
- 2017-03-04 | Chris. Newport       |     3 | home    | Guilford             |     3 |    5.9
- 2017-03-04 | Clark (MA)           |     3 | home    | Gordon               |     3 |    3.6
- 2017-03-04 | Cleveland St.        |     1 | home    | Canisius             |     1 |   -2.2
- 2017-03-04 | Coker                |     2 | home    | Lenoir-Rhyne         |     2 |   -5.8
- 2017-03-04 | Colgate              |     1 | home    | Lehigh               |     1 |    5.4
- 2017-03-04 | Cornell              |     1 | home    | Albany (NY)          |     1 |   -9.4
- 2017-03-04 | Cornell College      |     3 | home    | Northland            |     3 |    5.4
- 2017-03-04 | Curry                |     3 | home    | Mitchell             |     3 |   10.2
- 2017-03-04 | Delaware Valley      |     3 | home    | Arcadia              |     3 |    2.5
- 2017-03-04 | Denison              |     3 | home    | Albion               |     3 |    3.1
- 2017-03-04 | Denver               |     1 | home    | North Carolina       |     1 |    2.4
- 2017-03-04 | DePauw               |     3 | home    | Calvin               |     3 |    9.1
- 2017-03-04 | Dickinson            |     3 | home    | Cabrini              |     3 |   -0.1
- 2017-03-04 | Dist. Columbia       |     2 | home    | St. Thomas Aquinas   |     2 |   -1.0
- 2017-03-04 | Dubuque              |     3 | home    | Trine                |     3 |   -1.4
- 2017-03-04 | Farmingdale St.      |     3 | home    | Eastern Conn. St.    |     3 |    9.5
- 2017-03-04 | Ferrum               |     3 | home    | Gwynedd Mercy        |     3 |   -0.6
- 2017-03-04 | Florida Tech         |     2 | home    | Wheeling Jesuit      |     2 |    3.1
- 2017-03-04 | Frostburg St.        |     3 | home    | Washington Col.      |     3 |   -0.6
- 2017-03-04 | Furman               |     1 | home    | Michigan             |     1 |   -1.6
- 2017-03-04 | Georgetown           |     1 | home    | Hofstra              |     1 |   -4.5
- 2017-03-04 | Gettysburg           |     3 | home    | Stevenson            |     3 |    1.8
- 2017-03-04 | Goucher              |     3 | home    | Hanover              |     3 |    7.4
- 2017-03-04 | Hampton              |     1 | home    | Greensboro           |     3 |    4.2
- 2017-03-04 | Hartford             |     1 | home    | Jacksonville         |     1 |    6.0
- 2017-03-04 | Harvard              |     1 | home    | Vermont              |     1 |    3.8
- 2017-03-04 | Hiram                |     3 | home    | Alfred St.           |     3 |    4.4
- 2017-03-04 | Hood                 |     3 | home    | Westminster (PA)     |     3 |    4.5
- 2017-03-04 | Immaculata           |     3 | home    | Lebanon Valley       |     3 |   -6.5
- 2017-03-04 | Ithaca               |     3 | home    | Rensselaer           |     3 |    7.7
- 2017-03-04 | Johnson & Wales (RI) |     3 | neutral | Millsaps             |     3 |    5.1
- 2017-03-04 | Kean                 |     3 | home    | Centenary (NJ)       |     3 |   -1.7
- 2017-03-04 | Kenyon               |     3 | home    | Baldwin Wallace      |     3 |   -1.2
- 2017-03-04 | Lees-McRae           |     2 | home    | Ala.-Huntsville      |     2 |   -5.7
- 2017-03-04 | Limestone            |     2 | home    | Saint Leo            |     2 |    4.8
- 2017-03-04 | Lindenwood (MO)      |     2 | home    | Ohio Valley          |     2 |   17.4
- 2017-03-04 | LIU Post             |     2 | home    | Molloy               |     2 |    3.0
- 2017-03-04 | Loyola Maryland      |     1 | home    | Holy Cross           |     1 |    8.5
- 2017-03-04 | Lynn                 |     2 | neutral | Young Harris         |     2 |    5.6
- 2017-03-04 | Manhattan            |     1 | home    | Saint Joseph's       |     1 |   -3.3
- 2017-03-04 | Marist               |     1 | home    | Drexel               |     1 |    6.3
- 2017-03-04 | Maryville (MO)       |     2 | home    | UIndy                |     2 |   -9.1
- 2017-03-04 | Mary Washington      |     3 | home    | Widener              |     3 |    1.3
- 2017-03-04 | McDaniel             |     3 | home    | Adrian               |     3 |   13.8
- 2017-03-04 | Mercyhurst           |     2 | neutral | Mount Olive          |     2 |    2.5
- 2017-03-04 | Methodist            |     3 | home    | Va. Wesleyan         |     3 |    4.1
- 2017-03-04 | Monmouth             |     1 | home    | UMass Lowell         |     1 |    5.2
- 2017-03-04 | Moravian             |     3 | home    | Bryn Athyn           |     3 |    1.6
- 2017-03-04 | Navy                 |     1 | home    | Bucknell             |     1 |    5.2
- 2017-03-04 | New England Col.     |     3 | home    | Mount Ida            |     3 |   -4.0
- 2017-03-04 | Nichols              |     3 | home    | Anna Maria           |     3 |    1.3
- 2017-03-04 | NJIT                 |     1 | home    | Quinnipiac           |     1 |   -1.9
- 2017-03-04 | Notre Dame           |     1 | home    | Maryland             |     1 |    0.9
- 2017-03-04 | Olivet               |     3 | home    | Oberlin              |     3 |    5.6
- 2017-03-04 | Penn St.             |     1 | home    | Penn                 |     1 |    1.4
- 2017-03-04 | Providence           |     1 | home    | Sacred Heart         |     1 |    0.6
- 2017-03-04 | Queens (NC)          |     2 | home    | Catawba              |     2 |    7.0
- 2017-03-04 | Randolph-Macon       |     3 | home    | Haverford            |     3 |   -2.1
- 2017-03-04 | Rhodes               |     3 | home    | Bridgewater (VA)     |     3 |    6.3
- 2017-03-04 | RIT                  |     3 | home    | Scranton             |     3 |    7.4
- 2017-03-04 | Roberts Wesleyan     |     2 | home    | Dominican (NY)       |     2 |    4.3
- 2017-03-04 | Rosemont             |     3 | home    | Purchase             |     3 |    4.4
- 2017-03-04 | Rutgers              |     1 | home    | Brown                |     1 |    3.7
- 2017-03-04 | Saint Vincent        |     3 | home    | Marymount (VA)       |     3 |   -2.6
- 2017-03-04 | Salem St.            |     3 | home    | St. Joseph's (ME)    |     3 |    3.3
- 2017-03-04 | Sewanee              |     3 | home    | Roanoke              |     3 |    2.1
- 2017-03-04 | Shenandoah           |     3 | home    | Elizabethtown        |     3 |   -2.3
- 2017-03-04 | Shorter              |     2 | home    | Lincoln Memorial     |     2 |  -10.5
- 2017-03-04 | Siena                |     1 | home    | St. John's (NY)      |     1 |    4.5
- 2017-03-04 | Southern Me.         |     3 | home    | Maine Maritime       |     3 |    3.7
- 2017-03-04 | St. Joseph's (L.I.)  |     3 | home    | Manhattanville       |     3 |    0.6
- 2017-03-04 | Stockton             |     3 | home    | Marywood             |     3 |    4.6
- 2017-03-04 | Stony Brook          |     1 | home    | Fairfield            |     1 |    8.2
- 2017-03-04 | SUNY Maritime        |     3 | home    | Salve Regina         |     3 |   -0.6
- 2017-03-04 | Swarthmore           |     3 | home    | Vassar               |     3 |   -2.7
- 2017-03-04 | Tampa                |     2 | home    | Chestnut Hill        |     2 |    4.6
- 2017-03-04 | Thiel                |     3 | home    | Houghton             |     3 |   10.9
- 2017-03-04 | Transylvania         |     3 | home    | Huntingdon           |     3 |    1.3
- 2017-03-04 | Tusculum             |     2 | home    | Brevard              |     2 |   10.2
- 2017-03-04 | UMBC                 |     1 | home    | Towson               |     1 |   -1.2
- 2017-03-04 | Union (NY)           |     3 | home    | Babson               |     3 |    0.6
- 2017-03-04 | Villanova            |     1 | home    | Delaware             |     1 |    0.7
- 2017-03-04 | Wagner               |     1 | home    | Dartmouth            |     1 |    1.0
- 2017-03-04 | Wash. & Jeff.        |     3 | home    | Susquehanna          |     3 |   -7.4
- 2017-03-04 | Wash. & Lee          |     3 | home    | Frank. & Marsh.      |     3 |    2.9
- 2017-03-04 | Wesley               |     3 | home    | Mount Union          |     3 |   -0.9
- 2017-03-04 | Wheaton (MA)         |     3 | home    | Roger Williams       |     3 |    6.6
- 2017-03-04 | Wilmington (OH)      |     3 | home    | La Roche             |     3 |   12.9
- 2017-03-04 | Wingate              |     2 | home    | Mars Hill            |     2 |    3.2
- 2017-03-04 | Yale                 |     1 | home    | Bryant               |     1 |    5.3
- 2017-03-04 | York (PA)            |     3 | home    | Lynchburg            |     3 |    5.4
-(109 rows)
+    date    |       team        | h_div |  site   |         opp         | v_div | spread 
+------------+-------------------+-------+---------+---------------------+-------+--------
+ 2017-03-14 | Alderson Broaddus |     2 | home    | Lindenwood (MO)     |     2 |  -11.5
+ 2017-03-14 | American Int'l    |     2 | home    | Pace                |     2 |  -19.1
+ 2017-03-14 | Bard              |     3 | home    | Cobleskill St.      |     3 |   -1.1
+ 2017-03-14 | Bates             |     3 | home    | Endicott            |     3 |   10.1
+ 2017-03-14 | Bryant            |     1 | home    | Siena               |     1 |    6.6
+ 2017-03-14 | Catholic          |     3 | home    | Ohio Wesleyan       |     3 |   -2.3
+ 2017-03-14 | Connecticut Col.  |     3 | neutral | Ill. Wesleyan       |     3 |   -1.5
+ 2017-03-14 | Farmingdale St.   |     3 | home    | SUNY Canton         |     3 |   16.5
+ 2017-03-14 | Hamilton          |     3 | neutral | Keene St.           |     3 |    1.6
+ 2017-03-14 | Hartford          |     1 | home    | Marist              |     1 |   -3.4
+ 2017-03-14 | Hobart            |     1 | home    | Canisius            |     1 |   -2.8
+ 2017-03-14 | Hofstra           |     1 | home    | Cleveland St.       |     1 |   11.7
+ 2017-03-14 | Hope              |     3 | home    | Bethany (WV)        |     3 |   17.0
+ 2017-03-14 | Massachusetts     |     1 | home    | UMass Lowell        |     1 |    1.9
+ 2017-03-14 | MIT               |     3 | home    | Wentworth           |     3 |    0.5
+ 2017-03-14 | Monmouth          |     1 | home    | VMI                 |     1 |    5.8
+ 2017-03-14 | Mt. St. Joseph    |     3 | home    | Carroll (WI)        |     3 |   -0.6
+ 2017-03-14 | Ohio Valley       |     2 | home    | Dominican (NY)      |     2 |   -2.4
+ 2017-03-14 | Piedmont          |     3 | home    | Transylvania        |     3 |   -0.6
+ 2017-03-14 | Rhodes            |     3 | home    | Concordia Wisconsin |     3 |    0.8
+ 2017-03-14 | Rutgers           |     1 | home    | Princeton           |     1 |    2.2
+ 2017-03-14 | Saint Leo         |     2 | home    | Ala.-Huntsville     |     2 |   10.3
+ 2017-03-14 | Saint Michael's   |     2 | home    | Molloy              |     2 |    4.9
+ 2017-03-14 | Salisbury         |     3 | home    | Stevenson           |     3 |    4.4
+ 2017-03-14 | St. Lawrence      |     3 | home    | Middlebury          |     3 |    3.0
+ 2017-03-14 | Stony Brook       |     1 | home    | Lehigh              |     1 |    3.7
+ 2017-03-14 | Tampa             |     2 | home    | Westminster (UT)    |     2 |    7.2
+ 2017-03-14 | Towson            |     1 | home    | Ohio St.            |     1 |    1.8
+ 2017-03-14 | Trinity (CT)      |     3 | home    | Stevens             |     3 |    0.9
+ 2017-03-14 | Vassar            |     3 | neutral | Wesleyan (CT)       |     3 |    0.4
+ 2017-03-14 | Whittier          |     3 | home    | Curry               |     3 |    3.6
+ 2017-03-14 | Young Harris      |     2 | home    | Lenoir-Rhyne        |     2 |   -5.0
+(32 rows)
 
 COMMIT
