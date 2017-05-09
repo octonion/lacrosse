@@ -1,15 +1,7 @@
 BEGIN
 SET
-    date    |    team    | h_div |  site   |      opp      | v_div | spread 
-------------+------------+-------+---------+---------------+-------+--------
- 2017-05-07 | Adelphi    |     2 | home    | Le Moyne      |     2 |   -1.2
- 2017-05-07 | Alfred St. |     3 | neutral | Hilbert       |     3 |   -5.2
- 2017-05-07 | Boston U.  |     1 | neutral | Duke          |     1 |   -3.6
- 2017-05-07 | Hilbert    |     3 | home    | Alfred St.    |     3 |    6.1
- 2017-05-07 | Marist     |     1 | home    | Monmouth      |     1 |    0.1
- 2017-05-07 | Middlebury |     3 | neutral | Wesleyan (CT) |     3 |   -2.1
- 2017-05-07 | RIT        |     3 | home    | St. Lawrence  |     3 |    1.9
- 2017-05-07 | Yale       |     1 | home    | Brown         |     1 |    3.5
-(8 rows)
+ date | team | h_div | site | opp | v_div | spread 
+------+------+-------+------+-----+-------+--------
+(0 rows)
 
 COMMIT
