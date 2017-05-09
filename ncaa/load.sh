@@ -39,3 +39,11 @@ rm /tmp/ncaa_divisions.csv
 #cp ncaa/ncaa_colors.csv /tmp/ncaa_colors.csv
 #psql lacrosse -f load_ncaa_colors.sql
 #rm /tmp/ncaa_colors.csv
+
+cp csv/conferences.tsv /tmp/conferences.tsv
+psql lacrosse -f loaders/load_conferences.sql
+rm /tmp/conferences.tsv
+
+cp csv/conferences_teams.tsv /tmp/conferences_teams.tsv
+psql lacrosse -f loaders/load_conferences_teams.sql
+rm /tmp/conferences_teams.tsv
