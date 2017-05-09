@@ -1,6 +1,7 @@
 select
 ct.year,
 ct.conference_key,
+count(*) as n,
 (exp(avg(ln(sf.strength))))::numeric(4,3) as str
 from ncaa._schedule_factors sf
 join ncaa.conferences_teams ct
@@ -14,6 +15,7 @@ order by str desc;
 select
 ct.year,
 ct.conference_key,
+count(*) as n,
 (exp(avg(ln(sf.strength))))::numeric(4,3) as str
 from ncaa._schedule_factors sf
 join ncaa.conferences_teams ct
@@ -27,6 +29,7 @@ order by str desc;
 select
 ct.year,
 ct.conference_key,
+count(*) as n,
 (exp(avg(ln(sf.strength))))::numeric(4,3) as str
 from ncaa._schedule_factors sf
 join ncaa.conferences_teams ct
