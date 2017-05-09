@@ -57,7 +57,7 @@ join ncaa._factors o
 join ncaa._factors d
   on (d.parameter,d.level)=('field','defense_home')
 where
-  r1.year=2015
+  r1.year=2017
 );
 
 insert into ncaa.matrix_p_d3
@@ -85,7 +85,7 @@ join ncaa._factors o
 join ncaa._factors d
   on (d.parameter,d.level)=('field','defense_home')
 where
-  r1.year=2015
+  r1.year=2017
 );
 
 insert into ncaa.matrix_p_d3
@@ -109,7 +109,7 @@ join ncaa._schedule_factors v
 join ncaa._schedule_factors h
   on (h.year,h.team_id)=(r1.year,r1.team_id)
 where
-  r1.year=2015
+  r1.year=2017
 );
 
 -- home advantage
@@ -138,10 +138,10 @@ r2.team_id,
 from ncaa.rounds_d3 r1
 join ncaa.rounds_d3 r2
   on (r2.year=r1.year and not(r2.team_id=r1.team_id))
-join (select generate_series(1, 5) round_id) gs
+join (select generate_series(1, 6) round_id) gs
   on TRUE
 where
-  r1.year=2015
+  r1.year=2017
 );
 
 -- Lower seeds have home
@@ -156,7 +156,7 @@ and (ro.year,ro.team_id)=
     (matrix_field_d3.year,matrix_field_d3.opponent_id)
 and rt.round_id=1
 and ro.round_id=1
-and matrix_field_d3.round_id between 2 and 4
+and matrix_field_d3.round_id between 2 and 5
 and rt.seed < ro.seed;
 
 update ncaa.matrix_field_d3
@@ -169,7 +169,7 @@ and (ro.year,ro.team_id)=
     (matrix_field_d3.year,matrix_field_d3.opponent_id)
 and rt.round_id=1
 and ro.round_id=1
-and matrix_field_d3.round_id between 2 and 4
+and matrix_field_d3.round_id between 2 and 5
 and rt.seed > ro.seed;
 
 -- Denver

@@ -19,7 +19,10 @@ psql lacrosse -f update_round.sql
 rpl "round_id=4" "round_id=5" update_round.sql
 psql lacrosse -f update_round.sql
 
-rpl "round_id=5" "round_id=1" update_round.sql
+rpl "round_id=5" "round_id=6" update_round.sql
+psql lacrosse -f update_round.sql
+
+rpl "round_id=6" "round_id=1" update_round.sql
 
 psql lacrosse -f round_p.sql > round_p.txt
 cp /tmp/round_p.csv .
