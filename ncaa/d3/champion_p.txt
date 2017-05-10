@@ -2,7 +2,7 @@ BEGIN
      team_name     |   p   
 -------------------+-------
  Salisbury         | 0.525
- RIT               | 0.180
+ RIT               | 0.178
  Denison           | 0.124
  St. Lawrence      | 0.068
  York (Pa.)        | 0.040
@@ -10,32 +10,30 @@ BEGIN
  Bates             | 0.020
  Tufts             | 0.007
  Stevenson         | 0.005
- Lynchburg         | 0.003
+ Lynchburg         | 0.004
  Cabrini           | 0.003
- SUNY Cortland     | 0.002
  Frank. & Marsh.   | 0.002
+ SUNY Cortland     | 0.002
  Amherst           | 0.001
+ Keene St.         | 0.000
+ Misericordia      | 0.000
+ Montclair State   | 0.000
+ Morrisville State | 0.000
  Nazareth          | 0.000
  New Eng. Col.     | 0.000
  Plattsburgh St.   | 0.000
+ John Carroll      | 0.000
+ Ill. Wesleyan     | 0.000
  Sewanee           | 0.000
  Springfield       | 0.000
- Transylvania      | 0.000
- Misericordia      | 0.000
- Aurora            | 0.000
- Carthage          | 0.000
- Colorado Col.     | 0.000
- Elizabethtown     | 0.000
- Endicott          | 0.000
  Hampden-Sydney    | 0.000
- Ill. Wesleyan     | 0.000
- John Carroll      | 0.000
- Keene St.         | 0.000
- Lasell            | 0.000
- Albion            | 0.000
- Montclair State   | 0.000
- Morrisville State | 0.000
-(34 rows)
+ Endicott          | 0.000
+ Elizabethtown     | 0.000
+ Transylvania      | 0.000
+ Colorado Col.     | 0.000
+ Carthage          | 0.000
+ Aurora            | 0.000
+(32 rows)
 
-COPY 34
+COPY 32
 COMMIT

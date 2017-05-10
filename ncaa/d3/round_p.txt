@@ -1,15 +1,11 @@
 BEGIN
  rd |       name        |   p   
 ----+-------------------+-------
-  2 | Misericordia      | 0.669
-  2 | John Carroll      | 0.636
-  2 | Albion            | 0.364
-  2 | Lasell            | 0.331
   3 | Salisbury         | 0.999
   3 | York (Pa.)        | 0.996
   3 | Wesleyan (Conn.)  | 0.988
-  3 | RIT               | 0.975
   3 | Denison           | 0.974
+  3 | RIT               | 0.966
   3 | Lynchburg         | 0.943
   3 | St. Lawrence      | 0.904
   3 | SUNY Cortland     | 0.881
@@ -32,16 +28,14 @@ BEGIN
   3 | Endicott          | 0.119
   3 | Montclair State   | 0.096
   3 | Sewanee           | 0.057
+  3 | John Carroll      | 0.034
   3 | Carthage          | 0.026
-  3 | John Carroll      | 0.022
   3 | New Eng. Col.     | 0.012
   3 | Morrisville State | 0.004
-  3 | Albion            | 0.003
   3 | Misericordia      | 0.001
-  3 | Lasell            | 0.000
-  4 | Salisbury         | 0.989
+  4 | Salisbury         | 0.988
   4 | Denison           | 0.895
-  4 | RIT               | 0.811
+  4 | RIT               | 0.803
   4 | St. Lawrence      | 0.758
   4 | York (Pa.)        | 0.711
   4 | Bates             | 0.653
@@ -52,7 +46,7 @@ BEGIN
   4 | Lynchburg         | 0.286
   4 | Amherst           | 0.221
   4 | SUNY Cortland     | 0.206
-  4 | Stevenson         | 0.179
+  4 | Stevenson         | 0.184
   4 | Aurora            | 0.092
   4 | Springfield       | 0.084
   4 | Keene St.         | 0.047
@@ -60,33 +54,31 @@ BEGIN
   4 | Colorado Col.     | 0.030
   4 | Montclair State   | 0.026
   4 | Elizabethtown     | 0.023
-  4 | Hampden-Sydney    | 0.009
+  4 | Hampden-Sydney    | 0.010
   4 | Endicott          | 0.009
   4 | Ill. Wesleyan     | 0.008
   4 | Nazareth          | 0.007
+  4 | John Carroll      | 0.005
   4 | Carthage          | 0.005
-  4 | John Carroll      | 0.003
-  4 | Transylvania      | 0.002
   4 | Sewanee           | 0.002
-  4 | Lasell            | 0.000
-  4 | New Eng. Col.     | 0.000
+  4 | Transylvania      | 0.002
   4 | Morrisville State | 0.000
-  4 | Albion            | 0.000
+  4 | New Eng. Col.     | 0.000
   4 | Misericordia      | 0.000
-  5 | Salisbury         | 0.922
-  5 | RIT               | 0.579
+  5 | Salisbury         | 0.921
+  5 | RIT               | 0.573
   5 | Denison           | 0.566
   5 | Wesleyan (Conn.)  | 0.363
   5 | York (Pa.)        | 0.344
   5 | Bates             | 0.343
-  5 | St. Lawrence      | 0.319
+  5 | St. Lawrence      | 0.321
   5 | Tufts             | 0.171
   5 | Amherst           | 0.083
   5 | Lynchburg         | 0.068
-  5 | Stevenson         | 0.062
-  5 | Cabrini           | 0.039
+  5 | Stevenson         | 0.064
+  5 | Cabrini           | 0.040
+  5 | SUNY Cortland     | 0.037
   5 | Frank. & Marsh.   | 0.036
-  5 | SUNY Cortland     | 0.036
   5 | Aurora            | 0.022
   5 | Springfield       | 0.020
   5 | Keene St.         | 0.013
@@ -94,9 +86,8 @@ BEGIN
   5 | Hampden-Sydney    | 0.002
   5 | Montclair State   | 0.002
   5 | Nazareth          | 0.001
+  5 | John Carroll      | 0.001
   5 | Colorado Col.     | 0.001
-  5 | Misericordia      | 0.000
-  5 | John Carroll      | 0.000
   5 | Transylvania      | 0.000
   5 | Sewanee           | 0.000
   5 | Ill. Wesleyan     | 0.000
@@ -105,17 +96,16 @@ BEGIN
   5 | Carthage          | 0.000
   5 | New Eng. Col.     | 0.000
   5 | Morrisville State | 0.000
-  5 | Albion            | 0.000
-  5 | Lasell            | 0.000
+  5 | Misericordia      | 0.000
   6 | Salisbury         | 0.698
-  6 | RIT               | 0.482
-  6 | St. Lawrence      | 0.204
+  6 | RIT               | 0.477
+  6 | St. Lawrence      | 0.206
   6 | Denison           | 0.195
-  6 | Wesleyan (Conn.)  | 0.108
-  6 | Bates             | 0.107
+  6 | Wesleyan (Conn.)  | 0.109
+  6 | Bates             | 0.108
   6 | York (Pa.)        | 0.080
   6 | Tufts             | 0.041
-  6 | Stevenson         | 0.027
+  6 | Stevenson         | 0.028
   6 | SUNY Cortland     | 0.013
   6 | Amherst           | 0.013
   6 | Lynchburg         | 0.009
@@ -123,11 +113,10 @@ BEGIN
   6 | Frank. & Marsh.   | 0.007
   6 | Springfield       | 0.002
   6 | Aurora            | 0.002
-  6 | Plattsburgh St.   | 0.001
   6 | Keene St.         | 0.001
-  6 | Misericordia      | 0.000
-  6 | Hampden-Sydney    | 0.000
+  6 | Plattsburgh St.   | 0.001
   6 | Transylvania      | 0.000
+  6 | Hampden-Sydney    | 0.000
   6 | Sewanee           | 0.000
   6 | Ill. Wesleyan     | 0.000
   6 | Nazareth          | 0.000
@@ -138,29 +127,28 @@ BEGIN
   6 | Carthage          | 0.000
   6 | New Eng. Col.     | 0.000
   6 | Morrisville State | 0.000
-  6 | Albion            | 0.000
   6 | John Carroll      | 0.000
-  6 | Lasell            | 0.000
+  6 | Misericordia      | 0.000
   7 | Salisbury         | 0.525
-  7 | RIT               | 0.180
+  7 | RIT               | 0.178
   7 | Denison           | 0.124
   7 | St. Lawrence      | 0.068
   7 | York (Pa.)        | 0.040
-  7 | Bates             | 0.020
   7 | Wesleyan (Conn.)  | 0.020
+  7 | Bates             | 0.020
   7 | Tufts             | 0.007
   7 | Stevenson         | 0.005
+  7 | Lynchburg         | 0.004
   7 | Cabrini           | 0.003
-  7 | Lynchburg         | 0.003
   7 | SUNY Cortland     | 0.002
   7 | Frank. & Marsh.   | 0.002
   7 | Amherst           | 0.001
+  7 | Montclair State   | 0.000
+  7 | Carthage          | 0.000
   7 | Plattsburgh St.   | 0.000
   7 | New Eng. Col.     | 0.000
   7 | Morrisville State | 0.000
-  7 | Albion            | 0.000
   7 | John Carroll      | 0.000
-  7 | Lasell            | 0.000
   7 | Misericordia      | 0.000
   7 | Aurora            | 0.000
   7 | Hampden-Sydney    | 0.000
@@ -173,9 +161,7 @@ BEGIN
   7 | Colorado Col.     | 0.000
   7 | Endicott          | 0.000
   7 | Elizabethtown     | 0.000
-  7 | Montclair State   | 0.000
-  7 | Carthage          | 0.000
-(174 rows)
+(160 rows)
 
-COPY 174
+COPY 160
 COMMIT
