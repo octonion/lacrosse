@@ -1,9 +1,24 @@
 BEGIN
 SET
-    date    |  team  | h_div |  site   |     opp      | v_div | spread 
-------------+--------+-------+---------+--------------+-------+--------
- 2017-05-09 | Albion |     3 | neutral | John Carroll |     3 |   -2.3
- 2017-05-09 | Lasell |     3 | neutral | Misericordia |     3 |   -2.6
-(2 rows)
+    date    |      team       | h_div | site |       opp        | v_div | spread 
+------------+-----------------+-------+------+------------------+-------+--------
+ 2017-05-10 | Amherst         |     3 | home | Springfield      |     3 |    2.3
+ 2017-05-10 | Aurora          |     3 | home | Ill. Wesleyan    |     3 |    2.7
+ 2017-05-10 | Bates           |     3 | home | Plattsburgh St.  |     3 |    5.6
+ 2017-05-10 | Bryant          |     1 | home | Monmouth         |     1 |    1.6
+ 2017-05-10 | Cabrini         |     3 | home | Colorado Col.    |     3 |    6.1
+ 2017-05-10 | Denison         |     3 | home | Carthage         |     3 |    7.9
+ 2017-05-10 | Frank. & Marsh. |     3 | home | Elizabethtown    |     3 |    4.5
+ 2017-05-10 | Hampden-Sydney  |     3 | home | Transylvania     |     3 |    5.5
+ 2017-05-10 | Lynchburg       |     3 | home | Sewanee          |     3 |    6.8
+ 2017-05-10 | RIT             |     3 | home | John Carroll     |     3 |    8.5
+ 2017-05-10 | Salisbury       |     3 | home | Misericordia     |     3 |   13.1
+ 2017-05-10 | Stevenson       |     3 | home | Nazareth         |     3 |    4.9
+ 2017-05-10 | St. Lawrence    |     3 | home | Montclair St.    |     3 |    6.0
+ 2017-05-10 | SUNY Cortland   |     3 | home | Endicott         |     3 |    6.1
+ 2017-05-10 | Tufts           |     3 | home | Keene St.        |     3 |    4.9
+ 2017-05-10 | Wesleyan (CT)   |     3 | home | New England Col. |     3 |    9.7
+ 2017-05-10 | York (PA)       |     3 | home | Morrisville St.  |     3 |   10.3
+(17 rows)
 
 COMMIT
