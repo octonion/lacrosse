@@ -1,9 +1,77 @@
 BEGIN
- rd |      name      |   p   
-----+----------------+-------
-  5 | Maryland       | 0.622
-  5 | North Carolina | 0.378
-(2 rows)
+ rd |      name       |   p   
+----+-----------------+-------
+  2 | Bryant          | 0.629
+  2 | Monmouth        | 0.371
+  3 | Maryland        | 0.872
+  3 | Notre Dame      | 0.760
+  3 | Denver          | 0.756
+  3 | Albany (NY)     | 0.732
+  3 | Penn State      | 0.649
+  3 | Duke            | 0.585
+  3 | Syracuse        | 0.569
+  3 | Ohio State      | 0.539
+  3 | Loyola Maryland | 0.461
+  3 | Yale            | 0.431
+  3 | Johns Hopkins   | 0.415
+  3 | Towson          | 0.351
+  3 | North Carolina  | 0.268
+  3 | Air Force       | 0.244
+  3 | Marquette       | 0.240
+  3 | Bryant          | 0.086
+  3 | Monmouth        | 0.042
+  4 | Maryland        | 0.469
+  4 | Denver          | 0.460
+  4 | Albany (NY)     | 0.403
+  4 | Notre Dame      | 0.370
+  4 | Duke            | 0.340
+  4 | Penn State      | 0.328
+  4 | Syracuse        | 0.297
+  4 | Ohio State      | 0.252
+  4 | Loyola Maryland | 0.232
+  4 | Yale            | 0.226
+  4 | Johns Hopkins   | 0.176
+  4 | Towson          | 0.149
+  4 | North Carolina  | 0.103
+  4 | Air Force       | 0.100
+  4 | Marquette       | 0.070
+  4 | Bryant          | 0.018
+  4 | Monmouth        | 0.007
+  5 | Maryland        | 0.281
+  5 | Albany (NY)     | 0.244
+  5 | Duke            | 0.222
+  5 | Denver          | 0.222
+  5 | Notre Dame      | 0.156
+  5 | Ohio State      | 0.142
+  5 | Penn State      | 0.139
+  5 | Loyola Maryland | 0.138
+  5 | Syracuse        | 0.124
+  5 | Yale            | 0.095
+  5 | Johns Hopkins   | 0.088
+  5 | Towson          | 0.052
+  5 | North Carolina  | 0.045
+  5 | Air Force       | 0.029
+  5 | Marquette       | 0.017
+  5 | Bryant          | 0.004
+  5 | Monmouth        | 0.001
+  6 | Maryland        | 0.172
+  6 | Albany (NY)     | 0.152
+  6 | Denver          | 0.128
+  6 | Duke            | 0.117
+  6 | Notre Dame      | 0.080
+  6 | Loyola Maryland | 0.064
+  6 | Ohio State      | 0.061
+  6 | Penn State      | 0.054
+  6 | Syracuse        | 0.048
+  6 | Yale            | 0.037
+  6 | Johns Hopkins   | 0.033
+  6 | North Carolina  | 0.020
+  6 | Towson          | 0.017
+  6 | Air Force       | 0.011
+  6 | Marquette       | 0.005
+  6 | Bryant          | 0.001
+  6 | Monmouth        | 0.000
+(70 rows)
 
-COPY 2
+COPY 70
 COMMIT

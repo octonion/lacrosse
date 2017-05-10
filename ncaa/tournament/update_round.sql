@@ -31,7 +31,7 @@ left join ncaa.matrix_p mp
      (r1.year,mf.field,r1.team_id,r2.team_id)
 
 where
-    r1.year=2016
+    r1.year=2017
 and r1.round_id=1
 group by r1.year,round,r1.seed,r1.division_id,r1.team_id,r1.team_name,r1.bracket
 );

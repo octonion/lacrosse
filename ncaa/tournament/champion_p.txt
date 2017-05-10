@@ -1,9 +1,24 @@
 BEGIN
-   team_name    |   p   
-----------------+-------
- Maryland       | 0.622
- North Carolina | 0.378
-(2 rows)
+    team_name    |   p   
+-----------------+-------
+ Maryland        | 0.172
+ Albany (NY)     | 0.152
+ Denver          | 0.128
+ Duke            | 0.117
+ Notre Dame      | 0.080
+ Loyola Maryland | 0.064
+ Ohio State      | 0.061
+ Penn State      | 0.054
+ Syracuse        | 0.048
+ Yale            | 0.037
+ Johns Hopkins   | 0.033
+ North Carolina  | 0.020
+ Towson          | 0.017
+ Air Force       | 0.011
+ Marquette       | 0.005
+ Bryant          | 0.001
+ Monmouth        | 0.000
+(17 rows)
 
-COPY 2
+COPY 17
 COMMIT
