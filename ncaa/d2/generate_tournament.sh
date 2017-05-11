@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#cp rounds_2015.csv /tmp/rounds.csv
 cp rounds_updated.csv /tmp/rounds.csv
 psql lacrosse -f load_rounds.sql
 rm /tmp/rounds.csv

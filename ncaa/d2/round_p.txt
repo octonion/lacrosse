@@ -1,9 +1,31 @@
 BEGIN
- rd |   name    |   p   
-----+-----------+-------
-  4 | Le Moyne  | 0.593
-  4 | Limestone | 0.407
-(2 rows)
+ rd |     name     |   p   
+----+--------------+-------
+  2 | Limestone    | 0.816
+  2 | Tampa        | 0.768
+  2 | Adelphi      | 0.688
+  2 | Le Moyne     | 0.556
+  2 | Merrimack    | 0.444
+  2 | Pace         | 0.312
+  2 | Lenoir-Rhyne | 0.232
+  2 | Wingate      | 0.184
+  3 | Limestone    | 0.568
+  3 | Le Moyne     | 0.389
+  3 | Tampa        | 0.341
+  3 | Merrimack    | 0.333
+  3 | Adelphi      | 0.239
+  3 | Wingate      | 0.053
+  3 | Pace         | 0.040
+  3 | Lenoir-Rhyne | 0.038
+  4 | Limestone    | 0.291
+  4 | Le Moyne     | 0.226
+  4 | Merrimack    | 0.206
+  4 | Tampa        | 0.161
+  4 | Adelphi      | 0.085
+  4 | Wingate      | 0.015
+  4 | Pace         | 0.010
+  4 | Lenoir-Rhyne | 0.007
+(24 rows)
 
-COPY 2
+COPY 24
 COMMIT
