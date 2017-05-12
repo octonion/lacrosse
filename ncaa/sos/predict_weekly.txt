@@ -1,27 +1,27 @@
 BEGIN
 SET
-    date    | site |      home       | div | score |      away       | div | score 
-------------+------+-----------------+-----+-------+-----------------+-----+-------
- 2017-05-13 | home | Adelphi         | D2  | 10.14 | Pace            | D2  |  8.09
- 2017-05-13 | home | Albany (NY)     | D1  | 14.90 | North Carolina  | D1  | 10.26
- 2017-05-13 | home | Bates           | D3  | 17.22 | Amherst         | D3  | 13.53
- 2017-05-13 | home | Denison         | D3  | 21.74 | Ill. Wesleyan   | D3  | 10.85
- 2017-05-13 | home | Denver          | D1  | 11.91 | Air Force       | D1  |  8.74
- 2017-05-13 | home | Frank. & Marsh. | D3  | 11.44 | Cabrini         | D3  | 11.29
- 2017-05-13 | home | Johns Hopkins   | D1  | 10.15 | Duke            | D1  | 11.74
- 2017-05-13 | home | Le Moyne        | D2  |  9.28 | Merrimack       | D2  |  8.70
- 2017-05-13 | home | Lenoir-Rhyne    | D2  | 10.23 | Tampa           | D2  | 13.76
- 2017-05-13 | home | Limestone       | D2  | 11.31 | Wingate         | D2  |  7.50
- 2017-05-14 | home | Maryland        | D1  | 11.18 | Bryant          | D1  |  6.63
- 2017-05-14 | home | Notre Dame      | D1  | 10.32 | Marquette       | D1  |  7.65
- 2017-05-14 | home | Ohio St.        | D1  | 10.14 | Loyola Maryland | D1  |  9.79
- 2017-05-13 | home | Penn St.        | D1  | 10.45 | Towson          | D1  |  8.79
- 2017-05-13 | home | RIT             | D3  | 15.34 | Stevenson       | D3  | 11.17
- 2017-05-13 | home | Salisbury       | D3  | 16.80 | Hampden-Sydney  | D3  |  7.42
- 2017-05-13 | home | St. Lawrence    | D3  | 12.55 | SUNY Cortland   | D3  |  8.43
- 2017-05-14 | home | Syracuse        | D1  | 11.87 | Yale            | D1  | 10.78
- 2017-05-13 | home | Wesleyan (CT)   | D3  | 14.49 | Tufts           | D3  | 12.85
- 2017-05-13 | home | York (PA)       | D3  | 12.26 | Lynchburg       | D3  |  9.14
+    date    | site |      home       | div | score | p_win |      away       | div | score | p_win 
+------------+------+-----------------+-----+-------+-------+-----------------+-----+-------+-------
+ 2017-05-13 | home | Adelphi         | D2  | 10.14 | 0.688 | Pace            | D2  |  8.09 | 0.312
+ 2017-05-13 | home | Albany (NY)     | D1  | 14.90 | 0.827 | North Carolina  | D1  | 10.26 | 0.173
+ 2017-05-13 | home | Bates           | D3  | 17.22 | 0.751 | Amherst         | D3  | 13.53 | 0.249
+ 2017-05-13 | home | Denison         | D3  | 21.74 | 0.975 | Ill. Wesleyan   | D3  | 10.85 | 0.025
+ 2017-05-13 | home | Denver          | D1  | 11.91 | 0.762 | Air Force       | D1  |  8.74 | 0.238
+ 2017-05-13 | home | Frank. & Marsh. | D3  | 11.44 | 0.513 | Cabrini         | D3  | 11.29 | 0.487
+ 2017-05-13 | home | Johns Hopkins   | D1  | 10.15 | 0.364 | Duke            | D1  | 11.74 | 0.636
+ 2017-05-13 | home | Le Moyne        | D2  |  9.28 | 0.555 | Merrimack       | D2  |  8.70 | 0.445
+ 2017-05-13 | home | Lenoir-Rhyne    | D2  | 10.23 | 0.232 | Tampa           | D2  | 13.76 | 0.768
+ 2017-05-13 | home | Limestone       | D2  | 11.31 | 0.816 | Wingate         | D2  |  7.50 | 0.184
+ 2017-05-14 | home | Maryland        | D1  | 11.18 | 0.867 | Bryant          | D1  |  6.63 | 0.133
+ 2017-05-14 | home | Notre Dame      | D1  | 10.32 | 0.741 | Marquette       | D1  |  7.65 | 0.259
+ 2017-05-14 | home | Ohio St.        | D1  | 10.14 | 0.533 | Loyola Maryland | D1  |  9.79 | 0.467
+ 2017-05-13 | home | Penn St.        | D1  | 10.45 | 0.650 | Towson          | D1  |  8.79 | 0.350
+ 2017-05-13 | home | RIT             | D3  | 15.34 | 0.795 | Stevenson       | D3  | 11.17 | 0.205
+ 2017-05-13 | home | Salisbury       | D3  | 16.80 | 0.976 | Hampden-Sydney  | D3  |  7.42 | 0.024
+ 2017-05-13 | home | St. Lawrence    | D3  | 12.55 | 0.821 | SUNY Cortland   | D3  |  8.43 | 0.179
+ 2017-05-14 | home | Syracuse        | D1  | 11.87 | 0.592 | Yale            | D1  | 10.78 | 0.408
+ 2017-05-13 | home | Wesleyan (CT)   | D3  | 14.49 | 0.625 | Tufts           | D3  | 12.85 | 0.375
+ 2017-05-13 | home | York (PA)       | D3  | 12.26 | 0.755 | Lynchburg       | D3  |  9.14 | 0.245
 (20 rows)
 
 COPY 20

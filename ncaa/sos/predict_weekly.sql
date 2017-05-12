@@ -10,9 +10,19 @@ hd.team_name as home,
 'D'||hd.div_id as div,
 (exp(i.estimate)*y.exp_factor*hdof.exp_factor*h.offensive*o.exp_factor*v.defensive*vddf.exp_factor)::numeric(4,2) as score,
 
+skellam(
+exp(i.estimate)*y.exp_factor*hdof.exp_factor*h.offensive*o.exp_factor*v.defensive*vddf.exp_factor,
+exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*hddf.exp_factor*h.defensive*d.exp_factor,
+'win')::numeric(4,3) as p_win,
+
 vd.team_name as away,
 'D'||vd.div_id as div,
-(exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*hddf.exp_factor*h.defensive*d.exp_factor)::numeric(4,2) as score
+(exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*hddf.exp_factor*h.defensive*d.exp_factor)::numeric(4,2) as score,
+
+skellam(
+exp(i.estimate)*y.exp_factor*hdof.exp_factor*h.offensive*o.exp_factor*v.defensive*vddf.exp_factor,
+exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*hddf.exp_factor*h.defensive*d.exp_factor,
+'lose')::numeric(4,3) as p_win
 
 from ncaa.games g
 join ncaa._schedule_factors h
@@ -54,9 +64,18 @@ hd.team_name as home,
 'D'||hd.div_id as div,
 (exp(i.estimate)*y.exp_factor*hdof.exp_factor*h.offensive*v.defensive*vddf.exp_factor)::numeric(4,2) as score,
 
+skellam(
+exp(i.estimate)*y.exp_factor*hdof.exp_factor*h.offensive*v.defensive*vddf.exp_factor,
+exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*hddf.exp_factor*h.defensive,
+'win')::numeric(4,3) as p_win,
+
 vd.team_name as away,
 'D'||vd.div_id as div,
-(exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*hddf.exp_factor*h.defensive)::numeric(4,2) as score
+(exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*hddf.exp_factor*h.defensive)::numeric(4,2) as score,
+
+skellam(
+exp(i.estimate)*y.exp_factor*hdof.exp_factor*h.offensive*v.defensive*vddf.exp_factor,
+exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*hddf.exp_factor*h.defensive,'lose')::numeric(4,3) as p_win
 
 from ncaa.games g
 join ncaa._schedule_factors h
@@ -98,9 +117,19 @@ hd.team_name as home,
 'D'||hd.div_id as div,
 (exp(i.estimate)*y.exp_factor*hdof.exp_factor*h.offensive*o.exp_factor*v.defensive*vddf.exp_factor)::numeric(4,2) as score,
 
+skellam(
+exp(i.estimate)*y.exp_factor*hdof.exp_factor*h.offensive*o.exp_factor*v.defensive*vddf.exp_factor,
+exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*hddf.exp_factor*h.defensive*d.exp_factor,
+'win')::numeric(4,3) as p_win,
+
 vd.team_name as away,
 'D'||vd.div_id as div,
-(exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*hddf.exp_factor*h.defensive*d.exp_factor)::numeric(4,2) as score
+(exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*hddf.exp_factor*h.defensive*d.exp_factor)::numeric(4,2) as score,
+
+skellam(
+exp(i.estimate)*y.exp_factor*hdof.exp_factor*h.offensive*o.exp_factor*v.defensive*vddf.exp_factor,
+exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*hddf.exp_factor*h.defensive*d.exp_factor,
+'lose')::numeric(4,3) as p_win
 
 from ncaa.games g
 join ncaa._schedule_factors h
@@ -142,9 +171,18 @@ hd.team_name as home,
 'D'||hd.div_id as div,
 (exp(i.estimate)*y.exp_factor*hdof.exp_factor*h.offensive*v.defensive*vddf.exp_factor)::numeric(4,2) as score,
 
+skellam(
+exp(i.estimate)*y.exp_factor*hdof.exp_factor*h.offensive*v.defensive*vddf.exp_factor,
+exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*hddf.exp_factor*h.defensive,
+'win')::numeric(4,3) as p_win,
+
 vd.team_name as away,
 'D'||vd.div_id as div,
-(exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*hddf.exp_factor*h.defensive)::numeric(4,2) as score
+(exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*hddf.exp_factor*h.defensive)::numeric(4,2) as score,
+
+skellam(
+exp(i.estimate)*y.exp_factor*hdof.exp_factor*h.offensive*v.defensive*vddf.exp_factor,
+exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*hddf.exp_factor*h.defensive,'lose')::numeric(4,3) as p_win
 
 from ncaa.games g
 join ncaa._schedule_factors h
