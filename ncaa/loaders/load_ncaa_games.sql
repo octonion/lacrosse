@@ -23,7 +23,21 @@ copy ncaa.games from '/tmp/ncaa_games.csv' with delimiter as ',' csv quote as '"
 
 alter table ncaa.games add column game_id serial primary key;
 
+--update ncaa.games
+--  set game_length = trim(both ' -' from game_length);
+
+delete from ncaa.games
+where team_score>40;
+
+delete from ncaa.games
+where opponent_score>40;
+
 update ncaa.games
-set game_length = trim(both ' -' from game_length);
+  set game_length = ''
+where game_length like '-%';
+
+update ncaa.games
+  set game_length = ''
+where abs(team_score-opponent_score)>1;
 
 commit;

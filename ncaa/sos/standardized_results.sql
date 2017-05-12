@@ -76,7 +76,8 @@ g.opponent_id,
 g.team_score,
 g.opponent_score,
 (case when g.game_length='' then '0 OT'
-      else g.game_length end) as game_length
+--      else ('1+ OT') end) as game_length
+      else g.game_length end) as game_length      
 from ncaa.games g
 -- join c as c1 on (c1.team_id,c1.year)=(g.team_id,g.year)
 -- join c as c2 on (c2.team_id,c2.year)=(g.opponent_id,g.year)
@@ -99,8 +100,8 @@ and g.opponent_id is not NULL
 and not(g.game_date is null)
 and g.year between 2002 and 2017
 
-and not('Tufts' in (g.team_name,g.opponent_name) and
-        g.game_date::date in ('2017-3-9'::date,'2017-3-12'::date))
+--and not('Tufts' in (g.team_name,g.opponent_name) and
+--        g.game_date::date in ('2017-3-9'::date,'2017-3-12'::date))
 
 -- and c1.n >=20
 -- and c2.n >=20
@@ -136,6 +137,7 @@ g.team_id,
 g.opponent_score,
 g.team_score,
 (case when g.game_length='' then '0 OT'
+--      else ('1+ OT') end) as game_length
       else g.game_length end) as game_length
 from ncaa.games g
 where
@@ -157,8 +159,8 @@ and g.opponent_id is not NULL
 and not(g.game_date is null)
 and g.year between 2002 and 2017
 
-and not('Tufts' in (g.team_name,g.opponent_name) and
-        g.game_date::date in ('2017-3-9'::date,'2017-3-12'::date))
+--and not('Tufts' in (g.team_name,g.opponent_name) and
+--        g.game_date::date in ('2017-3-9'::date,'2017-3-12'::date))
 
 );
 

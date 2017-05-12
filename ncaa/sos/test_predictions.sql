@@ -66,8 +66,8 @@ and not((r.team_score,r.opponent_score)=(0,0))
 
 --and r.field in ('offense_home','defense_home')
 
--- test March and April
---and extract(month from r.game_date) in (3,4)
+-- test May
+--and extract(month from r.game_date) in (5)
 
 --and ((extract(month from r.game_date)=4) or
 --     (extract(month from r.game_date)=3 and extract(day from r.game_date)>=14))
@@ -138,6 +138,9 @@ and r.pulled_id = r.team_id
 and r.team_id < r.opponent_id
 
 and not((r.team_score,r.opponent_score)=(0,0))
+
+-- test May
+--and extract(month from r.game_date) in (5)
 
 and r.team_div_id=r.opponent_div_id
 
@@ -212,8 +215,8 @@ and not((r.team_score,r.opponent_score)=(0,0))
 
 --and r.field in ('offense_home','defense_home')
 
--- test March and April
---and extract(month from r.game_date) in (3,4)
+-- test May
+--and extract(month from r.game_date) in (5)
 
 --and ((extract(month from r.game_date)=4) or
 --     (extract(month from r.game_date)=3 and extract(day from r.game_date)>=14))

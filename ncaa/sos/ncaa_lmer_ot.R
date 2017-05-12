@@ -33,9 +33,9 @@ and r.pulled_id = least(r.team_id,r.opponent_id)
 --and r.opponent_score>0
 --and not(r.team_score,r.opponent_score)=(0,0)
 
--- fit all excluding March and April
+-- fit all excluding May
 
---and not(extract(month from r.game_date)) in (1,2,3,4)
+--and not(extract(month from r.game_date)) in (5)
 
 ;")
 
@@ -61,7 +61,7 @@ o_div <- as.factor(o_div)
 
 game_length <- as.factor(game_length)
 
-fp <- data.frame(year,field,d_div,o_div)
+fp <- data.frame(year,field,d_div,o_div,game_length)
 fpn <- names(fp)
 
 # Random parameters
@@ -103,8 +103,14 @@ g <- cbind(fp,rp)
 
 dim(g)
 
+#model <- gs ~ year+field+d_div+o_div+game_length+(1|offense)+(1|defense)+(1|game_id)
 model <- gs ~ year+field+d_div+o_div+(1|offense)+(1|defense)+(1|game_id)
-fit <- glmer(model,data=g,REML=TRUE,verbose=TRUE,family=poisson(link=log))
+fit <- glmer(model,
+             data=g,
+	     verbose=TRUE,
+	     family=poisson(link=log),
+	     nAGQ=0,
+     	     control=glmerControl(optimizer = "nloptwrap"))
 
 fit
 summary(fit)

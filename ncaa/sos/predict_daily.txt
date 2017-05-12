@@ -1,25 +1,8 @@
 BEGIN
 SET
-    date    | site |      home       | div | score |       away       | div | score 
-------------+------+-----------------+-----+-------+------------------+-----+-------
- 2017-05-10 | home | Amherst         | D3  | 13.73 | Springfield      | D3  | 11.39
- 2017-05-10 | home | Aurora          | D3  | 16.16 | Ill. Wesleyan    | D3  | 13.45
- 2017-05-10 | home | Bates           | D3  | 15.79 | Plattsburgh St.  | D3  | 10.22
- 2017-05-10 | home | Bryant          | D1  |  8.09 | Monmouth         | D1  |  6.50
- 2017-05-10 | home | Cabrini         | D3  | 14.66 | Colorado Col.    | D3  |  8.52
- 2017-05-10 | home | Denison         | D3  | 12.75 | Carthage         | D3  |  4.86
- 2017-05-10 | home | Frank. & Marsh. | D3  | 13.01 | Elizabethtown    | D3  |  8.52
- 2017-05-10 | home | Hampden-Sydney  | D3  | 12.20 | Transylvania     | D3  |  6.67
- 2017-05-10 | home | Lynchburg       | D3  | 14.24 | Sewanee          | D3  |  7.46
- 2017-05-10 | home | RIT             | D3  | 16.18 | John Carroll     | D3  |  7.71
- 2017-05-10 | home | Salisbury       | D3  | 18.59 | Misericordia     | D3  |  5.52
- 2017-05-10 | home | Stevenson       | D3  | 13.54 | Nazareth         | D3  |  8.67
- 2017-05-10 | home | St. Lawrence    | D3  | 12.13 | Montclair St.    | D3  |  6.11
- 2017-05-10 | home | SUNY Cortland   | D3  | 14.69 | Endicott         | D3  |  8.59
- 2017-05-10 | home | Tufts           | D3  | 19.51 | Keene St.        | D3  | 14.63
- 2017-05-10 | home | Wesleyan (CT)   | D3  | 15.67 | New England Col. | D3  |  5.93
- 2017-05-10 | home | York (PA)       | D3  | 15.57 | Morrisville St.  | D3  |  5.29
-(17 rows)
+ date | site | home | div | score | away | div | score 
+------+------+------+-----+-------+------+-----+-------
+(0 rows)
 
-COPY 17
+COPY 0
 COMMIT

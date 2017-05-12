@@ -25,7 +25,7 @@ from ncaa.results r
 
 where
     r.year between 2002 and 2017
---and r.game_date < '2017/11/29'::date
+
 and r.team_div_id is not null
 and r.opponent_div_id is not null
 and r.pulled_id = least(r.team_id,r.opponent_id)
@@ -34,9 +34,9 @@ and r.pulled_id = least(r.team_id,r.opponent_id)
 --and r.opponent_score>=0
 --and not(r.team_score,r.opponent_score)=(0,0)
 
--- fit all excluding March and April
+-- fit all excluding May
 
---and not(extract(month from r.game_date)) in (1,2,3,4)
+--and not(extract(month from r.game_date)) in (5)
 
 --and (r.year < 2017 or (r.year=2017 and r.game_date < '2017/4/6'::date))
 
@@ -64,7 +64,8 @@ o_div <- as.factor(o_div)
 
 game_length <- as.factor(game_length)
 
-fp <- data.frame(year,field,d_div,o_div,game_length)
+#fp <- data.frame(year,field,d_div,o_div,game_length)
+fp <- data.frame(year,field,d_div,o_div)
 fpn <- names(fp)
 
 # Random parameters
@@ -109,7 +110,7 @@ detach(games)
 
 dim(g)
 
-model <- gs ~ year+field+d_div+o_div+game_length+(1|offense)+(1|defense)+(1|game_id)
+model <- gs ~ year+field+d_div+o_div+(1|offense)+(1|defense)+(1|game_id)
 fit <- glmer(model,
              data=g,
 	     verbose=TRUE,
