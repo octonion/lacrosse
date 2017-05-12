@@ -6,7 +6,7 @@ require 'mechanize'
 agent = Mechanize.new{ |agent| agent.history.max_size=0 }
 agent.user_agent = 'Mozilla/5.0'
 
-url = "http://www.ncaa.com/stats/lacrosse-women/d1"
+url = "http://www.ncaa.com/stats/lacrosse-men/d1"
 
 url = "http://web1.ncaa.org/stats/StatsSrv/careersearch"
 

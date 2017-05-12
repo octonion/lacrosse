@@ -14,17 +14,17 @@ nbsp = Nokogiri::HTML("&nbsp;").text
 url = "http://web1.ncaa.org/stats/StatsSrv/careerteam"
 agent.get(url)
 
-teams = CSV.read("csv/ncaa_schools.csv")
+teams = CSV.read("ncaa_schools.csv")
 
-nicknames = CSV.open("csv/ncaa_nicknames.csv","w")
-colors = CSV.open("csv/ncaa_colors.csv","w")
-locations = CSV.open("csv/ncaa_locations.csv","w")
-history = CSV.open("csv/ncaa_history.csv","w")
+nicknames = CSV.open("ncaa_nicknames.csv","w")
+colors = CSV.open("ncaa_colors.csv","w")
+locations = CSV.open("ncaa_locations.csv","w")
+history = CSV.open("ncaa_history.csv","w")
 
 team_count = 0
 season_count = 0
 
-year = 2015
+year = 2016
 
 teams.each do |team|
   team_id = team[0]

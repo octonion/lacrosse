@@ -22,7 +22,7 @@ team_score::float as gs
 from ncaa_women.results r
 
 where
-    r.year between 2002 and 2015
+    r.year between 2002 and 2017
 and r.team_div_id is not null
 and r.opponent_div_id is not null
 and r.pulled_id = least(r.team_id,r.opponent_id)
@@ -51,7 +51,7 @@ o_div <- as.factor(o_div)
 
 game_length <- as.factor(game_length)
 
-fp <- data.frame(year,field,d_div,o_div,game_length)
+fp <- data.frame(year,field,d_div,o_div)
 fpn <- names(fp)
 
 # Random parameters
@@ -96,9 +96,14 @@ detach(games)
 
 dim(g)
 
-model <- gs ~ year+field+d_div+o_div+game_length+(1|offense)+(1|defense)+(1|game_id)
-fit <- glmer(model,data=g,REML=TRUE,verbose=TRUE,family=poisson(link=log))
-
+model <- gs ~ year+field+d_div+o_div+(1|offense)+(1|defense)+(1|game_id)
+fit <- glmer(model,
+             data=g,
+	     verbose=TRUE,
+	     family=poisson(link=log),
+	     nAGQ=0,
+	     control=glmerControl(optimizer = "nloptwrap"))
+	     
 fit
 summary(fit)
 

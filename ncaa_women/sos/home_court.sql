@@ -7,7 +7,7 @@ join ncaa_women._basic_factors_advanced d
   on (split_part(d.level,'/',1),split_part(d.level,'/',2))=
      (split_part(o.level,'/',1),'defense_home')
 join ncaa_women.teams_divisions s
-  on (s.team_id,s.year,s.div_id)=(split_part(o.level,'/',1)::integer,2015,3)
+  on (s.team_id,s.year,s.div_id)=(split_part(o.level,'/',1)::integer,2017,3)
 where o.factor='team_field'
 and split_part(o.level,'/',2)='offense_home'
 order by home desc;

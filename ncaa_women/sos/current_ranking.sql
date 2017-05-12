@@ -38,7 +38,7 @@ join ncaa_women._factors o
   on (o.parameter,o.level::integer)=('o_div',sd.div_id)
 join ncaa_women._factors d
   on (d.parameter,d.level::integer)=('d_div',sd.div_id)
-where sf.year in (2015)
+where sf.year in (2017)
 order by str desc);
 
 select
@@ -48,21 +48,27 @@ order by rk asc;
 
 select
 row_number() over (order by str desc nulls last) as rk,
-team,div_id as div,str,ofs,dfs,sos
+team,
+'D'||div_id as div,
+str,ofs,dfs,sos
 from r
 where div_id=1
 order by rk asc;
 
 select
 row_number() over (order by str desc nulls last) as rk,
-team,div_id as div,str,ofs,dfs,sos
+team,
+'D'||div_id as div,
+str,ofs,dfs,sos
 from r
 where div_id=2
 order by rk asc;
 
 select
 row_number() over (order by str desc nulls last) as rk,
-team,div_id as div,str,ofs,dfs,sos
+team,
+'D'||div_id as div,
+str,ofs,dfs,sos
 from r
 where div_id=3
 order by rk asc;

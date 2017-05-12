@@ -1,10 +1,38 @@
 BEGIN
 SET
-    date    |  site   |     home      | div | score |      away      | div | score 
-------------+---------+---------------+-----+-------+----------------+-----+-------
- 2015-05-24 | neutral | Maryland      | D1  | 10.02 | North Carolina | D1  | 10.04
- 2015-05-24 | neutral | SUNY Cortland | D3  | 11.75 | Trinity (CT)   | D3  | 10.95
-(2 rows)
+    date    |  site   |       home       | div | score |         away         | div | score 
+------------+---------+------------------+-----+-------+----------------------+-----+-------
+ 2017-05-12 | neutral | Albany (NY)      | D1  | 10.41 | Northwestern         | D1  | 11.05
+ 2017-05-13 | home    | Babson           | D3  | 12.48 | Johnson & Wales (RI) | D3  |  7.09
+ 2017-05-12 | neutral | Boston College   | D1  | 14.62 | Canisius             | D1  | 12.78
+ 2017-05-14 | home    | Catholic         | D3  | 21.71 | Wash. & Jeff.        | D3  |  4.89
+ 2017-05-14 | home    | Claremont-M-S    | D3  | 15.70 | Colorado Col.        | D3  | 10.20
+ 2017-05-12 | neutral | Colorado         | D1  | 14.11 | Massachusetts        | D1  |  9.30
+ 2017-05-12 | neutral | Cornell          | D1  | 10.91 | Notre Dame           | D1  |  9.49
+ 2017-05-14 | home    | Denison          | D3  |  7.36 | Brockport            | D3  | 11.69
+ 2017-05-12 | home    | East Stroudsburg | D2  | 11.19 | Florida Tech         | D2  | 13.47
+ 2017-05-13 | home    | Endicott         | D3  | 11.05 | Farmingdale St.      | D3  |  7.30
+ 2017-05-13 | home    | FDU-Florham      | D3  | 12.99 | Hamline              | D3  |  4.54
+ 2017-05-14 | home    | Frank. & Marsh.  | D3  | 16.11 | Cabrini              | D3  |  4.91
+ 2017-05-12 | neutral | Jacksonville     | D1  |  7.25 | Southern California  | D1  | 13.43
+ 2017-05-12 | neutral | James Madison    | D1  | 11.40 | Louisville           | D1  |  8.03
+ 2017-05-12 | home    | LIU Post         | D2  |  8.77 | NYIT                 | D2  |  7.30
+ 2017-05-12 | home    | Mary Washington  | D3  | 11.04 | Meredith             | D3  |  6.18
+ 2017-05-14 | home    | Messiah          | D3  | 10.10 | SUNY Cortland        | D3  |  7.99
+ 2017-05-13 | home    | Middlebury       | D3  | 15.90 | Plymouth St.         | D3  |  5.41
+ 2017-05-14 | home    | Mount Union      | D3  |  9.59 | Calvin               | D3  |  7.25
+ 2017-05-12 | home    | New Haven        | D2  |  9.61 | Mercy                | D2  | 10.93
+ 2017-05-12 | home    | Penn             | D1  | 13.02 | Navy                 | D1  |  8.34
+ 2017-05-12 | home    | Regis (CO)       | D2  | 11.33 | Queens (NC)          | D2  |  9.74
+ 2017-05-14 | home    | Rhodes           | D3  | 13.06 | Ill. Wesleyan        | D3  |  7.16
+ 2017-05-13 | home    | Salisbury        | D3  | 19.24 | Regis (MA)           | D3  |  3.02
+ 2017-05-13 | home    | St. John Fisher  | D3  | 20.15 | Morrisville St.      | D3  |  4.73
+ 2017-05-12 | home    | Stony Brook      | D1  | 16.64 | Bryant               | D1  |  6.03
+ 2017-05-12 | neutral | Towson           | D1  | 13.82 | High Point           | D1  |  8.61
+ 2017-05-12 | neutral | Virginia         | D1  | 11.28 | Elon                 | D1  |  9.78
+ 2017-05-14 | home    | Wesleyan (CT)    | D3  | 10.56 | Ithaca               | D3  |  8.90
+ 2017-05-13 | home    | Westfield St.    | D3  | 12.25 | Castleton            | D3  |  7.25
+(30 rows)
 
-COPY 2
+COPY 30
 COMMIT

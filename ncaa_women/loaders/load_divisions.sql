@@ -18,15 +18,15 @@ create table ncaa_women.teams_divisions (
 
 copy ncaa_women.teams_divisions from '/tmp/divisions.csv' with delimiter as ',' csv quote as '"';
 
--- Temporary fix for 2015
+-- Temporary fix for 2017
 
 insert into ncaa_women.teams_divisions
 (sport_code,team_name,team_id,pulled_name,javascript,year,div_id,team_year,sport,division)
 (
-select sport_code,team_name,team_id,pulled_name,javascript,2015,div_id,team_year,sport,division
+select sport_code,team_name,team_id,pulled_name,javascript,2017,div_id,team_year,sport,division
 from ncaa_women.teams_divisions
-where year=2014
-and (team_id,2015) not in
+where year=2016
+and (team_id,2017) not in
 (select team_id,year from ncaa_women.teams_divisions)
 );
 
