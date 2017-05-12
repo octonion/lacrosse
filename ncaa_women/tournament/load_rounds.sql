@@ -39,12 +39,17 @@ r1.year,
 'home',
 r1.team_id,
 r2.team_id,
-(h.strength*o.exp_factor)^3.2/
-((h.strength*o.exp_factor)^3.2+(v.strength*d.exp_factor)^3.2)
-  as home_p,
-(v.strength*d.exp_factor)^3.2/
-((v.strength*d.exp_factor)^3.2+(h.strength*o.exp_factor)^3.2)
-  as visitor_p
+
+skellam(
+exp(i.estimate)*y.exp_factor*hdof.exp_factor*h.offensive*o.exp_factor*v.defensive*vddf.exp_factor,
+exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*hddf.exp_factor*h.defensive*d.exp_factor,
+'win') as team_p,
+
+skellam(
+exp(i.estimate)*y.exp_factor*hdof.exp_factor*h.offensive*o.exp_factor*v.defensive*vddf.exp_factor,
+exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*hddf.exp_factor*h.defensive*d.exp_factor,
+'lose') as opponent_p
+
 from ncaa_women.rounds r1
 join ncaa_women.rounds r2
   on ((r2.year)=(r1.year) and not((r2.team_id)=(r1.team_id)))
@@ -52,12 +57,28 @@ join ncaa_women._schedule_factors v
   on (v.year,v.team_id)=(r2.year,r2.team_id)
 join ncaa_women._schedule_factors h
   on (h.year,h.team_id)=(r1.year,r1.team_id)
+join ncaa_women.teams_divisions hd
+  on (hd.year,hd.team_id)=(h.year,h.team_id)
+join ncaa_women._factors hdof
+  on (hdof.parameter,hdof.level::integer)=('o_div',hd.div_id)
+join ncaa_women._factors hddf
+  on (hddf.parameter,hddf.level::integer)=('d_div',hd.div_id)
+join ncaa_women.teams_divisions vd
+  on (vd.year,vd.team_id)=(v.year,v.team_id)
+join ncaa_women._factors vdof
+  on (vdof.parameter,vdof.level::integer)=('o_div',vd.div_id)
+join ncaa_women._factors vddf
+  on (vddf.parameter,vddf.level::integer)=('d_div',vd.div_id)
 join ncaa_women._factors o
   on (o.parameter,o.level)=('field','offense_home')
 join ncaa_women._factors d
   on (d.parameter,d.level)=('field','defense_home')
+join ncaa_women._factors y
+  on (y.parameter,y.level)=('year',r1.year::text)
+join ncaa_women._basic_factors i
+  on (i.factor)=('(Intercept)')
 where
-  r1.year=2015
+  r1.year=2017
 );
 
 insert into ncaa_women.matrix_p
@@ -67,12 +88,17 @@ r1.year,
 'away',
 r1.team_id,
 r2.team_id,
-(h.strength*d.exp_factor)^3.2/
-((h.strength*d.exp_factor)^3.2+(v.strength*o.exp_factor)^3.2)
-  as home_p,
-(v.strength*o.exp_factor)^3.2/
-((v.strength*o.exp_factor)^3.2+(h.strength*d.exp_factor)^3.2)
-  as visitor_p
+
+skellam(
+exp(i.estimate)*y.exp_factor*hdof.exp_factor*h.offensive*v.defensive*vddf.exp_factor*d.exp_factor,
+exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*o.exp_factor*hddf.exp_factor*h.defensive,
+'win') as team_p,
+
+skellam(
+exp(i.estimate)*y.exp_factor*hdof.exp_factor*h.offensive*v.defensive*vddf.exp_factor*d.exp_factor,
+exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*o.exp_factor*hddf.exp_factor*h.defensive,
+'lose') as opponent_p
+
 from ncaa_women.rounds r1
 join ncaa_women.rounds r2
   on ((r2.year)=(r1.year) and not((r2.team_id)=(r1.team_id)))
@@ -80,12 +106,28 @@ join ncaa_women._schedule_factors v
   on (v.year,v.team_id)=(r2.year,r2.team_id)
 join ncaa_women._schedule_factors h
   on (h.year,h.team_id)=(r1.year,r1.team_id)
+join ncaa_women.teams_divisions hd
+  on (hd.year,hd.team_id)=(h.year,h.team_id)
+join ncaa_women._factors hdof
+  on (hdof.parameter,hdof.level::integer)=('o_div',hd.div_id)
+join ncaa_women._factors hddf
+  on (hddf.parameter,hddf.level::integer)=('d_div',hd.div_id)
+join ncaa_women.teams_divisions vd
+  on (vd.year,vd.team_id)=(v.year,v.team_id)
+join ncaa_women._factors vdof
+  on (vdof.parameter,vdof.level::integer)=('o_div',vd.div_id)
+join ncaa_women._factors vddf
+  on (vddf.parameter,vddf.level::integer)=('d_div',vd.div_id)
 join ncaa_women._factors o
   on (o.parameter,o.level)=('field','offense_home')
 join ncaa_women._factors d
   on (d.parameter,d.level)=('field','defense_home')
+join ncaa_women._factors y
+  on (y.parameter,y.level)=('year',r1.year::text)
+join ncaa_women._basic_factors i
+  on (i.factor)=('(Intercept)')
 where
-  r1.year=2015
+  r1.year=2017
 );
 
 insert into ncaa_women.matrix_p
@@ -95,12 +137,17 @@ r1.year,
 'neutral',
 r1.team_id,
 r2.team_id,
-(h.strength)^3.2/
-((h.strength)^3.2+(v.strength)^3.2)
-  as home_p,
-(v.strength)^3.2/
-((v.strength)^3.2+(h.strength)^3.2)
-  as visitor_p
+
+skellam(
+exp(i.estimate)*y.exp_factor*hdof.exp_factor*h.offensive*v.defensive*vddf.exp_factor,
+exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*hddf.exp_factor*h.defensive,
+'win') as team_p,
+
+skellam(
+exp(i.estimate)*y.exp_factor*hdof.exp_factor*h.offensive*v.defensive*vddf.exp_factor,
+exp(i.estimate)*y.exp_factor*vdof.exp_factor*v.offensive*hddf.exp_factor*h.defensive,
+'lose') as opponent_p
+
 from ncaa_women.rounds r1
 join ncaa_women.rounds r2
   on ((r2.year)=(r1.year) and not((r2.team_id)=(r1.team_id)))
@@ -108,8 +155,24 @@ join ncaa_women._schedule_factors v
   on (v.year,v.team_id)=(r2.year,r2.team_id)
 join ncaa_women._schedule_factors h
   on (h.year,h.team_id)=(r1.year,r1.team_id)
+join ncaa_women.teams_divisions hd
+  on (hd.year,hd.team_id)=(h.year,h.team_id)
+join ncaa_women._factors hdof
+  on (hdof.parameter,hdof.level::integer)=('o_div',hd.div_id)
+join ncaa_women._factors hddf
+  on (hddf.parameter,hddf.level::integer)=('d_div',hd.div_id)
+join ncaa_women.teams_divisions vd
+  on (vd.year,vd.team_id)=(v.year,v.team_id)
+join ncaa_women._factors vdof
+  on (vdof.parameter,vdof.level::integer)=('o_div',vd.div_id)
+join ncaa_women._factors vddf
+  on (vddf.parameter,vddf.level::integer)=('d_div',vd.div_id)
+join ncaa_women._factors y
+  on (y.parameter,y.level)=('year',r1.year::text)
+join ncaa_women._basic_factors i
+  on (i.factor)=('(Intercept)')
 where
-  r1.year=2015
+  r1.year=2017
 );
 
 -- home advantage
@@ -138,86 +201,58 @@ r2.team_id,
 from ncaa_women.rounds r1
 join ncaa_women.rounds r2
   on (r2.year=r1.year and not(r2.team_id=r1.team_id))
-join (select generate_series(1, 5) round_id) gs
+join (select generate_series(1, 6) round_id) gs
   on TRUE
 where
-  r1.year=2015
+  r1.year=2017
 );
 
--- 1st, 2nd, 3rd round seeds have home
+-- 1-2 round seeds have home
 
 update ncaa_women.matrix_field
 set field='home'
-from ncaa_women.rounds r1, ncaa_women.rounds r2
+from ncaa_women.rounds rt, ncaa_women.rounds ro
 where
-    (r1.year,r1.round_id,r1.team_id)=
-    (matrix_field.year,1,matrix_field.team_id)
-and (r2.year,r2.round_id,r2.team_id)=
-    (matrix_field.year,1,matrix_field.opponent_id)
-and matrix_field.round_id in (2,3,4)
-and ((r1.seed is not null and r2.seed is null) or
-     (r1.seed < r2.seed))
-;
+    (rt.year,rt.team_id)=
+    (matrix_field.year,matrix_field.team_id)
+and (ro.year,ro.team_id)=
+    (matrix_field.year,matrix_field.opponent_id)
+and rt.round_id=1
+and ro.round_id=1
+and matrix_field.round_id between 1 and 2
+and rt.seed is not null;
 
 update ncaa_women.matrix_field
 set field='away'
-from ncaa_women.rounds r1, ncaa_women.rounds r2
+from ncaa_women.rounds rt, ncaa_women.rounds ro
 where
-    (r1.year,r1.round_id,r1.team_id)=
-    (matrix_field.year,1,matrix_field.team_id)
-and (r2.year,r2.round_id,r2.team_id)=
-    (matrix_field.year,1,matrix_field.opponent_id)
-and matrix_field.round_id in (2,3,4)
-and ((r1.seed is null and r2.seed is not null) or
-     (r1.seed > r2.seed))
-;
+    (rt.year,rt.team_id)=
+    (matrix_field.year,matrix_field.team_id)
+and (ro.year,ro.team_id)=
+    (matrix_field.year,matrix_field.opponent_id)
+and rt.round_id=1
+and ro.round_id=1
+and matrix_field.round_id between 1 and 2
+and ro.seed is not null;
 
--- 4th and 5th rounds in Philadelpha; give Penn and Penn St home
-
--- Penn
-
+/*
 update ncaa_women.matrix_field
 set field='home'
-where (year,round_id,team_id)=(2015,5,540);
-
-update ncaa_women.matrix_field
-set field='home'
-where (year,round_id,team_id)=(2015,6,540);
+from ncaa_women.rounds r
+where (r.year,r.team_id)=
+      (matrix_field.year,matrix_field.team_id)
+and r.round_id=1
+and matrix_field.round_id between 1 and 2
+and r.seed is not null;
 
 update ncaa_women.matrix_field
 set field='away'
-where (year,round_id,opponent_id)=(2015,5,540);
-
-update ncaa_women.matrix_field
-set field='away'
-where (year,round_id,opponent_id)=(2015,6,540);
-
--- Penn St
-
-update ncaa_women.matrix_field
-set field='home'
-where (year,round_id,team_id)=(2015,5,539);
-
-update ncaa_women.matrix_field
-set field='home'
-where (year,round_id,team_id)=(2015,6,539);
-
-update ncaa_women.matrix_field
-set field='away'
-where (year,round_id,opponent_id)=(2015,5,539);
-
-update ncaa_women.matrix_field
-set field='away'
-where (year,round_id,opponent_id)=(2015,6,539);
-
--- Penn vs Penn St is neutral
-
-update ncaa_women.matrix_field
-set field='neutral'
-where (year,round_id,team_id,opponent_id)=(2015,6,539,540);
-
-update ncaa_women.matrix_field
-set field='neutral'
-where (year,round_id,team_id,opponent_id)=(2015,6,540,539);
+from ncaa_women.rounds r
+where (r.year,r.team_id)=
+      (matrix_field.year,matrix_field.team_id)
+and r.round_id=1
+and matrix_field.round_id=2
+and r.seed is null;
+*/
 
 commit;
