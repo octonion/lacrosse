@@ -20,7 +20,16 @@ r.team_div_id as o_div,
 r.opponent_id as opponent,
 r.opponent_div_id as d_div,
 r.game_length as game_length,
-team_score::float as gs
+(
+case when r.game_length<>'0 OT' then
+  r.team_score::float*(r.team_score::float+r.opponent_score::float)/(1+r.team_score::float+r.opponent_score::float)
+else r.team_score::float
+end) as gs
+--  least(r.team_score,r.opponent_score)::float+ -- 0.5
+--    (r.team_score::float)/(r.team_score+r.opponent_score)
+--else r.team_score::float
+--end) as gs
+--r.team_score::float as gs
 from ncaa.results r
 
 where
