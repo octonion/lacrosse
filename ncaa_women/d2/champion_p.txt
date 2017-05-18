@@ -1,19 +1,11 @@
 BEGIN
-    team_name     |   p   
-------------------+-------
- Adelphi          | 0.780
- Lindenwood       | 0.099
- Le Moyne         | 0.076
- Fla. Southern    | 0.032
- Regis (CO)       | 0.003
- LIU Post         | 0.003
- Florida Tech     | 0.003
- Mercy            | 0.002
- NYIT             | 0.001
- Queens (NC)      | 0.001
- New Haven        | 0.000
- East Stroudsburg | 0.000
-(12 rows)
+   team_name   |   p   
+---------------+-------
+ Adelphi       | 0.838
+ Lindenwood    | 0.076
+ Le Moyne      | 0.063
+ Fla. Southern | 0.023
+(4 rows)
 
-COPY 12
+COPY 4
 COMMIT
