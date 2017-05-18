@@ -1,15 +1,11 @@
 BEGIN
-  team_name   |   p   
---------------+-------
- Limestone    | 0.313
- Le Moyne     | 0.242
- Merrimack    | 0.232
- Tampa        | 0.119
- Adelphi      | 0.076
- Wingate      | 0.009
- Pace         | 0.006
- Lenoir-Rhyne | 0.003
-(8 rows)
+ team_name |   p   
+-----------+-------
+ Merrimack | 0.459
+ Limestone | 0.332
+ Tampa     | 0.118
+ Adelphi   | 0.091
+(4 rows)
 
-COPY 8
+COPY 4
 COMMIT
