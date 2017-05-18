@@ -83,7 +83,7 @@ order by r.year;
 
 select
 
-r.team_div_id as div,
+'D'||r.team_div_id as div,
 (sum(
 case when ((t.strength*f.exp_factor)>(o.strength/f.exp_factor)
             and r.team_score>r.opponent_score) then 1

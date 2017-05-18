@@ -1,22 +1,7 @@
 BEGIN
 SET
-    date    |       team       | h_div |  site   |         opp         | v_div | spread 
-------------+------------------+-------+---------+---------------------+-------+--------
- 2017-05-12 | Albany (NY)      |     1 | neutral | Northwestern        |     1 |   -0.6
- 2017-05-12 | Boston College   |     1 | neutral | Canisius            |     1 |    1.8
- 2017-05-12 | Colorado         |     1 | neutral | Massachusetts       |     1 |    4.8
- 2017-05-12 | Cornell          |     1 | neutral | Notre Dame          |     1 |    1.4
- 2017-05-12 | East Stroudsburg |     2 | home    | Florida Tech        |     2 |   -2.3
- 2017-05-12 | Elon             |     1 | neutral | Virginia            |     1 |   -1.5
- 2017-05-12 | High Point       |     1 | neutral | Towson              |     1 |   -5.2
- 2017-05-12 | Jacksonville     |     1 | neutral | Southern California |     1 |   -6.2
- 2017-05-12 | James Madison    |     1 | neutral | Louisville          |     1 |    3.4
- 2017-05-12 | LIU Post         |     2 | home    | NYIT                |     2 |    1.5
- 2017-05-12 | Mary Washington  |     3 | home    | Meredith            |     3 |    4.9
- 2017-05-12 | New Haven        |     2 | home    | Mercy               |     2 |   -1.3
- 2017-05-12 | Penn             |     1 | home    | Navy                |     1 |    4.7
- 2017-05-12 | Regis (CO)       |     2 | home    | Queens (NC)         |     2 |    1.6
- 2017-05-12 | Stony Brook      |     1 | home    | Bryant              |     1 |   10.6
-(15 rows)
+ date | team | h_div | site | opp | v_div | spread 
+------+------+-------+------+-----+-------+--------
+(0 rows)
 
 COMMIT
