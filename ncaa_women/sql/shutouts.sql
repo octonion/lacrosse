@@ -1,0 +1,1 @@
+select team_div_id as div,(100*sum(case when least(team_score,opponent_score)=0 then 1 else 0 end)::float/count(*))::numeric(4,1) as sor,sum(case when least(team_score,opponent_score)=0 then 1 else 0 end)/4 as sho,count(*)/4 as n from ncaa_women.results where year=2017 and team_div_id=opponent_div_id group by div;
