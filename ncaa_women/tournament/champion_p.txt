@@ -1,15 +1,9 @@
 BEGIN
-      team_name      |   p   
----------------------+-------
- North Carolina      | 0.330
- Maryland            | 0.259
- Stony Brook         | 0.177
- Southern California | 0.102
- Princeton           | 0.096
- Penn St.            | 0.020
- Boston College      | 0.014
- Navy                | 0.002
-(8 rows)
+   team_name    |   p   
+----------------+-------
+ Maryland       | 0.876
+ Boston College | 0.124
+(2 rows)
 
-COPY 8
+COPY 2
 COMMIT
