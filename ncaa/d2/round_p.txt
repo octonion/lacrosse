@@ -1,15 +1,9 @@
 BEGIN
  rd |   name    |   p   
 ----+-----------+-------
-  3 | Merrimack | 0.749
-  3 | Limestone | 0.709
-  3 | Tampa     | 0.291
-  3 | Adelphi   | 0.251
-  4 | Merrimack | 0.483
-  4 | Limestone | 0.337
-  4 | Tampa     | 0.103
-  4 | Adelphi   | 0.076
-(8 rows)
+  4 | Merrimack | 0.630
+  4 | Limestone | 0.370
+(2 rows)
 
-COPY 8
+COPY 2
 COMMIT

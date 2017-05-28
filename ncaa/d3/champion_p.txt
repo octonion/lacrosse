@@ -1,11 +1,9 @@
 BEGIN
-    team_name     |   p   
-------------------+-------
- Salisbury        | 0.546
- RIT              | 0.296
- Denison          | 0.105
- Wesleyan (Conn.) | 0.053
-(4 rows)
+ team_name |   p   
+-----------+-------
+ Salisbury | 0.629
+ RIT       | 0.371
+(2 rows)
 
-COPY 4
+COPY 2
 COMMIT

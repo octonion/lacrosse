@@ -1,15 +1,9 @@
 BEGIN
- rd |       name       |   p   
-----+------------------+-------
-  6 | Salisbury        | 0.778
-  6 | RIT              | 0.771
-  6 | Wesleyan (Conn.) | 0.229
-  6 | Denison          | 0.222
-  7 | Salisbury        | 0.546
-  7 | RIT              | 0.296
-  7 | Denison          | 0.105
-  7 | Wesleyan (Conn.) | 0.053
-(8 rows)
+ rd |   name    |   p   
+----+-----------+-------
+  7 | Salisbury | 0.629
+  7 | RIT       | 0.371
+(2 rows)
 
-COPY 8
+COPY 2
 COMMIT
