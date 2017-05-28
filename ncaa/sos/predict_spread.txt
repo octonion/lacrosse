@@ -1,7 +1,9 @@
 BEGIN
 SET
- date | team | h_div | site | opp | v_div | spread 
-------+------+-------+------+-----+-------+--------
-(0 rows)
+    date    |   team   | h_div |  site   |   opp    | v_div | spread 
+------------+----------+-------+---------+----------+-------+--------
+ 2017-05-27 | Denver   |     1 | neutral | Maryland |     1 |   -0.3
+ 2017-05-27 | Ohio St. |     1 | neutral | Towson   |     1 |    0.7
+(2 rows)
 
 COMMIT

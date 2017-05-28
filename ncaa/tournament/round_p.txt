@@ -1,31 +1,9 @@
 BEGIN
- rd |    name     |   p   
-----+-------------+-------
-  4 | Duke        | 0.706
-  4 | Denver      | 0.560
-  4 | Albany (NY) | 0.554
-  4 | Syracuse    | 0.516
-  4 | Towson      | 0.484
-  4 | Maryland    | 0.446
-  4 | Notre Dame  | 0.440
-  4 | Ohio State  | 0.294
-  5 | Duke        | 0.530
-  5 | Albany (NY) | 0.334
-  5 | Denver      | 0.251
-  5 | Maryland    | 0.243
-  5 | Notre Dame  | 0.172
-  5 | Ohio State  | 0.161
-  5 | Syracuse    | 0.159
-  5 | Towson      | 0.150
-  6 | Duke        | 0.322
-  6 | Albany (NY) | 0.188
-  6 | Maryland    | 0.125
-  6 | Denver      | 0.124
-  6 | Notre Dame  | 0.076
-  6 | Ohio State  | 0.062
-  6 | Syracuse    | 0.053
-  6 | Towson      | 0.050
-(24 rows)
+ rd |    name    |   p   
+----+------------+-------
+  6 | Maryland   | 0.621
+  6 | Ohio State | 0.379
+(2 rows)
 
-COPY 24
+COPY 2
 COMMIT
