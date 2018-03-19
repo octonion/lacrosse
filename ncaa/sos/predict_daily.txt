@@ -1,9 +1,21 @@
 BEGIN
 SET
-    date    |  site   | home | div | score |   away    | div | score 
-------------+---------+------+-----+-------+-----------+-----+-------
- 2017-05-28 | neutral | RIT  | D3  | 11.62 | Salisbury | D3  | 13.24
-(1 row)
+    date    |  site   |      home       | div | score |      away       | div | score 
+------------+---------+-----------------+-----+-------+-----------------+-----+-------
+ 2018-03-18 | home    | Birmingham-So.  | D3  |  9.70 | Centre          | D3  |  7.37
+ 2018-03-18 | home    | Castleton       | D3  |  6.81 | Plymouth St.    | D3  | 11.08
+ 2018-03-18 | home    | Cleveland St.   | D1  |  5.10 | Duke            | D1  | 15.74
+ 2018-03-18 | home    | Dean            | D3  |  8.94 | Husson          | D3  |  7.63
+ 2018-03-18 | home    | Franklin Pierce | D2  | 15.49 | American Int'l  | D2  |  5.26
+ 2018-03-18 | home    | Hendrix         | D3  |  4.43 | Berry           | D3  | 15.69
+ 2018-03-18 | home    | Limestone       | D2  | 20.53 | Chowan          | D2  |  6.36
+ 2018-03-18 | neutral | Montclair St.   | D3  |  9.21 | Sewanee         | D3  |  9.80
+ 2018-03-18 | home    | Rhodes          | D3  | 29.51 | Oglethorpe      | D3  |  2.34
+ 2018-03-18 | home    | Rutgers         | D1  | 12.37 | Syracuse        | D1  |  8.65
+ 2018-03-18 | home    | Springfield     | D3  | 11.78 | Endicott        | D3  |  5.41
+ 2018-03-18 | home    | SUNY Cortland   | D3  | 16.88 | Morrisville St. | D3  |  6.18
+ 2018-03-18 | home    | UMBC            | D1  |  8.11 | Stony Brook     | D1  |  8.13
+(13 rows)
 
-COPY 1
+COPY 13
 COMMIT

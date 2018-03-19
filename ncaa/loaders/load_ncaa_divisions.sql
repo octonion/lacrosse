@@ -18,7 +18,7 @@ create table ncaa.teams_divisions (
 
 copy ncaa.teams_divisions from '/tmp/ncaa_divisions.csv' with delimiter as ',' csv quote as '"';
 
--- Temporary fix for 2017
+-- Temporary fix for 2018
 
 insert into ncaa.teams_divisions
 (sport_code,team_name,team_id,pulled_name,javascript,year,div_id,team_year,sport,division)
@@ -29,14 +29,14 @@ team_name,
 team_id,
 pulled_name,
 javascript,
-2017,
+2018,
 div_id,
 team_year,
 sport,division
 from ncaa.teams_divisions
 where
-    year=2016
-and (team_id,2017) not in
+    year=2017
+and (team_id,2018) not in
 (select team_id,year from ncaa.teams_divisions)
 );
 

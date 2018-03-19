@@ -20,7 +20,7 @@ and r.pulled_id = least(r.team_id,r.opponent_id)
 --and r.field in ('none','offense_home')
 and r.team_score > 0
 and r.opponent_score > 0
-and r.year between 2002 and 2017
+and r.year between 2002 and 2018
 group by r.year,t.div_id,o.div_id
 order by r.year,t.div_id,o.div_id;
 
