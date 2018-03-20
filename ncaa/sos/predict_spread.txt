@@ -1,20 +1,16 @@
 BEGIN
 SET
-    date    |      team       | h_div |  site   |       opp       | v_div | spread 
-------------+-----------------+-------+---------+-----------------+-------+--------
- 2018-03-18 | Birmingham-So.  |     3 | home    | Centre          |     3 |    2.3
- 2018-03-18 | Castleton       |     3 | home    | Plymouth St.    |     3 |   -4.3
- 2018-03-18 | Cleveland St.   |     1 | home    | Duke            |     1 |  -10.6
- 2018-03-18 | Dean            |     3 | home    | Husson          |     3 |    1.3
- 2018-03-18 | Franklin Pierce |     2 | home    | American Int'l  |     2 |   10.2
- 2018-03-18 | Hendrix         |     3 | home    | Berry           |     3 |  -11.3
- 2018-03-18 | Limestone       |     2 | home    | Chowan          |     2 |   14.2
- 2018-03-18 | Montclair St.   |     3 | neutral | Sewanee         |     3 |   -0.6
- 2018-03-18 | Rhodes          |     3 | home    | Oglethorpe      |     3 |   27.2
- 2018-03-18 | Rutgers         |     1 | home    | Syracuse        |     1 |    3.7
- 2018-03-18 | Springfield     |     3 | home    | Endicott        |     3 |    6.4
- 2018-03-18 | SUNY Cortland   |     3 | home    | Morrisville St. |     3 |   10.7
- 2018-03-18 | UMBC            |     1 | home    | Stony Brook     |     1 |    0.0
-(13 rows)
+    date    |       team       | h_div |  site   |         opp          | v_div | spread 
+------------+------------------+-------+---------+----------------------+-------+--------
+ 2018-03-19 | Albertus Magnus  |     3 | home    | CMSV                 |     3 |    1.4
+ 2018-03-19 | Becker           |     3 | home    | UMass Boston         |     3 |  -16.8
+ 2018-03-19 | Connecticut Col. |     3 | neutral | Johnson & Wales (RI) |     3 |   15.6
+ 2018-03-19 | Emmanuel (MA)    |     3 | home    | Trinity (CT)         |     3 |  -15.4
+ 2018-03-19 | Huntingdon       |     3 | home    | North Central (IL)   |     3 |    0.1
+ 2018-03-19 | Nichols          |     3 | home    | Emerson              |     3 |    7.3
+ 2018-03-19 | Regis (MA)       |     3 | home    | Mitchell             |     3 |    8.2
+ 2018-03-19 | Wagner           |     1 | home    | Hampton              |     1 |   10.8
+ 2018-03-19 | Wentworth        |     3 | home    | Anna Maria           |     3 |   13.2
+(9 rows)
 
 COMMIT

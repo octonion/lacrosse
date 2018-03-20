@@ -1,6 +1,6 @@
-[1] 66374     9
+[1] 66408     9
 [1] TRUE
-[1] 66374     7
+[1] 66408     7
 iteration: 1
 	f(x) = inf
 iteration: 2
@@ -42,26 +42,26 @@ Formula: gs ~ year + field + d_div + o_div + (1 | offense) + (1 | defense) +
     (1 | game_id)
    Data: g
      AIC      BIC   logLik deviance df.resid 
-     Inf      Inf     -Inf      Inf    66348 
+     Inf      Inf     -Inf      Inf    66382 
 Random effects:
  Groups  Name        Std.Dev.
  game_id (Intercept) 1       
  defense (Intercept) 1       
  offense (Intercept) 1       
-Number of obs: 66374, groups:  game_id, 33187; defense, 4715; offense, 4715
+Number of obs: 66408, groups:  game_id, 33204; defense, 4715; offense, 4715
 Fixed Effects:
       (Intercept)           year2003           year2004           year2005  
-         2.230104          -0.034161          -0.037576          -0.015915  
+         2.230129          -0.034161          -0.037573          -0.015913  
          year2006           year2007           year2008           year2009  
-        -0.067851          -0.050082          -0.061741          -0.021376  
+        -0.067844          -0.050080          -0.061742          -0.021370  
          year2010           year2011           year2012           year2013  
-        -0.010931          -0.053142          -0.054850           0.002962  
+        -0.010921          -0.053134          -0.054838           0.002975  
          year2014           year2015           year2016           year2017  
-        -0.002231           0.009655           0.041938           0.054266  
+        -0.002213           0.009673           0.041960           0.054282  
          year2018  fielddefense_home  fieldoffense_home             d_div2  
-         0.020561          -0.057038           0.030789           0.643328  
+         0.019365          -0.057055           0.030766           0.647974  
            d_div3             o_div2             o_div3  
-         0.819710          -0.624673          -0.862958  
+         0.825151          -0.629634          -0.868355  
 convergence code 0; 0 optimizer warnings; 77938 lme4 warnings 
 Generalized linear mixed model fit by maximum likelihood (Adaptive
   Gauss-Hermite Quadrature, nAGQ = 0) [glmerMod]
@@ -72,44 +72,44 @@ Formula: gs ~ year + field + d_div + o_div + (1 | offense) + (1 | defense) +
 Control: glmerControl(optimizer = "nloptwrap")
 
      AIC      BIC   logLik deviance df.resid 
-     Inf      Inf     -Inf      Inf    66348 
+     Inf      Inf     -Inf      Inf    66382 
 
 Scaled residuals: 
     Min      1Q  Median      3Q     Max 
--3.3830 -0.3912 -0.0041  0.3771  4.7195 
+-3.3830 -0.3912 -0.0041  0.3769  4.7195 
 
 Random effects:
  Groups  Name        Variance Std.Dev.
  game_id (Intercept) 1        1       
  defense (Intercept) 1        1       
  offense (Intercept) 1        1       
-Number of obs: 66374, groups:  game_id, 33187; defense, 4715; offense, 4715
+Number of obs: 66408, groups:  game_id, 33204; defense, 4715; offense, 4715
 
 Fixed effects:
                    Estimate Std. Error z value Pr(>|z|)    
-(Intercept)        2.230104   0.112495  19.824   <2e-16 ***
+(Intercept)        2.230129   0.112493  19.825   <2e-16 ***
 year2003          -0.034161   0.145906  -0.234   0.8149    
-year2004          -0.037576   0.145335  -0.259   0.7960    
-year2005          -0.015915   0.144405  -0.110   0.9122    
-year2006          -0.067851   0.143497  -0.473   0.6363    
-year2007          -0.050082   0.142638  -0.351   0.7255    
-year2008          -0.061741   0.141089  -0.438   0.6617    
-year2009          -0.021376   0.139700  -0.153   0.8784    
-year2010          -0.010931   0.137982  -0.079   0.9369    
-year2011          -0.053142   0.136058  -0.391   0.6961    
-year2012          -0.054850   0.134435  -0.408   0.6833    
-year2013           0.002962   0.132385   0.022   0.9822    
-year2014          -0.002231   0.130787  -0.017   0.9864    
-year2015           0.009655   0.129926   0.074   0.9408    
-year2016           0.041938   0.129191   0.325   0.7455    
-year2017           0.054266   0.128524   0.422   0.6729    
-year2018           0.020561   0.130716   0.157   0.8750    
-fielddefense_home -0.057038   0.024448  -2.333   0.0196 *  
-fieldoffense_home  0.030789   0.024437   1.260   0.2077    
-d_div2             0.643328   0.071177   9.038   <2e-16 ***
-d_div3             0.819710   0.063064  12.998   <2e-16 ***
-o_div2            -0.624673   0.071142  -8.781   <2e-16 ***
-o_div3            -0.862958   0.063011 -13.695   <2e-16 ***
+year2004          -0.037573   0.145335  -0.259   0.7960    
+year2005          -0.015913   0.144405  -0.110   0.9123    
+year2006          -0.067844   0.143497  -0.473   0.6364    
+year2007          -0.050080   0.142638  -0.351   0.7255    
+year2008          -0.061742   0.141089  -0.438   0.6617    
+year2009          -0.021370   0.139700  -0.153   0.8784    
+year2010          -0.010921   0.137982  -0.079   0.9369    
+year2011          -0.053134   0.136058  -0.391   0.6962    
+year2012          -0.054838   0.134435  -0.408   0.6833    
+year2013           0.002975   0.132385   0.022   0.9821    
+year2014          -0.002213   0.130787  -0.017   0.9865    
+year2015           0.009673   0.129926   0.074   0.9407    
+year2016           0.041960   0.129191   0.325   0.7453    
+year2017           0.054282   0.128524   0.422   0.6728    
+year2018           0.019365   0.130617   0.148   0.8821    
+fielddefense_home -0.057055   0.024448  -2.334   0.0196 *  
+fieldoffense_home  0.030766   0.024437   1.259   0.2080    
+d_div2             0.647974   0.070593   9.179   <2e-16 ***
+d_div3             0.825151   0.062462  13.211   <2e-16 ***
+o_div2            -0.629634   0.070549  -8.925   <2e-16 ***
+o_div3            -0.868355   0.062400 -13.916   <2e-16 ***
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 convergence code: 0
