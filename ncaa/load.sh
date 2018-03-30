@@ -15,16 +15,20 @@ tail -q -n+2 csv/ncaa_games_*.csv > /tmp/ncaa_games.csv
 psql lacrosse -f loaders/load_ncaa_games.sql
 rm /tmp/ncaa_games.csv
 
-#cat ncaa/ncaa_players_*.csv > /tmp/ncaa_statistics.csv
-#rpl ",-," ",," /tmp/ncaa_statistics.csv
-#rpl ",-," ",," /tmp/ncaa_statistics.csv
-#rpl ".," "," /tmp/ncaa_statistics.csv
-#rpl ".0," "," /tmp/ncaa_statistics.csv
-#rpl ".00," "," /tmp/ncaa_statistics.csv
-#rpl ".000," "," /tmp/ncaa_statistics.csv
-#rpl -e ",-\n" ",\n" /tmp/ncaa_statistics.csv
-#psql lacrosse -f load_ncaa_statistics.sql
-#rm /tmp/ncaa_statistics.csv
+cat csv/ncaa_players_*.csv > /tmp/statistics.csv
+rpl ",-," ",," /tmp/statistics.csv
+rpl ",-," ",," /tmp/statistics.csv
+rpl ".," "," /tmp/statistics.csv
+rpl ".0," "," /tmp/statistics.csv
+rpl ".00," "," /tmp/statistics.csv
+rpl ".000," "," /tmp/statistics.csv
+rpl -e ",-\n" ",\n" /tmp/statistics.csv
+psql lacrosse -f loaders/statistics.sql
+rm /tmp/statistics.csv
+
+psql lacrosse -f cleaning/rm_statistics_blanks.sql
+psql lacrosse -f cleaning/deduplicate_statistics.sql
+psql lacrosse -f cleaning/add_pk_statistics.sql
 
 #psql lacrosse -f create_ncaa_players.sql
 
