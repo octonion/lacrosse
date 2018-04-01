@@ -19,7 +19,7 @@ end
 base_url = 'http://stats.ncaa.org'
 #base_url = 'http://anonymouse.org/cgi-bin/anon-www.cgi/stats.ncaa.org'
 
-box_scores_xpath = '//*[@id="contentArea"]/table[position()>4]/tr[position()>2]'
+box_scores_xpath = '//*[@id="contentarea"]/table[position()>4]/tr[position()>2]'
 
 #'//*[@id="contentArea"]/table[5]/tbody/tr[1]/td'
 

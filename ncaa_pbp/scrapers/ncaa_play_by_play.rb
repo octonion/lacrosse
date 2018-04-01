@@ -21,15 +21,15 @@ base_url = 'http://stats.ncaa.org'
 play_xpath = '//table[position()>1 and @class="mytable"]/tr[position()>1]'
 periods_xpath = '//table[position()=1 and @class="mytable"]/tr[position()>1]'
 
-nthreads = 8
+nthreads = 1
 
 base_sleep = 0
 sleep_increment = 3
 retries = 4
 
-ncaa_team_schedules = CSV.open("csv/ncaa_team_schedules_#{year}_#{division}.csv","r",{:col_sep => "\t", :headers => TRUE})
-ncaa_play_by_play = CSV.open("csv/ncaa_games_play_by_play_#{year}_#{division}.csv","w",{:col_sep => "\t"})
-ncaa_periods = CSV.open("csv/ncaa_games_periods_#{year}_#{division}.csv","w",{:col_sep => "\t"})
+ncaa_team_schedules = CSV.open("tsv/ncaa_team_schedules_#{year}_#{division}.tsv","r",{:col_sep => "\t", :headers => TRUE})
+ncaa_play_by_play = CSV.open("tsv/ncaa_games_play_by_play_#{year}_#{division}.tsv","w",{:col_sep => "\t"})
+ncaa_periods = CSV.open("tsv/ncaa_games_periods_#{year}_#{division}.tsv","w",{:col_sep => "\t"})
 
 # Headers
 

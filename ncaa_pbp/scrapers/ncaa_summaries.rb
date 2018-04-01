@@ -35,7 +35,7 @@ ncaa_player_summaries << [
   "year", "year_id", "division_id",
   "team_id", "team_name",
   "player_id", "player_name", "player_url",
-  "position",
+  "class_year","position",
   "goals", "assists", "points", "shots", "sog",
   "man-up_g", "man-down_g",
   "gb", "to", "ct", "fo_won", "fos_taken",
@@ -48,7 +48,7 @@ ncaa_team_summaries << [
   "year", "year_id", "division_id",
   "team_id", "team_name",
   "player_id", "player_name", "player_url",
-  "position",
+  "class_year","position",
   "goals", "assists", "points", "shots", "sog",
   "man-up_g", "man-down_g",
   "gb", "to", "ct", "fo_won", "fos_taken",
@@ -145,7 +145,7 @@ ncaa_teams.each do |team|
   found_summaries = 0
   doc.search(teams_xpath).each do |team|
 
-    row = [year, year_id, team_id, team_name]
+    row = [year, year_id, division, team_id, team_name]
     team.search("td").each_with_index do |element,i|
         field_string = element.text.strip
         row += [field_string]
