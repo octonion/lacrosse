@@ -25,14 +25,14 @@ box_scores_xpath = '//*[@id="contentArea"]/table[position()>4]/tr[position()>2]'
 
 #periods_xpath = '//table[position()=1 and @class="mytable"]/tr[position()>1]'
 
-nthreads = 8
+nthreads = 1
 
 base_sleep = 0
 sleep_increment = 3
 retries = 4
 
-ncaa_team_schedules = CSV.open("csv/ncaa_team_schedules_#{year}_#{division}.csv", "r", {:col_sep => "\t", :headers => TRUE})
-ncaa_games_box_scores = CSV.open("csv/ncaa_box_scores_#{year}_#{division}.csv", "w", {:col_sep => "\t"})
+ncaa_team_schedules = CSV.open("tsv/ncaa_team_schedules_#{year}_#{division}.tsv", "r", {:col_sep => "\t", :headers => TRUE})
+ncaa_games_box_scores = CSV.open("tsv/ncaa_box_scores_#{year}_#{division}.tsv", "w", {:col_sep => "\t"})
 
 # Headers
 
@@ -84,7 +84,8 @@ game_ids.each_slice(gpt).with_index do |ids,i|
 
       #http://stats.ncaa.org/game/box_score/3038494?year_stat_category_id=10461
 
-      game_url = 'http://stats.ncaa.org/game/box_score/%d' % [game_id]
+      #game_url = 'http://stats.ncaa.org/game/box_score/%d' % [game_id]
+      game_url = 'http://stats.ncaa.org/game/index/%d' % [game_id]
 
       #      print "Thread #{thread_id}, sleep #{sleep_time} ... "
       #      sleep sleep_time

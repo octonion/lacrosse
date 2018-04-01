@@ -17,6 +17,6 @@ create table ncaa_pbp.periods (
 	--  unique (game_id,team_id)
 );
 
-copy ncaa_pbp.periods from '/tmp/periods.csv' with delimiter as E'\t' csv;
+copy ncaa_pbp.periods from '/tmp/periods.tsv' with delimiter as E'\t' csv;
 
 commit;

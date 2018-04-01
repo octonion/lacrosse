@@ -12,12 +12,13 @@ create table ncaa_pbp.team_rosters (
 	player_id	      text,
 	player_name	      text,
 	player_url	      text,
+	position	      text,
 	class_year	      text,
 	games_played	      integer,
 	game_started	      integer
 );
 
-copy ncaa_pbp.team_rosters from '/tmp/rosters.csv' with delimiter as E'\t' csv;
+copy ncaa_pbp.team_rosters from '/tmp/rosters.tsv' with delimiter as E'\t' csv;
 
 alter table ncaa_pbp.team_rosters add column ncaa_id integer;
 

@@ -9,6 +9,6 @@ create table ncaa_pbp.years_divisions (
 	primary key (sport_code, year, division)
 );
 
-copy ncaa_pbp.years_divisions from '/tmp/years_divisions.csv' with delimiter as E'\t' csv header;
+copy ncaa_pbp.years_divisions from '/tmp/years_divisions.tsv' with delimiter as E'\t' csv header;
 
 commit;

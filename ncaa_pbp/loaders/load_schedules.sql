@@ -28,7 +28,7 @@ create table ncaa_pbp.team_schedules (
 
 truncate table ncaa_pbp.team_schedules;
 
-copy ncaa_pbp.team_schedules from '/tmp/schedules.csv' with delimiter as E'\t' csv;
+copy ncaa_pbp.team_schedules from '/tmp/schedules.tsv' with delimiter as E'\t' csv;
 
 --alter table ncaa.games add column game_id serial primary key;
 

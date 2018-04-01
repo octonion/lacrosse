@@ -60,7 +60,7 @@ teams.each_slice(tpt).with_index do |teams_slice,i|
       team_id = team["team_id"]
       team_name = team["team_name"]
 
-      team_roster_url = "http://stats.ncaa.org/team/roster/#{year_id}?org_id=#{team_id}"
+      team_roster_url = "http://stats.ncaa.org/team/#{team_id}/roster/#{year_id}"
 
       #print "Sleep #{sleep_time} ... "
       sleep sleep_time

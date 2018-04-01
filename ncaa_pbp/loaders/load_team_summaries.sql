@@ -5,12 +5,13 @@ drop table if exists ncaa_pbp.team_summaries;
 create table ncaa_pbp.team_summaries (
        year					integer,
        year_id					integer,
---       division_id				integer,
+       division_id				integer,
        team_id					integer,
        team_name				text,
        jersey_number				text,
        player_name				text,
        class_year				text,
+       position					text,
        gp					integer,
        gs					integer,
        g					integer,
@@ -49,6 +50,6 @@ create table ncaa_pbp.team_summaries (
        unique (year,team_id,player_name)
 );
 
-copy ncaa_pbp.team_summaries from '/tmp/team_summaries.csv' with delimiter as E'\t' csv;
+copy ncaa_pbp.team_summaries from '/tmp/team_summaries.tsv' with delimiter as E'\t' csv;
 
 commit;

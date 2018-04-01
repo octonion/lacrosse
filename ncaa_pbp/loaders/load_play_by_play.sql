@@ -15,6 +15,6 @@ create table ncaa_pbp.play_by_play (
 --	primary key (game_id,period_id,event_id)
 );
 
-copy ncaa_pbp.play_by_play from '/tmp/play_by_play.csv' with delimiter as E'\t' csv;
+copy ncaa_pbp.play_by_play from '/tmp/play_by_play.tsv' with delimiter as E'\t' csv;
 
 commit;

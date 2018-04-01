@@ -15,131 +15,56 @@ psql lacrosse -f schema/create_schema.sql
 
 # Years with data
 
-cp csv/ncaa_years.csv /tmp/years.csv
+cp tsv/ncaa_years.tsv /tmp/years.tsv
 psql lacrosse -f loaders/load_years.sql
-rm /tmp/years.csv
+rm /tmp/years.tsv
 
 # Divisions by year with data
 
-cp csv/ncaa_years_divisions.csv /tmp/years_divisions.csv
+cp tsv/ncaa_years_divisions.tsv /tmp/years_divisions.tsv
 psql lacrosse -f loaders/load_years_divisions.sql
-rm /tmp/years_divisions.csv
+rm /tmp/years_divisions.tsv
 
 # Teams
 
-tail -q -n+2 csv/ncaa_teams_2*.csv >> /tmp/teams.csv
+tail -q -n+2 tsv/ncaa_teams_2*.tsv >> /tmp/teams.tsv
 psql lacrosse -f loaders/load_teams.sql
-rm /tmp/teams.csv
+rm /tmp/teams.tsv
 
 # Team schedules
 
-tail -q -n+2 csv/ncaa_team_schedules_*.csv >> /tmp/schedules.csv
+tail -q -n+2 tsv/ncaa_team_schedules_*.tsv >> /tmp/schedules.tsv
+rpl -e ' *\t' '\t' /tmp/schedules.tsv
+grep -v 'does not count' /tmp/schedules.tsv > /tmp/s.tsv
+mv /tmp/s.tsv /tmp/schedules.tsv
 psql lacrosse -f loaders/load_schedules.sql
-rm /tmp/schedules.csv
+rm /tmp/schedules.tsv
 
 # Rosters
 
-tail -q -n+2 csv/ncaa_team_rosters_*.csv >> /tmp/rosters.csv
-rpl -e '\t--\t' '\t\t' /tmp/rosters.csv
-rpl -e '\t-\t' '\t\t' /tmp/rosters.csv
+tail -q -n+2 tsv/ncaa_team_rosters_*.tsv >> /tmp/rosters.tsv
+rpl -e '\t--\t' '\t\t' /tmp/rosters.tsv
+rpl -e '\t-\t' '\t\t' /tmp/rosters.tsv
+rpl -e '\tN/A\t' '\t\t' /tmp/rosters.tsv
 psql lacrosse -f loaders/load_rosters.sql
-rm /tmp/rosters.csv
+rm /tmp/rosters.tsv
 
-# Box scores - 2014-2015
+# Player summaries
 
-cp csv/ncaa_box_scores_201[45]*.csv.gz /tmp
-gzip -d /tmp/ncaa_box_scores_*.csv.gz
-tail -q -n+2 /tmp/ncaa_box_scores_*.csv >> /tmp/box_scores.csv
-psql lacrosse -f loaders/load_box_scores.sql
-rm /tmp/box_scores.csv
-rm /tmp/ncaa_box_scores_*.csv
-
-# Box scores - 2012-2013
-
-cp csv/ncaa_box_scores_201[23]*.csv.gz /tmp
-gzip -d /tmp/ncaa_box_scores_*.csv.gz
-tail -q -n+2 /tmp/ncaa_box_scores_*.csv >> /tmp/box_scores.csv
-psql lacrosse -f loaders/load_box_scores_2012-2013.sql
-rm /tmp/box_scores.csv
-rm /tmp/ncaa_box_scores_*.csv
-
-# Box scores - 2010-2011
-
-cp csv/ncaa_box_scores_201[01]*.csv.gz /tmp
-gzip -d /tmp/ncaa_box_scores_*.csv.gz
-tail -q -n+2 /tmp/ncaa_box_scores_*.csv >> /tmp/box_scores.csv
-psql lacrosse -f loaders/load_box_scores_2010-2011.sql
-rm /tmp/box_scores.csv
-rm /tmp/ncaa_box_scores_*.csv
-
-# Player summaries - 2014-2015
-
-tail -q -n+2 csv/ncaa_player_summaries_201[45]*.csv >> /tmp/player_summaries.csv
-rpl -q '""' '' /tmp/player_summaries.csv
-rpl -q ' ' '' /tmp/player_summaries.csv
+tail -q -n+2 tsv/ncaa_player_summaries_*.tsv >> /tmp/player_summaries.tsv
+rpl -q '""' '' /tmp/player_summaries.tsv
+rpl -q ' ' '' /tmp/player_summaries.tsv
 psql lacrosse -f loaders/load_player_summaries.sql
-rm /tmp/player_summaries.csv
+rm /tmp/player_summaries.tsv
 
-# Player summaries - 2010-2013
+exit
 
-tail -q -n+2 csv/ncaa_player_summaries_201[0123]*.csv >> /tmp/player_summaries.csv
-rpl -q '""' '' /tmp/player_summaries.csv
-rpl -q ' ' '' /tmp/player_summaries.csv
-psql lacrosse -f loaders/load_player_summaries_2010-2013.sql
-rm /tmp/player_summaries.csv
+# Team summaries
 
-# Team summaries - 2014-2015
-
-tail -q -n+2 csv/ncaa_team_summaries_201[45]*.csv >> /tmp/team_summaries.csv
-rpl -e '\t-\t' '\t\t' /tmp/team_summaries.csv
-rpl -e '\t-\t' '\t\t' /tmp/team_summaries.csv
-rpl -q '""' '' /tmp/team_summaries.csv
-rpl -q ' ' '' /tmp/team_summaries.csv
+tail -q -n+2 tsv/ncaa_team_summaries_*.tsv >> /tmp/team_summaries.tsv
+rpl -e '\t-\t' '\t\t' /tmp/team_summaries.tsv
+rpl -e '\t-\t' '\t\t' /tmp/team_summaries.tsv
+rpl -q '""' '' /tmp/team_summaries.tsv
+rpl -q ' ' '' /tmp/team_summaries.tsv
 psql lacrosse -f loaders/load_team_summaries.sql
-rm /tmp/team_summaries.csv
-
-# Team summaries - 2010-2013
-
-tail -q -n+2 csv/ncaa_team_summaries_201[0123]*.csv >> /tmp/team_summaries.csv
-rpl -e '\t-\t' '\t\t' /tmp/team_summaries.csv
-rpl -e '\t-\t' '\t\t' /tmp/team_summaries.csv
-rpl -q '""' '' /tmp/team_summaries.csv
-rpl -q ' ' '' /tmp/team_summaries.csv
-psql lacrosse -f loaders/load_team_summaries_2010-2013.sql
-rm /tmp/team_summaries.csv
-
-# Remove commas from some columns, convert to integer
-
-psql lacrosse -f cleaning/commas_ps.sql
-psql lacrosse -f cleaning/commas_ts.sql
-
-# Game periods
-
-tail -q -n+2 csv/ncaa_games_periods_*.csv >> /tmp/periods.csv
-rpl "[" "{" /tmp/periods.csv
-rpl "]" "}" /tmp/periods.csv
-psql lacrosse -f loaders/load_periods.sql
-rm /tmp/periods.csv
-
-# Load play_by_play data
-
-cp csv/ncaa_games_play_by_play_*.csv.gz /tmp
-gzip -d /tmp/ncaa_games_play_by_play_*.csv.gz
-tail -q -n+2 /tmp/ncaa_games_play_by_play_*.csv >> /tmp/play_by_play.csv
-psql lacrosse -f loaders/load_play_by_play.sql
-rm /tmp/play_by_play.csv
-rm /tmp/ncaa_games_play_by_play_*.csv
-
-# Remove duplicate rows
-
-psql lacrosse -f cleaning/deduplicate_periods.sql
-psql lacrosse -f cleaning/deduplicate_pbp.sql
-psql lacrosse -f cleaning/deduplicate_bs.sql
-#psql lacrosse -f cleaning/deduplicate_bsp.sql
-#psql lacrosse -f cleaning/deduplicate_bsf.sql
-
-# Add primary keys and constraints
-
-psql lacrosse -f cleaning/add_pk_periods.sql
-psql lacrosse -f cleaning/add_pk_pbp.sql
-psql lacrosse -f cleaning/add_pk_bs.sql
+rm /tmp/team_summaries.tsv

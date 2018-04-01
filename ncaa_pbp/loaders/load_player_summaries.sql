@@ -13,6 +13,7 @@ create table ncaa_pbp.player_summaries (
        player_name				text,
        player_url				text,
        class_year				text,
+       position					text,
        gp					integer,
        gs					integer,
        g					integer,
@@ -51,6 +52,6 @@ create table ncaa_pbp.player_summaries (
        unique (year,player_id)
 );
 
-copy ncaa_pbp.player_summaries from '/tmp/player_summaries.csv' with delimiter as E'\t' csv;
+copy ncaa_pbp.player_summaries from '/tmp/player_summaries.tsv' with delimiter as E'\t' csv;
 
 commit;

@@ -73,7 +73,7 @@ ncaa_teams.each do |team|
   team_id = team["team_id"]
   team_name = team["team_name"]
 
-  stat_url = "http://stats.ncaa.org/team/stats/#{year_id}?org_id=#{team_id}"
+  stat_url = "http://stats.ncaa.org/team/#{team_id}/stats/#{year_id}"
 
   #print "Sleep #{sleep_time} ... "
   #sleep sleep_time
