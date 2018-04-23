@@ -1,23 +1,14 @@
 BEGIN
 SET
-    date    | site |         home         | div | score |        away        | div | score 
-------------+------+----------------------+-----+-------+--------------------+-----+-------
- 2018-03-29 | home | Arcadia              | D3  |  7.69 | Messiah            | D3  | 14.60
- 2018-03-29 | home | Davis & Elkins       | D2  |  6.65 | Wilmington (DE)    | D2  | 11.74
- 2018-03-29 | home | Dominican (NY)       | D2  |  9.62 | American Int'l     | D2  |  7.60
- 2018-03-29 | home | Embry-Riddle (FL)    | D2  |  3.83 | Tampa              | D2  | 21.68
- 2018-03-29 | home | Green Mountain       | D3  |  4.33 | Cobleskill St.     | D3  | 14.64
- 2018-03-29 | home | Hood                 | D3  |  8.24 | Albright           | D3  |  8.58
- 2018-03-29 | home | Houghton             | D3  |  8.74 | Keuka              | D3  | 14.78
- 2018-03-29 | home | Lebanon Valley       | D3  |  5.61 | Lycoming           | D3  | 11.93
- 2018-03-29 | home | Merchant Marine      | D3  | 14.48 | SUNY Maritime      | D3  |  6.58
- 2018-03-29 | home | Northwestern-St.Paul | D3  | 14.48 | North Central (MN) | D3  |  3.77
- 2018-03-29 | home | Palm Beach Atl.      | D2  |  6.19 | Saint Leo          | D2  | 22.17
- 2018-03-29 | home | Purchase             | D3  |  8.29 | Mt. St. Mary (NY)  | D3  | 16.07
- 2018-03-29 | home | Scranton             | D3  | 11.69 | Catholic           | D3  |  8.30
- 2018-03-29 | home | St. Joseph's (L.I.)  | D3  | 15.20 | CMSV               | D3  |  5.19
- 2018-03-29 | home | U New England        | D3  | 15.92 | New England Col.   | D3  |  4.99
-(15 rows)
+    date    | site |       home       | div | score |        away         | div | score 
+------------+------+------------------+-----+-------+---------------------+-----+-------
+ 2018-04-22 | home | Colorado Mesa    | D2  | 18.72 | Colorado St.-Pueblo | D2  |  7.93
+ 2018-04-22 | home | Maryland         | D1  | 11.28 | Ohio St.            | D1  |  7.25
+ 2018-04-22 | home | Montclair St.    | D3  |  8.72 | Colorado Col.       | D3  | 14.65
+ 2018-04-22 | home | Rutgers          | D1  | 11.24 | Penn St.            | D1  | 11.00
+ 2018-04-22 | home | Westminster (UT) | D2  | 15.95 | Adams St.           | D2  |  6.41
+ 2018-04-22 | home | Yale             | D1  | 10.02 | Albany (NY)         | D1  | 10.65
+(6 rows)
 
-COPY 15
+COPY 6
 COMMIT

@@ -1,22 +1,13 @@
 BEGIN
 SET
-    date    |         team         | h_div | site |        opp         | v_div | spread 
-------------+----------------------+-------+------+--------------------+-------+--------
- 2018-03-29 | Arcadia              |     3 | home | Messiah            |     3 |   -6.9
- 2018-03-29 | Davis & Elkins       |     2 | home | Wilmington (DE)    |     2 |   -5.1
- 2018-03-29 | Dominican (NY)       |     2 | home | American Int'l     |     2 |    2.0
- 2018-03-29 | Embry-Riddle (FL)    |     2 | home | Tampa              |     2 |  -17.9
- 2018-03-29 | Green Mountain       |     3 | home | Cobleskill St.     |     3 |  -10.3
- 2018-03-29 | Hood                 |     3 | home | Albright           |     3 |   -0.3
- 2018-03-29 | Houghton             |     3 | home | Keuka              |     3 |   -6.0
- 2018-03-29 | Lebanon Valley       |     3 | home | Lycoming           |     3 |   -6.3
- 2018-03-29 | Merchant Marine      |     3 | home | SUNY Maritime      |     3 |    7.9
- 2018-03-29 | Northwestern-St.Paul |     3 | home | North Central (MN) |     3 |   10.7
- 2018-03-29 | Palm Beach Atl.      |     2 | home | Saint Leo          |     2 |  -16.0
- 2018-03-29 | Purchase             |     3 | home | Mt. St. Mary (NY)  |     3 |   -7.8
- 2018-03-29 | Scranton             |     3 | home | Catholic           |     3 |    3.4
- 2018-03-29 | St. Joseph's (L.I.)  |     3 | home | CMSV               |     3 |   10.0
- 2018-03-29 | U New England        |     3 | home | New England Col.   |     3 |   10.9
-(15 rows)
+    date    |       team       | h_div | site |         opp         | v_div | spread 
+------------+------------------+-------+------+---------------------+-------+--------
+ 2018-04-22 | Colorado Mesa    |     2 | home | Colorado St.-Pueblo |     2 |   10.8
+ 2018-04-22 | Maryland         |     1 | home | Ohio St.            |     1 |    4.0
+ 2018-04-22 | Montclair St.    |     3 | home | Colorado Col.       |     3 |   -5.9
+ 2018-04-22 | Rutgers          |     1 | home | Penn St.            |     1 |    0.2
+ 2018-04-22 | Westminster (UT) |     2 | home | Adams St.           |     2 |    9.5
+ 2018-04-22 | Yale             |     1 | home | Albany (NY)         |     1 |   -0.6
+(6 rows)
 
 COMMIT

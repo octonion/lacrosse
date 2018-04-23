@@ -1,268 +1,219 @@
 BEGIN
 SET
-    date    |  site   |         home         | div | score | p_win |         away         | div | score | p_win 
-------------+---------+----------------------+-----+-------+-------+----------------------+-----+-------+-------
- 2018-03-31 | home    | Adelphi              | D2  | 15.02 | 0.992 | Saint Michael's      | D2  |  4.89 | 0.008
- 2018-03-31 | home    | Albany (NY)          | D1  | 21.55 | 1.000 | Stony Brook          | D1  |  4.81 | 0.000
- 2018-03-31 | home    | Albertus Magnus      | D3  |  8.68 | 0.479 | Rivier               | D3  |  8.89 | 0.521
- 2018-04-04 | home    | Albertus Magnus      | D3  |  9.90 | 0.502 | Anna Maria           | D3  |  9.87 | 0.498
- 2018-03-31 | home    | Albion               | D3  |  7.25 | 0.243 | Elmhurst             | D3  | 10.08 | 0.757
- 2018-03-31 | home    | Albright             | D3  |  5.00 | 0.033 | Stevenson            | D3  | 12.28 | 0.967
- 2018-04-03 | home    | Alderson Broaddus    | D2  |  4.05 | 0.001 | Mercyhurst           | D2  | 16.80 | 0.999
- 2018-03-31 | home    | Alfred               | D3  |  6.12 | 0.220 | Hartwick             | D3  |  9.04 | 0.780
- 2018-04-04 | home    | Alvernia             | D3  |  3.06 | 0.000 | Lycoming             | D3  | 26.15 | 1.000
- 2018-03-31 | home    | Anna Maria           | D3  |  6.21 | 0.009 | Lasell               | D3  | 17.02 | 0.991
- 2018-03-29 | home    | Arcadia              | D3  |  7.69 | 0.066 | Messiah              | D3  | 14.60 | 0.934
- 2018-03-31 | home    | Army West Point      | D1  | 10.20 | 0.755 | Bucknell             | D1  |  7.38 | 0.245
- 2018-04-04 | home    | Assumption           | D2  |  8.30 | 0.429 | Adelphi              | D2  |  9.04 | 0.571
- 2018-03-31 | home    | Assumption           | D2  | 14.18 | 0.967 | Southern N.H.        | D2  |  6.22 | 0.033
- 2018-03-31 | neutral | Augustana (IL)       | D3  |  7.10 | 0.060 | Birmingham-So.       | D3  | 14.02 | 0.940
- 2018-03-31 | home    | Aurora               | D3  | 17.43 | 0.999 | Cornell College      | D3  |  3.85 | 0.001
- 2018-04-04 | home    | Averett              | D3  |  4.79 | 0.002 | William Peace        | D3  | 17.31 | 0.998
- 2018-03-30 | home    | Baldwin Wallace      | D3  | 27.86 | 1.000 | Wilmington (OH)      | D3  |  4.03 | 0.000
- 2018-04-04 | home    | Baldwin Wallace      | D3  | 17.83 | 0.996 | Heidelberg           | D3  |  5.71 | 0.004
- 2018-04-04 | home    | Bates                | D3  |  9.44 | 0.504 | Bowdoin              | D3  |  9.39 | 0.496
- 2018-04-04 | home    | Becker               | D3  |  4.97 | 0.008 | UMass Dartmouth      | D3  | 15.33 | 0.992
- 2018-03-31 | home    | Becker               | D3  |  7.48 | 0.089 | Dallas               | D3  | 13.47 | 0.911
- 2018-03-31 | home    | Bellarmine           | D1  |  8.46 | 0.538 | Air Force            | D1  |  8.08 | 0.462
- 2018-03-31 | home    | Beloit               | D3  |  9.83 | 0.342 | Benedictine (IL)     | D3  | 11.68 | 0.658
- 2018-03-31 | home    | Bentley              | D2  | 11.40 | 0.829 | Franklin Pierce      | D2  |  7.38 | 0.171
- 2018-04-03 | home    | Berry                | D3  | 13.10 | 0.987 | Piedmont             | D3  |  4.34 | 0.013
- 2018-03-31 | home    | Boston U.            | D1  |  9.15 | 0.314 | Lehigh               | D1  | 11.30 | 0.686
- 2018-03-31 | home    | Bowdoin              | D3  | 11.88 | 0.910 | Trinity (CT)         | D3  |  6.34 | 0.090
- 2018-03-31 | home    | Brevard              | D3  | 25.80 | 1.000 | Averett              | D3  |  3.03 | 0.000
- 2018-03-31 | home    | Bridgewater (VA)     | D3  |  9.29 | 0.426 | Guilford             | D3  | 10.09 | 0.574
- 2018-03-31 | home    | Brown                | D1  | 13.92 | 0.799 | Princeton            | D1  |  9.90 | 0.201
- 2018-04-04 | home    | Bryn Athyn           | D3  |  8.65 | 0.263 | Morrisville St.      | D3  | 11.43 | 0.737
- 2018-03-31 | home    | Calvin               | D3  |  9.02 | 0.608 | Wabash               | D3  |  7.92 | 0.392
- 2018-03-31 | home    | Carthage             | D3  | 29.04 | 1.000 | Olivet               | D3  |  2.37 | 0.000
- 2018-03-31 | home    | Castleton            | D3  | 17.71 | 1.000 | Maine Maritime       | D3  |  3.55 | 0.000
- 2018-03-31 | home    | Catawba              | D2  | 17.34 | 0.961 | Mars Hill            | D2  |  8.62 | 0.039
- 2018-04-04 | home    | Centenary (NJ)       | D3  | 15.29 | 0.998 | Keystone             | D3  |  3.77 | 0.002
- 2018-03-31 | home    | Centre               | D3  |  7.21 | 0.364 | Sewanee              | D3  |  8.56 | 0.636
- 2018-03-31 | home    | Chatham              | D3  | 10.78 | 0.720 | Hanover              | D3  |  8.29 | 0.280
- 2018-03-31 | neutral | Chestnut Hill        | D2  |  8.11 | 0.418 | Walsh                | D2  |  8.95 | 0.582
- 2018-04-04 | home    | Chris. Newport       | D3  |  8.93 | 0.413 | Salisbury            | D3  |  9.87 | 0.587
- 2018-04-04 | home    | Clark (MA)           | D3  | 16.43 | 0.991 | Plymouth St.         | D3  |  5.84 | 0.009
- 2018-03-31 | home    | Clarkson             | D3  |  6.04 | 0.312 | Union (NY)           | D3  |  7.82 | 0.688
- 2018-04-04 | home    | CMSV                 | D3  |  9.32 | 0.589 | Cobleskill St.       | D3  |  8.40 | 0.411
- 2018-03-31 | home    | Coast Guard          | D3  | 11.42 | 0.887 | Clark (MA)           | D3  |  6.46 | 0.113
- 2018-03-31 | home    | Coker                | D2  |  5.97 | 0.118 | Queens (NC)          | D2  | 10.64 | 0.882
- 2018-03-31 | home    | Colby                | D3  |  7.32 | 0.126 | Wesleyan (CT)        | D3  | 12.23 | 0.874
- 2018-03-31 | home    | Colgate              | D1  | 10.64 | 0.354 | Loyola Maryland      | D1  | 12.41 | 0.646
- 2018-03-30 | home    | Colorado Col.        | D3  | 12.30 | 0.786 | Williams             | D3  |  8.74 | 0.214
- 2018-04-04 | home    | Connecticut Col.     | D3  | 12.16 | 0.864 | Trinity (CT)         | D3  |  7.43 | 0.136
- 2018-04-04 | home    | Curry                | D3  |  8.45 | 0.534 | Nichols              | D3  |  8.11 | 0.466
- 2018-03-31 | home    | Dartmouth            | D1  |  5.57 | 0.012 | Cornell              | D1  | 15.39 | 0.988
- 2018-03-29 | home    | Davis & Elkins       | D2  |  6.65 | 0.111 | Wilmington (DE)      | D2  | 11.74 | 0.889
- 2018-03-31 | home    | Delaware             | D1  | 10.08 | 0.605 | Fairfield            | D1  |  8.94 | 0.395
- 2018-04-03 | home    | Denison              | D3  | 27.57 | 1.000 | Hiram                | D3  |  3.53 | 0.000
- 2018-03-31 | home    | Detroit Mercy        | D1  |  8.66 | 0.423 | Quinnipiac           | D1  |  9.47 | 0.577
- 2018-03-31 | home    | Dickinson            | D3  | 15.99 | 0.976 | Eastern              | D3  |  6.88 | 0.024
- 2018-03-29 | home    | Dominican (NY)       | D2  |  9.62 | 0.691 | American Int'l       | D2  |  7.60 | 0.309
- 2018-03-31 | home    | Drew                 | D3  | 12.00 | 0.797 | Delaware Valley      | D3  |  8.34 | 0.203
- 2018-03-31 | home    | Drexel               | D1  | 12.84 | 0.692 | Massachusetts        | D1  | 10.45 | 0.308
- 2018-03-31 | home    | Dubuque              | D3  | 10.63 | 0.977 | Northland            | D3  |  3.58 | 0.023
- 2018-04-04 | home    | Dubuque              | D3  |  4.88 | 0.084 | Augustana (IL)       | D3  |  9.99 | 0.916
- 2018-03-30 | home    | Duke                 | D1  | 15.26 | 0.971 | North Carolina       | D1  |  6.68 | 0.029
- 2018-03-31 | home    | Earlham              | D3  |  1.97 | 0.000 | Thiel                | D3  | 33.74 | 1.000
- 2018-03-30 | home    | Eastern Conn. St.    | D3  |  7.48 | 0.015 | Keene St.            | D3  | 17.97 | 0.985
- 2018-03-31 | home    | Elizabethtown        | D3  |  9.60 | 0.835 | Goucher              | D3  |  5.89 | 0.165
- 2018-03-29 | home    | Embry-Riddle (FL)    | D2  |  3.83 | 0.000 | Tampa                | D2  | 21.68 | 1.000
- 2018-04-04 | home    | Emerson              | D3  |  8.59 | 0.539 | Purchase             | D3  |  8.20 | 0.461
- 2018-03-31 | home    | Emerson              | D3  |  3.36 | 0.000 | Springfield          | D3  | 18.75 | 1.000
- 2018-03-31 | home    | Endicott             | D3  |  9.51 | 0.599 | Wentworth            | D3  |  8.46 | 0.401
- 2018-04-04 | home    | FDU-Florham          | D3  |  9.93 | 0.404 | Stockton             | D3  | 11.02 | 0.596
- 2018-03-31 | home    | Ferrum               | D3  | 10.41 | 0.438 | Pfeiffer             | D3  | 11.13 | 0.562
- 2018-04-04 | home    | Ferrum               | D3  |  8.02 | 0.442 | Shenandoah           | D3  |  8.61 | 0.558
- 2018-04-04 | home    | Florida Tech         | D2  |  8.44 | 0.370 | Lynn                 | D2  |  9.83 | 0.630
- 2018-03-31 | home    | Fontbonne            | D3  |  2.79 | 0.000 | Concordia Wisconsin  | D3  | 21.35 | 1.000
- 2018-04-04 | home    | Franciscan           | D3  |  6.70 | 0.002 | Saint Vincent        | D3  | 20.86 | 0.998
- 2018-04-03 | home    | Franklin Pierce      | D2  |  4.98 | 0.011 | Le Moyne             | D2  | 14.51 | 0.989
- 2018-04-04 | home    | Frostburg St.        | D3  |  9.16 | 0.753 | Elizabethtown        | D3  |  6.53 | 0.247
- 2018-03-31 | home    | Frostburg St.        | D3  | 13.64 | 0.988 | Marymount (VA)       | D3  |  4.54 | 0.012
- 2018-03-31 | home    | Georgetown           | D1  | 10.39 | 0.562 | Denver               | D1  |  9.70 | 0.438
- 2018-03-31 | home    | Gettysburg           | D3  |  9.17 | 0.812 | Muhlenberg           | D3  |  5.85 | 0.188
- 2018-04-04 | home    | Green Mountain       | D3  |  3.83 | 0.005 | Castleton            | D3  | 13.92 | 0.995
- 2018-03-29 | home    | Green Mountain       | D3  |  4.33 | 0.006 | Cobleskill St.       | D3  | 14.64 | 0.994
- 2018-03-31 | home    | Greensboro           | D3  |  5.92 | 0.384 | Piedmont             | D3  |  6.95 | 0.616
- 2018-03-31 | home    | Grove City           | D3  | 12.17 | 0.986 | Wash. & Jeff.        | D3  |  3.93 | 0.014
- 2018-04-04 | home    | Hamilton             | D3  |  8.29 | 0.197 | Middlebury           | D3  | 12.04 | 0.803
- 2018-03-31 | home    | Hamilton             | D3  |  7.89 | 0.108 | Bates                | D3  | 13.47 | 0.892
- 2018-04-04 | home    | Hampden-Sydney       | D3  | 21.85 | 0.999 | Va. Wesleyan         | D3  |  6.50 | 0.001
- 2018-04-04 | home    | Hampton              | D1  |  8.45 | 0.241 | Chowan               | D2  | 11.53 | 0.759
- 2018-04-04 | home    | Hanover              | D3  | 36.40 | 1.000 | Earlham              | D3  |  2.40 | 0.000
- 2018-03-31 | home    | Hartford             | D1  |  9.25 | 0.211 | Vermont              | D1  | 12.95 | 0.789
- 2018-04-04 | home    | Hartwick             | D3  |  7.03 | 0.507 | Clarkson             | D3  |  6.97 | 0.493
- 2018-03-31 | home    | Haverford            | D3  |  6.85 | 0.089 | Franklin & Marshall  | D3  | 12.61 | 0.911
- 2018-03-31 | home    | High Point           | D1  | 12.67 | 0.401 | Jacksonville         | D1  | 13.95 | 0.599
- 2018-04-04 | home    | Hilbert              | D3  |  9.04 | 0.574 | SUNY Poly            | D3  |  8.28 | 0.426
- 2018-03-31 | home    | Hiram                | D3  |  3.81 | 0.000 | Ohio Wesleyan        | D3  | 25.05 | 1.000
- 2018-03-31 | home    | Hofstra              | D1  |  9.16 | 0.786 | Towson               | D1  |  6.15 | 0.214
- 2018-03-29 | home    | Hood                 | D3  |  8.24 | 0.465 | Albright             | D3  |  8.58 | 0.535
- 2018-04-03 | home    | Hope                 | D3  | 12.83 | 0.947 | Alma                 | D3  |  6.07 | 0.053
- 2018-03-29 | home    | Houghton             | D3  |  8.74 | 0.101 | Keuka                | D3  | 14.78 | 0.899
- 2018-03-31 | home    | Huntingdon           | D3  |  8.18 | 0.679 | Methodist            | D3  |  6.45 | 0.321
- 2018-04-04 | home    | Huntingdon           | D3  | 12.70 | 0.935 | Shorter              | D2  |  6.32 | 0.065
- 2018-04-04 | home    | Husson               | D3  | 20.63 | 1.000 | Maine Maritime       | D3  |  3.55 | 0.000
- 2018-04-04 | home    | Ill. Wesleyan        | D3  | 22.00 | 0.997 | North Central (IL)   | D3  |  7.53 | 0.003
- 2018-04-02 | home    | Ill. Wesleyan        | D3  | 17.13 | 0.815 | Aurora               | D3  | 12.34 | 0.185
- 2018-04-04 | home    | Immaculata           | D3  |  4.80 | 0.176 | Gwynedd Mercy        | D3  |  8.02 | 0.824
- 2018-04-04 | home    | Ithaca               | D3  | 19.11 | 0.999 | Nazareth             | D3  |  4.42 | 0.001
- 2018-03-31 | home    | Ithaca               | D3  | 21.30 | 1.000 | Vassar               | D3  |  3.21 | 0.000
- 2018-04-04 | home    | Johnson & Wales (RI) | D3  |  9.50 | 0.181 | Lasell               | D3  | 13.81 | 0.819
- 2018-03-31 | home    | Keystone             | D3  |  2.46 | 0.000 | Farmingdale St.      | D3  | 18.12 | 1.000
- 2018-03-31 | home    | Lafayette            | D1  | 10.44 | 0.630 | Binghamton           | D1  |  9.01 | 0.370
- 2018-04-03 | home    | Lake Erie            | D2  | 29.14 | 1.000 | Davis & Elkins       | D2  |  4.21 | 0.000
- 2018-03-31 | home    | Lake Erie            | D2  | 16.93 | 0.998 | Maryville (MO)       | D2  |  4.59 | 0.002
- 2018-04-04 | home    | La Roche             | D3  |  2.52 | 0.000 | Thiel                | D3  | 23.71 | 1.000
- 2018-03-30 | home    | La Roche             | D3  | 10.58 | 0.714 | Medaille             | D3  |  8.18 | 0.286
- 2018-04-02 | home    | Lasell               | D3  | 14.94 | 0.952 | Plymouth St.         | D3  |  7.33 | 0.048
- 2018-03-29 | home    | Lebanon Valley       | D3  |  5.61 | 0.058 | Lycoming             | D3  | 11.93 | 0.942
- 2018-03-31 | home    | Lees-McRae           | D2  | 11.10 | 0.452 | Chowan               | D2  | 11.67 | 0.548
- 2018-03-31 | home    | Limestone            | D2  |  8.61 | 0.581 | Mount Olive          | D2  |  7.79 | 0.419
- 2018-04-04 | home    | LIU Post             | D2  | 16.48 | 0.999 | Post                 | D2  |  3.31 | 0.001
- 2018-03-31 | home    | Lynn                 | D2  | 10.44 | 0.706 | Fla. Southern        | D2  |  8.15 | 0.294
- 2018-04-03 | home    | Manhattanville       | D3  | 12.26 | 0.921 | Kean                 | D3  |  6.37 | 0.079
- 2018-03-31 | home    | Marian (WI)          | D3  | 16.61 | 1.000 | Concordia Chicago    | D3  |  1.97 | 0.000
- 2018-03-31 | home    | Marist               | D1  | 11.29 | 0.675 | Canisius             | D1  |  9.27 | 0.325
- 2018-03-31 | home    | Marquette            | D1  |  6.81 | 0.197 | Villanova            | D1  | 10.23 | 0.803
- 2018-03-31 | home    | Mary Washington      | D3  | 17.99 | 1.000 | Wesley               | D3  |  3.63 | 0.000
- 2018-04-04 | home    | Marywood             | D3  | 11.40 | 0.882 | Neumann              | D3  |  6.54 | 0.118
- 2018-03-30 | home    | Mass. Maritime       | D3  |  7.07 | 0.136 | Babson               | D3  | 11.70 | 0.864
- 2018-03-31 | home    | McDaniel             | D3  |  7.00 | 0.164 | Washington Col.      | D3  | 11.04 | 0.836
- 2018-04-04 | home    | Medaille             | D3  |  3.67 | 0.000 | Keuka                | D3  | 28.87 | 1.000
- 2018-03-31 | home    | Mercer               | D1  |  9.47 | 0.498 | Furman               | D1  |  9.49 | 0.502
- 2018-03-31 | home    | Merchant Marine      | D3  | 39.72 | 1.000 | Mitchell             | D3  |  2.54 | 0.000
- 2018-03-29 | home    | Merchant Marine      | D3  | 14.48 | 0.963 | SUNY Maritime        | D3  |  6.58 | 0.037
- 2018-03-30 | home    | Mercyhurst           | D2  |  9.96 | 0.583 | Rockhurst            | D2  |  9.06 | 0.417
- 2018-04-03 | home    | Merrimack            | D2  | 14.57 | 0.949 | St. Anselm           | D2  |  7.20 | 0.051
- 2018-03-31 | home    | Merrimack            | D2  | 25.61 | 1.000 | American Int'l       | D2  |  3.97 | 0.000
- 2018-04-04 | home    | Messiah              | D3  | 17.25 | 0.998 | Lebanon Valley       | D3  |  4.62 | 0.002
- 2018-03-31 | home    | Michigan             | D1  |  9.41 | 0.265 | Maryland             | D1  | 12.28 | 0.735
- 2018-03-31 | home    | Middlebury           | D3  | 10.82 | 0.134 | Amherst              | D3  | 16.51 | 0.866
- 2018-04-04 | home    | MIT                  | D3  |  6.97 | 0.140 | Coast Guard          | D3  | 11.48 | 0.860
- 2018-04-04 | home    | Mitchell             | D3  |  5.19 | 0.002 | Western Conn. St.    | D3  | 18.79 | 0.998
- 2018-03-31 | home    | Molloy               | D2  |  8.23 | 0.442 | Mercy                | D2  |  8.82 | 0.558
- 2018-04-03 | home    | Monmouth             | D1  | 13.88 | 0.945 | Lafayette            | D1  |  6.85 | 0.055
- 2018-04-04 | home    | Monmouth (IL)        | D3  |  4.20 | 0.042 | MSOE                 | D3  | 10.49 | 0.958
- 2018-03-31 | home    | Montclair St.        | D3  | 10.23 | 0.551 | Stockton             | D3  |  9.67 | 0.449
- 2018-03-30 | home    | Moravian             | D3  |  4.92 | 0.027 | Susquehanna          | D3  | 12.61 | 0.973
- 2018-04-04 | home    | Mount Ida            | D3  |  9.98 | 0.694 | Rivier               | D3  |  7.88 | 0.306
- 2018-04-04 | home    | Mount Union          | D3  |  4.53 | 0.015 | John Carroll         | D3  | 13.18 | 0.985
- 2018-03-31 | home    | Mt. St. Joseph       | D3  |  7.51 | 0.400 | Bethany (WV)         | D3  |  8.50 | 0.600
- 2018-03-31 | home    | Muskingum            | D3  |  7.45 | 0.240 | Heidelberg           | D3  | 10.35 | 0.760
- 2018-03-31 | home    | Navy                 | D1  |  9.62 | 0.896 | Holy Cross           | D1  |  4.99 | 0.104
- 2018-03-31 | neutral | Nazareth             | D3  |  5.46 | 0.075 | St. Lawrence         | D3  | 11.11 | 0.925
- 2018-03-31 | home    | Newberry             | D2  |  7.44 | 0.127 | Tusculum             | D2  | 12.38 | 0.873
- 2018-03-31 | home    | New England Col.     | D3  | 11.81 | 0.831 | Husson               | D3  |  7.69 | 0.169
- 2018-03-31 | home    | NJIT                 | D1  |  7.72 | 0.307 | Manhattan            | D1  |  9.77 | 0.693
- 2018-03-31 | home    | North Central (IL)   | D3  | 20.93 | 1.000 | Adrian               | D3  |  3.63 | 0.000
- 2018-03-29 | home    | Northwestern-St.Paul | D3  | 14.48 | 0.996 | North Central (MN)   | D3  |  3.77 | 0.004
- 2018-04-04 | home    | Norwich              | D3  | 14.68 | 0.937 | Regis (MA)           | D3  |  7.66 | 0.063
- 2018-03-31 | home    | Norwich              | D3  | 10.28 | 0.336 | Johnson & Wales (RI) | D3  | 12.25 | 0.664
- 2018-03-31 | home    | Oglethorpe           | D3  |  2.45 | 0.000 | Berry                | D3  | 30.32 | 1.000
- 2018-03-30 | home    | Ohio Northern        | D3  | 12.45 | 0.980 | Mount Union          | D3  |  4.45 | 0.020
- 2018-03-31 | home    | Ohio St.             | D1  |  9.09 | 0.366 | Penn St.             | D1  | 10.58 | 0.634
- 2018-04-03 | home    | Ohio Wesleyan        | D3  | 17.75 | 0.995 | Wittenberg           | D3  |  5.95 | 0.005
- 2018-03-31 | home    | Oswego St.           | D3  | 11.76 | 0.982 | Brockport            | D3  |  3.90 | 0.018
- 2018-03-30 | home    | Otterbein            | D3  | 11.47 | 0.692 | Capital              | D3  |  9.23 | 0.308
- 2018-04-04 | home    | Otterbein            | D3  | 21.76 | 1.000 | Muskingum            | D3  |  4.04 | 0.000
- 2018-03-29 | home    | Palm Beach Atl.      | D2  |  6.19 | 0.001 | Saint Leo            | D2  | 22.17 | 0.999
- 2018-04-04 | home    | Plattsburgh St.      | D3  |  4.58 | 0.032 | St. Lawrence         | D3  | 11.67 | 0.968
- 2018-03-31 | home    | Plymouth St.         | D3  | 10.51 | 0.566 | Western Conn. St.    | D3  |  9.77 | 0.434
- 2018-03-31 | home    | Providence           | D1  |  8.09 | 0.310 | St. John's (NY)      | D1  | 10.16 | 0.690
- 2018-03-29 | home    | Purchase             | D3  |  8.29 | 0.052 | Mt. St. Mary (NY)    | D3  | 16.07 | 0.948
- 2018-04-03 | home    | Queens (NC)          | D2  |  8.18 | 0.246 | Limestone            | D2  | 11.13 | 0.754
- 2018-03-31 | home    | Randolph             | D3  |  4.19 | 0.010 | Shenandoah           | D3  | 13.30 | 0.990
- 2018-04-04 | home    | Randolph             | D3  |  2.39 | 0.000 | Wash. & Lee          | D3  | 28.63 | 1.000
- 2018-03-30 | home    | Randolph-Macon       | D3  | 14.28 | 0.881 | Va. Wesleyan         | D3  |  8.76 | 0.119
- 2018-04-04 | home    | Randolph-Macon       | D3  | 11.94 | 0.937 | Methodist            | D3  |  5.73 | 0.063
- 2018-04-02 | home    | Regis (MA)           | D3  |  9.47 | 0.622 | Emmanuel (MA)        | D3  |  8.20 | 0.378
- 2018-04-03 | home    | Rensselaer           | D3  |  9.45 | 0.921 | SUNY Oneonta         | D3  |  4.41 | 0.079
- 2018-03-31 | home    | Rhodes               | D3  | 15.02 | 0.995 | Hendrix              | D3  |  4.31 | 0.005
- 2018-03-31 | home    | RIT                  | D3  | 28.92 | 1.000 | Bard                 | D3  |  4.70 | 0.000
- 2018-04-04 | home    | RIT                  | D3  | 16.22 | 0.965 | SUNY Cortland        | D3  |  7.66 | 0.035
- 2018-04-04 | home    | Roanoke              | D3  | 18.36 | 0.995 | Guilford             | D3  |  6.09 | 0.005
- 2018-03-31 | home    | Roanoke              | D3  | 12.91 | 0.696 | Lynchburg            | D3  | 10.47 | 0.304
- 2018-03-30 | home    | Robert Morris        | D1  | 13.03 | 0.874 | Bryant               | D1  |  7.92 | 0.126
- 2018-03-31 | home    | Roberts Wesleyan     | D2  | 10.60 | 0.743 | LIU Post             | D2  |  7.85 | 0.257
- 2018-04-04 | home    | Roger Williams       | D3  |  8.85 | 0.559 | Endicott             | D3  |  8.25 | 0.441
- 2018-03-31 | home    | Rollins              | D2  |  9.03 | 0.609 | Florida Tech         | D2  |  7.92 | 0.391
- 2018-04-04 | home    | Rosemont             | D3  |  2.09 | 0.000 | Cabrini              | D3  | 47.70 | 1.000
- 2018-04-01 | home    | Rutgers              | D1  | 10.33 | 0.565 | Johns Hopkins        | D1  |  9.61 | 0.435
- 2018-03-31 | home    | Sacred Heart         | D1  | 15.25 | 0.775 | Mt. St. Mary's       | D1  | 11.41 | 0.225
- 2018-04-04 | home    | Saint Leo            | D2  | 15.29 | 0.959 | Rollins              | D2  |  7.30 | 0.041
- 2018-03-31 | home    | Saint Rose           | D2  |  7.50 | 0.227 | Pace                 | D2  | 10.61 | 0.773
- 2018-04-04 | home    | Saint Rose           | D2  |  9.29 | 0.779 | Saint Michael's      | D2  |  6.34 | 0.221
- 2018-04-02 | home    | Salem St.            | D3  |  7.19 | 0.312 | Dallas               | D3  |  9.12 | 0.688
- 2018-03-31 | home    | Salisbury            | D3  | 22.08 | 0.999 | Southern Va.         | D3  |  6.31 | 0.001
- 2018-04-04 | home    | Salve Regina         | D3  |  9.89 | 0.502 | SUNY Maritime        | D3  |  9.87 | 0.498
- 2018-03-29 | home    | Scranton             | D3  | 11.69 | 0.780 | Catholic             | D3  |  8.30 | 0.220
- 2018-03-31 | home    | Seton Hill           | D2  | 24.91 | 1.000 | Ohio Valley          | D2  |  3.85 | 0.000
- 2018-03-30 | home    | Shorter              | D2  |  4.99 | 0.000 | Young Harris         | D2  | 21.07 | 1.000
- 2018-03-31 | home    | Siena                | D1  | 10.27 | 0.533 | Monmouth             | D1  |  9.90 | 0.467
- 2018-03-31 | home    | Skidmore             | D3  |  7.23 | 0.227 | Rensselaer           | D3  | 10.29 | 0.773
- 2018-03-31 | home    | Southern Me.         | D3  |  8.82 | 0.285 | UMass Boston         | D3  | 11.31 | 0.715
- 2018-04-04 | home    | Southern N.H.        | D2  |  7.98 | 0.064 | Bentley              | D2  | 15.07 | 0.936
- 2018-03-31 | home    | St. Anselm           | D2  |  6.01 | 0.028 | Le Moyne             | D2  | 14.31 | 0.972
- 2018-04-03 | home    | Stevenson            | D3  |  8.89 | 0.271 | Stevens              | D3  | 11.59 | 0.729
- 2018-03-31 | home    | St. John Fisher      | D3  |  6.82 | 0.026 | Stevens              | D3  | 15.74 | 0.974
- 2018-04-04 | home    | St. Joseph's (L.I.)  | D3  |  9.35 | 0.709 | Dominican (NY)       | D2  |  7.17 | 0.291
- 2018-03-29 | home    | St. Joseph's (L.I.)  | D3  | 15.20 | 0.990 | CMSV                 | D3  |  5.19 | 0.010
- 2018-03-31 | home    | St. Joseph's (ME)    | D3  | 12.52 | 0.748 | Mount Ida            | D3  |  9.44 | 0.252
- 2018-04-04 | home    | St. Joseph's (ME)    | D3  | 12.98 | 0.939 | Emmanuel (MA)        | D3  |  6.40 | 0.061
- 2018-04-04 | home    | St. Mary's (MD)      | D3  | 11.26 | 0.898 | Marymount (VA)       | D3  |  6.14 | 0.102
- 2018-03-31 | home    | St. Mary's (MD)      | D3  |  5.91 | 0.025 | Chris. Newport       | D3  | 14.41 | 0.975
- 2018-04-03 | home    | Stony Brook          | D1  |  8.47 | 0.196 | St. John's (NY)      | D1  | 12.28 | 0.804
- 2018-03-31 | home    | St. Thomas Aquinas   | D2  |  7.37 | 0.044 | Dist. Columbia       | D2  | 15.20 | 0.956
- 2018-04-04 | home    | St. Thomas Aquinas   | D2  |  6.22 | 0.004 | NYIT                 | D2  | 18.86 | 0.996
- 2018-03-31 | home    | SUNY Canton          | D3  | 11.12 | 0.883 | Cazenovia            | D3  |  6.30 | 0.117
- 2018-03-31 | home    | SUNY Cortland        | D3  | 15.43 | 0.987 | Plattsburgh St.      | D3  |  5.63 | 0.013
- 2018-04-04 | home    | SUNY Geneseo         | D3  | 12.05 | 0.920 | St. John Fisher      | D3  |  6.25 | 0.080
- 2018-03-31 | home    | SUNY Oneonta         | D3  |  5.25 | 0.163 | SUNY Geneseo         | D3  |  8.80 | 0.837
- 2018-03-31 | home    | SUNY Potsdam         | D3  |  7.95 | 0.484 | Kean                 | D3  |  8.10 | 0.516
- 2018-04-03 | home    | SUNY Potsdam         | D3  | 11.87 | 0.961 | Castleton            | D3  |  4.98 | 0.039
- 2018-03-31 | home    | Swarthmore           | D3  |  7.80 | 0.344 | Ursinus              | D3  |  9.42 | 0.656
- 2018-03-31 | home    | Syracuse             | D1  |  9.18 | 0.369 | Notre Dame           | D1  | 10.64 | 0.631
- 2018-04-03 | home    | Syracuse             | D1  | 11.80 | 0.638 | Hobart               | D1  | 10.18 | 0.362
- 2018-04-04 | home    | Tampa                | D2  | 14.24 | 0.950 | Fla. Southern        | D2  |  6.94 | 0.050
- 2018-03-31 | neutral | Tampa                | D2  | 12.45 | 0.626 | Lenoir-Rhyne         | D2  | 10.91 | 0.374
- 2018-04-03 | home    | Transylvania         | D3  |  6.27 | 0.409 | Centre               | D3  |  7.09 | 0.591
- 2018-03-31 | home    | Trine                | D3  |  9.25 | 0.531 | MSOE                 | D3  |  8.92 | 0.469
- 2018-03-31 | home    | Tufts                | D3  | 16.94 | 0.988 | Connecticut Col.     | D3  |  6.50 | 0.012
- 2018-03-31 | home    | UIndy                | D2  | 14.15 | 0.978 | Montevallo           | D2  |  5.59 | 0.022
- 2018-03-31 | home    | UMass Dartmouth      | D3  | 11.32 | 0.968 | Salem St.            | D3  |  4.37 | 0.032
- 2018-03-31 | home    | UMass Lowell         | D1  |  9.31 | 0.674 | UMBC                 | D1  |  7.50 | 0.326
- 2018-03-29 | home    | U New England        | D3  | 15.92 | 0.994 | New England Col.     | D3  |  4.99 | 0.006
- 2018-04-04 | home    | U New England        | D3  | 14.99 | 0.991 | Gordon               | D3  |  5.02 | 0.009
- 2018-03-31 | home    | U New England        | D3  |  7.79 | 0.276 | Western New Eng.     | D3  | 10.26 | 0.724
- 2018-04-04 | home    | Union (NY)           | D3  | 10.81 | 0.883 | Skidmore             | D3  |  6.08 | 0.117
- 2018-03-31 | home    | Utica                | D3  | 14.44 | 0.999 | Elmira               | D3  |  3.05 | 0.001
- 2018-04-04 | home    | Utica                | D3  | 12.32 | 0.838 | Alfred St.           | D3  |  7.98 | 0.162
- 2018-04-04 | home    | Vassar               | D3  |  9.80 | 0.603 | Bard                 | D3  |  8.69 | 0.397
- 2018-03-31 | home    | Virginia             | D1  | 12.97 | 0.870 | Richmond             | D1  |  7.94 | 0.130
- 2018-03-31 | home    | VMI                  | D1  | 18.10 | 0.998 | Hampton              | D1  |  5.15 | 0.002
- 2018-04-03 | home    | Wabash               | D3  |  6.17 | 0.013 | DePauw               | D3  | 16.28 | 0.987
- 2018-03-31 | home    | Wagner               | D1  |  5.28 | 0.137 | Saint Joseph's       | D1  |  9.31 | 0.863
- 2018-03-30 | home    | Wash. & Lee          | D3  | 11.56 | 0.731 | Hampden-Sydney       | D3  |  8.83 | 0.269
- 2018-04-04 | home    | Wells                | D3  |  7.61 | 0.318 | Cazenovia            | D3  |  9.52 | 0.682
- 2018-04-04 | home    | Wesley               | D3  |  2.42 | 0.000 | York (PA)            | D3  | 24.95 | 1.000
- 2018-04-04 | home    | Wesleyan (CT)        | D3  | 11.60 | 0.217 | Amherst              | D3  | 15.61 | 0.783
- 2018-04-04 | home    | Western New Eng.     | D3  | 16.24 | 0.974 | Wentworth            | D3  |  7.17 | 0.026
- 2018-03-31 | home    | Westminster (PA)     | D3  |  5.68 | 0.186 | Transylvania         | D3  |  8.98 | 0.814
- 2018-03-31 | home    | Wheaton (MA)         | D3  |  8.72 | 0.295 | MIT                  | D3  | 11.07 | 0.705
- 2018-03-31 | home    | Wheeling Jesuit      | D2  | 16.14 | 0.997 | Davis & Elkins       | D2  |  4.29 | 0.002
- 2018-04-04 | home    | Widener              | D3  | 10.49 | 0.753 | Arcadia              | D3  |  7.65 | 0.247
- 2018-04-04 | home    | Williams             | D3  |  6.42 | 0.021 | Tufts                | D3  | 15.63 | 0.979
- 2018-04-04 | home    | Wilmington (OH)      | D3  |  3.17 | 0.000 | Ohio Northern        | D3  | 26.93 | 1.000
- 2018-03-31 | home    | Wingate              | D2  | 10.23 | 0.525 | Lincoln Memorial     | D2  |  9.95 | 0.475
- 2018-03-31 | home    | Wittenberg           | D3  |  6.57 | 0.016 | Denison              | D3  | 16.39 | 0.984
- 2018-03-30 | home    | Wooster              | D3  | 12.28 | 0.855 | Oberlin              | D3  |  7.68 | 0.145
- 2018-04-03 | home    | Wooster              | D3  | 11.11 | 0.543 | Kenyon               | D3  | 10.62 | 0.457
- 2018-03-31 | home    | Yale                 | D1  |  9.30 | 0.659 | Penn                 | D1  |  7.65 | 0.341
- 2018-04-04 | home    | Yale                 | D1  | 12.80 | 0.872 | Bucknell             | D1  |  7.78 | 0.128
-(260 rows)
+    date    | site |        home         | div | score | p_win |         away         | div | score | p_win 
+------------+------+---------------------+-----+-------+-------+----------------------+-----+-------+-------
+ 2018-04-28 | home | Adelphi             | D2  | 15.43 | 0.976 | Franklin Pierce      | D2  |  6.53 | 0.024
+ 2018-04-27 | home | Adrian              | D3  |  3.21 | 0.000 | Albion               | D3  | 18.74 | 1.000
+ 2018-04-24 | home | Albion              | D3  |  7.05 | 0.433 | Hope                 | D3  |  7.69 | 0.567
+ 2018-04-28 | home | Albright            | D3  |  5.21 | 0.426 | Lebanon Valley       | D3  |  5.81 | 0.574
+ 2018-04-24 | home | Alderson Broaddus   | D2  |  5.28 | 0.000 | Seton Hill           | D2  | 24.36 | 1.000
+ 2018-04-28 | home | Alfred St.          | D3  | 19.30 | 0.999 | La Roche             | D3  |  5.12 | 0.001
+ 2018-04-25 | home | Alfred St.          | D3  | 10.90 | 0.802 | Houghton             | D3  |  7.37 | 0.198
+ 2018-04-28 | home | Alvernia            | D3  |  6.98 | 0.035 | Hood                 | D3  | 15.24 | 0.965
+ 2018-04-28 | home | American Int'l      | D2  |  7.17 | 0.043 | Bentley              | D2  | 14.96 | 0.957
+ 2018-04-25 | home | Amherst             | D3  | 21.94 | 0.992 | Trinity (CT)         | D3  |  9.08 | 0.008
+ 2018-04-23 | home | Anna Maria          | D3  |  7.60 | 0.187 | Bard                 | D3  | 11.38 | 0.813
+ 2018-04-25 | home | Arcadia             | D3  |  8.41 | 0.593 | Lebanon Valley       | D3  |  7.49 | 0.407
+ 2018-04-25 | home | Augustana (IL)      | D3  |  8.97 | 0.003 | Ill. Wesleyan        | D3  | 23.95 | 0.997
+ 2018-04-28 | home | Augustana (IL)      | D3  |  6.03 | 0.060 | Elmhurst             | D3  | 12.47 | 0.940
+ 2018-04-28 | home | Aurora              | D3  | 16.49 | 0.994 | Beloit               | D3  |  5.35 | 0.006
+ 2018-04-25 | home | Aurora              | D3  | 19.74 | 1.000 | Monmouth (IL)        | D3  |  3.06 | 0.000
+ 2018-04-25 | home | Babson              | D3  | 11.13 | 0.702 | MIT                  | D3  |  8.81 | 0.298
+ 2018-04-28 | home | Babson              | D3  |  7.57 | 0.371 | Coast Guard          | D3  |  8.88 | 0.629
+ 2018-04-25 | home | Baldwin Wallace     | D3  | 13.60 | 0.961 | Mount Union          | D3  |  6.06 | 0.039
+ 2018-04-28 | home | Bellarmine          | D1  |  8.88 | 0.578 | Furman               | D1  |  8.09 | 0.422
+ 2018-04-25 | home | Beloit              | D3  | 12.30 | 0.881 | Marian (WI)          | D3  |  7.24 | 0.119
+ 2018-04-25 | home | Benedictine (IL)    | D3  | 22.71 | 1.000 | Concordia Chicago    | D3  |  1.66 | 0.000
+ 2018-04-28 | home | Bethany (WV)        | D3  |  5.65 | 0.021 | Westminster (PA)     | D3  | 14.33 | 0.979
+ 2018-04-25 | home | Bethany (WV)        | D3  |  7.52 | 0.328 | Muskingum            | D3  |  9.31 | 0.672
+ 2018-04-27 | home | Binghamton          | D1  |  8.52 | 0.372 | Stony Brook          | D1  |  9.89 | 0.628
+ 2018-04-28 | home | Bridgewater (VA)    | D3  | 17.30 | 0.998 | Randolph             | D3  |  4.49 | 0.002
+ 2018-04-24 | home | Brown               | D1  | 12.17 | 0.535 | Bryant               | D1  | 11.75 | 0.465
+ 2018-04-28 | home | Brown               | D1  | 15.65 | 0.913 | Dartmouth            | D1  |  9.05 | 0.087
+ 2018-04-25 | home | Cabrini             | D3  | 24.99 | 1.000 | Immaculata           | D3  |  4.81 | 0.000
+ 2018-04-28 | home | Calvin              | D3  | 10.95 | 0.872 | Olivet               | D3  |  6.38 | 0.128
+ 2018-04-27 | home | Canisius            | D1  | 11.03 | 0.453 | Monmouth             | D1  | 11.58 | 0.547
+ 2018-04-28 | home | Capital             | D3  |  8.51 | 0.308 | Ohio Northern        | D3  | 10.65 | 0.692
+ 2018-04-25 | home | Capital             | D3  | 26.58 | 1.000 | Wilmington (OH)      | D3  |  5.27 | 0.000
+ 2018-04-25 | home | Carroll (WI)        | D3  |  2.98 | 0.000 | Carthage             | D3  | 23.87 | 1.000
+ 2018-04-28 | home | Catholic            | D3  |  7.53 | 0.350 | Elizabethtown        | D3  |  9.06 | 0.650
+ 2018-04-24 | home | Cazenovia           | D3  | 19.07 | 0.999 | Medaille             | D3  |  4.68 | 0.001
+ 2018-04-25 | home | Centenary (NJ)      | D3  |  9.22 | 0.675 | Neumann              | D3  |  7.41 | 0.325
+ 2018-04-24 | home | Chatham             | D3  |  6.05 | 0.126 | Grove City           | D3  | 10.58 | 0.874
+ 2018-04-25 | home | Coast Guard         | D3  | 18.54 | 1.000 | Emerson              | D3  |  3.18 | 0.000
+ 2018-04-25 | home | Cobleskill St.      | D3  |  5.62 | 0.079 | Hilbert              | D3  | 11.19 | 0.921
+ 2018-04-28 | home | Cobleskill St.      | D3  | 13.86 | 0.983 | Medaille             | D3  |  5.11 | 0.017
+ 2018-04-25 | home | Colby               | D3  |  9.67 | 0.206 | Bates                | D3  | 13.56 | 0.794
+ 2018-04-28 | home | Colorado Col.       | D3  | 16.60 | 0.978 | Whittier             | D3  |  7.17 | 0.022
+ 2018-04-22 | home | Colorado Mesa       | D2  | 18.72 | 0.985 | Colorado St.-Pueblo  | D2  |  7.93 | 0.015
+ 2018-04-28 | home | Colorado St.-Pueblo | D2  | 12.23 | 0.749 | Adams St.            | D2  |  9.19 | 0.251
+ 2018-04-28 | home | Concordia Chicago   | D3  |  5.01 | 0.078 | Fontbonne            | D3  | 10.35 | 0.922
+ 2018-04-28 | home | Cornell College     | D3  |  4.90 | 0.109 | Concordia Wisconsin  | D3  |  9.38 | 0.891
+ 2018-04-25 | home | Cornell College     | D3  | 18.03 | 0.998 | Fontbonne            | D3  |  5.27 | 0.002
+ 2018-04-24 | home | Curry               | D3  | 12.59 | 0.654 | Salve Regina         | D3  | 10.72 | 0.346
+ 2018-04-27 | home | Delaware            | D1  | 12.03 | 0.518 | Drexel               | D1  | 11.81 | 0.482
+ 2018-04-28 | home | Delaware Valley     | D3  |  8.51 | 0.307 | Manhattanville       | D3  | 10.66 | 0.693
+ 2018-04-28 | home | Denver              | D1  | 13.55 | 0.951 | Marquette            | D1  |  6.41 | 0.049
+ 2018-04-25 | home | DeSales             | D3  |  7.68 | 0.605 | Manhattanville       | D3  |  6.70 | 0.395
+ 2018-04-28 | home | Detroit Mercy       | D1  | 10.93 | 0.734 | Cleveland St.        | D1  |  8.25 | 0.266
+ 2018-04-28 | home | Dickinson           | D3  | 16.50 | 0.976 | Ursinus              | D3  |  7.21 | 0.024
+ 2018-04-28 | home | Dist. Columbia      | D2  |  9.75 | 0.082 | NYIT                 | D2  | 16.77 | 0.918
+ 2018-04-24 | home | Eastern             | D3  | 12.36 | 0.943 | FDU-Florham          | D3  |  5.86 | 0.057
+ 2018-04-24 | home | Eastern Conn. St.   | D3  | 10.51 | 0.831 | UMass Dartmouth      | D3  |  6.65 | 0.169
+ 2018-04-28 | home | Elmira              | D3  |  3.04 | 0.000 | St. John Fisher      | D3  | 16.70 | 1.000
+ 2018-04-28 | home | Emerson             | D3  |  6.46 | 0.125 | Mass. Maritime       | D3  | 11.15 | 0.875
+ 2018-04-28 | home | Farmingdale St.     | D3  | 15.50 | 0.999 | CMSV                 | D3  |  3.54 | 0.001
+ 2018-04-25 | home | Franklin & Marshall | D3  | 14.64 | 0.572 | Dickinson            | D3  | 13.69 | 0.428
+ 2018-04-25 | home | Gettysburg          | D3  | 13.52 | 0.970 | McDaniel             | D3  |  5.63 | 0.030
+ 2018-04-28 | home | Goucher             | D3  | 10.30 | 0.851 | Moravian             | D3  |  6.20 | 0.149
+ 2018-04-28 | home | Grove City          | D3  | 27.93 | 1.000 | Earlham              | D3  |  1.24 | 0.000
+ 2018-04-28 | home | Guilford            | D3  |  9.20 | 0.457 | Randolph-Macon       | D3  |  9.66 | 0.543
+ 2018-04-25 | home | Guilford            | D3  |  6.65 | 0.046 | Wash. & Lee          | D3  | 14.03 | 0.954
+ 2018-04-25 | home | Gwynedd Mercy       | D3  | 15.23 | 0.998 | Rosemont             | D3  |  3.72 | 0.002
+ 2018-04-24 | home | Hamilton            | D3  |  6.48 | 0.401 | Hartwick             | D3  |  7.39 | 0.599
+ 2018-04-28 | home | Hampden-Sydney      | D3  | 10.91 | 0.294 | Lynchburg            | D3  | 13.54 | 0.706
+ 2018-04-28 | home | Hampton             | D1  |  7.90 | 0.301 | St. Thomas Aquinas   | D2  | 10.06 | 0.699
+ 2018-04-28 | home | Hartford            | D1  |  7.52 | 0.025 | Albany (NY)          | D1  | 16.86 | 0.975
+ 2018-04-28 | home | High Point          | D1  | 12.51 | 0.807 | Mercer               | D1  |  8.61 | 0.193
+ 2018-04-28 | home | Hilbert             | D3  | 11.24 | 0.842 | Cazenovia            | D3  |  7.06 | 0.158
+ 2018-04-28 | home | Hobart              | D1  | 13.58 | 0.782 | Sacred Heart         | D1  |  9.87 | 0.218
+ 2018-04-24 | home | Hood                | D3  |  6.69 | 0.005 | Stevenson            | D3  | 19.03 | 0.995
+ 2018-04-28 | home | Houghton            | D3  |  3.65 | 0.000 | Stevens              | D3  | 33.79 | 1.000
+ 2018-04-28 | home | Ill. Wesleyan       | D3  | 53.52 | 1.000 | Carroll (WI)         | D3  |  3.68 | 0.000
+ 2018-04-25 | home | Ithaca              | D3  | 12.44 | 0.899 | Clarkson             | D3  |  6.98 | 0.101
+ 2018-04-28 | home | Jacksonville        | D1  | 17.26 | 0.974 | VMI                  | D1  |  7.85 | 0.026
+ 2018-04-28 | home | John Carroll        | D3  | 13.90 | 0.897 | Otterbein            | D3  |  8.11 | 0.103
+ 2018-04-25 | home | John Carroll        | D3  | 18.21 | 0.999 | Heidelberg           | D3  |  4.59 | 0.001
+ 2018-04-28 | home | Johns Hopkins       | D1  | 11.48 | 0.547 | Maryland             | D1  | 10.93 | 0.453
+ 2018-04-24 | home | Kalamazoo           | D3  | 12.30 | 0.939 | Adrian               | D3  |  5.94 | 0.061
+ 2018-04-28 | home | Kalamazoo           | D3  |  4.23 | 0.003 | Hope                 | D3  | 15.56 | 0.997
+ 2018-04-25 | home | Kean                | D3  |  8.05 | 0.537 | Farmingdale St.      | D3  |  7.68 | 0.463
+ 2018-04-27 | home | Keene St.           | D3  | 22.46 | 0.996 | Southern Me.         | D3  |  8.39 | 0.004
+ 2018-04-24 | home | Keene St.           | D3  | 18.45 | 0.983 | Western Conn. St.    | D3  |  7.96 | 0.017
+ 2018-04-28 | home | Keuka               | D3  | 21.12 | 0.987 | Wells                | D3  |  9.20 | 0.013
+ 2018-04-25 | home | Keuka               | D3  | 10.62 | 0.426 | Bryn Athyn           | D3  | 11.49 | 0.574
+ 2018-04-26 | home | Keuka               | D3  | 22.45 | 1.000 | Medaille             | D3  |  4.13 | 0.000
+ 2018-04-25 | home | Keystone            | D3  |  4.95 | 0.009 | Marywood             | D3  | 14.83 | 0.991
+ 2018-04-28 | home | King's (PA)         | D3  |  7.16 | 0.153 | Eastern              | D3  | 11.47 | 0.847
+ 2018-04-24 | home | King's (PA)         | D3  |  7.84 | 0.162 | Misericordia         | D3  | 12.15 | 0.838
+ 2018-04-24 | home | Lake Erie           | D2  | 17.21 | 0.971 | Roberts Wesleyan     | D2  |  7.99 | 0.029
+ 2018-04-25 | home | La Roche            | D3  | 10.72 | 0.008 | Franciscan           | D3  | 24.54 | 0.992
+ 2018-04-23 | home | Lasell              | D3  | 12.18 | 0.765 | Mount Ida            | D3  |  8.93 | 0.235
+ 2018-04-25 | home | Lasell              | D3  | 14.30 | 0.926 | Emmanuel (MA)        | D3  |  7.71 | 0.074
+ 2018-04-28 | home | Le Moyne            | D2  | 19.35 | 0.998 | Southern N.H.        | D2  |  5.78 | 0.002
+ 2018-04-28 | home | LIU Post            | D2  |  8.73 | 0.459 | Mercy                | D2  |  9.16 | 0.541
+ 2018-04-28 | home | Lycoming            | D3  | 13.38 | 0.783 | Arcadia              | D3  |  9.69 | 0.217
+ 2018-04-25 | home | Lynchburg           | D3  | 19.79 | 0.999 | Shenandoah           | D3  |  5.62 | 0.001
+ 2018-04-23 | home | Lyndon St.          | D3  | 15.35 | 0.997 | Johnson St.          | D3  |  4.03 | 0.003
+ 2018-04-27 | home | Manhattan           | D1  | 10.68 | 0.494 | Siena                | D1  | 10.75 | 0.506
+ 2018-04-28 | home | Marian (WI)         | D3  |  6.25 | 0.047 | MSOE                 | D3  | 13.42 | 0.953
+ 2018-04-28 | home | Marist              | D1  |  8.80 | 0.377 | Quinnipiac           | D1  | 10.13 | 0.623
+ 2018-04-22 | home | Maryland            | D1  | 11.28 | 0.832 | Ohio St.             | D1  |  7.25 | 0.168
+ 2018-04-24 | home | Marymount (VA)      | D3  |  4.01 | 0.000 | York (PA)            | D3  | 19.42 | 1.000
+ 2018-04-24 | home | Mary Washington     | D3  | 14.54 | 0.732 | Southern Va.         | D3  | 11.44 | 0.268
+ 2018-04-27 | home | Massachusetts       | D1  |  8.42 | 0.477 | Hofstra              | D1  |  8.65 | 0.523
+ 2018-04-25 | home | Mass. Maritime      | D3  |  7.54 | 0.240 | Wheaton (MA)         | D3  | 10.46 | 0.760
+ 2018-04-28 | home | Merchant Marine     | D3  | 26.11 | 1.000 | Purchase             | D3  |  5.36 | 0.000
+ 2018-04-28 | home | Mercyhurst          | D2  | 15.29 | 0.994 | Ohio Valley          | D2  |  4.62 | 0.006
+ 2018-04-28 | home | Merrimack           | D2  | 13.38 | 0.988 | Saint Michael's      | D2  |  4.40 | 0.012
+ 2018-04-25 | home | Messiah             | D3  | 25.65 | 1.000 | Alvernia             | D3  |  4.13 | 0.000
+ 2018-04-25 | home | Middlebury          | D3  | 10.46 | 0.488 | Williams             | D3  | 10.59 | 0.512
+ 2018-04-28 | home | Misericordia        | D3  | 13.10 | 0.941 | FDU-Florham          | D3  |  6.41 | 0.059
+ 2018-04-28 | home | MIT                 | D3  | 10.42 | 0.589 | Clark (MA)           | D3  |  9.43 | 0.411
+ 2018-04-28 | home | Molloy              | D2  |  9.82 | 0.640 | Roberts Wesleyan     | D2  |  8.32 | 0.360
+ 2018-04-28 | home | Monmouth (IL)       | D3  |  4.51 | 0.018 | Benedictine (IL)     | D3  | 12.78 | 0.982
+ 2018-04-25 | home | Montclair St.       | D3  |  8.04 | 0.062 | Stevens              | D3  | 15.25 | 0.938
+ 2018-04-28 | home | Montclair St.       | D3  |  9.57 | 0.391 | Scranton             | D3  | 10.80 | 0.609
+ 2018-04-22 | home | Montclair St.       | D3  |  8.72 | 0.105 | Colorado Col.        | D3  | 14.65 | 0.895
+ 2018-04-24 | home | Moravian            | D3  | 12.92 | 0.986 | CMSV                 | D3  |  4.35 | 0.014
+ 2018-04-25 | home | Mount Ida           | D3  | 11.07 | 0.640 | Johnson & Wales (RI) | D3  |  9.47 | 0.360
+ 2018-04-28 | home | Mount Union         | D3  |  9.14 | 0.786 | Heidelberg           | D3  |  6.13 | 0.214
+ 2018-04-25 | home | MSOE                | D3  |  7.05 | 0.454 | Concordia Wisconsin  | D3  |  7.48 | 0.546
+ 2018-04-25 | home | Mt. St. Joseph      | D3  |  3.83 | 0.002 | Hanover              | D3  | 15.43 | 0.998
+ 2018-04-28 | home | Mt. St. Joseph      | D3  |  5.09 | 0.013 | Chatham              | D3  | 14.45 | 0.987
+ 2018-04-28 | home | Mt. St. Mary's      | D1  | 12.78 | 0.876 | Wagner               | D1  |  7.70 | 0.124
+ 2018-04-28 | home | Muhlenberg          | D3  | 10.25 | 0.126 | Franklin & Marshall  | D3  | 15.98 | 0.874
+ 2018-04-28 | home | Nazareth            | D3  |  7.62 | 0.534 | Hartwick             | D3  |  7.30 | 0.466
+ 2018-04-23 | home | New England Col.    | D3  |  9.36 | 0.836 | Castleton            | D3  |  5.68 | 0.164
+ 2018-04-24 | home | Nichols             | D3  |  6.87 | 0.260 | Endicott             | D3  |  9.41 | 0.740
+ 2018-04-28 | home | North Central (IL)  | D3  |  7.63 | 0.213 | Carthage             | D3  | 10.98 | 0.787
+ 2018-04-25 | home | North Central (IL)  | D3  | 10.32 | 0.931 | Dubuque              | D3  |  4.79 | 0.069
+ 2018-04-28 | home | North Central (MN)  | D3  |  3.54 | 0.004 | Dubuque              | D3  | 13.82 | 0.996
+ 2018-04-23 | home | Northland           | D3  |  9.20 | 0.798 | North Central (MN)   | D3  |  6.04 | 0.202
+ 2018-04-25 | home | Norwich             | D3  | 12.38 | 0.907 | Anna Maria           | D3  |  6.78 | 0.093
+ 2018-04-25 | home | NYIT                | D2  | 12.25 | 0.887 | Molloy               | D2  |  7.08 | 0.113
+ 2018-04-25 | home | Ohio Northern       | D3  | 12.40 | 0.903 | Otterbein            | D3  |  6.86 | 0.097
+ 2018-04-28 | home | Ohio St.            | D1  |  8.23 | 0.377 | Rutgers              | D1  |  9.52 | 0.623
+ 2018-04-24 | home | Olivet              | D3  |  5.40 | 0.003 | Alma                 | D3  | 18.08 | 0.997
+ 2018-04-25 | home | Oswego St.          | D3  | 11.71 | 0.894 | SUNY Potsdam         | D3  |  6.54 | 0.106
+ 2018-04-27 | home | Pace                | D2  | 11.18 | 0.737 | Assumption           | D2  |  8.43 | 0.263
+ 2018-04-28 | home | Penn St.            | D1  | 14.13 | 0.850 | Michigan             | D1  |  9.24 | 0.150
+ 2018-04-25 | home | Plattsburgh St.     | D3  |  8.73 | 0.699 | SUNY Oneonta         | D3  |  6.73 | 0.301
+ 2018-04-27 | home | Plymouth St.        | D3  | 11.74 | 0.468 | UMass Boston         | D3  | 12.12 | 0.532
+ 2018-04-28 | home | Princeton           | D1  | 11.13 | 0.129 | Cornell              | D1  | 17.02 | 0.871
+ 2018-04-23 | home | Purchase            | D3  |  5.86 | 0.018 | St. Joseph's (L.I.)  | D3  | 15.03 | 0.982
+ 2018-04-23 | home | Randolph            | D3  | 12.86 | 0.988 | Averett              | D3  |  4.14 | 0.012
+ 2018-04-25 | home | Regis (MA)          | D3  | 13.19 | 0.852 | Albertus Magnus      | D3  |  8.44 | 0.148
+ 2018-04-25 | home | Rensselaer          | D3  |  9.68 | 0.428 | St. Lawrence         | D3  | 10.48 | 0.572
+ 2018-04-28 | home | Richmond            | D1  | 10.70 | 0.768 | Air Force            | D1  |  7.63 | 0.232
+ 2018-04-25 | home | RIT                 | D3  | 14.08 | 0.922 | Union (NY)           | D3  |  7.65 | 0.078
+ 2018-04-28 | home | Robert Morris       | D1  | 10.38 | 0.792 | Saint Joseph's       | D1  |  7.07 | 0.208
+ 2018-04-22 | home | Rutgers             | D1  | 11.24 | 0.520 | Penn St.             | D1  | 11.00 | 0.480
+ 2018-04-28 | home | Saint Rose          | D2  |  7.55 | 0.162 | St. Anselm           | D2  | 11.79 | 0.838
+ 2018-04-25 | home | Saint Vincent       | D3  | 14.53 | 0.945 | Wash. & Jeff.        | D3  |  7.29 | 0.055
+ 2018-04-27 | home | Salem St.           | D3  |  5.50 | 0.048 | Eastern Conn. St.    | D3  | 12.22 | 0.952
+ 2018-04-24 | home | Salisbury           | D3  | 16.60 | 0.995 | St. Mary's (MD)      | D3  |  5.21 | 0.005
+ 2018-04-24 | home | Southern Me.        | D3  | 10.82 | 0.458 | Plymouth St.         | D3  | 11.31 | 0.542
+ 2018-04-24 | home | Southern N.H.       | D2  | 16.35 | 0.987 | Post                 | D2  |  6.25 | 0.013
+ 2018-04-25 | home | Springfield         | D3  | 13.15 | 0.853 | Clark (MA)           | D3  |  8.38 | 0.147
+ 2018-04-28 | home | Springfield         | D3  | 14.33 | 0.938 | Wheaton (MA)         | D3  |  7.38 | 0.062
+ 2018-04-27 | home | Stevenson           | D3  | 13.63 | 0.905 | Widener              | D3  |  7.73 | 0.095
+ 2018-04-28 | home | St. John's (NY)     | D1  |  8.38 | 0.335 | Georgetown           | D1  | 10.19 | 0.665
+ 2018-04-25 | home | St. Joseph's (ME)   | D3  |  9.52 | 0.585 | Rivier               | D3  |  8.63 | 0.415
+ 2018-04-28 | home | Stockton            | D3  | 11.67 | 0.798 | Kean                 | D3  |  8.05 | 0.202
+ 2018-04-25 | home | SUNY Cortland       | D3  | 10.44 | 0.851 | SUNY Geneseo         | D3  |  6.31 | 0.149
+ 2018-04-28 | home | SUNY Geneseo        | D3  |  7.26 | 0.640 | Plattsburgh St.      | D3  |  5.99 | 0.360
+ 2018-04-28 | home | SUNY Maritime       | D3  | 12.05 | 0.594 | Mt. St. Mary (NY)    | D3  | 10.93 | 0.406
+ 2018-04-28 | home | SUNY Oneonta        | D3  |  6.07 | 0.582 | Brockport            | D3  |  5.39 | 0.418
+ 2018-04-28 | home | SUNY Poly           | D3  |  8.61 | 0.473 | Bryn Athyn           | D3  |  8.89 | 0.527
+ 2018-04-25 | home | SUNY Poly           | D3  |  7.65 | 0.290 | Morrisville St.      | D3  |  9.91 | 0.710
+ 2018-04-28 | home | SUNY Potsdam        | D3  |  6.94 | 0.037 | SUNY Cortland        | D3  | 15.01 | 0.963
+ 2018-04-28 | home | Susquehanna         | D3  | 11.85 | 0.926 | Drew                 | D3  |  5.96 | 0.074
+ 2018-04-28 | home | Swarthmore          | D3  |  6.95 | 0.495 | Haverford            | D3  |  7.00 | 0.505
+ 2018-04-28 | home | Thiel               | D3  |  9.25 | 0.492 | Saint Vincent        | D3  |  9.33 | 0.508
+ 2018-04-24 | home | Thiel               | D3  | 10.94 | 0.842 | Westminster (PA)     | D3  |  6.83 | 0.158
+ 2018-04-23 | home | Thomas (ME)         | D3  |  6.63 | 0.348 | Maine Maritime       | D3  |  8.09 | 0.652
+ 2018-04-28 | home | Towson              | D1  | 10.69 | 0.790 | Fairfield            | D1  |  7.35 | 0.210
+ 2018-04-25 | home | Transylvania        | D3  | 32.75 | 1.000 | Earlham              | D3  |  1.27 | 0.000
+ 2018-04-24 | home | Trine               | D3  | 13.61 | 0.991 | Calvin               | D3  |  4.22 | 0.009
+ 2018-04-28 | home | Trine               | D3  | 10.53 | 0.757 | Alma                 | D3  |  7.62 | 0.243
+ 2018-04-25 | home | Tufts               | D3  | 14.24 | 0.758 | Bowdoin              | D3  | 10.80 | 0.242
+ 2018-04-24 | home | UMass Boston        | D3  | 15.21 | 0.978 | Salem St.            | D3  |  6.22 | 0.022
+ 2018-04-28 | home | UMass Lowell        | D1  | 13.38 | 0.937 | NJIT                 | D1  |  6.74 | 0.063
+ 2018-04-25 | home | Ursinus             | D3  |  9.45 | 0.423 | Muhlenberg           | D3  | 10.30 | 0.577
+ 2018-04-28 | home | Utica               | D3  |  7.24 | 0.035 | Alfred               | D3  | 15.64 | 0.965
+ 2018-04-25 | home | Vassar              | D3  |  8.64 | 0.356 | Skidmore             | D3  | 10.20 | 0.644
+ 2018-04-27 | home | Vermont             | D1  |  8.20 | 0.785 | UMBC                 | D1  |  5.39 | 0.215
+ 2018-04-28 | home | Villanova           | D1  | 11.11 | 0.709 | Providence           | D1  |  8.71 | 0.291
+ 2018-04-28 | home | Walsh               | D2  |  5.78 | 0.002 | Seton Hill           | D2  | 19.67 | 0.998
+ 2018-04-28 | home | Washington Col.     | D3  |  9.43 | 0.365 | Gettysburg           | D3  | 10.97 | 0.635
+ 2018-04-25 | home | Washington Col.     | D3  | 12.52 | 0.878 | Swarthmore           | D3  |  7.46 | 0.122
+ 2018-04-28 | home | Wash. & Jeff.       | D3  |  7.76 | 0.281 | Hanover              | D3  | 10.16 | 0.719
+ 2018-04-28 | home | Wash. & Lee         | D3  | 24.04 | 1.000 | Va. Wesleyan         | D3  |  6.41 | 0.000
+ 2018-04-24 | home | Wentworth           | D3  | 10.57 | 0.501 | U New England        | D3  | 10.56 | 0.499
+ 2018-04-25 | home | Wesleyan (CT)       | D3  | 10.87 | 0.801 | Connecticut Col.     | D3  |  7.35 | 0.199
+ 2018-04-27 | home | Western Conn. St.   | D3  |  9.23 | 0.701 | UMass Dartmouth      | D3  |  7.15 | 0.299
+ 2018-04-24 | home | Western New Eng.    | D3  | 16.64 | 0.983 | Gordon               | D3  |  6.79 | 0.017
+ 2018-04-22 | home | Westminster (UT)    | D2  | 15.95 | 0.982 | Adams St.            | D2  |  6.41 | 0.018
+ 2018-04-28 | home | Westminster (UT)    | D2  | 11.33 | 0.450 | Colorado Mesa        | D2  | 11.93 | 0.550
+ 2018-04-28 | home | Wheeling Jesuit     | D2  | 17.29 | 0.987 | Alderson Broaddus    | D2  |  6.86 | 0.013
+ 2018-04-24 | home | Widener             | D3  | 10.37 | 0.914 | Albright             | D3  |  5.19 | 0.086
+ 2018-04-28 | home | Wilkes              | D3  |  6.41 | 0.291 | DeSales              | D3  |  8.47 | 0.709
+ 2018-04-25 | home | Wilkes              | D3  | 10.20 | 0.574 | Delaware Valley      | D3  |  9.39 | 0.426
+ 2018-04-28 | home | Wilmington (OH)     | D3  | 11.26 | 0.776 | Muskingum            | D3  |  8.01 | 0.224
+ 2018-04-22 | home | Yale                | D1  | 10.02 | 0.444 | Albany (NY)          | D1  | 10.65 | 0.556
+ 2018-04-28 | home | Yale                | D1  | 14.62 | 0.932 | Harvard              | D1  |  7.77 | 0.068
+(211 rows)
 
-COPY 260
+COPY 211
 COMMIT

@@ -1,0 +1,196 @@
+[1] 69162     9
+[1] TRUE
+[1] 69162     7
+iteration: 1
+	f(x) = 443134.863277
+iteration: 2
+	f(x) = 475468.236056
+iteration: 3
+	f(x) = 447567.568367
+iteration: 4
+	f(x) = 447378.197042
+iteration: 5
+	f(x) = 389052.539804
+iteration: 6
+	f(x) = 439827.595367
+iteration: 7
+	f(x) = 441199.545171
+iteration: 8
+	f(x) = 373602.087144
+iteration: 9
+	f(x) = 381701.297581
+iteration: 10
+	f(x) = 401138.392328
+iteration: 11
+	f(x) = 377346.897106
+iteration: 12
+	f(x) = 375496.532373
+iteration: 13
+	f(x) = 373985.898237
+iteration: 14
+	f(x) = 373675.939083
+iteration: 15
+	f(x) = 373796.604187
+iteration: 16
+	f(x) = 374184.512272
+iteration: 17
+	f(x) = 373629.866200
+iteration: 18
+	f(x) = 373454.852899
+iteration: 19
+	f(x) = 373386.238192
+iteration: 20
+	f(x) = 373322.471768
+iteration: 21
+	f(x) = 373386.125808
+iteration: 22
+	f(x) = 373369.343048
+iteration: 23
+	f(x) = 373216.728390
+iteration: 24
+	f(x) = 373148.314025
+iteration: 25
+	f(x) = 373086.152434
+iteration: 26
+	f(x) = 373009.869182
+iteration: 27
+	f(x) = 373077.863455
+iteration: 28
+	f(x) = 373016.347465
+iteration: 29
+	f(x) = 372935.915420
+iteration: 30
+	f(x) = 372813.574694
+iteration: 31
+	f(x) = 372661.712856
+iteration: 32
+	f(x) = 372613.477956
+iteration: 33
+	f(x) = 372512.662880
+iteration: 34
+	f(x) = 372450.841891
+iteration: 35
+	f(x) = 372437.922082
+iteration: 36
+	f(x) = 372437.131387
+iteration: 37
+	f(x) = 372443.367166
+iteration: 38
+	f(x) = 372438.781378
+iteration: 39
+	f(x) = 372433.163117
+iteration: 40
+	f(x) = 372429.613751
+iteration: 41
+	f(x) = 372434.165075
+iteration: 42
+	f(x) = 372429.540754
+iteration: 43
+	f(x) = 372429.423031
+iteration: 44
+	f(x) = 372429.360794
+iteration: 45
+	f(x) = 372429.425864
+iteration: 46
+	f(x) = 372429.344984
+iteration: 47
+	f(x) = 372429.370472
+iteration: 48
+	f(x) = 372429.371823
+iteration: 49
+	f(x) = 372429.347783
+iteration: 50
+	f(x) = 372429.381561
+iteration: 51
+	f(x) = 372429.344952
+iteration: 52
+	f(x) = 372429.346162
+iteration: 53
+	f(x) = 372429.344855
+iteration: 54
+	f(x) = 372429.344660
+iteration: 55
+	f(x) = 372429.346121
+iteration: 56
+	f(x) = 372429.343603
+iteration: 57
+	f(x) = 372429.343099
+iteration: 58
+	f(x) = 372429.342997
+Generalized linear mixed model fit by maximum likelihood (Adaptive
+  Gauss-Hermite Quadrature, nAGQ = 0) [glmerMod]
+ Family: poisson  ( log )
+Formula: gs ~ year + field + d_div + o_div + (1 | offense) + (1 | defense) +  
+    (1 | game_id)
+   Data: g
+      AIC       BIC    logLik  deviance  df.resid 
+ 372481.3  372719.1 -186214.7  372429.3     69136 
+Random effects:
+ Groups  Name        Std.Dev. 
+ game_id (Intercept) 0.0001707
+ defense (Intercept) 0.3592386
+ offense (Intercept) 0.4049172
+Number of obs: 69162, groups:  game_id, 34581; defense, 4716; offense, 4716
+Fixed Effects:
+      (Intercept)           year2003           year2004           year2005  
+         2.261443          -0.037467          -0.044203          -0.027111  
+         year2006           year2007           year2008           year2009  
+        -0.078196          -0.063498          -0.073453          -0.031764  
+         year2010           year2011           year2012           year2013  
+        -0.021375          -0.059469          -0.063234          -0.006549  
+         year2014           year2015           year2016           year2017  
+        -0.012440          -0.002627           0.025635           0.039983  
+         year2018  fielddefense_home  fieldoffense_home             d_div2  
+         0.010105          -0.053582           0.037490           0.518173  
+           d_div3             o_div2             o_div3  
+         0.652219          -0.488171          -0.676955  
+Generalized linear mixed model fit by maximum likelihood (Adaptive
+  Gauss-Hermite Quadrature, nAGQ = 0) [glmerMod]
+ Family: poisson  ( log )
+Formula: gs ~ year + field + d_div + o_div + (1 | offense) + (1 | defense) +  
+    (1 | game_id)
+   Data: g
+Control: glmerControl(optimizer = "nloptwrap")
+
+      AIC       BIC    logLik  deviance  df.resid 
+ 372481.3  372719.1 -186214.7  372429.3     69136 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-4.7259 -0.6452 -0.0545  0.5609  4.3242 
+
+Random effects:
+ Groups  Name        Variance  Std.Dev. 
+ game_id (Intercept) 2.914e-08 0.0001707
+ defense (Intercept) 1.291e-01 0.3592386
+ offense (Intercept) 1.640e-01 0.4049172
+Number of obs: 69162, groups:  game_id, 34581; defense, 4716; offense, 4716
+
+Fixed effects:
+                   Estimate Std. Error z value Pr(>|z|)    
+(Intercept)        2.261443   0.041308  54.746  < 2e-16 ***
+year2003          -0.037467   0.054220  -0.691    0.490    
+year2004          -0.044203   0.054122  -0.817    0.414    
+year2005          -0.027111   0.053777  -0.504    0.614    
+year2006          -0.078196   0.053512  -1.461    0.144    
+year2007          -0.063498   0.053181  -1.194    0.232    
+year2008          -0.073453   0.052596  -1.397    0.163    
+year2009          -0.031764   0.052095  -0.610    0.542    
+year2010          -0.021375   0.051451  -0.415    0.678    
+year2011          -0.059469   0.050733  -1.172    0.241    
+year2012          -0.063234   0.050136  -1.261    0.207    
+year2013          -0.006549   0.049348  -0.133    0.894    
+year2014          -0.012440   0.048749  -0.255    0.799    
+year2015          -0.002627   0.048429  -0.054    0.957    
+year2016           0.025635   0.048153   0.532    0.594    
+year2017           0.039983   0.047896   0.835    0.404    
+year2018           0.010105   0.047707   0.212    0.832    
+fielddefense_home -0.053582   0.005513  -9.719  < 2e-16 ***
+fieldoffense_home  0.037490   0.005473   6.850  7.4e-12 ***
+d_div2             0.518173   0.042286  12.254  < 2e-16 ***
+d_div3             0.652219   0.041132  15.857  < 2e-16 ***
+o_div2            -0.488171   0.043196 -11.301  < 2e-16 ***
+o_div3            -0.676955   0.041624 -16.264  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] TRUE
