@@ -1,13 +1,7 @@
 BEGIN
 SET
-    date    |       team       | h_div | site |         opp         | v_div | spread 
-------------+------------------+-------+------+---------------------+-------+--------
- 2018-04-22 | Colorado Mesa    |     2 | home | Colorado St.-Pueblo |     2 |   10.8
- 2018-04-22 | Maryland         |     1 | home | Ohio St.            |     1 |    4.0
- 2018-04-22 | Montclair St.    |     3 | home | Colorado Col.       |     3 |   -5.9
- 2018-04-22 | Rutgers          |     1 | home | Penn St.            |     1 |    0.2
- 2018-04-22 | Westminster (UT) |     2 | home | Adams St.           |     2 |    9.5
- 2018-04-22 | Yale             |     1 | home | Albany (NY)         |     1 |   -0.6
-(6 rows)
+ date | team | h_div | site | opp | v_div | spread 
+------+------+-------+------+-----+-------+--------
+(0 rows)
 
 COMMIT

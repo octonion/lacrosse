@@ -47,8 +47,8 @@ from ncaa.results r
 --  on (opponent.team_id)=(r.opponent_id)
 
 where
-    r.year between 2002 and 2018
---and r.game_date < '2018/11/29'::date
+    r.year between 2002 and 2019
+--and r.game_date < '2019/11/29'::date
 
 and r.team_div_id is not null
 and r.opponent_div_id is not null

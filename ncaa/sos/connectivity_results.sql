@@ -25,7 +25,7 @@ join ncaa.teams_divisions vd
 
 where
 TRUE
-and g.year = 2018
+and g.year = 2019
 --and g.team_id < g.opponent_id
 --and hd.div_id=1
 --and g.field='offense_home'
@@ -60,7 +60,7 @@ join ncaa.teams_divisions vd
 
 where
 TRUE
-and g.year = 2018
+and g.year = 2019
 and g.field='none'
 
 --and g.team_score>0
