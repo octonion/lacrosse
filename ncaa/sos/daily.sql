@@ -7,8 +7,8 @@ opponent_name,
 opponent_score
 from ncaa.results
 where
-year=2019
-and game_date::date='2019/3/16'::date
+year=2023
+and game_date::date='2023/3/16'::date
 and team_div_id=2
 and pulled_id=team_id
 and team_id<opponent_id

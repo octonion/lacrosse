@@ -7,7 +7,7 @@ library("RPostgreSQL")
 #library("sp")
 
 drv <- dbDriver("PostgreSQL")
-con <- dbConnect(drv,host="localhost",port="5432",dbname="lacrosse")
+con <- dbConnect(drv,dbname="lacrosse")
 
 query <- dbSendQuery(con, "
 select
@@ -24,7 +24,7 @@ team_score::float as gs
 from ncaa.results r
 
 where
-    r.year between 2002 and 2019
+    r.year between 2019 and 2023
 --and r.game_date < '2019/11/29'::date
 and r.team_div_id is not null
 and r.opponent_div_id is not null

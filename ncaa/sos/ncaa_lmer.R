@@ -33,7 +33,7 @@ end) as gs
 from ncaa.results r
 
 where
-    r.year between 2002 and 2019
+    r.year between 2019 and 2023
 
 and r.team_div_id is not null
 and r.opponent_div_id is not null

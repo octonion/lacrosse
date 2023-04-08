@@ -10,7 +10,7 @@ create table ncaa.teams_divisions (
 	javascript		text,
 	year			integer,
 	div_id			integer,
-        team_year		text,
+    team_year		text,
 	sport			text,
 	division		text,
 	primary key (team_id,year)
@@ -18,7 +18,7 @@ create table ncaa.teams_divisions (
 
 copy ncaa.teams_divisions from '/tmp/ncaa_divisions.csv' with delimiter as ',' csv quote as '"';
 
--- Temporary fix for 2019
+-- Temporary fix for 2023
 
 insert into ncaa.teams_divisions
 (sport_code,team_name,team_id,pulled_name,javascript,year,div_id,team_year,sport,division)
@@ -29,14 +29,14 @@ team_name,
 team_id,
 pulled_name,
 javascript,
-2019,
+2023,
 div_id,
 team_year,
 sport,division
 from ncaa.teams_divisions
 where
-    year=2018
-and (team_id,2019) not in
+    year=2022
+and (team_id,2023) not in
 (select team_id,year from ncaa.teams_divisions)
 );
 

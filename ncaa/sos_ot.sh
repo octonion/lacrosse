@@ -9,7 +9,7 @@ psql lacrosse -c "vacuum full verbose analyze ncaa.results;"
 psql lacrosse -c "drop table ncaa._basic_factors;"
 psql lacrosse -c "drop table ncaa._parameter_levels;"
 
-R --vanilla -f sos/ncaa_lmer_ot.R
+R -f sos/ncaa_lmer_ot.R
 
 psql lacrosse -c "vacuum full verbose analyze ncaa._parameter_levels;"
 psql lacrosse -c "vacuum full verbose analyze ncaa._basic_factors;"

@@ -55,7 +55,7 @@ and r.team_score is not null
 and r.opponent_score is not null
 and r.team_score>=0
 and r.opponent_score>=0
-and r.year=2019
+and r.year=2023
 and not((r.team_score,r.opponent_score)=(0,0))
 order by div,pw,team_name,opponent_name;
 
